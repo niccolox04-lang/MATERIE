@@ -1,0 +1,169 @@
+{
+  "id": "storia:africa-occidentale",
+  "subject": "storia",
+  "title": "Africa occidentale: Sahel, imperi, sapere",
+  "slug": "africa-occidentale",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 16,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "300",
+    "end": "1591",
+    "label": "da Ghana a Tondibi (date circa, dibattute)",
+    "place": "Sahel, Niger, Sahara meridionale"
+  },
+  "region": "Africa",
+  "location": "Sahel occidentale: Senegal, Mali, Niger attuali",
+  "territories": "Ghana/Wagadu, Mali, Songhai e citt\u00c3\u00a0 (Timbuktu, Djenn\u00c3\u00a9, Gao)",
+  "geographicalContext": "Sahel tra Sahara e savana; Niger come asse navigabile; oro del Bambuk/Bur\u00c3\u00a9 contro sale di Taghaza/Taodeni.",
+  "summary": "Ramo di sintesi: geografia saheliana, commerci trans-sahariani, imperi Ghana-Mali-Songhai, Timbuktu come capitale del sapere, islamizzazione graduale; approfondimenti nei nodi figli (rotte, imperi, manoscritti).",
+  "explanations": {
+    "semplice": "A sud del deserto, dove passa il fiume Niger, nascono regni ricchi con l'oro e il sale che attraversano il Sahara sui cammelli. La citt\u00c3\u00a0 di Timbuktu diventa famosa per le scuole e i libri. Prima comanda il Ghana, poi il Mali, poi il Songhai.",
+    "approfondita": "Quadro: Sahel come fascia di contatto (non barriera) tra Mediterraneo e savana; Niger navigabile e pesca-agricoltura; oro (Bambuk, Bur\u00c3\u00a9, Akan come orizzonte) contro sale sahariano come motore. Sequenza politica: Ghana/Wagadu (Koumbi Saleh, capitale doppia secondo al-Bakri come fonte esterna), Mali (Sundiata e Kirina ~1235 come tradizione, Mansa Musa e hajj 1324, Djenn\u00c3\u00a9), Songhai (Sonni Ali 1464-92, Askia Mohamed 1493-1528, Tondibi 1591 contro il Marocco). Islamizzazione per commerci e corti, non per conquista araba diretta (distinzione obbligatoria); Timbuktu e sapere come nodo figlio. Eredit\u00c3\u00a0: griot, diritto malikita, architettura in banco. Dibattito: ricchezza di Mansa Musa come leggenda quantificata (cifre moderne non verificabili, mai cifre secche).",
+    "tecnica": "Fonti: geografi arabi (al-Bakri, Ibn Battuta, al-Umari) con critica, tarikh di Timbuktu (al-Sa'di, Kati) come interni, archeologia (Jenn\u00c3\u00a9-Jeno, Koumbi); tradizioni orali (Sunjata) come memoria, non cronaca."
+  },
+  "definitions": [
+    "Sahel: fascia tra Sahara e savana, asse degli imperi.",
+    "Trans-sahariano: sistema oro-sale-schiavi-libri attraverso il deserto.",
+    "Griot: cantore-custode di memoria storica mandinga."
+  ],
+  "examples": [
+    "Hajj di Mansa Musa (1324): carovana e oro al Cairo secondo i cronisti arabi.",
+    "Kirina (~1235): Sundiata fonda il Mali secondo la tradizione epica."
+  ],
+  "counterexamples": [
+    "Imperi africani come trib\u00c3\u00b9 ingrandite: fiscalit\u00c3\u00a0, province, eserciti.",
+    "Islam imposto con la spada in Sahel: commerci, corti e confraternite."
+  ],
+  "errorsTypical": [
+    "Cifre della ricchezza di Mansa Musa come dati (leggenda quantificata).",
+    "Confondere Ghana antico e Ghana moderno (nome ripreso nel 1957).",
+    "Fare del deserto una barriera (era autostrada carovaniera)."
+  ],
+  "keywords": [
+    "Sahel",
+    "Ghana",
+    "Mali",
+    "Songhai",
+    "Timbuktu"
+  ],
+  "prerequisites": [
+    "storia:africa-antica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Ramo Africa occidentale dopo l'Africa antica."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:tratta-atlantica",
+      "note": "Retroterra saheliano delle deportazioni atlantiche."
+    }
+  ],
+  "claims": [
+    {
+      "id": "sahel-sequenza",
+      "statement": "Sahel: Ghana 6th-13th century (Koumbi Saleh, oro-sale), Mali 1240-1645 (Sundiata, Mansa Musa hajj 1324), Songhai 1460-1591 (Askia Toure, Tondibi 1591); fonti WHE Ghana Empire 2019, Mali Empire 2019, Songhai Empire 2019.",
+      "supportedBy": [
+        "whe-ghana",
+        "whe-mali",
+        "whe-songhai"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-ghana",
+      "title": "Ghana Empire - World History Encyclopedia",
+      "author": "Mark Cartwright",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Ghana_Empire/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "sahel-sequenza"
+      ],
+      "note": "Ispezionato 2026-09-27 (2019). 6th-13th century, Koumbi Saleh, oro-sale, declino 12th secolo."
+    },
+    {
+      "id": "whe-mali",
+      "title": "Mali Empire - World History Encyclopedia",
+      "author": "Mark Cartwright",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Mali_Empire/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "sahel-sequenza"
+      ],
+      "note": "Ispezionato 2026-09-27 (2019). 1240-1645, Sundiata, Mansa Musa 1312-1337, hajj 1324, ricchezza oro-sale."
+    },
+    {
+      "id": "whe-songhai",
+      "title": "Songhai Empire - World History Encyclopedia",
+      "author": "Mark Cartwright",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Songhai_Empire/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "sahel-sequenza"
+      ],
+      "note": "Ispezionato 2026-09-27 (2019). 1460-1591, Askia Toure, Tondibi 1591, succession Moroccan."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Sequenza saheliana?",
+        "a": "Ghana, Mali (1235), Songhai (1464-1591)."
+      },
+      {
+        "q": "Motore economico?",
+        "a": "Oro del sud contro sale del Sahara."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Tondibi (1591) segna:",
+        "choices": [
+          "Fondazione del Mali",
+          "Caduta Songhai contro il Marocco",
+          "Hajj di Mansa Musa",
+          "Indipendenza del Ghana moderno"
+        ],
+        "answer": 1,
+        "explanation": "Artiglieria marocchina e fine dell'impero."
+      }
+    ],
+    "questionsOpen": [
+      "Deserto barriera o autostrada? Con quali merci?",
+      "Mansa Musa ricchissimo: cosa dicono davvero le fonti?"
+    ]
+  },
+  "contentDepth": "deep"
+}

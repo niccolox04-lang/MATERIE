@@ -1,0 +1,111 @@
+{
+  "id": "latino:verbo",
+  "subject": "latino",
+  "title": "Verbo: le quattro coniugazioni",
+  "slug": "verbo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "latino:sistema-casi",
+  "order": 2,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.835Z",
+  "level": "foundation",
+  "summary": "Quattro coniugazioni dall'infinito (-āre, -ēre, -ĕre, -īre): presente, imperfetto (-ba-), futuro (-b-/-a-/-e-) in attivo e passivo (amatur); perfetto col tema del perfetto (amavi, vidi, legi); sum come anomalo modello.",
+  "explanations": {
+    "semplice": "I verbi latini sono in quattro squadre (amare, vedere, leggere, sentire). Il presente cambia la fine secondo chi fa (amo, amas, amat...), il passato imperfetto aggiunge -ba- (amabam = amavo), il futuro -b- o -a- (amabo = amerò). C'è anche la forma passiva (amor = sono amato) e il perfetto per azioni finite (amavi = amai).",
+    "approfondita": "Paradigmi: I (laudo: -o, -as, -at, -amus, -atis, -ant; pass. -or, -aris, -atur...); II (moneo); III (lego, con -i- breve: legis, legit; fut. legam/leges; pass. legor); IV (audio; fut. audiam). Imperfetto in -ba- (laudabam; III-IV -eba-: legebam, audiebam); futuro I-II in -b- (laudabo), III-IV in -a-/-e- (legam, audiam). Passivo: desinenze -r con presente (amor, amaris, amatur...), imperfetto (amabar), futuro (amabor). Sistema del perfetto: tema del perfetto (amav-, vid-, leg-/lēg-, cep-) + desinenze proprie (-i, -isti, -it...; piuccheperfetto -eram, futuro anteriore -ero); passivo con participio + sum (laudatus sum). Sum (anomalo): sum, es, est, sumus, estis, sunt; fut. ero; perf. fui. Infinito presente (-are/-ere/-ire) come forma di lessico con paradigma. Accento e quantità nelle desinenze (-ā, -ēs).",
+    "tecnica": "Temi: presente, perfetto, supino (per participi futuri e supini); verbi a perfetto sigmatico, raddoppiato, con allungamento (lego→legi); deponenti anticipati come nota (hortor con forme passive e senso attivo)."
+  },
+  "definitions": [
+    "Tema del presente: base di presente/imperfetto/futuro (lauda-).",
+    "Tema del perfetto: base dei tempi compiuti (laudav-).",
+    "Diatesi passiva: -r nelle desinenze del sistema del presente; participio+sum nel perfetto."
+  ],
+  "examples": [
+    "Monebatur: -ba- imperfetto + -tur passivo (veniva ammonito).",
+    "Legerunt: -erunt perfetto III (lessero)."
+  ],
+  "counterexamples": [
+    "Legam come presente: è futuro III (presente = legit).",
+    "Amor come nome: senza contesto, ma col verbo reggente si decide."
+  ],
+  "errorsTypical": [
+    "Futuro III-IV in -b- (è in -a-/-e-).",
+    "Perfetto passivo con desinenza attiva (*laudavit est).",
+    "Confondere -is (2ª sing. pres. III) con genitivo."
+  ],
+  "keywords": [
+    "coniugazioni",
+    "imperfetto -ba-",
+    "futuro",
+    "passivo -r",
+    "perfetto",
+    "sum"
+  ],
+  "prerequisites": [
+    "latino:sistema-casi"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "latino:sistema-casi",
+      "note": "Sistema verbale dopo quello nominale (ordine curricolare)."
+    },
+    {
+      "type": "SIMILAR_TO",
+      "to": "greco:verbo-presente",
+      "note": "Presente/imperfetto/futuro e diatesi in parallelo."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-lingua-latina",
+      "title": "Latino, lingua — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/lingua-latina/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200; contenuto NON revisionato: paradigmi standard."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Le quattro uscite dell'infinito?",
+        "a": "-āre, -ēre, -ĕre, -īre (I, II, III, IV)."
+      },
+      {
+        "q": "Perfetto passivo di laudo, 1ª sing.?",
+        "a": "Laudatus/a sum (participio + sum)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'Audient' è:",
+        "choices": [
+          "Presente 3ª plur. IV",
+          "Futuro 3ª plur. IV",
+          "Perfetto 3ª plur.",
+          "Imperativo"
+        ],
+        "answer": 1,
+        "explanation": "Futuro IV: audiam... audient. Il presente fa audiunt: coppia classica da non confondere."
+      }
+    ],
+    "questionsOpen": [
+      "Coniuga lego al presente attivo e passivo.",
+      "Perché il perfetto ha un tema proprio?"
+    ]
+  }
+}

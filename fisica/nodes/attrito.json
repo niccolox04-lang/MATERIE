@@ -1,0 +1,121 @@
+{
+  "id": "fisica:attrito",
+  "subject": "fisica",
+  "title": "Attrito e piano inclinato",
+  "slug": "attrito",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "fisica:newton-secondo-principio",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Forze di contatto: statico (fino a μs·N, impedisce il moto) e dinamico (μd·N, lo frena); piano inclinato con scomposizione del peso (mg·sinθ lungo, mg·cosθ normale) e condizione di scivolamento tanθ > μs.",
+  "explanations": {
+    "semplice": "Spingi un armadio: all'inizio non si muove perché il pavimento trattiene, poi parte e scivola più facile. Su una rampa la forza che tira giù cresce con la pendenza: oltre una certa inclinazione tutto scivola.",
+    "approfondita": "Modello: attrito radente di Coulomb (statico fs ≤ μs·N con verso opposto alla tendenza; dinamico fd = μd·N opposto alla velocità; μd < μs in genere); N come reazione normale, non sempre uguale al peso (piano inclinato, spinte oblique). Piano inclinato liscio: a = g·sinθ lungo il piano. Con attrito: N = mg·cosθ, forza frenante μ·N; discesa se mg·sinθ > μs·mg·cosθ cioè tanθ > μs; moto con a = g(sinθ − μd·cosθ). Metodo: diagramma di corpo libero, assi lungo/normale al piano, scomposizione del peso, verifica statico/dinamico. Viscosità e resistenza aerodinamica come cenni (dipendenza dalla velocità, non sviluppo). Limiti: modello fenomenologico (superfici reali, usura); rotolamento come caso distinto. Errori: attrito sempre opposto al moto (è opposto a tendenza/velocità relativa), N sempre uguale a mg.",
+    "tecnica": "Dimensioni: μ adimensionale; angolo di attrito φ con tanφ = μs; lavoro dissipato fd·s come ponte all'energia."
+  },
+  "definitions": [
+    "Attrito statico: forza di adesione fino alla soglia, senza moto relativo.",
+    "Attrito dinamico: forza frenante a moto avviato, circa costante nel modello.",
+    "Normale: componente perpendicolare di contatto che fissa la soglia."
+  ],
+  "formulas": [
+    {
+      "expr": "fs ≤ μs·N; fd = μd·N",
+      "meaning": "Soglia statica e frenata dinamica nel modello di Coulomb."
+    },
+    {
+      "expr": "a = g(sinθ − μd·cosθ); scivola se tanθ > μs",
+      "meaning": "Dinamica lungo il piano inclinato scabro."
+    }
+  ],
+  "examples": [
+    "Blocco di 2 kg, μs = 0,4 su tavolo: spinta massima statica ≈ 7,8 N.",
+    "Piano a 30° con μd = 0,2: a ≈ 9,81(0,5 − 0,173) ≈ 3,2 m/s²."
+  ],
+  "counterexamples": [
+    "Attrito come motore: camminare e ruote motrici usano l'aderenza statica.",
+    "Piano verticale come inclinato estremo: N nulla, modello radente non applicabile."
+  ],
+  "errorsTypical": [
+    "Usare μs nel moto invece di μd.",
+    "N = mg sul piano inclinato (è mg·cosθ).",
+    "Verso dell'attrito col moto invece che contro la tendenza relativa."
+  ],
+  "keywords": [
+    "attrito",
+    "μs μd",
+    "piano inclinato",
+    "normale",
+    "Coulomb"
+  ],
+  "prerequisites": [
+    "fisica:newton-secondo-principio",
+    "fisica:cinematica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "fisica:newton-secondo-principio",
+      "note": "Applicazione con forze di contatto dopo il caso ideale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "matematica:equazioni-primo-grado",
+      "note": "Scomposizione e disequazioni per soglie e moti."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-dinamica",
+      "title": "Dinamica — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/dinamica/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Profilo già usato nel nodo newton; contenuto NON ancora revisionato puntualmente."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Statico o dinamico?",
+        "a": "Statico fino a μs·N (tendenza); dinamico μd·N (moto)."
+      },
+      {
+        "q": "Quando scivola sul piano?",
+        "a": "Quando tanθ supera μs."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Blocco fermo con spinta minore della soglia: l'attrito vale:",
+        "choices": [
+          "Sempre μs·N",
+          "Quanto la spinta (equilibrio)",
+          "Zero",
+          "μd·N"
+        ],
+        "answer": 1,
+        "explanation": "Statico si adegua fino alla soglia: risultante nulla."
+      }
+    ],
+    "questionsOpen": [
+      "Misura μs con un piano inclinabile: quale angolo cerchi?",
+      "Perché senza attrito non si cammina? (aderenza statica)"
+    ]
+  }
+}

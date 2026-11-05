@@ -1,0 +1,124 @@
+{
+  "id": "filosofia:umanesimo",
+  "subject": "filosofia",
+  "title": "Umanesimo e Rinascimento (Ficino, Cusano)",
+  "slug": "umanesimo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:moderna",
+  "order": 3,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "Riscoperta dell'antico e centralità umana: Petrarca e filologia (Valla), Ficino e prisca theologia platonica, Cusano e dotta ignoranza, Pico e dignità dell'uomo; stampa e scoperte come condizioni della nuova filosofia naturale.",
+  "explanations": {
+    "semplice": "Dopo il Medioevo alcuni studiosi riscoprono i libri greci e latini e dicono: l'uomo conta, può imparare e migliorare. Nascono biblioteche, si stampa a macchina, si discute se la Terra giri intorno al Sole.",
+    "approfondita": "Umanesimo civile e filologico (Petrarca, Valla e la Donazione come falso filologicamente provato); Firenze medicea: Ficino (Accademia, traduzione di Platone e Plotino, prisca theologia e immortalità dell'anima), Pico (Oratio de hominis dignitate: uomo camaleonte senza natura fissa). Cusano (De docta ignorantia: coincidenza degli opposti, universo senza centro fisico come anticipazione concettuale). Rinascimento maturo: Pomponazzi e mortalità dell'anima come questione, Telesio e natura iuxta propria principia, Bruno (universi infiniti) e Campanella come esiti. Condizioni: stampa a caratteri mobili, scoperte geografiche, crisi dell'autorità aristotelica. Fatto contro interpretazione: continuità con la scolastica (Tommaso letto dagli umanisti) contro tesi della rottura totale.",
+    "tecnica": "Strumenti: critica testuale (emendatio), traduzioni dal greco, dialogo e orazione come generi; dotta ignoranza come metodo dei limiti."
+  },
+  "definitions": [
+    "Umanesimo: movimento di riscoperta filologica e pedagogica dell'antico.",
+    "Prisca theologia: antica teologia comune a pagani e cristiani secondo Ficino.",
+    "Dotta ignoranza: sapere consapevole dei propri limiti di fronte all'infinito."
+  ],
+  "examples": [
+    "Valla e la Donazione di Costantino: latino impossibile per il IV secolo.",
+    "Pico: l'uomo può farsi bestia o angelo secondo la scelta."
+  ],
+  "counterexamples": [
+    "Umanesimo come ateismo moderno: quasi tutti gli umanisti sono credenti.",
+    "Rinascimento come sola arte: filosofia naturale e magia colta insieme."
+  ],
+  "errorsTypical": [
+    "Datare la modernità alla caduta di Costantinopoli senza mediazioni.",
+    "Fare di ogni umanista un platonico (aristotelici padovani compresi)."
+  ],
+  "keywords": [
+    "filologia",
+    "Ficino",
+    "Cusano",
+    "Pico",
+    "stampa",
+    "dignità"
+  ],
+  "prerequisites": [
+    "filosofia:tommaso",
+    "filosofia:agostino"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:moderna",
+      "note": "Soglia della modernità dopo la scolastica."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:platone",
+      "note": "Ficino traduce e rilancia Platone e Plotino."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:scoperte-riforma",
+      "note": "Stampa e scoperte come condizioni materiali."
+    }
+  ],
+  "claims": [
+    {
+      "id": "umanesimo-filologia",
+      "statement": "La filologia umanistica (Valla) smaschera falsi documentali e fonda la critica testuale moderna.",
+      "supportedBy": [
+        "manuale-umanesimo"
+      ],
+      "status": "unverified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-umanesimo",
+      "title": "Profilo standard di Umanesimo e Rinascimento (Petrarca, Ficino, Cusano, Pico)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Valla in una riga?",
+        "a": "Filologia contro la Donazione: il latino tradisce il falso."
+      },
+      {
+        "q": "Pico e Cusano in sintesi?",
+        "a": "Uomo senza natura fissa; infinito colto per ignoranza dotta."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La prisca theologia di Ficino sostiene:",
+        "choices": [
+          "Il primato di Aristotele",
+          "Una sapienza antica comune pagani-cristiani",
+          "L'ateismo colto",
+          "Il rifiuto di Platone"
+        ],
+        "answer": 1,
+        "explanation": "Platone e i savi antichi come preparazione al cristianesimo."
+      }
+    ],
+    "questionsOpen": [
+      "Filologia e verità: Valla prova o interpreta?",
+      "Uomo misura o camaleonte? Confronta Protagora e Pico."
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "id": "filosofia:anselmo",
+  "subject": "filosofia",
+  "title": "Anselmo e l'argomento ontologico",
+  "slug": "anselmo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:medievale",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Anselmo d'Aosta (1033-1109, Proslogion): fede che cerca l'intelletto; argomento ontologico (Dio come ciò di cui non si può pensare il maggiore: se fosse solo nella mente, mancherebbe l'esistenza reale); obiezione di Gaunilone e risposte della tradizione fino a Kant.",
+  "explanations": {
+    "semplice": "Anselmo prova a dimostrare Dio partendo solo dal pensiero: se pensi la cosa più grande possibile, deve esistere davvero, perché se esistesse solo nella testa mancherebbe qualcosa. Un monaco risponde con l'isola perfetta: pensarla non la fa esistere. Da qui secoli di dibattito.",
+    "approfondita": "Contesto: monachesimo benedettino (Bec, Canterbury), dialettica e preghiera; Monologion (attributi per gradi) e Proslogion (uno argomento solo, capp. II-IV). Struttura: definizione (aliquid quo nihil maius cogitari possit), premessa esistenziale minima (anche lo stolto intende la formula, Ps 13), passaggio (esistere nella realtà è maggiore che nella sola mente), conclusione con necessità (non può pensarsi non esistente). Gaunilone (Pro insipiente): isola perfetta come controesempio, distinzione pensiero-realtà; replica anselmiana (isola contingente contro massimo necessario). Ricezione: Tommaso (non evidente, a posteriori per le cinque vie), Scoto (rifinisce la nozione), Descartes (V Meditazione: esistenza come perfezione), Leibniz (integra la possibilità), Kant (l'esistenza non è predicato reale: rifiuto nella Dialettica). Stato del dibattito: valido o fallace secondo le logiche (letture di Hartshorne, Gödel come ripresa formale, da dichiarare come sviluppi). Fede e ragione: credo ut intelligam senza fideismo né razionalismo.",
+    "tecnica": "Nodi: uso e menzione (pensare la formula contro esistenza), quantificazione e predicati esistenziali, necessità de dicto e de re."
+  },
+  "definitions": [
+    "Argomento ontologico: prova a priori dell'esistenza dal concetto di massimo pensabile.",
+    "Fede che cerca l'intelletto: programma anselmiano di comprensione razionale del creduto.",
+    "Isola di Gaunilone: controesempio di ente perfetto contingente."
+  ],
+  "examples": [
+    "Il pittore ha l'opera in mente prima che esista: distinzione anselmiana dei due modi di esistere.",
+    "Gaunilone: l'isola più bella pensabile non per questo esiste nell'oceano."
+  ],
+  "counterexamples": [
+    "Prova cosmologica scambiata per ontologica: Anselmo non parte dal mondo.",
+    "Kant confutato da Anselmo in partenza: la critica kantiana va ricostruita, non presupposta."
+  ],
+  "errorsTypical": [
+    "Ridurre l'argomento a gioco di parole senza la premessa della grandezza.",
+    "Fare di Anselmo un razionalista moderno senza preghiera e autorità."
+  ],
+  "keywords": [
+    "ontologico",
+    "Proslogion",
+    "Gaunilone",
+    "massimo pensabile",
+    "fede e ragione"
+  ],
+  "prerequisites": [
+    "filosofia:agostino",
+    "filosofia:tommaso"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:medievale",
+      "note": "Scolastica delle origini tra Agostino e Tommaso."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:agostino",
+      "note": "Interiorità e illuminazione come sfondo del programma."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:tommaso",
+      "note": "Tommaso discute e sposta la prova sul terreno a posteriori."
+    }
+  ],
+  "claims": [
+    {
+      "id": "anselmo-argomento",
+      "statement": "Nel Proslogion Anselmo formula l'argomento del massimo pensabile e Gaunilone obietta con l'isola; la valutazione resta dibattuta fino a Kant e oltre.",
+      "supportedBy": [
+        "manuale-medievale-filo"
+      ],
+      "status": "unverified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-medievale-filo",
+      "title": "Profilo standard di filosofia medievale (Anselmo, Proslogion, Gaunilone, ricezione)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su testo a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "L'argomento in una riga?",
+        "a": "Il massimo pensabile, se solo pensato, mancherebbe della realtà: dunque esiste."
+      },
+      {
+        "q": "L'obiezione dell'isola?",
+        "a": "Il perfetto pensabile contingente non per questo esiste."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Gaunilone obietta con:",
+        "choices": [
+          "Le cinque vie",
+          "L'isola perfetta pensata ma non esistente",
+          "Il cogito",
+          "La scommessa"
+        ],
+        "answer": 1,
+        "explanation": "Controesempio di massimo contingente per bloccare il passaggio."
+      }
+    ],
+    "questionsOpen": [
+      "L'esistenza è una perfezione? Discuti con Kant.",
+      "Perché Anselmo prega mentre dimostra?"
+    ]
+  }
+}

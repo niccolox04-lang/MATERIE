@@ -1,0 +1,159 @@
+{
+  "id": "filosofia:tommaso",
+  "subject": "filosofia",
+  "title": "Tommaso d'Aquino",
+  "slug": "tommaso",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:medievale",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "summary": "Tommaso (~1225 Roccasecca–1274 Fossanova): domenicano, allievo di Alberto Magno, maestro a Parigi. Somme, questioni disputate, commenti ad Aristotele: cinque vie, analogia, creazione dal nulla, ilemorfismo, anima forma del corpo, felicità come visione di Dio, legge naturale.",
+  "explanations": {
+    "semplice": "Tommaso unisce Aristotele e cristianesimo: la ragione può dimostrare che Dio esiste (cinque strade: tutto ciò che si muove ha un motore, ogni cosa ha una causa...), ma non tutto (la Trinità si crede per fede). Dice che bene va fatto e male evitato: lo capiamo da soli con la ragione, ed è la legge naturale dentro di noi. La felicità vera è vedere Dio.",
+    "approfondita": "Vita (SEP): ~1225 Roccasecca, Montecassino, Napoli, domenicani a 19 anni, Parigi, Colonia con Alberto Magno (1248), maestro a Parigi 1256–59, Orvieto/Roma (Contra Gentiles, Summa theologiae), secondo magistero parigino 1268 (contro averroisti: unicità dell'intelletto), Napoli 1272, silenzio ('paglia') e morte a Fossanova il 7 marzo 1274. Opere: Summa theologiae (4 parti: Dio/mondo, agire umano, virtù, Cristo/sacramenti), Summa contra Gentiles, questioni disputate (De veritate), opuscoli (De ente et essentia), commenti ad Aristotele e biblici; metodo della quaestio (obiezioni, sed contra, corpus, risposte). Dottrine: cinque vie (ST I q.2 a.3; no all'ontologico di Anselmo); analogia dell'essere contro univocità/equivocità; creazione ex nihilo con dibattito sull'eternità del mondo (né prova né confutazione dimostrativa); ilemorfismo con materia prima e individuazione per materia; anima forma sussistente e incorruttibile, intelletto agente/possibile individuale contro Averroe; felicità come visio essentiae divinae (ST I-II q.3 a.8); quattro leggi (eterna, naturale, umana, divina; ST I-II qq.90–108); legge naturale come lume d'intelletto, primo precetto 'il bene va fatto, il male evitato' (ST I-II q.94 a.2), sinderesi; virtù e grazia.",
+    "tecnica": "Nodi critici: semplicità divina e predicazione analogica; distinzione essenza-esistenza nelle creature; eternità del mondo come verità di fede non dimostrabile; intelletto unico averroista confutato (De unitate intellectus)."
+  },
+  "definitions": [
+    "Cinque vie: argomenti cosmologici dall'esperienza (moto, causa, contingenza, gradi, fine) al primo principio.",
+    "Analogia: predicazione né univoca né equivoca di perfezioni a Dio e creature.",
+    "Legge naturale: partecipazione razionale alla legge eterna; primo precetto evidente per sé."
+  ],
+  "examples": [
+    "La seconda via: serie verticale di cause efficienti impossibile all'infinito, dunque causa prima.",
+    "La sinderesi coglie 'non uccidere' come conclusione prossima del primo precetto."
+  ],
+  "counterexamples": [
+    "L'argomento ontologico anselmiano: respinto (ST I q.2 a.1).",
+    "Il dualismo anima-corpo cartesiano: l'anima è forma del corpo, unità sostanziale."
+  ],
+  "errorsTypical": [
+    "Leggere le cinque vie come 'prove' moderne autosufficienti: concludono a un primo motore, la teologia naturale prosegue oltre.",
+    "Fare della legge naturale un codice innato fisso: nasce da riflessione razionale sul bene con inclinazioni."
+  ],
+  "keywords": [
+    "cinque vie",
+    "analogia",
+    "creazione",
+    "ilemorfismo",
+    "legge naturale",
+    "sinderesi",
+    "Somma teologica"
+  ],
+  "prerequisites": [
+    "filosofia:aristotele",
+    "filosofia:aristotele-metafisica",
+    "filosofia:agostino"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:medievale",
+      "note": "Vertice della scolastica."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:aristotele",
+      "note": "Rielaborazione sistematica dell'aristotelismo (Alberto Magno mediatore)."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:agostino",
+      "note": "Tradizione agostiniana come sfondo teologico."
+    },
+    {
+      "type": "CONTRASTS_WITH",
+      "to": "filosofia:aristotele-etica",
+      "note": "Legge naturale e grazia oltre l'etica del filosofo."
+    }
+  ],
+  "claims": [
+    {
+      "id": "tommaso-date",
+      "statement": "Tommaso nasce ~1225 a Roccasecca, insegna a Parigi e Napoli, muore a Fossanova il 7 marzo 1274.",
+      "supportedBy": [
+        "sep-aquinas"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "tommaso-vie",
+      "statement": "Le cinque vie dimostrano un primo principio per via cosmologica; l'argomento ontologico è respinto.",
+      "supportedBy": [
+        "sep-aquinas"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "tommaso-legge",
+      "statement": "Quattro leggi (eterna, naturale, umana, divina); la naturale ha per primo precetto evidente 'il bene va fatto, il male evitato'.",
+      "supportedBy": [
+        "sep-aquinas"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sep-aquinas",
+      "title": "Thomas Aquinas — Stanford Encyclopedia of Philosophy",
+      "publisher": "Stanford University",
+      "url": "https://plato.stanford.edu/entries/aquinas/",
+      "sourceType": "academic-site",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "supports": [
+        "vita e cronologia",
+        "opere e metodo",
+        "cinque vie e analogia",
+        "creazione",
+        "ilemorfismo",
+        "anima e intelletto",
+        "felicità",
+        "legge naturale"
+      ],
+      "note": "Vita, opere, §§2-6, 8 letti via fetch il 2026-09-24. Treccani 'tommaso-d-aquino/' scartata dopo verifica (soft-404 alla homepage)."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Le quattro parti della Somma teologica?",
+        "a": "Dio/mondo, agire umano, virtù, Cristo/sacramenti."
+      },
+      {
+        "q": "Le quattro leggi?",
+        "a": "Eterna (governo divino), naturale (partecipazione razionale), umana (determinazioni), divina (rivelata)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il primo precetto della legge naturale è:",
+        "choices": [
+          "Obbedisci allo Stato",
+          "Il bene va fatto e perseguito, il male evitato",
+          "Cerca il piacere",
+          "Dubita di tutto"
+        ],
+        "answer": 1,
+        "explanation": "Evidente per sé (ST I-II q.94 a.2), colto dalla sinderesi; i precetti seguono le inclinazioni naturali."
+      }
+    ],
+    "questionsOpen": [
+      "Perché le cinque vie non bastano a dire 'Dio' in senso cristiano?",
+      "Eudemonismo e comandamento dell'amore: tensione o sintesi?"
+    ]
+  }
+}

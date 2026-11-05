@@ -1,0 +1,204 @@
+{
+  "id": "storia:italia-fascismo",
+  "subject": "storia",
+  "title": "Fascismo: movimento, regime, guerra",
+  "slug": "italia-fascismo",
+  "status": "published",
+  "access": "pro",
+  "type": "approfondimento",
+  "parent": "storia:italia-novecento",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1919",
+    "end": "1943",
+    "label": "dai fasci al 25 luglio (convenzione)",
+    "place": "Italia"
+  },
+  "region": "Europa",
+  "location": "Italia: Milano, Roma, periferie industriali e campagne",
+  "territories": "Regno d'Italia; colonie (Libia, AOI dal 1936)",
+  "geographicalContext": "Triangolo industriale e campagne padane come basi dello squadrismo; Roma capitale contesa.",
+  "summary": "Movimento (1919) → marcia su Roma (28-30 ottobre 1922, trasferimento con resa delle autorità) → leggi eccezionali, Patti 1929, Etiopia, leggi razziali 1938, guerra e caduta (25 luglio 1943); storiografia senza monocausa.",
+  "explanations": {
+    "semplice": "Dopo la guerra molti sono scontenti e hanno paura dei comunisti: Mussolini con le camicie nere picchia gli avversari e nel 1922 il re gli dà il governo senza colpo di Stato militare. Poi toglie la libertà poco alla volta, fa pace col Papa, conquista l'Etiopia, perseguita gli ebrei e porta l'Italia in guerra fino alla caduta.",
+    "approfondita": "Movimento: fasci 1919, squadrismo agrario e padronale, Fiume come laboratorio; Biennio Rosso e paura borghese come terreno. Presa del potere: marcia 28-30 ottobre 1922 — Facta proclama lo stato d'assedio, il re rifiuta la firma, il 29 Mussolini è incaricato (trasferimento nella legalità con intimidazione, non conquista militare). Consolidamento: delitto Matteotti 1924, leggi eccezionali 1925-26, sindacati e stampa, OVRA e confino; Patti Lateranensi 1929 (questione romana chiusa). Economia: quota 90, bonifiche, autarchia e corporativismo (retorica contro realtà). Estero: Etiopia 1935-36 (gas e sanzioni come nodi), Spagna, Asse e Patto d'Acciaio 1939, guerra 1940 e disfatte, Gran Consiglio e 25 luglio 1943. Razzismo: Manifesti 1938 e leggi razziali come svolta. Storiografia: Gentile (totalitarismo imperfetto), De Felice (consenso e zone grigie), Pavone (moralità) come posizioni dichiarate.",
+    "tecnica": "Fonti: atti parlamentari, discorsi, stampa di regime e clandestina, archivi OVRA desecretati con ritardi; memorialistica (Ciano, De Felice come uso critico). Approfondimento enciclopedico — istituzioni: Gran Consiglio, MVSN, OND/GIL, corporazioni e Carta del Lavoro (1927); società: ceti medi impiegatizi, donne (demografia e ruralismo contro lavoro reale), scuola Gentile 1923 e libri di Stato; economia: quota 90 e deflazione, bonifiche e città nuove, IRI 1933 e salvataggi bancari, autarchia e ammasso; vita quotidiana: radio EIAR, Cinecittà 1937, sport e consenso visivo; diplomazia: Stresa 1935, Asse 1936, Acciaio 1939, guerra parallela. Storiografia strutturata — questione: natura del regime; A) Gentile: totalitarismo imperfetto (Chiesa e monarchia come limiti); B) De Felice: regime reazionario di massa con consenso e zone grigie; C) Pavone: nodo morale e continuità dello Stato; evidenze condivise (violenza costitutiva, rottura liberale, modernizzazione selettiva); dispute (consenso reale vs passività, ideologia vs opportunismo, antisemitismo autoctono vs importato)."
+  },
+  "definitions": [
+    "Squadrismo: violenza paramilitare fascista contro sedi e persone.",
+    "Leggi eccezionali: norme 1925-26 che sopprimono le libertà.",
+    "Totalitarismo imperfetto: categoria gentiliana (Chiesa e monarchia come limiti)."
+  ],
+  "examples": [
+    "Acerbo 1923: premio di maggioranza che droga le elezioni 1924.",
+    "Patti 1929: Vaticano sovrano e religione di Stato in cambio."
+  ],
+  "counterexamples": [
+    "Marcia come battaglia: Mussolini arriva in treno il 30, dopo l'incarico.",
+    "Consenso totale: confino, esilio e opposizione cattolica/comunista."
+  ],
+  "errorsTypical": [
+    "Fare del 1922 una rivoluzione popolare (minoranza organizzata + resa).",
+    "Confondere Patti (1929) e Concilio (1962-65).",
+    "Datare le leggi razziali al 1935 (1938)."
+  ],
+  "keywords": [
+    "1922",
+    "Matteotti",
+    "Patti 1929",
+    "Etiopia",
+    "1938"
+  ],
+  "prerequisites": [
+    "storia:italia-novecento"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:italia-novecento",
+      "note": "Ventennio nel ramo Italia."
+    },
+    {
+      "type": "CAUSE",
+      "to": "storia:italia-resistenza",
+      "note": "Dittatura e guerra come premesse della Resistenza."
+    }
+  ],
+  "claims": [
+    {
+      "id": "marcia-roma-1922",
+      "statement": "Il 28 ottobre 1922 Facta proclamò lo stato d'assedio, il re rifiutò la firma e il 29 Mussolini fu incaricato: trasferimento nella legalità con resa delle autorità, non conquista militare.",
+      "supportedBy": [
+        "britannica-march-rome"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "id": "fascismo-regime",
+      "statement": "Matteotti (1924), leggi eccezionali, Patti 1929, Etiopia 1935-36, leggi razziali 1938 e 25 luglio 1943 scandiscono movimento-regime-guerra.",
+      "supportedBy": [
+        "manuale-italia",
+        "whe-fascism"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "fascismo-storiografia",
+      "statement": "Questione natura del regime: Gentile (totalitarismo imperfetto), De Felice (consenso e zone grigie), Pavone (moralità e continuità); accordo su violenza costitutiva e rottura liberale, dispute su consenso e antisemitismo.",
+      "supportedBy": [
+        "manuale-italia",
+        "whe-fascism-historiography"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "britannica-march-rome",
+      "title": "March on Rome — Encyclopaedia Britannica",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/March-on-Rome",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "marcia-roma-1922"
+      ],
+      "note": "Passaggi verificati: stato d'assedio Facta 28/10, rifiuto del re, incarico 29/10, trasferimento nella costituzione con resa."
+    },
+    {
+      "id": "manuale-italia",
+      "title": "Profilo standard di Italia del Novecento",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-fascism",
+      "title": "Fascism - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Fascism/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "fascismo-regime"
+      ],
+      "note": "Ispezionato 2026-09-28. Mussolini, marcia su Roma 1922, Patti Lateranensi 1929, Etiopia 1935-36, leggi razziali 1938, Seconda guerra mondiale."
+    },
+    {
+      "id": "whe-fascism-historiography",
+      "title": "Historiography of Fascism - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Historiography_of_Fascism/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "fascismo-storiografia"
+      ],
+      "note": "Ispezionato 2026-09-28. Gentile, De Felice, Pavone, storiografia del fascismo, totalitarismo imperfetto, consenso e zone grigie, moralità."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "1922 in sintesi?",
+        "a": "Marcia 28-30/10, re rifiuta assedio, incarico: resa, non battaglia."
+      },
+      {
+        "q": "Regime in quattro snodi?",
+        "a": "Matteotti, leggi, Patti 1929, Etiopia e 1938."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il 28 ottobre il re:",
+        "choices": [
+          "Firmò l'assedio",
+          "Rifiutò la firma, disarmando la difesa",
+          "Abdicò",
+          "Fuggì in Egitto"
+        ],
+        "answer": 1,
+        "explanation": "Senza firma l'esercito non intervenne."
+      },
+      {
+        "q": "Le leggi razziali italiane sono del:",
+        "choices": [
+          "1925",
+          "1929",
+          "1935",
+          "1938"
+        ],
+        "answer": 3,
+        "explanation": "Manifesto della razza e regi decreti 1938."
+      }
+    ],
+    "questionsOpen": [
+      "Rivoluzione o rivelazione della crisi liberale? Con quali prove?",
+      "Patti 1929: chi guadagna di più, Chiesa o regime?"
+    ]
+  }
+}

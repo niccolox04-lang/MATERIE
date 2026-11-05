@@ -1,0 +1,110 @@
+{
+  "id": "greco:periodo",
+  "subject": "greco",
+  "title": "Periodo: ipotetiche, finali, consecutive",
+  "slug": "periodo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 7,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "summary": "Frasi complesse: periodo ipotetico nei quattro tipi (realtà, eventualità, possibilità, irrealtà), finali con ἵνα/ὅπως/ὡς, consecutive con ὥστε + indicativo o infinito; negazioni οὐ/μή e tempi relativi prima della traduzione autonoma.",
+  "explanations": {
+    "semplice": "Ora le frasi si allungano: se succede questo, allora quello. Il greco ha quattro modi di dire se, dal più sicuro (se è vero) al più impossibile (se fosse stato vero, ma non lo è). Per dire lo scopo si usa una parola che significa perché, per il risultato una che significa così che.",
+    "approfondita": "Ipotetiche: I tipo realtà (εἰ + indicativo in protasi e apodosi, negazione οὐ); II eventualità (ἐάν + congiuntivo in protasi, futuro/presente in apodosis); III possibilità (εἰ + ottativo, ἄν + ottativo in apodosi); IV irrealtà presente (εἰ + Imperfetto, ἄν + Imperfetto) e passata (εἰ + aoristo, ἄν + aoristo). Negazione μή in protasi (tranne I tipo con οὐ) e in apodosi desiderativa. Finali: ἵνα, ὅπως, ὡς + congiuntivo dopo presente/futuro, ottativo dopo passato (senza ἄν, salvo attrazione); μή come negazione; participio futuro come alternativa. Consecutive: ὥστε + indicativo per risultato reale, + infinito per risultato possibile o tendenziale (soggetto in accusativo se diverso); negazioni οὐ + indicativo, μή + infinito. Temporali con quando relativo e causali come ponte (ὅτε, ἐπεί + indicativo). Regola operativa: individua la congiunzione, poi modo e tempo della protasi, poi l'apodosi; il tempo è relativo alla reggente.",
+    "tecnica": "Diagnosi: ἐάν (congiuntivo) contro εἰ (tutti i modi); ἄν iterativo; attrazione modale nelle finali dipendenti da ottativo; ὥστε ambiguo sciolto da modo e negazione."
+  },
+  "definitions": [
+    "Protasi e apodosi: condizione e conseguenza del periodo ipotetico.",
+    "Attrazione modale: finale all'ottativo dopo tempo passato.",
+    "Risultato reale contro possibile: indicativo contro infinito dopo ὥστε."
+  ],
+  "examples": [
+    "εἰ ταῦτα λέγεις, ἁμαρτάνεις: I tipo, realtà (se dici questo, sbagli).",
+    "ἵνα μάθωσιν, διδάσκει: finale al congiuntivo (insegna perché imparino)."
+  ],
+  "counterexamples": [
+    "ἐάν con l'indicativo: vuole il congiuntivo (eventualità).",
+    "ὥστε + infinito tradotto come reale: è possibile o tendenziale."
+  ],
+  "errorsTypical": [
+    "Confondere II e III tipo (congiuntivo contro ottativo in protasi).",
+    "Negare le finali con οὐ invece di μή.",
+    "Tradurre l'irrealtà come possibilità."
+  ],
+  "keywords": [
+    "ipotetiche",
+    "protasi",
+    "apodosi",
+    "finali",
+    "ὥστε",
+    "irrealtà"
+  ],
+  "prerequisites": [
+    "greco:infinito-participio",
+    "greco:verbo-completo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "greco:introduzione",
+      "note": "Sintassi complessa dopo le forme nominali."
+    },
+    {
+      "type": "SIMILAR_TO",
+      "to": "latino:cum-ut",
+      "note": "Finali e consecutive come sistema parallelo nelle due lingue."
+    }
+  ],
+  "sources": [
+    {
+      "id": "grammatiche-greco",
+      "title": "Periodo ipotetico e subordinate nelle grammatiche scolastiche",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su grammatica a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "I quattro tipi di ipotetiche?",
+        "a": "Realtà (ind.), eventualità (ἐάν+cong.), possibilità (ott.), irrealtà (imp./aor.+ἄν)."
+      },
+      {
+        "q": "ὥστε + indicativo o infinito?",
+        "a": "Indicativo risultato reale; infinito possibile o tendenziale."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'εἰ ἐβούλετο, ἦλθεν ἄν': il periodo è:",
+        "choices": [
+          "Realtà",
+          "Eventualità",
+          "Irrealtà passata",
+          "Finale"
+        ],
+        "answer": 2,
+        "explanation": "Aoristo + ἄν in apodosi: se avesse voluto, sarebbe venuto (ma non volle)."
+      }
+    ],
+    "questionsOpen": [
+      "Classifica quattro ipotetiche per tipo e negazione.",
+      "Quando la finale va all'ottativo? (attrazione modale)"
+    ]
+  }
+}

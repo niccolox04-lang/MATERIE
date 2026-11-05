@@ -1,0 +1,169 @@
+{
+  "id": "filosofia:aristotele",
+  "subject": "filosofia",
+  "title": "Aristotele",
+  "slug": "aristotele",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:antica",
+  "order": 3,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Aristotele (Stagira 384/383–Calcide 322 a.C.): vent'anni nell'Accademia, precettore di Alessandro, fondatore del Liceo (335/334). Trasforma le idee separate di Platone in forme immanenti (materia-forma, potenza-atto), fonda la logica sillogistica e sistema logica, fisica, metafisica, etica, politica e poetica.",
+  "explanations": {
+    "semplice": "Aristotele, allievo di Platone, non è d'accordo sulle idee separate: dice che la forma sta dentro le cose (la forma di statua è nel marmo scolpito, non in un altro mondo). Inventa la logica del sillogismo: da due premesse vere segue una conclusione certa. Studia di tutto: animali, stelle, anima, giusto comportamento, governo della città, tragedie.",
+    "approfondita": "Snodo: se le idee sono separate dall'esperienza, come fondano le cose? O sono intrinseche (e la separazione è un duplicato superfluo: argomento del terzo uomo), o non spiegano nulla. Soluzione: l'eidos platonico diventa forma (morphe) che con la materia (hyle) costituisce il sinolo individuale, unico reale; il binomio statico si dinamizza in potenza (dynamis) e atto (energeia/entelecheia). Il divenire è attuazione di potenze; al vertice, l'atto puro: Dio come motore immobile che muove come oggetto d'amore, pensiero di pensiero. Tre periodi (Jaeger): accademico (platonizzante: Eudemo, Protreptico), transizione (critica della separazione), Liceo (maturità sistematica). Corpus pervenuto: scritti esoterici di scuola (edizione di Andronico da Rodi); gli essoterici dialogici sono perduti salvo frammenti.",
+    "tecnica": "Distinzioni operative: forma come universale astratto (katholou) colto per astrazione; materia come sostrato e possibilità; privazione (steresis) come terzo principio del divenire; quattro cause (formale, materiale, efficiente, finale); scienze speculative (matematica, fisica, filosofia prima)."
+  },
+  "definitions": [
+    "Forma: essenza intrinseca che con la materia costituisce l'individuo (sinolo).",
+    "Potenza/atto: capacità di sviluppo e sua realizzazione; il divenire è passaggio continuo dall'una all'altro.",
+    "Motore immobile: atto puro che muove come fine amato, pensiero di pensiero."
+  ],
+  "examples": [
+    "La statua: bronzo (materia) + figura (forma) + scultore (efficiente) + ornamento (fine).",
+    "Il seme è pianta in potenza; l'albero cresciuto è atto (ed entelechia: fine in sé)."
+  ],
+  "errorsTypical": [
+    "Fare di Aristotele un nemico totale di Platone: la critica è interna e conserva molto (contemplazione, Dio, mimesi).",
+    "Confondere scritti essoterici (perduti, dialogici) con il corpus scolastico pervenuto."
+  ],
+  "keywords": [
+    "forma",
+    "materia",
+    "sinolo",
+    "potenza-atto",
+    "motore immobile",
+    "Liceo",
+    "quattro cause"
+  ],
+  "prerequisites": [
+    "filosofia:platone-teoria-idee",
+    "filosofia:presocratici"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:antica",
+      "note": "Terzo vertice dell'età classica."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:platone",
+      "note": "Vent'anni di Accademia; la critica presuppone la dottrina."
+    },
+    {
+      "type": "CONTRASTS_WITH",
+      "to": "filosofia:platone-teoria-idee",
+      "note": "Forme immanenti contro idee separate."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:ellenismo",
+      "note": "Le scuole ellenistiche nascono anche dal confronto con il Peripato."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:atene-classica",
+      "note": "Atene del IV secolo: Liceo, crisi della polis, Macedonia."
+    }
+  ],
+  "claims": [
+    {
+      "id": "aristotele-date",
+      "statement": "Aristotele nasce a Stagira nel 384/383 a.C., fonda il Liceo nel 335/334 e muore a Calcide nel 322.",
+      "supportedBy": [
+        "treccani-aristotele"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "aristotele-corpus",
+      "statement": "Ci sono pervenuti gli scritti esoterici di scuola; gli essoterici dialogici sono perduti salvo frammenti.",
+      "supportedBy": [
+        "treccani-aristotele"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "aristotele-forma",
+      "statement": "La critica alla separazione porta a forma immanente + materia = sinolo, dinamizzati in potenza e atto.",
+      "supportedBy": [
+        "treccani-aristotele"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-aristotele",
+      "title": "Aristotele — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/aristotele/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento del corpus",
+        "critica delle idee e forma",
+        "fisica e cause",
+        "etica e anima",
+        "logica"
+      ],
+      "note": "Contenuto letto integralmente via fetch il 2026-09-24 e confrontato con le affermazioni dei nodi aristotelici."
+    },
+    {
+      "id": "sep-aristotle",
+      "title": "Aristotle — Stanford Encyclopedia of Philosophy",
+      "publisher": "Stanford University",
+      "url": "https://plato.stanford.edu/entries/aristotle/",
+      "sourceType": "academic-site",
+      "language": "en",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200 il 2026-09-24; contenuto NON ancora revisionato, da usare solo come riferimento bibliografico."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Date e luoghi chiave di Aristotele?",
+        "a": "Stagira 384/383 – Accademia vent'anni – Alessandro 343/342 – Liceo 335/334 – Calcide 322."
+      },
+      {
+        "q": "Cosa sostituisce le idee separate?",
+        "a": "Forma immanente + materia = sinolo; potenza che passa ad atto."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "L'argomento del 'terzo uomo' sostiene che:",
+        "choices": [
+          "Esistono tre mondi",
+          "Idee separate + cose richiederebbero una terza idea a fondarle, all'infinito",
+          "L'uomo ha tre anime",
+          "I sillogismi hanno tre termini quindi sono invalidi"
+        ],
+        "answer": 1,
+        "explanation": "La separazione duplica la realtà senza spiegarla: se l'idea è separata serve un ulteriore fondamento."
+      }
+    ],
+    "questionsOpen": [
+      "Perché la forma può essere concepita separatamente pur esistendo solo nel sinolo?",
+      "In che senso Dio è 'atto puro' e muove senza muoversi?"
+    ]
+  }
+}

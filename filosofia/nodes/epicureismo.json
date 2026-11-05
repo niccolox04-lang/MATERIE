@@ -1,0 +1,66 @@
+{
+  "id": "filosofia:epicureismo",
+  "subject": "filosofia",
+  "title": "Epicureismo",
+  "slug": "epicureismo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:ellenismo",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Epicuro (341–270, Giardino dal 306): canonica dei sensi, fisica atomista con clinamen, etica del piacere catastematico e del tetrafarmaco, amicizia e vita appartata. Lucrezio ne farà il poema De rerum natura.",
+  "explanations": {
+    "semplice": "Epicuro dice: il piacere vero è non avere dolori né paure. Non servono lussi: bastano pane, acqua, amici e filosofia. Gli dèi esistono ma non si occupano di noi, la morte è niente per noi (quando ci siamo noi non c'è lei), e il futuro non è tutto scritto perché gli atomi deviano.",
+    "approfondita": "Canonica: sensazioni, prolessi (anticipazioni) e affezioni come criteri; contro scetticismo e razionalismo puro. Fisica: atomismo democriteo corretto col clinamen (deviazione spontanea che rompe la catena necessaria e fonda libertà e novità); infiniti mondi, anima mortale di atomi sottili, dèi beati e indifferenti negli intermondi. Etica: piacere come assenza di dolore corporeo (aponia) e turbamento (atarassia), piaceri catastematici (stabili) sopra cinetici; calcolo prudente, virtù come mezzi del piacere, tetrafarmaco (non temere gli dèi, la morte è niente, il bene è facile, il male sopportabile); amicizia come bene sommo, lathe biosas (vivi nascosto). Fonti: Lettere (a Erodoto, Pitocle, Meneceo), Massime capitali, Gnomologio vaticano, Lucrezio. Date dossografiche con cautela.",
+    "tecnica": "Clinamen come soluzione congiunta al determinismo fisico e alla responsabilità morale. Tetrafarmaco in quattro proposizioni."
+  },
+  "definitions": [
+    "Piacere catastematico: stabile, da assenza di dolore, superiore al cinetico.",
+    "Tetrafarmaco: quadruplice rimedio contro paure di dèi, morte, bisogno, dolore.",
+    "Clinamen: deviazione spontanea degli atomi, fondamento di libertà."
+  ],
+  "examples": ["Il calcolo: un piacere intenso ora che genera dolore dopo va rifiutato.", "L'amicizia del Giardino come comunità terapeutica."],
+  "counterexamples": ["L'edonismo sfrenato: Epicuro lo condanna come calcolo sbagliato.", "Il fato stoico: negato dal clinamen e dagli dèi indifferenti."],
+  "errorsTypical": ["'Epicureo' come gaudente: rovesciamento del senso storico.", "Credere che neghi gli dèi: li afferma beati e noncuranti."],
+  "keywords": ["clinamen", "tetrafarmaco", "aponia", "atarassia", "Giardino", "Lucrezio", "prolessi"],
+  "prerequisites": ["filosofia:ellenismo", "filosofia:presocratici"],
+  "relations": [
+    { "type": "PART_OF", "to": "filosofia:ellenismo", "note": "Scuola ellenistica." },
+    { "type": "CONTRASTS_WITH", "to": "filosofia:stoicismo", "note": "Caso e piacere contro provvidenza e dovere." },
+    { "type": "INFLUENCED_BY", "to": "filosofia:presocratici", "note": "Atomismo democriteo come base fisica." }
+  ],
+  "sources": [
+    {
+      "id": "treccani-epicureismo",
+      "title": "Epicureismo — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/epicureismo/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200 il 2026-09-24; contenuto NON ancora revisionato."
+    }
+  ],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Le quattro medicine del tetrafarmaco?", "a": "Dèi non temibili, morte nulla, bene facile, male sopportabile." },
+      { "q": "A cosa serve il clinamen?", "a": "A rompere il determinismo atomico e fondare libertà e novità." }
+    ],
+    "quiz": [
+      {
+        "q": "'La morte è niente per noi' perché:",
+        "choices": ["L'anima è immortale", "Bene e male stanno nella sensazione e da morti non si sente", "Gli dèi ci proteggono", "Si rinasce sempre"],
+        "answer": 1,
+        "explanation": "Sensismo conseguente: senza sensazione né bene né male."
+      }
+    ],
+    "questionsOpen": ["Piacere catastematico vs cinetico: perché la stabilità vale più dell'intensità?", "Lathe biosas: saggezza o disimpegno?"]
+  }
+}

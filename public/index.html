@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mappe Didattiche — Knowledge Graph</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#1d4ed8">
+</head>
+<body>
+<a class="skip" href="#node">Vai al contenuto</a>
+<header>
+  <div class="brand">
+    <button id="side-toggle" class="icon-btn" aria-label="Apri/chiudi menu materie" aria-expanded="false" aria-controls="sidebar">☰</button>
+    <span class="brand-name">Mappe Didattiche</span>
+    <span class="tag">knowledge graph</span>
+  </div>
+  <div class="controls">
+    <label class="ctl" for="plan">Piano
+      <select id="plan" aria-label="Piano di accesso per anteprima">
+        <option value="free">FREE</option>
+        <option value="pro">PRO</option>
+        <option value="ultra">ULTRA</option>
+      </select>
+    </label>
+    <label class="ctl grow" for="q">Ricerca
+      <input id="q" type="search" placeholder="titolo, definizione, parola chiave…" autocomplete="off">
+    </label>
+    <a class="navlab" href="/laboratorio.html" id="lab-link">Laboratorio</a>
+    <button id="study-toggle" class="btn" aria-pressed="false">Study mode</button>
+    <button id="print-btn" class="btn">Stampa nodo</button>
+  </div>
+</header>
+<div id="layout">
+  <nav id="sidebar" aria-label="Materie e albero">
+    <h2>Materie</h2>
+    <ul id="subjects"></ul>
+    <h2>Albero</h2>
+    <div id="tree" role="tree" aria-label="Albero della materia"></div>
+  </nav>
+  <main id="node" tabindex="-1" aria-live="polite">
+    <section id="dash" aria-label="Riepilogo percorso"></section>
+    <nav id="crumbs" aria-label="Breadcrumb"></nav>
+    <article id="article"><p>Seleziona una materia e un nodo per iniziare. I nodi con lucchetto richiedono un piano superiore: il server non ne invia il contenuto.</p></article>
+    <section id="search-results" hidden><h2>Risultati ricerca</h2><ul id="hits"></ul></section>
+    <section id="learn" hidden>
+      <h2>Studio</h2>
+      <div id="flash"></div>
+      <div id="quiz"></div>
+      <div id="path"></div>
+    </section>
+    <section id="ai" aria-label="Assistente grounded">
+      <h2>Chiedi (grounded)</h2>
+      <p class="hint">Risponde SOLO dai contenuti a cui il tuo piano ha accesso, citando i nodi. Senza evidenza, lo dichiara invece di inventare.</p>
+      <textarea id="ai-q" rows="2" placeholder="Es. Cosa sono methexis e mimesis?"></textarea>
+      <div><label><input type="checkbox" id="ai-llm"> Usa LLM avanzato (richiede piano ULTRA + chiave server)</label>
+      <button id="ai-ask" class="btn">Chiedi</button></div>
+      <div id="ai-out"></div>
+    </section>
+  </main>
+  <aside id="study" hidden aria-label="Study mode">
+    <h2>Study mode</h2>
+    <div class="timer"><span id="clock">25:00</span>
+      <button id="pom-start" class="btn">Avvia</button><button id="pom-stop" class="btn">Ferma</button>
+      <button id="pom-reset" class="btn">Reset</button></div>
+    <label>Ambiente sonoro (sintetizzato, royalty-free):
+      <select id="amb"><option value="off">Silenzioso</option><option value="brown">Rumore marrone</option><option value="pink">Rumore rosa</option></select></label>
+    <label>Volume <input id="vol" type="range" min="0" max="100" value="20"></label>
+    <p class="hint">Nessun brano protetto incorporato: l'audio è generato via WebAudio.</p>
+  </aside>
+</div>
+<div id="overlay" hidden></div>
+<div id="toast" role="status" aria-live="polite" hidden></div>
+<div id="watermark" hidden></div>
+<script src="app.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+{
+  "id": "matematica:teorema-pitagora",
+  "subject": "matematica",
+  "title": "Teorema di Pitagora",
+  "slug": "teorema-pitagora",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "matematica:introduzione",
+  "order": 3,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "In un triangolo rettangolo il quadrato dell'ipotenusa è uguale alla somma dei quadrati dei cateti (a² + b² = c²). Dimostrabile per riarrangiamento geometrico; fonda distanza euclidea, criteri di perpendicolarità e la diagonale che genera √2.",
+  "explanations": {
+    "semplice": "Disegna un triangolo con l'angolo retto: i due lati corti si chiamano cateti, quello lungo ipotenusa. Il teorema dice: cateto² + cateto² = ipotenusa². Con 3 e 4 ottieni 5 (9+16=25). Serve per calcolare distanze e diagonali.",
+    "approfondita": "Enunciato metrico per triangoli rettangoli nel piano euclideo. Dimostrazione per riarrangiamento: in un quadrato di lato (a+b) si dispongono 4 copie del triangolo in due modi; l'area residua è c² in un caso, a²+b² nell'altro; le aree coincidono, dunque a²+b²=c². Vale l'inverso (criterio di rettangolarità, con contrapositiva della disuguaglianza). Triple pitagoriche: (3,4,5) e multipli; formula di Euclide per le primitive (m²−n², 2mn, m²+n²). Applicazioni: diagonale del quadrato (c = a√2, da cui l'irrazionalità), distanza tra punti d = √((Δx)²+(Δy)²), modulo di vettori, disuguaglianze. Limiti: geometria euclidea (postulato delle parallele); su superfici curve la relazione cambia. Storia sobria: attribuzione tradizionale a Pitagora, uso babilonese precedente, Euclide I.47 come sistemazione.",
+    "tecnica": "Generalizzazione: teorema del coseno c² = a²+b²−2ab·cos(C); spazi con prodotto scalare (norma indotta). La prova è autocontenuta e verificabile: essa stessa è la fonte."
+  },
+  "definitions": ["Ipotenusa: lato opposto all'angolo retto, il maggiore.", "Terna pitagorica: interi (a,b,c) con a²+b²=c²."],
+  "proof": [
+    "Prendi un quadrato di lato (a+b) e disponi in un angolo 4 copie del triangolo rettangolo di cateti a, b: resta al centro un quadrato di lato c (ipotenusa).",
+    "Area totale = (a+b)² = 4·(ab/2) + c², cioè a² + 2ab + b² = 2ab + c².",
+    "Semplificando 2ab da entrambi i membri: a² + b² = c².",
+    "L'inverso: se in un triangolo vale a²+b²=c², per costruzione con un triangolo rettangolo di confronto (congruenza) l'angolo è retto."
+  ],
+  "formulas": [
+    { "expr": "a² + b² = c²", "meaning": "Relazione tra cateti e ipotenusa nel triangolo rettangolo euclideo." },
+    { "expr": "d = √((x₂−x₁)² + (y₂−y₁)²)", "meaning": "Distanza euclidea come ipotenusa delle differenze." },
+    { "expr": "(m²−n², 2mn, m²+n²)", "meaning": "Formula di Euclide per terne pitagoriche primitive." }
+  ],
+  "examples": ["Scala di 5 m a 3 m dal muro: appoggio a 4 m (9+16=25).", "Diagonale del quadrato unitario: √2, irrazionale (nodo collegato)."],
+  "counterexamples": ["Triangolo 2-3-4: 4+9≠16, non è rettangolo (vale l'inverso).", "Sfere: su una sfera il 'teorema' non vale (geometria non euclidea)."],
+  "errorsTypical": ["Applicarlo a triangoli non rettangoli.", "Sommare le radici invece dei quadrati (√a+√b invece di √(a²+b²)).", "Dimenticare le unità al quadrato nelle aree."],
+  "keywords": ["ipotenusa", "cateti", "terne", "distanza", "Euclide I.47", "diagonale"],
+  "prerequisites": ["matematica:introduzione"],
+  "relations": [
+    { "type": "PART_OF", "to": "matematica:introduzione", "note": "Teorema fondativo della geometria." },
+    { "type": "DEVELOPS_INTO", "to": "matematica:irrazionalita-sqrt2", "note": "La diagonale del quadrato pone il problema dell'irrazionale." },
+    { "type": "RELATED_TO", "to": "filosofia:presocratici", "note": "Pitagorici: il numero come principio; tradizione, non documento." }
+  ],
+  "sources": [],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Enunciato e formula?", "a": "Quadrato ipotenusa = somma quadrati cateti: a²+b²=c²." },
+      { "q": "Una terna primitiva oltre (3,4,5)?", "a": "(5,12,13): 25+144=169." }
+    ],
+    "quiz": [
+      {
+        "q": "Cateti 6 e 8: ipotenusa?",
+        "choices": ["10", "12", "14", "48"],
+        "answer": 0,
+        "explanation": "36+64=100=10²."
+      },
+      {
+        "q": "Lati 4, 5, 6: il triangolo è rettangolo?",
+        "choices": ["Sì", "No: 16+25=41≠36", "Solo se isoscele", "Dipende dagli angoli"],
+        "answer": 1,
+        "explanation": "Per l'inverso, servirebbe a²+b²=c²."
+      }
+    ],
+    "questionsOpen": ["Riproduci la dimostrazione per riarrangiamento con un disegno.", "Perché la diagonale del quadrato costringe oltre i razionali?"]
+  }
+}

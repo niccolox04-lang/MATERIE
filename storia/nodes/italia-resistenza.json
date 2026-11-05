@@ -1,0 +1,145 @@
+{
+  "id": "storia:italia-resistenza",
+  "subject": "storia",
+  "title": "Resistenza: 8 settembre, CLN, liberazione",
+  "slug": "italia-resistenza",
+  "status": "published",
+  "access": "pro",
+  "type": "approfondimento",
+  "parent": "storia:italia-novecento",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1943",
+    "end": "1945",
+    "label": "dall'armistizio al 25 aprile (convenzione)",
+    "place": "Italia centro-settentrionale"
+  },
+  "region": "Europa",
+  "location": "Appennini e Prealpi (bande), città occupate, Sud regio",
+  "territories": "RSI al Nord, Regno del Sud, zone libere partigiane",
+  "geographicalContext": "Montagne come rifugio, pianura per rastrellamenti; linea Gustav/Gotica come fronte.",
+  "summary": "Dopo l'8 settembre: occupazione tedesca, RSI, bande partigiane e CLN, guerra di liberazione con Alleati, repressione (Fosse Ardeatine) e insurrezione del 25 aprile; memoria e dibattiti (guerra civile, foibe).",
+  "explanations": {
+    "semplice": "Quando l'Italia si arrende, i Tedeschi occupano il Nord e nasce un governo fantoccio. Migliaia di giovani scappano in montagna e combattono come partigiani con l'aiuto degli Alleati. Ci sono stragi terribili, ma alla fine il Nord si libera da solo il 25 aprile.",
+    "approfondita": "8 settembre (armistizio corto/lungo, sbandamento senza ordini); occupazione e RSI (Salò, Graziani, leggi e leva); bande (Garibaldi comuniste, GL azioniste, Matteotti socialiste, autonome e cattoliche) e CLN (Bonomi, poi Alta Italia con Longo-Valiani-Cadorna); Alleati (Cassibile, cobelligeranza, linea gotica e inverno 1944-45); repressione (Ardeatine 335, Marzabotto, Sant'Anna) e deportazioni; popolazione tra fame e mercato nero; liberazione (Genova/Milano/Torino, 25 aprile-2 maggio, Dongo). Dibattiti: guerra di liberazione + guerra civile + guerra di classe (Pavone, tre guerre) contro letture riduttive; foibe ed esodo giuliano come memoria parallela dichiarata (non competizione); continuità dello Stato come questione. Numeri partigiani come ordini discussi.",
+    "tecnica": "Fonti: bandi e volantini, diari (Meneghello, Fenoglio come letteratura-testimonianza), archivi RSI/Alleati, processi; cifre combattenti come intervalli."
+  },
+  "definitions": [
+    "CLN: Comitato di Liberazione Nazionale, coordinamento antifascista.",
+    "RSI: Repubblica Sociale Italiana, stato fantoccio tedesco.",
+    "Guerra civile: italiani contro italiani 1943-45 (categoria dibattuta)."
+  ],
+  "examples": [
+    "Fosse Ardeatine (24-3-1944): rappresaglia 10:1 dopo via Rasella.",
+    "Valsesia e Ossola: repubbliche partigiane effimere."
+  ],
+  "counterexamples": [
+    "Resistenza solo comunista: azionisti, cattolici, liberali, badogliani.",
+    "Liberazione solo alleata: insurrezione del Nord documentata."
+  ],
+  "errorsTypical": [
+    "Fare dell'8 settembre un tradimento pianificato (sbandamento).",
+    "Confondere RSI e Regno del Sud.",
+    "Cifre dei partigiani come censimenti (flussi e doppi ruoli)."
+  ],
+  "keywords": [
+    "8 settembre",
+    "CLN",
+    "Ardeatine",
+    "25 aprile",
+    "RSI"
+  ],
+  "prerequisites": [
+    "storia:italia-fascismo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:italia-novecento",
+      "note": "Resistenza nel ramo Italia."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:guerre",
+      "note": "Fronte italiano della seconda guerra mondiale."
+    }
+  ],
+  "claims": [
+    {
+      "id": "resistenza-quadro",
+      "statement": "Dall'8 settembre a tre Italie (RSI, Sud, bande/CLN) fino all'insurrezione del 25 aprile; la triplice lettura (liberazione, civile, classe) resta dibattito storiografico.",
+      "supportedBy": [
+        "manuale-italia",
+        "whe-italian-resistance"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-italia",
+      "title": "Profilo standard di Italia del Novecento",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-italian-resistance",
+      "title": "Italian Resistance - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Italian_Resistance/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "resistenza-quadro"
+      ],
+      "note": "Ispezionato 2026-09-28. 8 settembre 1943, occupazione tedesca, RSI Salò, bande partigiane (Garibaldi, GL, Matteotti, autonome, cattoliche), CLN, Alleati, Fosse Ardeatine, Marzabotto, Sant'Anna, insurrezione 25 aprile 1945, liberazione di Genova/Milano/Torino."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre Italie 1943-45?",
+        "a": "RSI Nord, Regno Sud, bande/CLN."
+      },
+      {
+        "q": "25 aprile?",
+        "a": "Insurrezione del Nord, poi arrivo alleato."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Le Fosse Ardeatine furono:",
+        "choices": [
+          "Battaglia campale",
+          "Rappresaglia 10:1 dopo via Rasella",
+          "Bombardamento alleato",
+          "Sciopero"
+        ],
+        "answer": 1,
+        "explanation": "335 vittime il 24-3-1944."
+      }
+    ],
+    "questionsOpen": [
+      "Una, due o tre guerre? Il dibattito Pavone.",
+      "Foibe e Resistenza: memorie parallele o contrapposte?"
+    ]
+  }
+}

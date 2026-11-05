@@ -1,0 +1,124 @@
+{
+  "id": "storia:fonti-critica",
+  "subject": "storia",
+  "title": "Critica delle fonti primarie",
+  "slug": "fonti-critica",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 24,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Metodo operativo: tipologie (primarie, secondarie, materiali, iconografiche, epigrafiche, orali, digitali); critica esterna/interna (autenticità, provenienza, datazione, autore, scopo, limiti); catena fonte→domanda→confronto→inferenza con esempi dal corpus.",
+  "explanations": {
+    "semplice": "Prima di credere a un documento chiediti: chi l'ha scritto, quando, perché e per chi? Una fonte vera può essere di parte o incompleta. Confronta sempre più fonti prima di decidere cosa è successo.",
+    "approfondita": "Tipologie: primarie (atti, iscrizioni, cronache coeve, memorialistica, statistiche d'epoca), secondarie (storiografia), materiali (archeologia), iconografiche, epigrafiche, orali (storia orale con memoria dichiarata), digitali (banche dati come Slave Voyages con metadati). Critica esterna: autenticità, provenienza, datazione, stato di conservazione. Critica interna: autore e destinatario, scopo e committenza, linguaggio, omissioni, confronto con fonti indipendenti. Esempi dal corpus (tutti verificati): editti di Ashoka (iscrizioni su roccia/pilastri, propaganda e dhamma insieme); database Slave Voyages (34.948 viaggi, 66-80% stimato: cosa misura e cosa no); Patto Meiji (testo verificato, programma non costituzione); UNESCO Timbuktu/Askia (descrizioni istituzionali con criteri). Regola: fonte autentica ≠ fonte neutra; una fonte non prova da sola.",
+    "tecnica": "Operativo: scheda fonte (natura, data, autore, scopo, conservazione, limiti); triangolazione minima a due indipendenti; citazione con collocazione."
+  },
+  "definitions": [
+    "Fonte primaria: documento o resto coevo all'evento.",
+    "Critica esterna: verifica di autenticità e provenienza.",
+    "Critica interna: analisi di contenuto, scopo e limiti."
+  ],
+  "examples": [
+    "Editto XIII di Ashoka: propaganda regia E prova della svolta (due livelli).",
+    "Slave Voyages 66-80%: stima dichiarata, non censimento."
+  ],
+  "counterexamples": [
+    "Iscrizione antica come verità neutra: committenza sempre presente.",
+    "Database come realtà completa: copertura dichiarata parziale."
+  ],
+  "errorsTypical": [
+    "Citazione senza collocazione (opera, data, contesto).",
+    "Una sola fonte per tesi controverse.",
+    "Confondere autenticità e attendibilità."
+  ],
+  "keywords": [
+    "primarie",
+    "autenticità",
+    "provenienza",
+    "triangolazione",
+    "limiti"
+  ],
+  "prerequisites": [
+    "storia:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Metodo dopo i contenuti: come sappiamo."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:mesopotamia",
+      "note": "Tavolette e stele come prime fonti scritte."
+    }
+  ],
+  "claims": [
+    {
+      "id": "fonti-metodo",
+      "statement": "Le fonti non si assumono vere: nascono da persone dentro il proprio contesto e il nostro sguardo sul passato è frammentario e deformato (ciò che è sopravvissuto per caso e per decisioni altrui); la pratica corretta è interrogare ogni fonte con domande critiche e confrontare più fonti sullo stesso argomento per vedere se emerge un consenso (corroborazione), come fa chi costruisce argomenti storici affidabili.",
+      "supportedBy": [
+        "whe-fonti-storia"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-fonti-storia",
+      "title": "Sources of History — World History Encyclopedia",
+      "author": "Emma Groeneveld",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/article/1048/sources-of-history/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "fonti-metodo"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28 (2017). Verificati: studio del passato dai fonti scritte; frammentarietà e deformazione del testimone («we only get a fragmentary, distorted view; it is like trying to complete a puzzle with a lot of oddly shaped and missing pieces»); distinzione fonti primarie/secondarie; «we cannot simply assume that everything they tell us ... is true» perché fatte da persone nel proprio contesto; obbligo di domande critiche e «cross-examine different sources on the same topic to see whether any kind of consensus rolls out»; elenco di domande tipiche su ogni fonte. LIMITI: la voce non usa la terminologia tecnica «critica esterna/interna»: quella terminologia resta spiegata nel testo del nodo, non nel claim."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Esterna o interna?",
+        "a": "Esterna: autentico? Interna: cosa dice davvero?"
+      },
+      {
+        "q": "Regola minima?",
+        "a": "Due fonti indipendenti per tesi controverse."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Un editto regio è:",
+        "choices": [
+          "Neutro per definizione",
+          "Autentico ma interessato: va criticato",
+          "Sempre falso",
+          "Inutile"
+        ],
+        "answer": 1,
+        "explanation": "Prova e propaganda insieme (Ashoka XIII)."
+      }
+    ],
+    "questionsOpen": [
+      "Applica la scheda a un editto di Ashoka.",
+      "Cosa NON misura Slave Voyages? (copertura 66-80%)"
+    ]
+  }
+}

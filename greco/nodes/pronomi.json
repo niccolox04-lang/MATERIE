@@ -1,0 +1,108 @@
+{
+  "id": "greco:pronomi",
+  "subject": "greco",
+  "title": "Pronomi personali, relativi, indefiniti",
+  "slug": "pronomi",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 11,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "Personali (ἐγώ, σύ, αὐτός come lui/lei), riflessivi e possessivi, dimostrativi (οὗτος, ἐκεῖνος, ὅδε), relativo ὅς/ἥ/ὅ con attrazione, interrogativi e indefiniti (τίς contro τις); forme enclitiche e accenti.",
+  "explanations": {
+    "semplice": "I pronomi sostituiscono i nomi: io, tu, lui, questo, quello, che, chi, qualcuno. In greco cambiano per caso come i nomi e alcuni si appoggiano alla parola prima (enclitiche). Il che relativo collega due frasi.",
+    "approfondita": "Personali: ἐγώ/ἐμοῦ/ἐμοί/ἐμέ, σύ/σοῦ/σοί/σέ, ἡμεῖς, ὑμεῖς; III persona con αὐτός (αὐτόν = lui) e οὗ/οἷ/ἕ (riflessivo di III); enclitiche (μου, μοι, με) contro ortotoniche dopo preposizioni. Possessivi: ἐμός, σός, ἡμέτερος, ὑμέτερος (aggettivi). Dimostrativi: ὅδε (questo qui), οὗτος (questo/quest'ultimo), ἐκεῖνος (quello); usi anaforici e deittici. Relativo ὅς/ἥ/ὅ (declinato come articolo+ς): accordo con l'antecedente in genere-numero, caso dalla sua frase; attrazione del relativo nel caso dell'antecedente (cenno operativo). Interrogativo τίς/τί (sempre acuto) contro indefinito τις/τι (enclitico): accento come unica differenza; ἄλλος, ἕκαστος, πᾶς (παντός) e οὐδείς/μηδείς come quantificatori. Regola operativa: caso dalla funzione, accento per τις contro τίς.",
+    "tecnica": "Diagnosi: enclisi e legge dell'accento (acuto sull'ultima prima di enclitica); αὐτός pronome contro aggettivo (posizione); attrazione come ponte al periodo."
+  },
+  "definitions": [
+    "Anafora: ripresa di un antecedente già nominato.",
+    "Attrazione: relativo attratto nel caso dell'antecedente.",
+    "Enclitica: parola senza accento proprio appoggiata alla precedente."
+  ],
+  "examples": [
+    "λέγει μοι: mi dice (μοι enclitico dopo il verbo).",
+    "ὃς ἦλθεν, ἀπῆλθεν: chi venne, se ne andò (relativo senza antecedente)."
+  ],
+  "counterexamples": [
+    "αὐτός sempre lui: con l'articolo è stesso (ὁ αὐτὸς ἀνήρ).",
+    "τίς e τις intercambiabili: accento e funzione li distinguono."
+  ],
+  "errorsTypical": [
+    "Tradurre αὐτόν come stesso senza articolo.",
+    "Confondere interrogativo e indefinito (accento).",
+    "Forzare l'antecedente del relativo nel caso sbagliato."
+  ],
+  "keywords": [
+    "personali",
+    "dimostrativi",
+    "relativo",
+    "τίς τις",
+    "enclitiche"
+  ],
+  "prerequisites": [
+    "greco:declinazioni-nome"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "greco:introduzione",
+      "note": "Morfologia nominale dopo aggettivi."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "greco:sintassi-casi",
+      "note": "I pronomi mostrano i casi in forma pura."
+    }
+  ],
+  "sources": [
+    {
+      "id": "grammatiche-greco",
+      "title": "Pronomi nelle grammatiche scolastiche",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su grammatica a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "αὐτός pronome o aggettivo?",
+        "a": "Senza articolo lui/lei; con articolo stesso."
+      },
+      {
+        "q": "τίς contro τις?",
+        "a": "Acuto sempre: chi?; enclitico: qualcuno."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'ὁ αὐτὸς ἀνήρ' significa:",
+        "choices": [
+          "Lui, l'uomo",
+          "Lo stesso uomo",
+          "Un uomo",
+          "Quest'uomo qui"
+        ],
+        "answer": 1,
+        "explanation": "Con articolo: identità (stesso)."
+      }
+    ],
+    "questionsOpen": [
+      "Distingui ὅδε, οὗτος, ἐκεῖνος in tre contesti.",
+      "Quando il relativo cambia caso? (attrazione)"
+    ]
+  }
+}

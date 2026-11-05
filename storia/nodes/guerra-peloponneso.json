@@ -1,0 +1,179 @@
+{
+  "id": "storia:guerra-peloponneso",
+  "subject": "storia",
+  "title": "Guerra del Peloponneso (431\u00e2\u20ac\u201c404 a.C.)",
+  "slug": "guerra-peloponneso",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:atene-classica",
+  "order": 0,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-431",
+    "end": "-404",
+    "label": "dall'invasione dell'Attica alla resa di Atene",
+    "place": "Grecia, Egeo, Sicilia"
+  },
+  "summary": "Ventisette anni tra Lega delio-attica e Lega peloponnesiaca: causa profonda la crescita ateniese e la paura spartana (Tucidide I.23); fasi archidamica, pace di Nicia, spedizione di Sicilia (415\u00e2\u20ac\u201c413), fase deceleica fino a Egospotami (405) e ai Trenta tiranni (404).",
+  "explanations": {
+    "semplice": "Atene e Sparta, le due pi\u00c3\u00b9 forti, litigano per il potere sulla Grecia. Atene \u00c3\u00a8 forte per mare, Sparta per terra. Dopo una peste terribile, una pace fragile e un disastro in Sicilia, Sparta con l'aiuto dei persiani vince e impone ad Atene un governo di trenta tiranni.",
+    "approfondita": "Cause (livelli): strutturale (dualismo navale/terrestre, impero tributario contro alleanza oplitica); occasionali (Corcira, Potidea, decreto megarese); tucididea (la potenza ateniese costringe Sparta alla guerra). Fasi: archidamica (431\u00e2\u20ac\u201c421: invasioni annuali, strategia periclea di resistenza navale, peste del 430, morte di Pericle 429, Sfacteria/Pilo 425 con Cleone, Anfipoli 422, pace di Nicia 421); Sicilia (415\u00e2\u20ac\u201c413: Segesta, Alcibiade richiamato e transfuga, disastro siracusano); deceleica-ionica (413\u00e2\u20ac\u201c404: Decelea occupata, defezione degli alleati, oligarchia dei Quattrocento 411, Alcibiade rientra poi cade a Nozio 407, Arginuse 406 e processo agli strateghi, Egospotami 405 con Lisandro e fondi persiani); resa 404 (Lunghe Mura abbattute, flotta a 12 triremi, Trenta). Conseguenze: egemonia spartana fragile, crisi demografico-finanziaria, terreno per Tebe e Macedonia. Fonti: Tucidide (fino al 411, metodo dichiarato I.22), Senofonte (Elleniche), Diodoro, epigrafia; Tucidide \u00c3\u00a8 insieme fonte e interprete (distinguere i piani).",
+    "tecnica": "Strumenti: Melio (V.85\u00e2\u20ac\u201c113) come realismo; stasis di Corcira (III.82\u00e2\u20ac\u201c83) come patologia; archeologia e pentekontaetia come retrospettiva."
+  },
+  "definitions": [
+    "Guerra archidamica: fase 431\u00e2\u20ac\u201c421 di invasioni terrestri e resistenza navale.",
+    "Spedizione di Sicilia: 415\u00e2\u20ac\u201c413, catastrofe ateniese a Siracusa.",
+    "Trenta tiranni: oligarchia filo-spartana del 404\u00e2\u20ac\u201c403 (Crizia)."
+  ],
+  "examples": [
+    "Sfacteria 425: opliti spartani catturati, mito dell'invincibilit\u00c3\u00a0 infranto.",
+    "Egospotami 405: distruzione della flotta all'Ellesponto, Atene affamata."
+  ],
+  "counterexamples": [
+    "La pace di Nicia come 'fine': tregua armata di sei anni, non soluzione.",
+    "Egemonia spartana come ordine stabile: crolla a Leuttra (371)."
+  ],
+  "errorsTypical": [
+    "Attribuire la vittoria solo a Sparta: decisivi oro persiano ed errori ateniesi.",
+    "Leggere Tucidide come cronaca neutra: \u00c3\u00a8 indagine con tesi (paura/potenza)."
+  ],
+  "keywords": [
+    "Tucidide",
+    "Pericle",
+    "Alcibiade",
+    "Lisandro",
+    "Sicilia",
+    "Egospotami",
+    "Trenta tiranni"
+  ],
+  "prerequisites": [
+    "storia:atene-classica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:atene-classica",
+      "note": "Evento centrale del periodo (la causa Atene\u00e2\u2020\u2019guerra \u00c3\u00a8 sul nodo padre)."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:socrate",
+      "note": "Socrate oplit\u00c3\u00a0 a Potidea, Delio, Anfipoli; la guerra \u00c3\u00a8 il suo mondo."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:platone-vita",
+      "note": "Platone nasce durante la guerra (428/427) e cresce nella sconfitta."
+    }
+  ],
+  "claims": [
+    {
+      "id": "guerra-cause",
+      "statement": "La guerra (431-404) oppone lega peloponnesiaca (Sparta) e lega delio-attica (Atene): causa principale la volonta ateniese di egemonia sotto Pericle; casus belli Corcira, Potidea e soprattutto il blocco del commercio di Megara, accusato di violare la pace del 446.",
+      "supportedBy": [
+        "treccani-guerra-peloponneso",
+        "tucidide-guerra"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "guerra-fasi",
+      "statement": "Tre fasi: archidamica o decennale 431-421 (Archidamo invade l'Attica, Brasida in Tracia, Pilo) fino alla pace di Nicia (tregua cinquantennale); seconda fase 418-413 con Mantinea 418 e spedizione di Sicilia 415-413 (perdita di flotta e uomini a Siracusa); deceleica 413-404 (Decelea, guerra navale in Asia Minore ed Ellesponto, Arginuse 406) fino a Egospotami 405 e capitolazione primavera 404 con i Trenta tiranni.",
+      "supportedBy": [
+        "treccani-guerra-peloponneso",
+        "whe-peloponnesian"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-guerra-peloponneso",
+      "title": "Peloponneso, guerra del \u00e2\u20ac\u201d Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/guerra-del-peloponneso/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "guerra-cause",
+        "guerra-fasi"
+      ],
+      "note": "Contenuto ispezionato il 2026-09-27. Verificati: guerra 431-404 tra lega peloponnesiaca (Sparta) e delio-attica (Atene), piu sanguinoso conflitto tra greci; causa principale volonta egemonica ateniese sotto Pericle; casus belli Corcira Potidea e blocco di Megara con accusa di violazione pace 446; tre fasi archidamica 431-421 pace di Nicia tregua cinquantennale, 418-413 Mantinea e Sicilia 415-413, deceleica 413-404 Decelea Arginuse 406 Egospotami 405 capitolazione primavera 404 Trenta tiranni."
+    },
+    {
+      "id": "tucidide-guerra",
+      "title": "Tucidide, La guerra del Peloponneso, I.22 (metodo) e I.23 (grandezza e causa)",
+      "author": "Tucidide; traduzione R. Crawley (1910)",
+      "publisher": "Perseus Digital Library",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0200%3Abook%3D1%3Achapter%3D22",
+      "sourceType": "primary-source",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "guerra-cause"
+      ],
+      "note": "FONTE PRIMARIA letto 2026-09-27 Crawley 1910. I.22 discorsi non letterali ma senso generale e fatti con prove severe; I.23.6 crescita Atene paura Sparta guerra inevitabile; I.23.4-5 guerra da Ateniesi e Peloponnesiaci con tregua trentennale dopo Eubea."
+    },
+    {
+      "id": "whe-peloponnesian",
+      "title": "Peloponnesian War \u00e2\u20ac\u201d World History Encyclopedia",
+      "author": "Mark Cartwright",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Peloponnesian_War/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "guerra-fasi"
+      ],
+      "note": "Ispezionato 2026-09-27 (2018). Due stadi 460-446 e 431-404; Egospotami 405 e resa 404."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Le tre fasi e le date?",
+        "a": "Archidamica 431\u00e2\u20ac\u201c421, Sicilia 415\u00e2\u20ac\u201c413, deceleica 413\u00e2\u20ac\u201c404."
+      },
+      {
+        "q": "La causa tucididea in una frase?",
+        "a": "La potenza ateniese e la paura spartana rendono la guerra inevitabile."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Egospotami (405) decide la guerra perch\u00c3\u00a9:",
+        "choices": [
+          "Muore Pericle",
+          "Distrugge la flotta ateniese e taglia il grano del Ponto",
+          "Scoppia la peste",
+          "Sparta cambia re"
+        ],
+        "answer": 1,
+        "explanation": "Senza flotta e senza grano, Atene assediata si arrende nel 404."
+      }
+    ],
+    "questionsOpen": [
+      "Peste, demagoghi, processi agli strateghi: la democrazia perde la guerra da sola?",
+      "Tucidide fonte o interprete? Esemplifica sui due piani."
+    ]
+  },
+  "contentDepth": "deep"
+}

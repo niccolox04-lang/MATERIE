@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Mappe Didattiche">
+  <rect width="64" height="64" rx="14" fill="#1d4ed8"/>
+  <g stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M16 44 L28 30 L40 36 L50 20"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="16" cy="44" r="5"/>
+    <circle cx="28" cy="30" r="5"/>
+    <circle cx="40" cy="36" r="5"/>
+    <circle cx="50" cy="20" r="5"/>
+  </g>
+</svg>

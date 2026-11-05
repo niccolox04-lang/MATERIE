@@ -1,0 +1,111 @@
+{
+  "id": "greco:verbo-presente",
+  "subject": "greco",
+  "title": "Verbo: presente, imperfetto, futuro",
+  "slug": "verbo-presente",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 2,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.826Z",
+  "level": "foundation",
+  "summary": "Il sistema del presente: tema + vocale tematica (verbi in -ω) con desinenze primarie (attivo -ω -εις -ει...) e secondarie (imperfetto con aumento: ἔλυον); futuro in -σ- (λύσω). Diatesi attiva e medio-passiva: λύομαι come modello.",
+  "explanations": {
+    "semplice": "I verbi greci cambiano molto: dicono chi fa, quando e se l'azione è finita. Si parte dal presente (faccio), dall'imperfetto (facevo, col passato segnato da una ε- davanti) e dal futuro (farò, con una -σ- in più). Poi si impara che il verbo può essere attivo (sciolgo) o medio (mi sciolgo / vengo sciolto).",
+    "approfondita": "Struttura: tema verbale + vocale tematica (ο/ε) + desinenza; aumento sillabico (ἐ-) per i tempi secondari dell'indicativo. Presente attivo (λύω): -ω, -εις, -ει, -ομεν, -ετε, -ουσι(ν); medio-passivo (λύομαι): -ομαι, -ῃ/-ει, -εται, -όμεθα, -εσθε, -ονται. Imperfetto (ἔλυον): aumento + tema + desinenze secondarie -ον, -ες, -ε(ν), -ομεν, -ετε, -ον; medio ἐλυόμην. Futuro: tema + -σ- + primarie (λύσω, λύσεις...; medio λύσομαι). Verbi contratti (-άω, -έω, -όω: τιμάω→τιμῶ) come anticipazione con regola di contrazione (α+ο→ω ecc.). Aspetto già visibile: presente/imperfetto durativi contro futuro puntuale-prospettico. Accento: ritrarsi quanto possibile (verbi baritoni salvo contrazioni e -μι).",
+    "tecnica": "Regole operative: aumento in composti (dopo preposizione: παρέχω→παρεῖχον); -ν efelcistico; contrazioni α+ε→α, ε+ε→ει, ο+ε→ου; futuri attici e dorici come eccezioni da lessico."
+  },
+  "definitions": [
+    "Vocale tematica: ο/ε tra tema e desinenza nei verbi in -ω.",
+    "Aumento: ἐ- iniziale che marca i tempi storici (imperfetto, aoristo, piuccheperfetto).",
+    "Diatesi: attivo contro medio-passivo (stesse forme per medio e passivo al presente)."
+  ],
+  "examples": [
+    "λύεις: -εις = 2ª sing. presente attivo (tu sciogli).",
+    "ἐλύετο: aumento + -ετο = 3ª sing. imperfetto medio (si scioglieva / veniva sciolto)."
+  ],
+  "counterexamples": [
+    "λύσω come 'presente': la -σ- lo marca come futuro.",
+    "Medio sempre riflessivo: spesso è passivo o intensivo."
+  ],
+  "errorsTypical": [
+    "Dimenticare l'aumento negli storici.",
+    "Confondere -ει (3ª sing.) con dittongo.",
+    "Accento sulla desinenza nei baritoni."
+  ],
+  "keywords": [
+    "presente",
+    "imperfetto",
+    "futuro",
+    "aumento",
+    "diatesi",
+    "contratti",
+    "baritoni"
+  ],
+  "prerequisites": [
+    "greco:alfabeto-fonetica",
+    "greco:declinazioni-nome"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "greco:introduzione",
+      "note": "Sistema verbale di base."
+    },
+    {
+      "type": "CAUSE",
+      "to": "greco:verbo-completo",
+      "note": "Presente/imperfetto/futuro prima di aoristo e modi (stesso ciclo)."
+    }
+  ],
+  "sources": [
+    {
+      "id": "grammatiche-greco",
+      "title": "Paradigmi standard delle grammatiche scolastiche (verbo in -ω)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su grammatica a stampa pianificata prima di content_reviewed."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Desinenze presente attivo?",
+        "a": "-ω, -εις, -ει, -ομεν, -ετε, -ουσι."
+      },
+      {
+        "q": "Come si forma l'imperfetto?",
+        "a": "Aumento + tema + desinenze secondarie."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'λύσουσι' è:",
+        "choices": [
+          "Presente 3ª plur.",
+          "Futuro 3ª plur.",
+          "Imperfetto 3ª plur.",
+          "Aoristo 3ª plur."
+        ],
+        "answer": 1,
+        "explanation": "-σ- del futuro + -ουσι."
+      }
+    ],
+    "questionsOpen": [
+      "Coniuga τιμάω al presente: applica le contrazioni.",
+      "Perché medio e passivo coincidono al presente?"
+    ]
+  }
+}

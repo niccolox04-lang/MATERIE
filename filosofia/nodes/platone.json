@@ -1,0 +1,153 @@
+{
+  "id": "filosofia:platone",
+  "subject": "filosofia",
+  "title": "Platone",
+  "slug": "platone",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:antica",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Platone (Atene, 428/427–348/347 a.C.) fonda l'Accademia e scrive dialoghi: dalla difesa di Socrate alla teoria delle idee, dalla tripartizione dell'anima alla città ideale, fino alla revisione dialettica e alla cosmologia del Timeo.",
+  "explanations": {
+    "semplice": "Platone dice: ciò che vediamo cambia sempre, ma esistono modelli perfetti e immutabili, le idee (bello, giusto, bene). L'anima li ha visti prima di nascere e impara ricordandoli. Il filosofo, che conosce il bene, dovrebbe governare la città.",
+    "approfondita": "Snodo del pensiero platonico: (1) vita e Accademia (387 a.C.); (2) dialoghi giovanili socratici, di transizione (Gorgia, Menone) e della maturità (Simposio, Fedone, Repubblica, Fedro); (3) teoria delle idee: eidos come essenza ontologicamente sussistente (ontos onta), partecipazione (methexis) e imitazione (mimesis), gerarchia culminante nell'idea del bene; (4) anamnesi e immortalità dell'anima; (5) psicologia tripartita e politica della città ideale; (6) autor revisione nei dialoghi dialettici (Parmenide, Sofista: il non-essere come alterità) e cosmologia del Timeo (Demiurgo, chora, Anima del mondo). Le datazioni dei dialoghi sono ipotesi critiche, non certezze assolute.",
+    "tecnica": "Strumenti: dialettica come scienza dei rapporti tra idee (divisione/diaireisi, comunanza/koinonia); definizioni per genere e differenza (radice aristotelica); dottrine orali (agrapha dogmata, interpretazione di Tubinga: Krämer, Gaiser, Szlezák) attestate da Aristotele — da presentare come ipotesi interpretativa, non come testo."
+  },
+  "definitions": [
+    "Idea (eidos): essenza universale, stabile e immutabile, ontologicamente sussistente e modello delle cose sensibili.",
+    "Anamnesi: reminiscenza per cui conoscere è ricordare le idee contemplate dall'anima prima della nascita.",
+    "Dialettica: scienza suprema dei nessi oggettivi tra idee, opposta all'eristica sofistica."
+  ],
+  "examples": [
+    "L'idea di Giusto rende possibile giudicare giuste o ingiuste le singole azioni.",
+    "L'idea del Bene è paragonata al sole: come il sole rende visibili le cose, il bene rende intelligibili le idee."
+  ],
+  "errorsTypical": [
+    "'Mondo delle idee come luogo fisico': è una metafora; le idee sono intelligibili, non spaziali.",
+    "Confondere il carro alato del Fedro con la Repubblica: l'immagine auriga-cavalli è nel Fedro, le tre classi nella Repubblica.",
+    "Presentare le datazioni dei dialoghi come certe: sono ricostruzioni critiche discusse."
+  ],
+  "keywords": [
+    "idee",
+    "eidos",
+    "anamnesi",
+    "Accademia",
+    "dialettica",
+    "bene",
+    "anima",
+    "Repubblica",
+    "Timeo"
+  ],
+  "prerequisites": [
+    "filosofia:presocratici",
+    "filosofia:socrate"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:antica",
+      "note": "Platone appartiene all'area antica."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:socrate",
+      "note": "Allievo di Socrate: ne idealizza figura e ricerca delle definizioni."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:presocratici",
+      "note": "Sintesi di eracliteismo (sensibile) ed eleatismo (intelligibile), pitagorismo compreso."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:platone-teoria-idee",
+      "note": "Nucleo dottrinale: rimanda al concetto centrale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:atene-classica",
+      "note": "Collegamento interdisciplinare: Atene tra democrazia, guerra del Peloponneso e crisi politica."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-platone",
+      "title": "Platone — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/platone/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Verificata con fetch HTTP 200 il 2026-09-23: biografia, opere, dottrine, Platone orale/latino, iconografia.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento delle opere",
+        "dottrina delle idee",
+        "morale e politica",
+        "dialettica tarda e Timeo"
+      ]
+    },
+    {
+      "id": "sep-plato",
+      "title": "Plato — Stanford Encyclopedia of Philosophy",
+      "publisher": "Stanford University",
+      "url": "https://plato.stanford.edu/entries/plato/",
+      "sourceType": "academic-site",
+      "language": "en",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Verificata con fetch HTTP 200 il 2026-09-23: inquadramento critico, dottrine centrali, forma dialogica.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "dottrine centrali",
+        "forma dialogica e Socrate"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Date tradizionali di Platone?",
+        "a": "428/427–348/347 a.C. (Treccani; SEP indica 429?–347: oscillazione di un anno da dichiarare)."
+      },
+      {
+        "q": "Cos'è un'idea platonica?",
+        "a": "Un'essenza universale e immutabile che fonda ontologicamente le cose sensibili (ontos on)."
+      },
+      {
+        "q": "Quando fonda l'Accademia?",
+        "a": "Nel 387 a.C. ad Atene, come comunità di discussione e studio."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il passaggio dal 'concetto' socratico all''idea' platonica consiste in:",
+        "choices": [
+          "Abbandono di ogni universalismo",
+          "Attribuzione di sussistenza ontologica ai concetti universali",
+          "Riduzione delle idee a nomi convenzionali",
+          "Identificazione di idee e sensazioni"
+        ],
+        "answer": 1,
+        "explanation": "I concetti diventano enti reali (eide), modelli e fondamento delle cose sensibili."
+      }
+    ],
+    "questionsOpen": [
+      "Perché la gerarchia delle idee fonda la dialettica e anticipa la definizione per genere e differenza?",
+      "In che senso l'idea del bene è paragonata al sole?"
+    ]
+  },
+  "level": "intermediate"
+}

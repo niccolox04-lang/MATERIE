@@ -1,0 +1,164 @@
+{
+  "id": "storia:cina-rpc",
+  "subject": "storia",
+  "title": "RPC: Balzo, Rivoluzione Culturale, riforme",
+  "slug": "cina-rpc",
+  "status": "published",
+  "access": "pro",
+  "type": "approfondimento",
+  "parent": "storia:cina-contemporanea",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "chrono": {
+    "start": "1949",
+    "end": "2026",
+    "label": "dalla proclamazione a oggi (limite SCOPE; recente con fonti)",
+    "place": "Cina"
+  },
+  "region": "Asia",
+  "location": "Pechino, campagne, zone economiche speciali",
+  "territories": "Repubblica Popolare Cinese",
+  "geographicalContext": "Divario urbano-rurale e costiero-interno; diaspora e Taiwan.",
+  "summary": "RPC: ricostruzione e Corea, Balzo in Avanti (1958-60, comuni, carestia con stime divergenti dibattute), Rivoluzione Culturale (1966-76), Deng e riforme (1978, ZES), Tiananmen (1989) e Cina globale; incertezza quantitativa dichiarata.",
+  "explanations": {
+    "semplice": "I comunisti vincono e ricostruiscono il paese, ma due grandi errori di Mao causano milioni di morti per fame e persecuzioni nelle scuole. Dopo Mao un altro capo apre ai mercati senza dare libertà politica: la Cina diventa ricchissima ma resta una dittatura.",
+    "approfondita": "1949-57 (riforma agraria, Corea 1950-53, socializzazione); Balzo (1958-inizio 1960: comuni, brigate, acciaio diffuso, primato ideologico; fallimento produttivo e carestia 1959-62 con stime scholarly divergenti dichiarate senza cifra unica: Britannica ~20 mln, altre fino a decine di milioni; abrogazione inizio 1960 con orti e perizie); frazione Liu-Deng e Rivoluzione Culturale (1966-76: guardie rosse, purhe, scuole chiuse, Lin Biao 1971, Gang dei Quattro); Deng (1978: decollettivizzazione, ZES Shenzhen, quattro modernizzazioni, figlio unico 1979 come controllo); Tiananmen 1989 (dibattito dichiarato, cifre non consolidabili qui); Jiang-Zhu e OMC 2001, Xi e sorveglianza come orizzonte recente con fonti in evoluzione (giudizi provvisori dichiarati). Fatto contro interpretazioni: totalitarismo contro developmental state come cornici discusse.",
+    "tecnica": "Fonti: Britannica verificata per Balzo (metodi ed esiti); archivi PCC parziali; statistiche demografiche come serie discusse; stampa recente con cautela."
+  },
+  "definitions": [
+    "Comune popolare: unità collettiva del Balzo (lavoro e mense).",
+    "Rivoluzione Culturale: mobilitazione maoista contro apparati (1966-76).",
+    "ZES: zone economiche speciali per investimenti esteri."
+  ],
+  "examples": [
+    "Abrogazione inizio 1960: orti restituiti e perizie ripristinate.",
+    "Shenzhen: da villaggio a megalopoli come vetrina."
+  ],
+  "counterexamples": [
+    "Carestia solo climatica: politiche documentate come concause.",
+    "Riforme come democrazia: mercato senza pluralismo."
+  ],
+  "errorsTypical": [
+    "Cifra unica dei morti come dato (intervalli dibattuti).",
+    "Confondere Balzo (1958) e Cultura (1966).",
+    "Fare di Tiananmen un evento chiuso e chiarito."
+  ],
+  "keywords": [
+    "1949",
+    "Balzo",
+    "Cultura",
+    "1978",
+    "Tiananmen"
+  ],
+  "prerequisites": [
+    "storia:cina-repubblica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:cina-contemporanea",
+      "note": "RPC nel ramo Cina."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:post45",
+      "note": "Cina nella guerra fredda e dopo."
+    }
+  ],
+  "claims": [
+    {
+      "id": "balzo-metodi-esiti",
+      "statement": "Il Balzo (1958-inizio 1960) usò comuni, brigate e acciaio diffuso con primato ideologico; fallimento produttivo e carestia (Britannica: ~20 mln 1959-62; altre stime divergenti dibattute); abrogazione inizio 1960.",
+      "supportedBy": [
+        "britannica-great-leap"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "id": "rpc-quadro",
+      "statement": "Dal 1949 a Deng (1978) e Tiananmen (1989): ricostruzione, campagne maoiste, riforme di mercato senza pluralismo; giudizi sul recentissimo provvisori.",
+      "supportedBy": [
+        "manuale-cina-moderna",
+        "whe-prc"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "britannica-great-leap",
+      "title": "Great Leap Forward — Encyclopaedia Britannica",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Great-Leap-Forward",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": ["balzo-metodi-esiti"],
+      "note": "Passaggi verificati: 1958-inizio 1960, comuni/brigate/acciaio/ideologia; abrogazione inizio 1960; ~20 mln 1959-62 (altre stime divergenti dichiarate nel nodo)."
+    },
+    {
+      "id": "manuale-cina-moderna",
+      "title": "Profilo standard di Cina moderna e contemporanea",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-prc",
+      "title": "People's Republic of China - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Peoples_Republic_of_China/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": ["rpc-quadro"],
+      "note": "Ispezionato 2026-09-27. 1949 proclamazione, Mao, Balzo, Rivoluzione Culturale, Deng 1978, Tiananmen 1989."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Balzo in sintesi?",
+        "a": "1958-60: comuni e acciaio, carestia, abrogazione."
+      },
+      {
+        "q": "1978 e 1989?",
+        "a": "Riforme Deng; Tiananmen represso."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "L'abrogazione del Balzo avviene:",
+        "choices": [
+          "1958",
+          "Inizio 1960 con orti e perizie",
+          "1966",
+          "1978"
+        ],
+        "answer": 1,
+        "explanation": "Ritorno a orti e competenza dopo il fallimento."
+      }
+    ],
+    "questionsOpen": [
+      "Quanti morti? Perché gli storici divergono così tanto?",
+      "Mercato senza democrazia: il modello Deng regge? Con quali prove?"
+    ]
+  }
+}

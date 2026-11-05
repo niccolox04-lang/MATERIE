@@ -1,0 +1,62 @@
+{
+  "id": "filosofia:moderna",
+  "subject": "filosofia",
+  "title": "Filosofia moderna — panoramica",
+  "slug": "moderna",
+  "status": "published",
+  "access": "free",
+  "type": "area",
+  "parent": null,
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Dal Rinascimento a Kant: umanesimo, rivoluzione scientifica, razionalismo ed empirismo, Illuminismo e criticismo. Quest'area contiene per ora solo la panoramica; i rami analitici sono pianificati.",
+  "explanations": {
+    "semplice": "I moderni scoprono il soggetto: come conosciamo il mondo? Cartesio punta sulla ragione, Locke sull'esperienza, Kant cerca di metterli d'accordo chiedendosi cosa la ragione può davvero conoscere.",
+    "approfondita": "Snodi pianificati: umanesimo e platonismo rinascimentale (Ficino), rivoluzione scientifica e metodo, Cartesio, Spinoza, Leibniz, Hobbes e Locke, Hume, Illuminismo, Kant (rivoluzione copernicana, giudizi sintetici a priori). Stato redazionale onesto: solo panoramica pubblicata."
+  },
+  "definitions": [
+    "Rivoluzione copernicana kantiana: non la conoscenza si regola sugli oggetti, ma gli oggetti sul modo umano di conoscere."
+  ],
+  "examples": [
+    "Il dubbio cartesiano come fondazione del cogito."
+  ],
+  "keywords": [
+    "Cartesio",
+    "empirismo",
+    "Kant",
+    "Illuminismo",
+    "metodo"
+  ],
+  "prerequisites": [
+    "filosofia:antica"
+  ],
+  "relations": [
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:platone",
+      "note": "Razionalismo e innatismo rileggono Platone."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Razionalismo vs empirismo?",
+        "a": "Ragione come fonte (Cartesio, Spinoza, Leibniz) contro esperienza (Locke, Hume); Kant come sintesi critica."
+      }
+    ],
+    "quiz": [],
+    "questionsOpen": [
+      "Cosa significa che Kant 'copernicanamente' rovescia il rapporto mente-mondo?"
+    ]
+  },
+  "level": "foundation"
+}

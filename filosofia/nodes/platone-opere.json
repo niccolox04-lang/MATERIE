@@ -1,0 +1,119 @@
+{
+  "id": "filosofia:platone-opere",
+  "subject": "filosofia",
+  "title": "Platone — Opere e dialoghi",
+  "slug": "platone-opere",
+  "status": "published",
+  "access": "pro",
+  "type": "sottoargomento",
+  "parent": "filosofia:platone",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Il corpus è fatto di dialoghi (più Apologia e Lettere): fase giovanile socratica, transizione, grandi dialoghi della maturità e dialoghi dialettici della tarda età; alcune opere sono spurie e le datazioni sono ipotesi critiche.",
+  "explanations": {
+    "semplice": "Platone scrive quasi sempre dialoghi: personaggi che discutono. All'inizio Socrate interroga senza dare risposte; poi Platone espone le sue teorie nei grandi dialoghi (Simposio, Fedone, Repubblica); alla fine discute problemi difficilissimi di logica.",
+    "approfondita": "Ordinamento critico usuale. Giovanili/socratici: Apologia, Critone, Ione, Protagora, Carmide, Lachete, Liside, Eutifrone, Ippia I-II (Socrate storico più vicino). Transizione: Gorgia, Menone, Eutidemo, Cratilo (emergono dottrine proprie). Maturità: Simposio, Fedro, Fedone, Repubblica (piena teoria delle idee). Tardi/dialettici: Teeteto, Parmenide, Sofista, Politico, Filebo, Timeo, Crizia (incompiuto), Leggi (splendore drammatico sostituito dal rigore logico; revisione della dottrina). Corpus: spurie già per gli antichi (Erissia, Alcione, Sisifo, Assioco, Demodoco, Definizioni, Epinomide attribuita a Filippo di Opunte); Alcibiade I, Teagete, Clitofonte, Minosse ritenuti spuri; Lettere a lungo dubbie, oggi molte ritenute autentiche e in particolare la VII. Ordinamento antico in tetralogie per criteri di contenuto.",
+    "tecnica": "Avvertenza: la cronologia assoluta è ricostruzione stilometrica e contenutistica discussa. Le citazioni interne ai nodi non riportano passi letterali salvo verifica sul testo greco o traduzioni edite: nessuna citazione inventata."
+  },
+  "definitions": [
+    "Dialogo: forma letteraria di discussione tra personaggi, veicolo filosofico platonico.",
+    "Tetralogia: gruppo tardo-antico di quattro dialoghi ordinati per affinità di contenuto."
+  ],
+  "examples": [
+    "Menone: transizione (anamnesi, nuovo concetto di scienza).",
+    "Sofista: dialogo tardo (parricidio di Parmenide, alterità)."
+  ],
+  "errorsTypical": [
+    "Citare Epinomide o Alcibiade I come autentici senza avvertire del dubbio filologico.",
+    "Trattare la VII Lettera come sicuramente spuria: oggi il consenso è opposto."
+  ],
+  "keywords": [
+    "dialoghi",
+    "tetralogie",
+    "Apologia",
+    "Repubblica",
+    "Timeo",
+    "Leggi",
+    "spurie",
+    "Lettera VII"
+  ],
+  "prerequisites": [
+    "filosofia:platone-vita"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:platone",
+      "note": "Le opere sono parte del nodo Platone."
+    },
+    {
+      "type": "DEVELOPS_INTO",
+      "to": "filosofia:platone-teoria-idee",
+      "note": "Dai dialoghi giovanili alla teoria matura delle idee."
+    },
+    {
+      "type": "DEVELOPS_INTO",
+      "to": "filosofia:platone-dialettica",
+      "note": "Dai grandi dialoghi alla revisione dialettica tarda."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-platone",
+      "title": "Platone — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/platone/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Sezione Opere verificata con fetch il 2026-09-23.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento delle opere",
+        "dottrina delle idee",
+        "morale e politica",
+        "dialettica tarda e Timeo"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre dialoghi della maturità?",
+        "a": "Simposio, Fedone, Repubblica (più Fedro)."
+      },
+      {
+        "q": "Quali opere sono considerate spurie?",
+        "a": "Tra le altre: Erissia, Alcione, Sisifo, Assioco, oltre a Alcibiade I, Teagete, Clitofonte, Minosse."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La Lettera VII oggi è considerata:",
+        "choices": [
+          "Sicuramente spuria",
+          "Quasi concordemente autentica, ultimo scritto e documento politico",
+          "Opera di Aristotele",
+          "Falso rinascimentale"
+        ],
+        "answer": 1,
+        "explanation": "La filologia attuale la ritiene autentica e di eccezionale interesse (Treccani)."
+      }
+    ],
+    "questionsOpen": [
+      "Perché Platone sceglie il dialogo e non il trattato?",
+      "Cosa cambia stilisticamente tra maturità e tarda produzione?"
+    ]
+  },
+  "level": "intermediate"
+}

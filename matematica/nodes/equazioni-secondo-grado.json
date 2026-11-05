@@ -1,0 +1,113 @@
+{
+  "id": "matematica:equazioni-secondo-grado",
+  "subject": "matematica",
+  "title": "Equazioni di secondo grado",
+  "slug": "equazioni-secondo-grado",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "matematica:introduzione",
+  "order": 2,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.838Z",
+  "level": "intermediate",
+  "summary": "ax² + bx + c = 0 (a ≠ 0): formula risolutiva x = (−b ± √Δ)/2a con Δ = b² − 4ac; discussione (Δ>0 due reali, =0 doppia, <0 nessuna reale); somma/prodotto (Viète), scomposizione, parabola come modello geometrico.",
+  "explanations": {
+    "semplice": "Sono le equazioni con la x al quadrato. Si calcola il discriminante (Δ = b²−4ac): se è positivo ci sono due soluzioni, se è zero una sola, se è negativo nessuna (nei reali). La formula dà le soluzioni; il grafico è una parabola.",
+    "approfondita": "Derivazione per completamento del quadrato: ax²+bx+c=0 ⇒ x²+(b/a)x = −c/a ⇒ (x+b/2a)² = (b²−4ac)/4a², da cui la formula con discussione del segno di Δ. Casi: Δ>0 due reali distinte; Δ=0 radice doppia −b/2a; Δ<0 nessuna reale (complesse come estensione, da dichiarare). Viète: x₁+x₂ = −b/a, x₁x₂ = c/a; scomposizione ax²+bx+c = a(x−x₁)(x−x₂). Forme particolari: pure (ax²+c=0), spurie (ax²+bx=0 per raccoglimento), monomie. Modello: parabola y=ax²+bx+c, vertice in −b/2a, segno di a per concavità; zeri come intersezioni. Errori: formula con −4ac dimenticato, radici di Δ negativo 'reali', segno di b nella formula.",
+    "tecnica": "Discriminante come condizione di tangenza retta-parabola; numero di soluzioni su C sempre 2 (fondamentale dell'algebra, enunciato)."
+  },
+  "definitions": [
+    "Discriminante: Δ = b² − 4ac, decide numero e natura delle soluzioni.",
+    "Radice doppia: soluzione di molteplicità 2 per Δ = 0."
+  ],
+  "proof": [
+    "Dividi per a≠0: x² + (b/a)x + c/a = 0.",
+    "Completa il quadrato: (x + b/2a)² = b²/4a² − c/a = Δ/4a².",
+    "Estrai la radice (Δ≥0): x + b/2a = ±√Δ/2a, cioè x = (−b ± √Δ)/2a.",
+    "Se Δ<0 nessun reale soddisfa l'uguaglianza: zero soluzioni in R."
+  ],
+  "formulas": [
+    {
+      "expr": "x = (−b ± √(b²−4ac))/2a",
+      "meaning": "Formula risolutiva completa."
+    },
+    {
+      "expr": "x₁+x₂ = −b/a; x₁x₂ = c/a",
+      "meaning": "Relazioni di Viète tra radici e coefficienti."
+    }
+  ],
+  "examples": [
+    "x²−5x+6=0: Δ=1, x=2 o 3; verifica: 4−10+6=0.",
+    "x²+1=0: Δ=−4, nessuna soluzione reale."
+  ],
+  "counterexamples": [
+    "Δ<0 'due soluzioni immaginarie da usare nei reali': in R non esistono.",
+    "a=0 trattata come secondo grado: è primo grado (o degenere)."
+  ],
+  "errorsTypical": [
+    "Dimenticare il 2a al denominatore.",
+    "Segni di −b con b negativo.",
+    "Radice di Δ senza ±."
+  ],
+  "keywords": [
+    "discriminante",
+    "Viète",
+    "parabola",
+    "radice doppia",
+    "completamento quadrato"
+  ],
+  "prerequisites": [
+    "matematica:equazioni-primo-grado",
+    "matematica:insiemi-numeri"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "matematica:introduzione",
+      "note": "Algebra intermedia."
+    },
+    {
+      "type": "CAUSE",
+      "to": "matematica:teorema-pitagora",
+      "note": "Il calcolo con radici serve alle applicazioni metriche."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Formula e discussione?",
+        "a": "(−b±√Δ)/2a; Δ>0 due, =0 una doppia, <0 nessuna (reale)."
+      },
+      {
+        "q": "Viète in una riga?",
+        "a": "Somma −b/a, prodotto c/a."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "2x² − 8 = 0: soluzioni?",
+        "choices": [
+          "x = ±2",
+          "x = 4",
+          "nessuna",
+          "x = 0"
+        ],
+        "answer": 0,
+        "explanation": "x² = 4 ⇒ x = ±2 (equazione pura)."
+      }
+    ],
+    "questionsOpen": [
+      "Deriva la formula completando il quadrato.",
+      "Perché Δ<0 dà parabola senza intersezioni? Disegnala."
+    ]
+  }
+}

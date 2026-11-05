@@ -1,0 +1,114 @@
+{
+  "id": "filosofia:socrate",
+  "subject": "filosofia",
+  "title": "Socrate",
+  "slug": "socrate",
+  "status": "published",
+  "access": "free",
+  "type": "argomento",
+  "parent": "filosofia:antica",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Socrate (Atene, 470/469–399 a.C.) non lascia scritti: lo conosciamo da Platone, Senofonte e Aristofane. Pratica l'esame dialogico (elenchos) alla ricerca di definizioni universali del bene e della virtù; condannato a morte nel 399, diventa modello del filosofare come cura dell'anima.",
+  "explanations": {
+    "semplice": "Socrate gira per Atene facendo domande: 'cos'è la giustizia? cos'è il coraggio?' Mostra che chi crede di sapere, in realtà non sa dare una definizione. Dice che la virtù è conoscenza e che nessuno fa il male volontariamente.",
+    "approfondita": "Il metodo socratico (elenchos) confuta le opinioni inconsistenti e prepara definizioni universali: identità di virtù e scienza, insegnabilità della virtù, involontarietà del male, eudemonismo (il bene attrae la volontà). Socrate distingue la propria indagine etica dalle cosmologie e dalla retorica a pagamento dei Sofisti. Il processo del 399 (accusa di empietà e corruzione dei giovani) e la morte per cicuta, narrata nel Fedone, fissano l'immagine del filosofo che obbedisce alle leggi e alla coscienza. Problema storiografico: la 'questione socratica' — distinguere il Socrate storico dal personaggio platonico — resta aperta e va dichiarata come tale.",
+    "tecnica": "Fonti: Apologia, Critone, dialoghi giovanili platonici (Eutifrone, Lachete, Carmide); Senofonte (Memorabili, Apologia); Aristofane (Nuvole, testimonianza ostile e caricaturale); Aristotele, Metafisica (testimonianza sui concetti universali). Nessuna opera autografa: ogni attribuzione di dottrine va graduata per affidabilità."
+  },
+  "definitions": [
+    "Elenchos: esame confutatorio che mostra le contraddizioni dell'interlocutore.",
+    "Eudemonismo socratico: tesi per cui il bene, una volta conosciuto, attrae necessariamente la volontà.",
+    "Questione socratica: problema storiografico della distinzione tra Socrate storico e Socrate personaggio letterario."
+  ],
+  "examples": [
+    "Nell'Eutifrone Socrate chiede: cos'è il santo in sé, non un esempio di azione santa.",
+    "Nel Critone rifiuta la fuga dal carcere in nome dell'obbedienza alle leggi."
+  ],
+  "counterexamples": [
+    "Platone sviluppa la teoria delle idee: dottrina platonica, non attribuibile allo Socrate storico secondo la testimonianza aristotelica."
+  ],
+  "errorsTypical": [
+    "Citare come parole di Socrate frasi dei dialoghi maturi (Repubblica, Fedone): lì parla il personaggio platonico.",
+    "Dire che Socrate 'insegnava a scuola': insegnava dialogando in pubblico, senza scuola né compenso."
+  ],
+  "keywords": [
+    "elenchos",
+    "virtù-scienza",
+    "eudemonismo",
+    "questione socratica",
+    "Apologia",
+    "399 a.C."
+  ],
+  "prerequisites": [
+    "filosofia:presocratici"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:antica",
+      "note": "Socrate appartiene all'area antica."
+    },
+    {
+      "type": "INFLUENCES",
+      "to": "filosofia:platone",
+      "note": "Allievo diretto: Platone idealizza il maestro nei dialoghi."
+    },
+    {
+      "type": "CONTRASTS_WITH",
+      "to": "filosofia:presocratici",
+      "note": "Etica e definizioni contro cosmologia e retorica sofistica."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-socrate",
+      "title": "Socrate — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/socrate/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Riferimento indicato, URL non ancora verificato con fetch: verified=false fino a controllo.",
+      "verificationStatus": "reachable"
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Cos'è l'elenchos?",
+        "a": "L'esame confutatorio socratico che smaschera le contraddizioni delle opinioni."
+      },
+      {
+        "q": "Cosa significa 'virtù è scienza'?",
+        "a": "Chi conosce veramente il bene agisce bene; il male deriva da ignoranza."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Perché parliamo di 'questione socratica'?",
+        "choices": [
+          "Perché non sappiamo in che anno è nato",
+          "Perché Socrate non ha lasciato scritti e lo conosciamo solo da testimoni di parte",
+          "Perché i suoi libri sono andati perduti nel Medioevo",
+          "Perché usava uno pseudonimo"
+        ],
+        "answer": 1,
+        "explanation": "Le fonti (Platone, Senofonte, Aristofane, Aristotele) hanno intenti diversi; il Socrate storico va ricostruito criticamente."
+      }
+    ],
+    "questionsOpen": [
+      "L'elenchos produce sapere o solo consapevolezza di non sapere?",
+      "Obbedire alle leggi fino alla morte: coerenza o eccesso? Argomenta con il Critone."
+    ]
+  },
+  "level": "foundation"
+}

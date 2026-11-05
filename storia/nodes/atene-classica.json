@@ -1,0 +1,179 @@
+{
+  "id": "storia:atene-classica",
+  "subject": "storia",
+  "title": "Atene classica: democrazia e potenza",
+  "slug": "atene-classica",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-508",
+    "end": "-404",
+    "label": "da Clistene alla fine della guerra del Peloponneso",
+    "place": "Atene, Attica"
+  },
+  "summary": "Dalle riforme di Solone (594) e Clistene (508/507) all'età di Pericle e alla sconfitta del 404: democrazia diretta di assemblea e sorteggio, egemonia marittima della Lega delio-attica, fioritura culturale e crisi della guerra del Peloponneso (431–404).",
+  "explanations": {
+    "semplice": "Atene inventa la democrazia: i cittadini votano in assemblea e molti incarichi si danno a sorte. Con Pericle diventa ricca e potente, costruisce il Partenone, ma fa la guerra a Sparta per 27 anni e perde.",
+    "approfondita": "Linea: Solone (seisachtheia, classi censitarie, 594, data tradizionale); Pisistrato e tirannide; Clistene (508/507: dieci tribù territoriali, ostracismo, isegoria); guerre persiane (Maratona 490, Salamina 480) come mito fondativo; pentekontaetia ed egemonia: Lega delio-attica e tesoro trasferito ad Atene (454); riforme di Efialte-Pericle (misthoi, 451 legge sulla cittadinanza); istituzioni: ecclesia, boule dei 500, tribunali popolari, sorteggio e rotazione contro professionalizzazione; demagoghi dopo Pericle (Cleone, Nicia, Alcibiade); guerra del Peloponneso (431–404: Archidamo, peste del 430, pace di Nicia 421, spedizione in Sicilia 415–413, Egospotami 405, Trenta tiranni 404). Economia: tributi, miniere del Laurio, commercio; società: meteci e schiavi esclusi dalla cittadinanza; donne escluse. Interpretazioni: Tucidide (potere e paura), Grote (difesa liberale), Finley (politica antica), Rhodes (istituzioni). Distinguere fatto (date, decreti) da interpretazione (natura della democrazia).",
+    "tecnica": "Fonti primarie: Tucidide, Senofonte (Elleniche), Aristotele (Costituzione degli Ateniesi), epigrafia (decreti, liste dei tributi); commedia (Aristofane) come fonte sociale con cautela."
+  },
+  "definitions": [
+    "Democrazia diretta: potere esercitato dai cittadini in assemblea, non da rappresentanti.",
+    "Ostracismo: esilio decennale votato dall'assemblea contro il cittadino ritenuto pericoloso.",
+    "Misthos: indennità per la partecipazione (giurie, boule, poi ecclesia)."
+  ],
+  "examples": [
+    "La boule: 50 membri per tribù, rotazione annuale, pritanie.",
+    "Il tributo (phoros) degli alleati come base materiale dell'arche ateniese."
+  ],
+  "counterexamples": [
+    "La 'democrazia' come suffragio universale moderno: ad Atene esclusi donne, schiavi, meteci."
+  ],
+  "errorsTypical": [
+    "Datare Clistene al 510 senza oscillazione: 508/507 dopo la caduta di Ippia (510).",
+    "Attribuire a Pericle la democrazia intera: è culmine di un processo secolare."
+  ],
+  "keywords": [
+    "Solone",
+    "Clistene",
+    "Pericle",
+    "ecclesia",
+    "boule",
+    "ostracismo",
+    "Lega delio-attica",
+    "431-404"
+  ],
+  "prerequisites": [
+    "storia:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Primo caso di studio del metodo."
+    },
+    {
+      "type": "CAUSE",
+      "to": "storia:guerra-peloponneso",
+      "note": "Egemonia e rivalità sfociano nella guerra (nodo pianificato)."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:socrate",
+      "note": "Socrate cittadino-soldato e vittima della democrazia restaurata (399)."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:platone-vita",
+      "note": "Platone cresce nella crisi della polis democratica."
+    }
+  ],
+  "claims": [
+    {
+      "id": "atene-clistene",
+      "statement": "Clistene distribuisce gli Ateniesi in dieci tribù territoriali miste e porta il Consiglio a 500 membri, cinquanta per tribù (Aristotele, Costituzione degli Ateniesi 21.2-3).",
+      "supportedBy": [
+        "aristotele-ath-pol"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "atene-cittadinanza",
+      "statement": "Su proposta di Pericle, la cittadinanza è riservata a chi nasce da padre e madre entrambi cittadini: lo registra Aristotele per l'anno di Antidoto (Athenaion Politeia 26.3), subito dopo la reintroduzione dei trenta giudici locali sotto Lisicrate.",
+      "supportedBy": [
+        "aristotele-ath-pol",
+        "treccani-pericle"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "atene-mistoforia",
+      "statement": "Pericle introduce per primo il compenso (misthos) per il servizio nei tribunali popolari come misura democratica contro la ricchezza di Cimone; la tradizione posteriore vi collega anche la corruzione delle giurie (Aristotele, Athenaion Politeia 27.3-4).",
+      "supportedBy": [
+        "aristotele-ath-pol",
+        "treccani-pericle"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "aristotele-ath-pol",
+      "title": "Aristotele, Costituzione degli Ateniesi (Athenaion Politeia), trad. H. Rackham",
+      "author": "Aristotele",
+      "publisher": "Perseus Digital Library (Harvard University Press)",
+      "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0046%3Achapter%3D21%3Asection%3D2",
+      "sourceType": "primary-source",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "atene-clistene",
+        "atene-cittadinanza",
+        "atene-mistoforia"
+      ],
+      "note": "Contenuto ispezionato il 2026-09-27. Verificati: 21.2 divisione in dieci tribù in luogo delle quattro per mescolare il corpo civico; 21.3 Consiglio di 500 membri invece di 400, cinquanta per tribù; 26.3 legge proposta da Pericle sotto Antidoto che riserva la cittadinanza a chi nasce da entrambi i genitori cittadini; 27.2-4 Pericle per primo istituisce il compenso per i tribunali popolari come contromisura democratica alla ricchezza di Cimone (consiglio di Damonide di Oa). Limite: datazione assoluta 508/507 e 451/0 desunta dalla cronologia degli arconti eponimi, non dal solo testo tradotto."
+    },
+    {
+      "id": "treccani-pericle",
+      "title": "Pericle — Enciclopedia Italiana (Gaetano De Sanctis, 1935)",
+      "author": "Gaetano De Sanctis",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/pericle_(Enciclopedia-Italiana)/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "atene-cittadinanza",
+        "atene-mistoforia"
+      ],
+      "note": "Contenuto ispezionato il 2026-09-27. Verificati: ostracismo di Cimone (primavera 461), riforma dell'Areopago con poteri limitati ai giudizi di sangue, riforma di Efialte e consolidamento di Pericle con paga eliastica di due oboli che consente ai non abbienti l'ufficio di giudice. Limite: sintesi storiografica del 1935, da integrare con epigrafia e dibattito posteriore (Rhodes, Ostwald)."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre date cardine di Atene?",
+        "a": "594 Solone, 508/507 Clistene, 431–404 guerra del Peloponneso."
+      },
+      {
+        "q": "Chi era escluso dalla cittadinanza?",
+        "a": "Donne, schiavi, meteci (stranieri residenti)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il sorteggio serviva a:",
+        "choices": [
+          "Risparmiare tempo",
+          "Impedire la professionalizzazione del potere e garantire rotazione",
+          "Scegliere gli strateghi",
+          "Punire i colpevoli"
+        ],
+        "answer": 1,
+        "explanation": "Gli strateghi erano invece eletti; il sorteggio valeva per boule e tribunali."
+      }
+    ],
+    "questionsOpen": [
+      "Arche o democrazia: l'impero contraddice la libertà ateniese?",
+      "Tucidide è fonte o interprete? Distingui i due piani."
+    ]
+  },
+  "contentDepth": "deep"
+}

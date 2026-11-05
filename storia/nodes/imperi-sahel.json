@@ -1,0 +1,179 @@
+{
+  "id": "storia:imperi-sahel",
+  "subject": "storia",
+  "title": "Ghana, Mali, Songhai: stati ed espansioni",
+  "slug": "imperi-sahel",
+  "status": "published",
+  "access": "pro",
+  "type": "approfondimento",
+  "parent": "storia:africa-occidentale",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "300",
+    "end": "1591",
+    "label": "da Wagadu a Tondibi (date circa, dibattute)",
+    "place": "Sahel occidentale, Niger"
+  },
+  "region": "Africa",
+  "location": "Koumbi Saleh, Niani, Gao, Timbuktu, Djenné",
+  "territories": "Wagadu, Mali, Songhai con province e vassalli",
+  "geographicalContext": "Niger medio come asse fluviale; savana agricola contro deserto fiscale.",
+  "summary": "Approfondimento politico: Ghana/Wagadu, Mali di Sundiata e Mansa Musa (hajj 1324), Songhai di Sonni Ali e Askia Mohamed (Tomba 1495, Islam ufficiale, Tondibi 1591); amministrazione, eserciti, declini.",
+  "explanations": {
+    "semplice": "Tre grandi regni uno dopo l'altro: il Ghana ricco d'oro, il Mali con il famoso viaggio del re a La Mecca, il Songhai con un re saggio che costruisce scuole e una tomba piramide. Alla fine arrivano i cannoni del Marocco e l'impero cade.",
+    "approfondita": "Ghana/Wagadu: capitale doppia di Koumbi (al-Bakri: re e mercanti separati), controllo dell'oro senza miniere proprie (intermediazione), almoravidi come pressione discussa (non causa unica). Mali: Sundiata e Kirina (~1235, tradizione epica Sunjata), Niani, Mansa Musa (hajj 1324 al Cairo: oro e generosità secondo i cronisti arabi, cifre leggendarie mai verificate), Djenné e divisione provinciale; declino per successioni e Songhai. Songhai: Sonni Ali (1464-92, Timbuktu e Djenné 1468-75), Askia Mohamed (1493-1528: pellegrinaggio, Islam ufficiale, Tomba di Gao 1495, province e qadi); Daud e crisi dinastiche; Tondibi 1591 (archibugi marocchini, Arma a Timbuktu) come cesura documentata. Amministrazione: tributi, eserciti fluviali e di cavalleria, cities guarigione. Storiografia: ricostruzioni da tarikh locali contro cronache esterne, senza vincitore.",
+    "tecnica": "Fonti: al-Bakri, Ibn Battuta, tarikh al-Sudan e al-Fattash, archeologia (Koumbi, Niani, Gao); epica Sunjata come memoria."
+  },
+  "definitions": [
+    "Mansa: re-sovrano del Mali.",
+    "Askia: titolo dinastico Songhai dopo il 1493.",
+    "Arma: discendenti marocchini a Timbuktu dopo il 1591."
+  ],
+  "examples": [
+    "Tomba di Askia (Gao, 1495): piramide in banco, Islam ufficiale.",
+    "Hajj 1324: Mansa Musa al Cairo nei cronisti arabi."
+  ],
+  "counterexamples": [
+    "Mali come regno di una città: rete di province e vassalli.",
+    "Tondibi come sola tecnologia: crisi dinastica previa."
+  ],
+  "errorsTypical": [
+    "Cifre dell'oro di Musa come dati (leggenda quantificata).",
+    "Confondere Ghana antico e Ghana 1957.",
+    "Fare di Sonni Ali un distruttore di Timbuktu senza Askia dopo."
+  ],
+  "keywords": [
+    "Wagadu",
+    "Sundiata",
+    "Mansa Musa",
+    "Askia",
+    "Tondibi"
+  ],
+  "prerequisites": [
+    "storia:africa-occidentale"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:africa-occidentale",
+      "note": "Stati del ramo saheliano."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:trans-sahariano",
+      "note": "Base fiscale degli imperi."
+    }
+  ],
+  "claims": [
+    {
+      "id": "songhai-askia",
+      "statement": "Askia Mohamed (1493-1528) fece di Gao la capitale, dell'Islam la religione ufficiale dopo il pellegrinaggio e costruì la Tomba piramidale (1495); l'impero cadde a Tondibi (1591) contro il Marocco.",
+      "supportedBy": [
+        "unesco-askia-tomb",
+        "whe-songhai"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "mali-musa",
+      "statement": "Mansa Musa compì l'hajj nel 1324 con largizioni al Cairo secondo i cronisti arabi; l'entità della ricchezza resta leggenda non verificabile.",
+      "supportedBy": [
+        "manuale-sahel",
+        "whe-mali"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "unesco-askia-tomb",
+      "title": "Tomb of Askia — UNESCO World Heritage Centre",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1139",
+      "sourceType": "institution",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": ["songhai-askia"],
+      "note": "Passaggi verificati: Tomba 1495 a Gao; potenza XV-XVI per sale/oro trans-sahariani; Islam ufficiale dopo La Mecca."
+    },
+    {
+      "id": "manuale-sahel",
+      "title": "Profilo standard di Africa occidentale medievale",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-songhai",
+      "title": "Songhai Empire - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Songhai_Empire/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": ["songhai-askia"],
+      "note": "Ispezionato 2026-09-27. Sonni Ali 1464-92, Askia Mohamed 1493-1528, Tomba Gao 1495, caduta 1591 Marocco."
+    },
+    {
+      "id": "whe-mali",
+      "title": "Mali Empire - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Mali_Empire/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": ["mali-musa"],
+      "note": "Ispezionato 2026-09-27. Sundiata, Mansa Musa hajj 1324, Niani, Timbuktu, oro."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre imperi e una data?",
+        "a": "Ghana, Mali 1235, Songhai 1464-1591."
+      },
+      {
+        "q": "Askia in sintesi?",
+        "a": "1493-1528: Gao, Islam, Tomba 1495."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Tondibi (1591) oppone:",
+        "choices": [
+          "Mali e Ghana",
+          "Songhai e Marocco con archibugi",
+          "Egitto e Nubia",
+          "Portogallo e Spagna"
+        ],
+        "answer": 1,
+        "explanation": "Spedizione marocchina, fine dell'impero."
+      }
+    ],
+    "questionsOpen": [
+      "Perché gli imperi cadono: armi o crisi interne? Confronta 1591.",
+      "Mansa Musa: cosa dicono davvero le fonti arabe?"
+    ]
+  }
+}

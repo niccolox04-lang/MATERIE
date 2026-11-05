@@ -1,0 +1,197 @@
+{
+  "id": "storia:giappone-contemporaneo",
+  "subject": "storia",
+  "title": "Giappone: imperialismo, guerra, dopoguerra",
+  "slug": "giappone-contemporaneo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 26,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "chrono": {
+    "start": "1894",
+    "end": "1952",
+    "label": "dalla prima guerra sino-giapponese a San Francisco (con code)",
+    "place": "Giappone, Asia-Pacifico"
+  },
+  "region": "Asia",
+  "location": "Arcipelago, Corea, Manciuria, Pacifico",
+  "territories": "Impero giapponese e poi Giappone postbellico",
+  "geographicalContext": "Insularit\u00c3\u00a0 senza risorse: espansione continentale e navale.",
+  "summary": "Giappone potenza: guerre sino-giapponese e russo-giapponese, annessione Corea (1910), ventennio liberale e militarizzazione, Manciuria 1931, guerra in Cina e Pacifico, resa 1945, occupazione MacArthur e Costituzione 1947 (verificati).",
+  "explanations": {
+    "semplice": "Il Giappone diventa forte in fretta e vuole comandare in Asia: batte Cina e Russia, prende la Corea, poi invade la Cina e attacca gli Americani. Perde malissimo con due bombe atomiche; gli Americani scrivono le regole nuove (niente guerra) e il paese rinasce ricco.",
+    "approfondita": "1894-95 (Cina) e 1904-05 (Russia, Tsushima) come ingresso tra potenze; Corea 1910; Taisho e partiti con limiti; Manciuria 1931 e stato fantoccio; Cina 1937 e guerra totale; Pearl Harbor 1941 e Pacifico; Midway-Guadalcanal come svolte; bombe e URSS agosto 1945, resa 2-9-1945 Missouri. Occupazione (1945-52, MacArthur/SCAP quasi solo USA); Tokyo e 7 condanne; Costituzione (promulgata 3-11-1946, vigente 3-5-1947): democrazia, art. 9 rinuncia alla guerra, imperatore simbolo, voto alle donne; San Francisco 1951 (effetto 28-4-1952). Fatto contro dibattiti: responsabilit\u00c3\u00a0 della guerra e Yasukuni come memoria aperta dichiarata; bombe contro blocco come concause discusse.",
+    "tecnica": "Fonti: Britannica verificate (occupazione/costituzione), atti di resa, processi di Tokyo, statistiche belliche come ordini discussi."
+  },
+  "definitions": [
+    "Articolo 9: rinuncia alla guerra come diritto sovrano.",
+    "SCAP: comando supremo alleato di MacArthur.",
+    "Trattato di San Francisco: pace 1951, effetto 1952."
+  ],
+  "examples": [
+    "Missouri 2-9-1945: firma della resa in rada a Tokyo.",
+    "Art. 9: niente forze di terra, mare e aria."
+  ],
+  "counterexamples": [
+    "Democratizzazione spontanea interna: occupazione che accelera tendenze.",
+    "Bombe come unica causa: blocco e URSS come concause discusse."
+  ],
+  "errorsTypical": [
+    "Confondere 1945 (resa) e 1952 (fine occupazione).",
+    "Fare dell'imperatore un capro espiatorio processato (non lo fu).",
+    "Datare la Costituzione al 1946 come vigenza (1947)."
+  ],
+  "keywords": [
+    "Manciuria 1931",
+    "Pearl Harbor",
+    "Missouri",
+    "MacArthur",
+    "art. 9"
+  ],
+  "prerequisites": [
+    "storia:giappone-meiji"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Giappone contemporaneo dopo il ramo premoderno."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:guerre",
+      "note": "Fronte del Pacifico della seconda guerra mondiale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:cina-repubblica",
+      "note": "Invasione 1937 e guerra in Cina."
+    }
+  ],
+  "claims": [
+    {
+      "id": "giappone-occupazione",
+      "statement": "Occupazione alleata 1945-52 (MacArthur/SCAP); Costituzione promulgata 1946 e vigente 1947 (democrazia, art. 9, imperatore simbolo, voto donne); San Francisco 1951, effetto 1952.",
+      "supportedBy": [
+        "britannica-occupation-japan"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "id": "giappone-imperialismo",
+      "statement": "Da guerre sino-russa a Manciuria 1931 e Pacifico: espansionismo con dibattiti su responsabilit\u00c3\u00a0 e Yasukuni come memoria aperta.",
+      "supportedBy": [
+        "manuale-giappone",
+        "whe-japan-imperialism"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "id": "giappone-resa-1945",
+      "statement": "Il 2 settembre 1945 sulla Missouri i delegati Shigemitsu e Umezu firmarono la resa incondizionata (8 paragrafi); MacArthur accett\u00c3\u00b2 per gli Alleati.",
+      "supportedBy": [
+        "nara-surrender"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "britannica-occupation-japan",
+      "title": "Occupation of Japan \u00e2\u20ac\u201d Encyclopaedia Britannica",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/occupation-of-Japan",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "giappone-occupazione"
+      ],
+      "note": "Passaggi verificati: 1945-52 MacArthur/SCAP; Costituzione 1946/47 con art. 9; San Francisco 1951, effetto 28-4-1952."
+    },
+    {
+      "id": "manuale-giappone",
+      "title": "Profilo standard di Giappone premoderno",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "nara-surrender",
+      "title": "Instrument of Surrender (1945) \u00e2\u20ac\u201d U.S. National Archives",
+      "publisher": "U.S. National Archives and Records Administration",
+      "url": "https://www.archives.gov/milestone-documents/surrender-of-japan",
+      "sourceType": "primary-source",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "giappone-resa-1945"
+      ],
+      "note": "PRIMARIA: testo integrale verificato (8 paragrafi, Missouri 2-9-1945, Shigemitsu/Umezu, MacArthur). Seconda primaria del corpus."
+    },
+    {
+      "id": "whe-japan-imperialism",
+      "title": "Japanese Imperialism - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Japanese_Imperialism/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "giappone-imperialismo"
+      ],
+      "note": "Ispezionato 2026-09-27. Guerre sino-giapponese 1894-95, russo-giapponese 1904-05, Corea 1910, Manciuria 1931, Pacifico 1941."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "1945 e 1952?",
+        "a": "Resa Missouri; fine occupazione San Francisco."
+      },
+      {
+        "q": "Costituzione in sintesi?",
+        "a": "1947: democrazia, art. 9, simbolo, voto donne."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "L'art. 9 stabilisce:",
+        "choices": [
+          "Leva obbligatoria",
+          "Rinuncia alla guerra come diritto sovrano",
+          "Divinit\u00c3\u00a0 imperiale",
+          "Neutralit\u00c3\u00a0 armata svizzera"
+        ],
+        "answer": 1,
+        "explanation": "Mai pi\u00c3\u00b9 forze di terra, mare e aria."
+      }
+    ],
+    "questionsOpen": [
+      "Bombe o blocco? Le concause della resa a confronto.",
+      "Yasukuni: memoria divisa tra Tokyo e vicini?"
+    ]
+  },
+  "contentDepth": "deep"
+}

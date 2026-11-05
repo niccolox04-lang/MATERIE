@@ -1,0 +1,54 @@
+{
+  "id": "filosofia:metodo-lessico",
+  "subject": "filosofia",
+  "title": "Metodo e lessico filosofico — panoramica",
+  "slug": "metodo-lessico",
+  "status": "published",
+  "access": "free",
+  "type": "area",
+  "parent": null,
+  "order": 4,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Strumenti trasversali: logica e argomentazione, lettura dei testi, termini tecnici (eidos, ousia, logos, a priori). Solo panoramica pubblicata; schede lessicali pianificate con etimologie verificate.",
+  "explanations": {
+    "semplice": "Prima di discutere bisogna capirsi: questa area insegna a riconoscere una buona argomentazione e a usare le parole tecniche nel senso giusto.",
+    "approfondita": "Snodi pianificati: logica proposizionale e sillogistica, fallacie, metodi di lettura (analisi del testo, contestualizzazione), schede lessicali greco-latine con fonti lessicografiche verificate (nessuna etimologia inventata). Stato redazionale onesto: solo panoramica pubblicata."
+  },
+  "definitions": [
+    "Fallacia: errore sistematico di ragionamento che sembra valido."
+  ],
+  "examples": [
+    "Distinguere 'valido' (forma) da 'vero' (contenuto) in un sillogismo."
+  ],
+  "keywords": [
+    "logica",
+    "argomentazione",
+    "fallacie",
+    "lessico",
+    "metodo"
+  ],
+  "prerequisites": [],
+  "relations": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Argomento valido vs vero?",
+        "a": "Valido: conclusione segue dalle premesse; vero: premesse e conclusione corrispondono ai fatti."
+      }
+    ],
+    "quiz": [],
+    "questionsOpen": [
+      "Individua premesse e conclusione in un passo filosofico a scelta."
+    ]
+  },
+  "level": "foundation"
+}

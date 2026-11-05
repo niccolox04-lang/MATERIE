@@ -1,0 +1,110 @@
+{
+  "id": "greco:sintassi-casi",
+  "subject": "greco",
+  "title": "Sintassi dei casi",
+  "slug": "sintassi-casi",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 4,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Funzioni dei cinque casi: nominativo (soggetto, predicativo), genitivo (specificazione, partitivo, causa, tempo), dativo (termine, mezzo, causa, tempo), accusativo (oggetto, moto, estensione), vocativo; preposizioni come marche di ruolo e concordanze con l'articolo.",
+  "explanations": {
+    "semplice": "In greco la fine della parola dice il suo lavoro nella frase: chi fa (nominativo), di chi/cosa (genitivo), a chi/con cosa (dativo), chi/cosa subisce o dove si va (accusativo). Le preposizioni aiutano: con l'accusativo si va verso, col genitivo si viene da, col dativo si sta fermi.",
+    "approfondita": "Nominativo: soggetto, predicato nominale (coincidente in caso con il soggetto), apposizione; nominativo con infinito (costruzione personale). Genitivo: possessivo/specificazione, partitivo (molti di), soggettivo/oggettivo (amore del padre: chi ama/chi è amato), causa, prezzo, tempo determinato (di notte), paragone dopo comparativo, con preposizioni di moto da luogo (ἀπό, ἐκ) e agente con ὑπό + genitivo. Dativo: termine (a), possesso (è a me = ho), mezzo/strumento senza preposizione, causa, modo, tempo (nel), luogo con ἐν, compagnia con σύν + dativo; dativo + ἐπί per base. Accusativo: oggetto diretto (anche interno: μάχην μάχεσθαι), moto a luogo con εἰς + accusativo, estensione di tempo/spazio (molti anni), soggetto dell'infinito in proposizione oggettiva, doppio accusativo (chiedere/insegnare qualcosa a qualcuno). Vocativo con ὦ. Preposizioni polisemiche: διά + genitivo (attraverso, moto), + accusativo (a causa di); παρά + genitivo/accusativo/dativo (da/presso/accanto). Regola operativa: articolo + desinenza decidono il caso; il verbo reggente conferma (verbi di dare vogliono il dativo, di privare il genitivo).",
+    "tecnica": "Operativo: genitivo di paragone contro accusativo di relazione; dativo etico; accusativo avverbiale (πολλά, τι); attrazione del relativo come ponte al periodo."
+  },
+  "definitions": [
+    "Reggenza: caso richiesto dal verbo o dalla preposizione.",
+    "Genitivo partitivo: indica l'insieme da cui si preleva (molti degli uomini).",
+    "Dativo di possesso: dativo della persona + essere per avere."
+  ],
+  "examples": [
+    "τῷ στρατηγῷ ἔδωκαν: dativo di termine (diedero al generale).",
+    "ἐξ Ἀθηνῶν ἦλθον: ἐκ + genitivo = moto da luogo (vennero da Atene)."
+  ],
+  "counterexamples": [
+    "Genitivo sempre possessivo: spesso è partitivo, di causa o di tempo.",
+    "Dativo sempre moto a luogo: in greco il moto usa accusativo con εἰς."
+  ],
+  "errorsTypical": [
+    "Tradurre ogni genitivo con di senza distinguere la funzione.",
+    "Confondere accusativo di estensione (tre giorni) con oggetto diretto.",
+    "Ignorare la preposizione che fissa il ruolo."
+  ],
+  "keywords": [
+    "nominativo",
+    "genitivo",
+    "dativo",
+    "accusativo",
+    "reggenza",
+    "preposizioni"
+  ],
+  "prerequisites": [
+    "greco:declinazioni-nome",
+    "greco:verbo-presente"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "greco:introduzione",
+      "note": "Dalla morfologia agli usi in frase."
+    },
+    {
+      "type": "SIMILAR_TO",
+      "to": "latino:sistema-casi",
+      "note": "Caso come categoria comune, realizzazioni diverse."
+    }
+  ],
+  "sources": [
+    {
+      "id": "grammatiche-greco",
+      "title": "Sintassi standard dei casi nelle grammatiche scolastiche",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su grammatica a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Moti con le preposizioni?",
+        "a": "εἰς + acc. (verso), ἐκ/ἀπό + gen. (da), ἐν + dat. (in)."
+      },
+      {
+        "q": "Tre genitivi non possessivi?",
+        "a": "Partitivo, di paragone, di tempo/causa."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'πολλὰς ἡμέρας ἔμειναν' (molti giorni restarono): l'accusativo è:",
+        "choices": [
+          "Oggetto diretto",
+          "Estensione di tempo",
+          "Moto a luogo",
+          "Soggetto"
+        ],
+        "answer": 1,
+        "explanation": "Durata senza preposizione: quanto tempo."
+      }
+    ],
+    "questionsOpen": [
+      "Analizza articolo e desinenza per decidere il caso in due frasi.",
+      "Quando il dativo è mezzo e quando termine? Prova col verbo."
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "id": "matematica:euclide",
+  "subject": "matematica",
+  "title": "Euclide: congruenza, parallelismo, Talete",
+  "slug": "euclide",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "matematica:introduzione",
+  "order": 5,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Geometria sintetica: postulati, criteri di congruenza dei triangoli (LLL, LAL, ALA), parallelismo (quinto postulato, angoli alterni, somma 180°), teorema di Talete e divisione di segmenti in parti proporzionali.",
+  "explanations": {
+    "semplice": "Due figure uguali si possono sovrapporre perfettamente: per i triangoli bastano tre misure giuste (tre lati, oppure due lati e l'angolo in mezzo, oppure due angoli e il lato in mezzo). Le rette parallele non si incontrano mai e tagliate da una trasversale fanno angoli uguali a coppie. Una retta parallela a un lato taglia gli altri due in proporzione.",
+    "approfondita": "Impianto: enti primitivi (punto, retta, piano), postulati (per due punti una retta; segmenti prolungabili; cerchi; angoli retti uguali; quinto: unicità della parallela per un punto esterno), nozioni comuni. Congruenza come sovrapposizione: I criterio LAL (assioma o teorema secondo l'impostazione), II ALA (con somma angoli), III LLL; triangoli isosceli (angoli alla base) e viceversa; disuguaglianze (lato maggiore contro angolo maggiore). Parallelismo: rette tagliate da trasversale con alterni uguali ⇒ parallele; con il quinto, parallele ⇒ alterni uguali; somma interna del triangolo 180°; secondo criterio di parallelismo per perpendicolari comuni. Talete: fascio di parallele su due trasversali dà segmenti proporzionali; corollario nel triangolo (parallela a un lato divide gli altri in proporzione) e viceversa; divisione di un segmento in n parti con le parallele; punti medi e mid-segment. Metodo: ipotesi, tesi, figura, dimostrazione per assurdo o per costruzione; errore tipico: usare la tesi come ipotesi.",
+    "tecnica": "Quinto postulato come indipendenza (geometrie non euclidee come cenno, non sviluppo); Talete come fondamento della similitudine futura."
+  },
+  "definitions": [
+    "Congruenti: sovrapponibili con movimento rigido.",
+    "Parallele: complanari senza punti comuni (unicità per punto esterno).",
+    "Fascio di parallele: insieme di rette parallele tagliate da trasversali."
+  ],
+  "proof": [
+    "Somma angoli: per un vertice traccia la parallela alla base; gli alterni eguagliano i base e con l'angolo piatto danno 180°.",
+    "Talete (idea): parallele equidistanti staccano segmenti uguali; per multipli e sottomultipli si estende alle proporzioni con segmenti commensurabili, poi per continuità.",
+    "Isoscele: se due lati sono uguali, gli angoli opposti coincidono per LAL ribaltando il triangolo su sé stesso."
+  ],
+  "formulas": [
+    {
+      "expr": "LLL, LAL, ALA",
+      "meaning": "Criteri minimi per la congruenza dei triangoli."
+    },
+    {
+      "expr": "AB : A'B' = AC : A'C' (parallele)",
+      "meaning": "Talete: trasversali su fascio di parallele."
+    }
+  ],
+  "examples": [
+    "Dividere un segmento in 5 parti: fascio con 5 intervalli uguali su una semiretta ausiliaria.",
+    "Verifica di parallelismo con alterni di 62° e 62°."
+  ],
+  "counterexamples": [
+    "Due angoli uguali non bastano per la congruenza (danno similitudine).",
+    "Lato-lato-angolo non compreso (SSA ambiguo): non è criterio."
+  ],
+  "errorsTypical": [
+    "Dare per noto il quinto postulato nelle prove delle parallele.",
+    "Confondere Talete con Pitagora nei calcoli metrici.",
+    "Figura particolare scambiata per prova generale."
+  ],
+  "keywords": [
+    "congruenza",
+    "LLL LAL ALA",
+    "parallele",
+    "Talete",
+    "180 gradi"
+  ],
+  "prerequisites": [
+    "matematica:introduzione",
+    "matematica:equazioni-primo-grado"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "matematica:introduzione",
+      "note": "Geometria sintetica di base."
+    },
+    {
+      "type": "CAUSE",
+      "to": "matematica:teorema-pitagora",
+      "note": "Il quadro euclideo fonda la metrica del triangolo rettangolo."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "I tre criteri?",
+        "a": "LLL, LAL (angolo compreso), ALA (lato compreso)."
+      },
+      {
+        "q": "Talete in una riga?",
+        "a": "Parallele su due trasversali: segmenti in proporzione."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Due triangoli con due lati e l'angolo NON compreso uguali sono:",
+        "choices": [
+          "Sempre congruenti",
+          "Non necessariamente (caso ambiguo SSA)",
+          "Sempre simili",
+          "Uguali per ALA"
+        ],
+        "answer": 1,
+        "explanation": "SSA può dare due triangoli diversi: serve l'angolo compreso."
+      }
+    ],
+    "questionsOpen": [
+      "Dimostra la somma 180° con la parallela al vertice.",
+      "Dividi un segmento in 3 parti uguali solo con riga e parallele."
+    ]
+  }
+}

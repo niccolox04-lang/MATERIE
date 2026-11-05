@@ -1,0 +1,118 @@
+{
+  "id": "fisica:misure-errori",
+  "subject": "fisica",
+  "title": "Misure, unità SI, errori",
+  "slug": "misure-errori",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "fisica:introduzione",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "Misurare è confrontare col campione: SI (metro, kilogrammo, secondo, ampere, kelvin, mole, candela), cifre significative, errori sistematici e casuali, media e scarto, propagazione in somme e prodotti, notazione scientifica e ordini di grandezza.",
+  "explanations": {
+    "semplice": "Ogni misura ha un'unità e un'incertezza: dire 12 cm con un righello millimetrato non è come dirlo a occhio. Si scrive con le cifre giuste, si ripete per sbagliare meno, e quando si calcola l'errore si allarga.",
+    "approfondita": "SI: sette unità con campioni e definizioni (metro da c, kilogrammo da Planck come orizzonte); multipli e sottomultipli. Cifre significative: ultima incerta; zeri e decimali; arrotondamento alla fine dei calcoli. Errori sistematici (taratura, parallasse) contro casuali (fluttuazioni): precisione contro accuratezza con il bersaglio. Serie: media come stima, semidispersione o scarto come incertezza scolastica; istogrammi come cenno. Propagazione: somme con somma assoluta, prodotti con somma relativa (regola operativa, non dimostrazione statistica); caso del monomio e delle potenze. Notazione scientifica e ordini di grandezza (Fermi come metodo dichiarato). Errori: cifre del display come vere, propagazione ignorata, unità dimenticate.",
+    "tecnica": "Operativo: portata e sensibilità dello strumento; scelta dell'ultima cifra; compatibilità tra misure come sovrapposizione delle fasce."
+  },
+  "definitions": [
+    "Sensibilità: minima variazione apprezzabile dallo strumento.",
+    "Errore sistematico: scostamento ripetibile e correggibile.",
+    "Cifre significative: cifre certe più la prima incerta."
+  ],
+  "formulas": [
+    {
+      "expr": "Δ(a+b) = Δa+Δb; Δ(ab)/ab = Δa/a+Δb/b",
+      "meaning": "Propagazione operativa in somme e prodotti."
+    },
+    {
+      "expr": "a·10ⁿ con 1 ≤ a < 10",
+      "meaning": "Notazione scientifica e ordini di grandezza."
+    }
+  ],
+  "examples": [
+    "Righello millimetrato: 12,3 cm con ±0,1 cm, non 12,345.",
+    "12,0 cm ± 0,2 e 8,0 cm ± 0,1: somma 20,0 ± 0,3 cm."
+  ],
+  "counterexamples": [
+    "Media di misure affette da sistematico come verità: resta distorta.",
+    "Tante cifre come tanta precisione: decide lo strumento."
+  ],
+  "errorsTypical": [
+    "Arrotondare a ogni passaggio invece che alla fine.",
+    "Mescolare unità diverse senza conversioni.",
+    "Confondere precisione (ripetibilità) e accuratezza (vicinanza al vero)."
+  ],
+  "keywords": [
+    "SI",
+    "cifre significative",
+    "sistematici",
+    "propagazione",
+    "notazione scientifica"
+  ],
+  "prerequisites": [
+    "fisica:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "fisica:introduzione",
+      "note": "Strumenti del metodo prima delle leggi."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "matematica:insiemi-numeri",
+      "note": "Potenze di dieci e arrotondamenti."
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-misure",
+      "title": "Profilo standard di metrologia scolastica (SI, errori, propagazione)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Sistematico o casuale?",
+        "a": "Sistematico ripetibile (taratura); casuale fluttuante (media)."
+      },
+      {
+        "q": "Propagazione in sintesi?",
+        "a": "Somme: assoluti; prodotti: relativi."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Calcolatrice mostra 3,14159265 per un raggio a due cifre: scrivi:",
+        "choices": [
+          "3,14159265",
+          "3,1",
+          "3",
+          "3,14 ± errore"
+        ],
+        "answer": 1,
+        "explanation": "Le cifre seguono i dati: due cifre, non il display."
+      }
+    ],
+    "questionsOpen": [
+      "Progetta 5 ripetizioni e stima media e incertezza.",
+      "Quando due misure sono incompatibili? (fasce)"
+    ]
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "id": "storia:trans-sahariano",
+  "subject": "storia",
+  "title": "Commercio trans-sahariano: rotte, merci, città",
+  "slug": "trans-sahariano",
+  "status": "published",
+  "access": "pro",
+  "type": "approfondimento",
+  "parent": "storia:africa-occidentale",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "300",
+    "end": "1600",
+    "label": "dalle prime piste all'apogeo Songhai (convenzione)",
+    "place": "Sahara, Maghreb, Sahel"
+  },
+  "region": "Africa",
+  "location": "Piste Sijilmasa-Taghaza-Timbuktu-Gao; oasi e pozzi",
+  "territories": "Empori terminali nord e sud del deserto",
+  "geographicalContext": "Cammello come nave del deserto; oasi come tappe obbligate; stagionalità delle carovane.",
+  "summary": "Approfondimento economico: geografia delle piste, merci (oro, sale, schiavi, libri, cavalli, stoffe), intermediari (berberi, juula), città-emporio, fiscalità imperiale e islamizzazione per commercio.",
+  "explanations": {
+    "semplice": "Attraversare il deserto coi cammelli per scambiare l'oro del sud col sale del nord: chi controlla le tappe e le tasse diventa ricco e potente. Con le merci viaggiano anche la religione e i libri.",
+    "approfondita": "Geografia: assi Sijilmasa-Taghaza-Awdaghust, Ghadames-Gao, Fezzan-Kanem; oasi, pozzi e tempi di percorrenza come vincoli; cammello e organizzazione carovaniera. Merci: oro (Bambuk/Buré), sale (Taghaza/Taodeni a lastre), schiavi verso nord, cavalli e stoffe verso sud, kola e libri come orizzonte; prezzi relativi dichiarati come variabili, mai listini fissi. Intermediari: berberi sanhaja, mercanti juula/dyula, stati-cuscinetto; pedaggi e dogane imperiali (Mali e Songhai tassano il transito). Effetti: islamizzazione per contatto commerciale e cortigiano (non per conquista), urbanizzazione (Djenné, Timbuktu, Gao), dipendenza fiscale degli imperi dalle rotte (vulnerabilità marocchina 1591 come meccanismo). Commercio silenzioso di Erodoto come racconto antico, non prova.",
+    "tecnica": "Fonti: geografi arabi (al-Bakri, Ibn Hawqal, Leone Africano tardo), archeologia delle oasi, pesi e monete; volumi stimati solo come ordini discussi."
+  },
+  "definitions": [
+    "Carovana: convoglio organizzato con guide, guardie e tempi.",
+    "Pedaggio imperiale: tassa sul transito come base fiscale.",
+    "Commercio silenzioso: scambio senza contatto diretto (racconto erodoteo)."
+  ],
+  "examples": [
+    "Taghaza: lastre di sale come moneta e merce insieme.",
+    "Sijilmasa: terminale nord verso il Mediterraneo islamico."
+  ],
+  "counterexamples": [
+    "Solo oro contro sale: schiavi, kola, libri e cavalli nel paniere.",
+    "Rotte fisse eterne: spostamenti con politica e pozzi."
+  ],
+  "errorsTypical": [
+    "Fare del Sahara una barriera invalicabile.",
+    "Quantificare i volumi come dati certi (stime discusse).",
+    "Confondere intermediari berberi e produttori sudanesi."
+  ],
+  "keywords": [
+    "carovane",
+    "Taghaza",
+    "pedaggi",
+    "juula",
+    "Sijilmasa"
+  ],
+  "prerequisites": [
+    "storia:africa-occidentale"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:africa-occidentale",
+      "note": "Economia del ramo saheliano."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:bizantino-islam",
+      "note": "Terminali mediterranei e mondo islamico come sbocchi."
+    }
+  ],
+  "claims": [
+    {
+      "id": "trans-sahariano-sistema",
+      "statement": "Oro sudanese contro sale sahariano con pedaggi imperiali strutturano il sistema; islamizzazione per commercio, non per conquista araba diretta.",
+      "supportedBy": [
+        "manuale-sahel",
+        "whe-trans-saharan"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-sahel",
+      "title": "Profilo standard di Africa occidentale medievale",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-trans-saharan",
+      "title": "Trans-Saharan Trade - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Trans-Saharan_Trade/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": ["trans-sahariano-sistema"],
+      "note": "Ispezionato 2026-09-27. Oro, sale, carovane, islamizzazione per commercio, oasi, Sijilmasa-Timbuktu-Gao."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Asse delle merci?",
+        "a": "Oro sud contro sale nord, pedaggi imperiali."
+      },
+      {
+        "q": "Chi muove le carovane?",
+        "a": "Berberi e juula tra oasi e terminali."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Taghaza era importante per:",
+        "choices": [
+          "L'oro",
+          "Le lastre di sale",
+          "I cavalli",
+          "I libri"
+        ],
+        "answer": 1,
+        "explanation": "Miniere sahariane di sale a lastre."
+      }
+    ],
+    "questionsOpen": [
+      "Perché gli imperi tassano invece di produrre?",
+      "Islam per spada o per mercato nel Sahel?"
+    ]
+  }
+}

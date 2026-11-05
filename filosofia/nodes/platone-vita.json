@@ -1,0 +1,116 @@
+{
+  "id": "filosofia:platone-vita",
+  "subject": "filosofia",
+  "title": "Platone — Vita e contesto",
+  "slug": "platone-vita",
+  "status": "published",
+  "access": "pro",
+  "type": "sottoargomento",
+  "parent": "filosofia:platone",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Nato ad Atene nel 428/427 a.C. da famiglia nobile, allievo di Cratilo e poi di Socrate; dopo il 399 viaggia tra Megara, Magna Grecia e Sicilia; fonda l'Accademia nel 387 e tenta invano di orientare la politica siracusana; muore nel 348/347.",
+  "explanations": {
+    "semplice": "Platone nasce ricco e studia arte e poesia. A vent'anni conosce Socrate e cambia vita. Quando Socrate viene condannato, viaggia molto, conosce i pitagorici, finisce persino venduto come schiavo e poi liberato. Torna ad Atene e apre la sua scuola, l'Accademia. Prova tre volte a consigliare i re di Siracusa, ma fallisce.",
+    "approfondita": "Punti fermi (Treccani): nome originario Aristocle, soprannome Platon; educazione artistica; maestro Cratilo (impronta eraclitea), poi Socrate conosciuto intorno ai vent'anni. Dopo la morte di Socrate (399, a cui non assisté per malattia — Fedone) va a Megara da Euclide, poi viaggia (Egitto e Cirene secondo tradizione; certi Magna Grecia e Sicilia): a Siracusa da Dionisio il Vecchio, amicizia con Dione e Archita di Taranto; venduto schiavo a Egina e riscattato. Fonda l'Accademia nel 387 come comunità dedicata alle Muse. Secondo viaggio (366) presso Dionisio il Giovane su invito di Dione: Dione esiliato, piano fallito; terzo viaggio (361) su promessa di richiamare Dione: rapporti tesi, ritorno nel 360 con aiuto di Archita. Da allora solo Accademia, morte nel 348/347. Le date antiche oscillano di un anno (428 o 427; 348 o 347): vanno presentate come tali.",
+    "tecnica": "Fonti: Lettera VII (autenticità oggi largamente accettata, documento politico-biografico); dialoghi (Apologia, Fedone per la morte di Socrate); testimonianze su Accademia e viaggi. Distinguere tradizione (Egitto, dettagli romanzeschi) da fatti documentati."
+  },
+  "definitions": [
+    "Accademia: centro di discussione e studi fondato da Platone nel 387, dal nome dell'eroe Academo."
+  ],
+  "examples": [
+    "L'amicizia con Dione orienta i tre viaggi siciliani e la riflessione politica della Repubblica e delle Leggi."
+  ],
+  "errorsTypical": [
+    "Dare per certo il viaggio in Egitto: la tradizione lo riferisce, ma non è fuori discussione come la Sicilia.",
+    "Confondere Anniceride di Cirene che lo riscatta con l'omonimo filosofo cirenaico più tardo."
+  ],
+  "keywords": [
+    "Accademia 387",
+    "Dione",
+    "Siracusa",
+    "Archita",
+    "Lettera VII",
+    "428/427",
+    "348/347"
+  ],
+  "prerequisites": [
+    "filosofia:socrate"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:platone",
+      "note": "La biografia è parte del nodo Platone."
+    },
+    {
+      "type": "CAUSE",
+      "to": "filosofia:platone-politica",
+      "note": "L'esperienza siracusana alimenta la filosofia politica."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:atene-classica",
+      "note": "Atene tra democrazia e crisi: contesto politico della formazione."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-platone",
+      "title": "Platone — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/platone/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Sezione biografica verificata con fetch il 2026-09-23.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento delle opere",
+        "dottrina delle idee",
+        "morale e politica",
+        "dialettica tarda e Timeo"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Quando e dove nasce l'Accademia?",
+        "a": "Ad Atene nel 387 a.C., come comunità dedicata alle Muse."
+      },
+      {
+        "q": "Chi è Dione per Platone?",
+        "a": "Cognato di Dionisio il Vecchio, amico conquistato agli ideali etico-politici, motore dei viaggi siciliani."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Dopo la morte di Socrate (399), prima tappa di Platone:",
+        "choices": [
+          "Egitto",
+          "Megara presso Euclide",
+          "Accademia",
+          "Siracusa"
+        ],
+        "answer": 1,
+        "explanation": "Con altri socratici si reca a Megara da Euclide, poi torna ad Atene e inizia i grandi viaggi."
+      }
+    ],
+    "questionsOpen": [
+      "Perché l'esperienza siracusana è decisiva per capire la Repubblica?",
+      "Quali elementi della biografia sono tradizione e quali documentati?"
+    ]
+  },
+  "level": "intermediate"
+}

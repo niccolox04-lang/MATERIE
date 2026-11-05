@@ -1,0 +1,189 @@
+{
+  "id": "filosofia:platone-teoria-idee",
+  "subject": "filosofia",
+  "title": "Platone — Teoria delle idee",
+  "slug": "platone-teoria-idee",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "filosofia:platone",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "I concetti universali socratici diventano essenze sussistenti (eide/idee, ontos onta): modelli intelligibili, eterni e necessari, di cui le cose sensibili partecipano (methexis) o sono immagini (mimesis); ordinati in gerarchia culminante nel Bene.",
+  "explanations": {
+    "semplice": "Senza l'idea di Giusto non potremmo dire se un'azione è giusta. Platone dice che queste idee esistono davvero, in un mondo che si capisce con la mente, non con gli occhi. Le cose che vediamo sono copie imperfette: un cavallo è cavallo perché assomiglia all'idea di Cavallo.",
+    "approfondita": "Genesi: Socrate cercava definizioni stabili di bene, giustizia, virtù; Platone ne fa realtà sussistenti. I concetti sono necessari non solo per i giudizi morali ma per conoscere la natura: in molte manifestazioni sensibili va colta l'essenza comune (cosa fa di un uomo un uomo e lo distingue da un cavallo). Le idee sono criteri oggettivi puramente intellettivi e insieme fondamento ontologico delle cose: le cose esistono in quanto partecipano (methexis) delle idee; data la difficoltà di pensare l'identico presente nei molti, Platone insiste sulla somiglianza/imitazione (mimesis): le cose sono immagini delle idee. Le idee sono universali, necessarie, eterne (ontos onta, le cose che realmente sono) contro il divenire particolare e mutevole; formano una gerarchia per universalità (cavallo < quadrupede < animale < vivente), radice della futura definizione per genere e differenza. Vertice: idea del Bene, paragonata al sole, cui tutte partecipano e che attrae l'anima. La vera scienza è contemplazione intellettuale delle idee e dei loro rapporti; l'opinione resta legata al sensibile.",
+    "tecnica": "Lessico: idea/eidos (immagine, esemplare, forma); methexis; mimesis; koinonia (comunanza tra generi, decisiva nel Sofista). Ipotesi interpretativa: le idee-numero come intermediari (testimonianza aristotelica, non testi platonici diretti) e le dottrine orali sui principi."
+  },
+  "definitions": [
+    "Idea: essenza universale, necessaria ed eterna, modello e fondamento ontologico delle cose sensibili.",
+    "Partecipazione (methexis): rapporto per cui la cosa sensibile esiste in quanto legata all'idea.",
+    "Imitazione (mimesis): rapporto per cui la cosa sensibile è immagine/copia dell'idea.",
+    "Bene: idea suprema, condizione di intelligibilità delle altre idee, paragonata al sole."
+  ],
+  "examples": [
+    "Molte azioni virtuose partecipano dell'idea di Virtù; molti cavalli partecipano dell'idea di Cavallo.",
+    "Gerarchia: idea di cavallo compresa in quadrupede, poi animale, poi vivente."
+  ],
+  "counterexamples": [
+    "Le idee non sono concetti mentali soggettivi né cose sensibili particolarmente belle: sono enti intelligibili oggettivi."
+  ],
+  "errorsTypical": [
+    "Immaginare le idee come oggetti in un luogo celeste: la spazialità è metafora (l'Iperuranio è mito).",
+    "Ridurre partecipazione e imitazione a sinonimi intercambiabili senza problema: Platone stesso ne esplora le difficoltà (Parmenide)."
+  ],
+  "keywords": [
+    "eidos",
+    "ontos onta",
+    "methexis",
+    "mimesis",
+    "bene-sole",
+    "gerarchia delle idee",
+    "opinione/scienza"
+  ],
+  "prerequisites": [
+    "filosofia:socrate",
+    "filosofia:presocratici",
+    "filosofia:platone-opere"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:platone",
+      "note": "Nucleo dottrinale del nodo Platone."
+    },
+    {
+      "type": "CAUSE",
+      "to": "filosofia:platone-anamnesi",
+      "note": "Se le idee sono separate, serve spiegare come l'anima le conosca: anamnesi."
+    },
+    {
+      "type": "CAUSE",
+      "to": "filosofia:platone-mondi",
+      "note": "La teoria fonda il dualismo sensibile/intelligibile."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:presocratici",
+      "note": "Eco eleatica (essere) e pitagorica (ordine matematico)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "idee-sussistenza",
+      "statement": "I concetti universali hanno sussistenza ontologica come enti reali (ontos onta), fondamento delle cose sensibili.",
+      "supportedBy": [
+        "treccani-platone",
+        "sep-plato"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "idee-rapporti",
+      "statement": "Le cose si rapportano alle idee per partecipazione (methexis) e imitazione/somiglianza (mimesis).",
+      "supportedBy": [
+        "treccani-platone"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "idee-bene-sole",
+      "statement": "L'idea suprema è il Bene, paragonato al sole, cui tutte le altre partecipano.",
+      "supportedBy": [
+        "treccani-platone",
+        "sep-plato"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-platone",
+      "title": "Platone — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/platone/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Sezione La filosofia (dottrina delle idee) verificata con fetch il 2026-09-23.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento delle opere",
+        "dottrina delle idee",
+        "morale e politica",
+        "dialettica tarda e Timeo"
+      ]
+    },
+    {
+      "id": "sep-plato",
+      "title": "Plato — Stanford Encyclopedia of Philosophy",
+      "publisher": "Stanford University",
+      "url": "https://plato.stanford.edu/entries/plato/",
+      "sourceType": "academic-site",
+      "language": "en",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Sezione central doctrines: forme come oggetti astratti paradigmatici.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "dottrine centrali",
+        "forma dialogica e Socrate"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Differenza concetti socratici / idee platoniche?",
+        "a": "I concetti diventano enti reali sussistenti, fondamento ontologico delle cose."
+      },
+      {
+        "q": "Cosa sono methexis e mimesis?",
+        "a": "Partecipazione (fondamento) e imitazione/somiglianza (immagine): i due modi in cui le cose si rapportano alle idee."
+      },
+      {
+        "q": "Qual è l'idea suprema e a cosa è paragonata?",
+        "a": "Il Bene, paragonato al sole."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Le idee platoniche sono:",
+        "choices": [
+          "Particolari, mutevoli, sensibili",
+          "Universali, necessarie, eterne, intelligibili",
+          "Nomi convenzionali senza realtà",
+          "Sensazioni individuali"
+        ],
+        "answer": 1,
+        "explanation": "Sono ontos onta contro il divenire visibile; modelli e criteri delle cose."
+      },
+      {
+        "q": "La gerarchia cavallo < quadrupede < animale < vivente mostra:",
+        "choices": [
+          "Evoluzione biologica",
+          "Ordine per universalità crescente, radice del genere/differenza",
+          "Classificazione linneana",
+          "Gerarchia sociale"
+        ],
+        "answer": 1,
+        "explanation": "Universalità crescente = maggiori estensioni; qui nasce la definizione per genere prossimo e differenza specifica."
+      }
+    ],
+    "questionsOpen": [
+      "Perché senza essenze stabili i giudizi morali sarebbero impossibili?",
+      "Partecipazione o imitazione: quale rapporto regge meglio all'obiezione dell'identico nei molti?"
+    ]
+  },
+  "level": "intermediate"
+}

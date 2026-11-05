@@ -1,0 +1,62 @@
+{
+  "id": "greco:introduzione",
+  "subject": "greco",
+  "title": "Introduzione al Greco",
+  "slug": "introduzione",
+  "status": "published",
+  "access": "free",
+  "type": "area",
+  "parent": null,
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Il greco antico (attico e koinè) è la lingua di Omero, della tragedia, della filosofia e del Nuovo Testamento: si studia per morfologia e sintassi rigorose, lessico etimologico e traduzione analitica.",
+  "explanations": {
+    "semplice": "Il greco ha un alfabeto diverso, tante forme verbali e una sintassi precisa (come il genitivo assoluto). Si impara con paradigmi, tanto vocabolario e traduzioni guidate.",
+    "approfondita": "Aree di lavoro: fonetica (alfabeto, spiriti, accenti), morfologia nominale (tre declinazioni, aggettivi, pronomi) e verbale (temi temporali, modi, diatesi, verbi contratti e irregolari), sintassi del periodo (infinitive, participi, genitivo assoluto), lessico ed etimologia verificata. Letteratura: epica, lirica, tragedia, commedia, storiografia, oratoria, filosofia. Ogni paradigma pubblicato conterrà forme controllate; nessuna forma verbale sarà inventata: i rami analitici restano pianificati fino a revisione."
+  },
+  "definitions": [
+    "Koinè: greco comune ellenistico, base anche del Nuovo Testamento.",
+    "Genitivo assoluto: costrutto participiale con soggetto proprio, distaccato dalla reggente."
+  ],
+  "examples": [
+    "Il presente di λύω come paradigma dei verbi in -ω."
+  ],
+  "keywords": [
+    "attico",
+    "koinè",
+    "declinazioni",
+    "coniugazioni",
+    "genitivo assoluto",
+    "etimologia"
+  ],
+  "prerequisites": [],
+  "relations": [
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:platone",
+      "note": "Lessico filosofico: eidos, psyche, dialektike nei dialoghi."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Cosa studia la morfologia?",
+        "a": "Le forme flesse di nomi e verbi (declinazioni, coniugazioni)."
+      }
+    ],
+    "quiz": [],
+    "questionsOpen": [
+      "Perché la traduzione richiede prima l'analisi morfosintattica?"
+    ]
+  },
+  "level": "foundation"
+}

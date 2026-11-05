@@ -1,0 +1,58 @@
+{
+  "id": "fisica:cinematica",
+  "subject": "fisica",
+  "title": "Cinematica: velocità e accelerazione",
+  "slug": "cinematica",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "fisica:introduzione",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "Descrizione del moto senza cause: posizione, spostamento, velocità media e istantanea, accelerazione; moto rettilineo uniforme (s = s₀ + vt) e uniformemente accelerato (v = v₀ + at, s = s₀ + v₀t + ½at²); lettura dei grafici s–t e v–t.",
+  "explanations": {
+    "semplice": "La cinematica fotografa il movimento: dove sei, quanto vai veloce, se acceleri o freni. A velocità costante, spazio = velocità × tempo. Se acceleri in modo costante (come cadendo), la velocità cresce col tempo e lo spazio cresce col quadrato del tempo.",
+    "approfondita": "Grandezze: posizione s(t), spostamento Δs, velocità media vₘ = Δs/Δt, istantanea v = ds/dt, accelerazione media e istantanea a = dv/dt; natura vettoriale (in 1D: segno per verso). MRU: a = 0, s = s₀ + vt; grafico s–t rettilineo (pendenza = v), v–t orizzontale (area = spostamento). MRUA: a costante, v = v₀ + at, s = s₀ + v₀t + ½at² (derivazione per integrazione o area del trapezio nel v–t); caduta libera a = g ≈ 9,81 m/s² verso il basso (trascurando l'aria). Grafici: pendenza di s–t = v, pendenza di v–t = a, area di v–t = Δs. Errori tipici: confondere posizione e spostamento, media e istantanea, leggere l'altezza invece della pendenza. Le cause (forze) appartengono alla dinamica: prerequisito naturale di F = ma.",
+    "tecnica": "Derivazione: v(t) = v₀ + ∫a dt; s(t) = s₀ + ∫v dt. Unità SI: m, s, m/s, m/s²."
+  },
+  "definitions": [
+    "Velocità istantanea: derivata della posizione rispetto al tempo.",
+    "Accelerazione: derivata della velocità; variazione di modulo, direzione o verso.",
+    "MRU/MRUA: moto rettilineo uniforme / uniformemente accelerato."
+  ],
+  "formulas": [
+    { "expr": "v = Δs/Δt → ds/dt", "meaning": "Dalla media all'istantanea come limite." },
+    { "expr": "s = s₀ + vt", "meaning": "Legge oraria del moto uniforme." },
+    { "expr": "v = v₀ + at; s = s₀ + v₀t + ½at²", "meaning": "Leggi del moto uniformemente accelerato." }
+  ],
+  "examples": ["Auto a 20 m/s costanti per 10 s: 200 m.", "Caduta da fermo per 2 s: v ≈ 19,6 m/s, h ≈ 19,6 m."],
+  "counterexamples": ["Velocità alta ≠ accelerazione alta: aereo a 900 km/h costanti ha a = 0.", "Grafico s–t curvo: non è MRU anche se 'sale'."],
+  "errorsTypical": ["Leggere il valore invece della pendenza nei grafici.", "Usare s = vt con velocità variabile.", "Segni incoerenti tra s, v, a (verso non fissato)."],
+  "keywords": ["velocità", "accelerazione", "MRU", "MRUA", "grafici s-t v-t", "caduta libera"],
+  "prerequisites": ["fisica:introduzione"],
+  "relations": [
+    { "type": "PART_OF", "to": "fisica:introduzione", "note": "Descrizione del moto prima delle cause." },
+    { "type": "CAUSE", "to": "fisica:newton-secondo-principio", "note": "La cinematica prepara la dinamica (a entra in F = ma)." },
+    { "type": "RELATED_TO", "to": "matematica:introduzione", "note": "Strumento: funzioni, pendenze, aree." }
+  ],
+  "sources": [],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Leggi di MRU e MRUA?", "a": "s = s₀+vt; v = v₀+at, s = s₀+v₀t+½at²." },
+      { "q": "Cosa dicono pendenza e area nei grafici?", "a": "s–t: pendenza = v; v–t: pendenza = a, area = Δs." }
+    ],
+    "quiz": [
+      {
+        "q": "Freno da 20 m/s a 0 in 4 s (a costante): spazio?",
+        "choices": ["80 m", "40 m", "20 m", "10 m"],
+        "answer": 1,
+        "explanation": "Media 10 m/s × 4 s = 40 m (oppure s = v₀t + ½at² con a = −5)."
+      }
+    ],
+    "questionsOpen": ["Ricava s(t) del MRUA dall'area nel grafico v–t.", "Perché la caduta reale devia da g? Modella l'aria."]
+  }
+}

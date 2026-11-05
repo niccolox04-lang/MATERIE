@@ -1,0 +1,146 @@
+{
+  "id": "storia:giappone-premoderno",
+  "subject": "storia",
+  "title": "Giappone premoderno: Jomon, Nara, Heian, shogunati",
+  "slug": "giappone-premoderno",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 23,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-10000",
+    "end": "1603",
+    "label": "da Jomon a Sekigahara (date circa, dibattute)",
+    "place": "Arcipelago giapponese"
+  },
+  "region": "Asia",
+  "location": "Honshu, Kyoto, Nara, Kamakura",
+  "territories": "Corte imperiale, shogunati Kamakura e Ashikaga, domini Sengoku",
+  "geographicalContext": "Arcipelago montuoso e risaie; correnti coreane-cinesi come ponte culturale; terremoti e tifoni.",
+  "summary": "Ramo di sintesi: Jomon-Yayoi-Kofun, Asuka-Nara (buddhismo, Taiho), Heian (corte, kana), samurai e Kamakura, Muromachi-Sengoku (daimyo, guerre) fino a Sekigahara (1600); approfondimenti nei nodi figli.",
+  "explanations": {
+    "semplice": "Il Giappone impara dalla Cina (scrittura, buddhismo) ma resta unico: un imperatore sacro che non comanda davvero e generali (shogun) con i samurai che combattono per secoli, fino a quando uno li unisce tutti nel 1600.",
+    "approfondita": "Jomon (ceramica a corde) e Yayoi (risaia, bronzo-ferro da Corea); Kofun (tumuli, Yamato) e formazione statale; Asuka (Shotoku, costituzione 17 articoli come tradizione, buddhismo) e Nara (710, Taiho, Todaiji); Heian (794-1185: corte Fujiwara, kana e Genji come letteratura, shoen); samurai e Kamakura (1185-1333: Yoritomo, shikken Hojo, mongoli 1274-81 respinti con tifoni); Muromachi/Ashikaga (kitayama, zen, Onin 1467) e Sengoku (daimyo, Oda-Toyotomi, cristianesimo 1549, armi da fuoco); Sekigahara 1600 come cesura. Imperatore simbolo contro potere militare come filo (dichiarato). Influssi cinesi selettivi, mai colonizzazione (fatto contro mito dell'isolamento totale).",
+    "tecnica": "Fonti: Kojiki/Nihon Shoki con critica mitografica, archeologia Jomon-Yayoi, diari di corte Heian, cronache di guerra; periodizzazioni convenzionali dichiarate."
+  },
+  "definitions": [
+    "Shogun: comandante militare con potere effettivo.",
+    "Daimyo: signore territoriale con samurai.",
+    "Kana: sillabari giapponesi da caratteri cinesi."
+  ],
+  "examples": [
+    "Genji monogatari (XI sec.): romanzo di corte Heian.",
+    "Mongoli 1274-81: invasioni respinte, kamikaze come lettura."
+  ],
+  "counterexamples": [
+    "Imperatore sempre regnante effettivo: shogunati come governi reali.",
+    "Medioevo giapponese uguale a europeo: shoen e vassallaggio diversi."
+  ],
+  "errorsTypical": [
+    "Fare dei samurai una casta immutabile (formazione Kamakura).",
+    "Confondere shogunati Kamakura/Ashikaga/Tokugawa (secoli diversi).",
+    "Datare il buddhismo come religione unica (shintoismo parallelo)."
+  ],
+  "keywords": [
+    "Heian",
+    "samurai",
+    "Kamakura",
+    "Sengoku",
+    "Sekigahara"
+  ],
+  "prerequisites": [
+    "storia:basso-medioevo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Giappone premoderno come ramo mondiale fondazionale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:cina-imperiale",
+      "note": "Influssi cinesi selettivi (scrittura, buddhismo, modelli)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "giappone-premoderno-quadro",
+      "statement": "Da Jomon a Sekigahara (1600) il Giappone forma Stato, corte Heian e poteri samuraici (Kamakura, Sengoku) con influssi cinesi selettivi e imperatore simbolo.",
+      "supportedBy": [
+        "manuale-giappone",
+        "whe-japan-premodern"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-giappone",
+      "title": "Profilo standard di Giappone premoderno",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-japan-premodern",
+      "title": "Ancient Japan - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Ancient_Japan/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "giappone-premoderno-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27. Jomon, Yayoi, Kofun, Asuka, Nara, Heian, Kamakura, Muromachi, Sengoku, Sekigahara."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Sequenza in quattro nomi?",
+        "a": "Nara, Heian, Kamakura, Sengoku."
+      },
+      {
+        "q": "Imperatore o shogun?",
+        "a": "Simbolo sacro il primo, potere effettivo il secondo."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Sekigahara (1600) segna:",
+        "choices": [
+          "Fine dello shogunato",
+          "Egemonia Tokugawa dopo Sengoku",
+          "Arrivo di Perry",
+          "Costituzione Meiji"
+        ],
+        "answer": 1,
+        "explanation": "Ieyasu vince e fonda il bakufu (1603)."
+      }
+    ],
+    "questionsOpen": [
+      "Perch\u00c3\u00a9 l'imperatore sopravvive a ogni shogunato?",
+      "Cina modello o specchio? Influssi selettivi a confronto."
+    ]
+  },
+  "contentDepth": "deep"
+}

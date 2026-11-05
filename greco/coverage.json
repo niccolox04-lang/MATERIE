@@ -1,0 +1,232 @@
+{
+  "subject": "greco",
+  "curriculumScope": "Greco antico (attico e koinè) per il liceo classico: lingua completa (fonetica→sintassi→periodo), letteratura per periodi e generi, traduzione come competenza integrata. Perimetro: V–IV sec. come nucleo, Omero ed ellenismo inclusi.",
+  "version": 1,
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "requiredPrerequisites": [
+    "alfabeto latino e categorie grammaticali italiane"
+  ],
+  "macroAreas": [
+    {
+      "id": "fonetica",
+      "title": "Alfabeto e fonetica",
+      "importance": "core",
+      "notes": "Base coperta. Manca prosodia/metrica (opzionale in prima lettura).",
+      "units": [
+        {
+          "id": "alfabeto",
+          "title": "Alfabeto, spiriti, accenti, quantità",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "greco:alfabeto-fonetica"
+        },
+        {
+          "id": "prosodia",
+          "title": "Prosodia e metrica (esametro)",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "morfologia",
+      "title": "Morfologia",
+      "importance": "core",
+      "notes": "Solo il nome. Priorità: verbo (presente→aoristo→perfetto), poi aggettivi/pronomi. Ordine vincolante.",
+      "units": [
+        {
+          "id": "nome",
+          "title": "Articolo e tre declinazioni",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "greco:declinazioni-nome"
+        },
+        {
+          "id": "aggettivi",
+          "title": "Aggettivi e gradi",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": "greco:aggettivi"
+        },
+        {
+          "id": "pronomi",
+          "title": "Pronomi personali, relativi, indefiniti",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": "greco:pronomi"
+        },
+        {
+          "id": "verbo-presente",
+          "title": "Verbo: presente, imperfetto, futuro in -ω",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "greco:verbo-presente"
+        },
+        {
+          "id": "verbo-completo",
+          "title": "Aoristo, perfetto, modi, diatesi, -μι",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "greco:verbo-completo"
+        },
+        {
+          "id": "irregolari",
+          "title": "Verbi irregolari principali",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "greco:irregolari"
+        }
+      ]
+    },
+    {
+      "id": "sintassi",
+      "title": "Sintassi",
+      "importance": "core",
+      "notes": "Non iniziata. Dipende dalla morfologia verbale: non anticipare.",
+      "units": [
+        {
+          "id": "casi-funzioni",
+          "title": "Sintassi dei casi",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "greco:sintassi-casi"
+        },
+        {
+          "id": "infinito-participio",
+          "title": "Infinitive e participi",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "greco:infinito-participio"
+        },
+        {
+          "id": "genitivo-assoluto",
+          "title": "Genitivo assoluto",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "greco:genitivo-assoluto"
+        },
+        {
+          "id": "periodo",
+          "title": "Periodo: ipotetiche, finali, consecutive",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": "greco:periodo"
+        },
+        {
+          "id": "ottativo",
+          "title": "Ottativo e potenziale",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "lessico",
+      "title": "Lessico ed etimologia",
+      "importance": "important",
+      "notes": "Solo con etimologie verificate; mai inventate.",
+      "units": [
+        {
+          "id": "base",
+          "title": "Vocabolario di base per frequenza",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": null
+        },
+        {
+          "id": "etimologia",
+          "title": "Etimologia e famiglie di parole",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "letteratura",
+      "title": "Letteratura",
+      "importance": "core",
+      "notes": "Non iniziata. Richiede lingua di base + contesto storico.",
+      "units": [
+        {
+          "id": "arcaica",
+          "title": "Omero ed Esiodo",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "greco:omero-esiodo"
+        },
+        {
+          "id": "classica",
+          "title": "Tragedia, commedia, storiografia, oratoria",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "greco:classica"
+        },
+        {
+          "id": "ellenistica",
+          "title": "Callimaco, Teocrito, Polibio",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        },
+        {
+          "id": "filosofica",
+          "title": "Platone e la prosa filosofica",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "traduzione",
+      "title": "Traduzione e analisi",
+      "importance": "core",
+      "notes": "Competenza terminale: si costruisce dopo morfologia e sintassi.",
+      "units": [
+        {
+          "id": "metodo",
+          "title": "Metodo: analisi morfosintattica e resa",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "greco:traduzione"
+        },
+        {
+          "id": "versioni",
+          "title": "Versioni guidate graduate",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    }
+  ],
+  "foundationalTopics": [
+    "alfabeto",
+    "nome",
+    "aggettivi",
+    "pronomi",
+    "verbo-presente",
+    "base"
+  ],
+  "advancedTopics": [
+    "prosodia",
+    "verbo-completo",
+    "irregolari",
+    "periodo",
+    "ottativo",
+    "ellenistica",
+    "filosofica",
+    "versioni"
+  ],
+  "roadmap": [
+    "verbo presente/imperfetto/futuro",
+    "aggettivi e pronomi",
+    "sintassi dei casi",
+    "aoristo e modi",
+    "periodo",
+    "Omero e tragedia"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "matematica:irrazionalita-sqrt2",
+  "subject": "matematica",
+  "title": "√2 è irrazionale (dimostrazione per assurdo)",
+  "slug": "irrazionalita-sqrt2",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "matematica:introduzione",
+  "order": 4,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "La radice di 2 non è esprimibile come frazione: supponendo √2 = p/q ridotta ai minimi termini si deduce che p e q sono entrambi pari, contraddicendo la riduzione. È il modello antico di dimostrazione per assurdo, citato da Aristotele.",
+  "explanations": {
+    "semplice": "Prova a scrivere √2 come frazione semplificata al massimo. Dai conti risulta che sopra e sotto devono essere entrambi pari: ma allora si poteva semplificare ancora! Impossibile: quindi nessuna frazione vale √2.",
+    "approfondita": "Definizione: razionale = p/q con q ≠ 0, riducibile ai minimi termini (p, q coprimi). Dimostrazione: se √2 = p/q ridotta, allora 2 = p²/q², cioè p² = 2q²: p² è pari, quindi p è pari (il quadrato di un dispari è dispari), p = 2k; allora 4k² = 2q², cioè q² = 2k²: q² pari, q pari. Ma p, q entrambi pari contraddice la coprimalità: assurdo, l'ipotesi è falsa. Lemma usato (se p² è pari allora p è pari) dimostrato per contronominale. Significato: i razionali non bastano alla geometria (diagonale del quadrato unitario per Pitagora); servono i reali. La prova è autocontenuta e verificabile passo passo: è essa stessa la fonte.",
+    "tecnica": "Schema: ¬T ⊢ ⊥ ∴ T. Generalizza: √p irrazionale per p primo (stesso schema con divisibilità per p). Collegamento storico: Analitici primi come esempio di sillogismo ipotetico."
+  },
+  "definitions": ["Numero razionale: rapporto p/q di interi con q ≠ 0, riducibile a coprimi.", "Dimostrazione per assurdo: si nega la tesi e si deriva una contraddizione."],
+  "proof": [
+    "Supponi per assurdo √2 = p/q con p, q interi coprimi e q ≠ 0.",
+    "Allora p² = 2q², quindi p² è pari.",
+    "Lemma: se p² è pari, p è pari (contronominale: p dispari ⇒ p² dispari).",
+    "Scrivi p = 2k: allora 4k² = 2q², cioè q² = 2k², quindi q è pari.",
+    "p e q entrambi pari contraddice la coprimalità: assurdo. Dunque √2 è irrazionale."
+  ],
+  "formulas": [
+    { "expr": "√2 ≠ p/q per ogni p, q interi, q ≠ 0", "meaning": "Tesi: irrazionalità della diagonale del quadrato unitario." },
+    { "expr": "p² = 2q² ⇒ p pari ⇒ q pari ⇒ contraddizione", "meaning": "Cuore della deduzione per assurdo." }
+  ],
+  "examples": ["La diagonale del quadrato di lato 1 misura √2 per il teorema di Pitagora: i razionali non la esprimono."],
+  "counterexamples": ["L'approssimazione 1,4142 non è una prova di razionalità: ogni decimale finito è razionale ma approssima."],
+  "errorsTypical": ["Fermarsi a 'p è pari' senza derivare anche q pari: serve la contraddizione completa.", "Credere che basti un esempio decimale infinito per dimostrare."],
+  "keywords": ["irrazionale", "per assurdo", "coprimi", "diagonale", "reali"],
+  "prerequisites": ["matematica:introduzione", "matematica:teorema-pitagora"],
+  "relations": [
+    { "type": "PART_OF", "to": "matematica:introduzione", "note": "Prima dimostrazione modello." },
+    { "type": "RELATED_TO", "to": "filosofia:aristotele-logica", "note": "Aristotele la cita come esempio di prova per assurdo." }
+  ],
+  "sources": [],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Enuncia la tesi e lo schema di prova.", "a": "√2 ∉ ℚ; per assurdo da p/q ridotta segue p, q pari: contraddizione." },
+      { "q": "Perché serve il lemma sui quadrati pari?", "a": "Per passare da 'p² pari' a 'p pari' senza petizione di principio." }
+    ],
+    "quiz": [
+      {
+        "q": "Il passo decisivo della contraddizione è:",
+        "choices": ["p è pari", "q è pari avendo già p pari, contro la riduzione ai minimi termini", "q ≠ 0", "√2 > 0"],
+        "answer": 1,
+        "explanation": "La coprimalità ipotizzata è violata da entrambi pari."
+      },
+      {
+        "q": "Adatta la prova a √3:",
+        "choices": ["Identica con 2", "Stesso schema con divisibilità per 3 (p² multiplo di 3 ⇒ p multiplo di 3)", "Impossibile", "Serve l'analisi"],
+        "answer": 1,
+        "explanation": "Lemma: se 3 | p² allora 3 | p (3 primo)."
+      }
+    ],
+    "questionsOpen": ["Dimostra il lemma: il quadrato di un dispari è dispari.", "Perché questa prova mostra anche che ℚ non è completo geometricamente?"]
+  }
+}

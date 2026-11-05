@@ -1,0 +1,111 @@
+{
+  "id": "latino:ablativo-assoluto",
+  "subject": "latino",
+  "title": "Ablativo assoluto",
+  "slug": "ablativo-assoluto",
+  "status": "published",
+  "access": "pro",
+  "type": "sottoargomento",
+  "parent": "latino:sistema-casi",
+  "order": 3,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Sintagma in ablativo (nome/pronome + participio o secondo membro nominale) slegato dalla reggenza: urbe capta = presa la città; valore temporale, causale, concessivo o ipotetico dal contesto; participio presente per contemporaneità, perfetto per anteriorità.",
+  "explanations": {
+    "semplice": "È una mini-frasi dentro la frase, tutta in ablativo e staccata dal resto: due parole bastano (chi + cosa fatta). Dice quando o perché succede l'azione principale: fatta una cosa, mentre se ne fa un'altra. Se il soggetto è già nella frase principale, non si usa.",
+    "approfondita": "Forma: ablativo di nome/pronome + participio accordato (presente attivo: urbe condente = mentre fondava; perfetto passivo dei transitivi: urbe condita = fondata la città; futuro solo con esse per cause finali rare) oppure ablativo + nome/aggettivo senza participio espresso (Cicerone consule = sotto il consolato di Cicerone; natura duce = sotto la guida della natura). Condizione dell'assolutezza: soggetto diverso dalla principale e nessuna reggenza diretta; altrimenti participio congiunto. Valori (dal contesto, mai automatici): temporale (dopo aver), causale (poiché), concessivo (sebbene), ipotetico (se). Resa: con proposizione (dopo che, poiché, sebbene), con gerundio, o con preposizione + nome (alla presa della città) quando il verbo principale è nominale. Eccezioni lessicali: participi usati come preposizioni (absente, praesente). Punteggiatura e ordine: spesso in apertura come cornice.",
+    "tecnica": "Diagnosi: cerca due ablativi accordati senza reggenza; verifica il tempo relativo del participio; prova le quattro rese e scegli col contesto e col verbo principale."
+  },
+  "definitions": [
+    "Assoluto: slegato, senza legami di reggenza con la principale.",
+    "Contemporaneità: participio presente rispetto alla principale.",
+    "Anteriorità: participio perfetto rispetto alla principale."
+  ],
+  "examples": [
+    "Urbe capta, cives fugerunt: abl. + perfetto = dopo che la città fu presa.",
+    "Sole oriente, proficiscimur: abl. + presente = mentre il sole sorge."
+  ],
+  "counterexamples": [
+    "Puella videns non è assoluto: manca il secondo membro e c'è reggenza.",
+    "Ablativo di mezzo (gladio) scambiato per assoluto senza participio."
+  ],
+  "errorsTypical": [
+    "Tradurre sempre con dopo che anche se il contesto è causale o concessivo.",
+    "Usare l'assoluto con soggetto uguale alla principale.",
+    "Accordare male participio e nome in genere/numero."
+  ],
+  "keywords": [
+    "ablativo",
+    "participio",
+    "anteriorità",
+    "contemporaneità",
+    "cornice"
+  ],
+  "prerequisites": [
+    "latino:sistema-casi",
+    "latino:verbo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "latino:sistema-casi",
+      "note": "Uso avanzato dell'ablativo dopo i casi semplici."
+    },
+    {
+      "type": "SIMILAR_TO",
+      "to": "greco:declinazioni-nome",
+      "note": "Participio + caso come strategia comune; il parallelo pieno col genitivo assoluto verrà col periodo greco."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-lingua-latina",
+      "title": "Latino, lingua — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/lingua-latina/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Stesso profilo già usato nei nodi latino; contenuto NON ancora revisionato puntualmente."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Schema minimo?",
+        "a": "Nome in ablativo + participio accordato, soggetto diverso dalla principale."
+      },
+      {
+        "q": "Presente o perfetto?",
+        "a": "Presente = mentre; perfetto = dopo che (tempi relativi)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'His rebus cognitis, Caesar profectus est': valore più probabile?",
+        "choices": [
+          "Sempre concessivo",
+          "Temporale-causale (conosciute queste cose, poiché)",
+          "Solo ipotetico",
+          "Mezzo"
+        ],
+        "answer": 1,
+        "explanation": "Anteriorità + contesto militare: dopo che / poiché ebbe appreso."
+      }
+    ],
+    "questionsOpen": [
+      "Volgi in tre rese diverse: urbe capta.",
+      "Perché con soggetto uguale serve il participio congiunto?"
+    ]
+  }
+}

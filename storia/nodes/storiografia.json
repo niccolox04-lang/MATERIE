@@ -1,0 +1,123 @@
+{
+  "id": "storia:storiografia",
+  "subject": "storia",
+  "title": "Storiografia: scuole e interpretazioni",
+  "slug": "storiografia",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 27,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "summary": "Come si scrive la storia: positivismo e documenti, Annales (lunga durata), marxismo e storia sociale, quantitativa, microstoria e storia globale; questione→interpretazioni→evidenze→accordi→dispute su casi del corpus.",
+  "explanations": {
+    "semplice": "Gli storici non raccontano tutti la stessa storia: alcuni guardano i re e le battaglie, altri l'economia e la gente comune, altri confrontano i paesi. Imparare la storiografia significa capire perché due libri seri possono dire cose diverse.",
+    "approfondita": "Scuole: Ranke e primato del documento (wie es eigentlich gewesen); Annales (Bloch, Febvre, Braudel: strutture, congiunture, eventi; Mediterraneo come modello); marxismo (modi di produzione, Thompson dal basso); quantitativa e cliometria (Fogel come caso e critiche); microstoria (Ginzburg, Menocchio) e storia globale/connessa. Casi del corpus in struttura Q/A/evidenze: caduta di Roma (trasformazione vs catastrofe), rivoluzione industriale (perché Inghilterra), Grande Balzo (politiche contro clima con cifre dibattute), Resistenza (tre guerre di Pavone), Mansa Musa (leggenda quantificata). Regole: attribuire posizioni con opere, mai equivalenze false, limiti dichiarati. Periodizzazione come costruzione (Medioevo, moderno) non natura.",
+    "tecnica": "Operativo: scheda dibattito (questione, A, B, evidenze, accordi, dispute, limiti); uso di rassegne storiografiche prima delle monografie."
+  },
+  "definitions": [
+    "Storiografia: studio di come la storia viene scritta.",
+    "Lunga durata: strutture quasi immobili (Braudel).",
+    "Storia globale: connessioni oltre gli Stati-nazione."
+  ],
+  "examples": [
+    "Pavone e le tre guerre: liberazione, civile, classe.",
+    "Braudel e il Mediterraneo: geografia che vincola gli eventi."
+  ],
+  "counterexamples": [
+    "Scuola come squadra da tifare: criteri evidenziali prima.",
+    "Relativismo totale: non tutte le tesi pesano uguale."
+  ],
+  "errorsTypical": [
+    "Attribuire tesi senza opera (strawman).",
+    "Confondere revisione onesta e negazionismo.",
+    "Fare delle scuole blocchi nazionali rigidi."
+  ],
+  "keywords": [
+    "Annales",
+    "Braudel",
+    "Pavone",
+    "globale",
+    "microstoria"
+  ],
+  "prerequisites": [
+    "storia:fonti-critica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Storiografia dopo la critica delle fonti."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:fonti-critica",
+      "note": "Dalle fonti alle scuole."
+    }
+  ],
+  "claims": [
+    {
+      "id": "storiografia-metodo",
+      "statement": "La storiografia è «scienza e pratica dello scrivere opere relative a eventi storici del passato, in quanto si possano riconoscere in essa un'indagine critica e dei principi metodologici»: nel XX secolo convivono e si scontrano materialismo storico, Annales (Bloch e Febvre: storia delle mentalità), economia morale ed economia sociale (Thompson, Le Roy Ladurie), microstoria (Grendi, Levi), nouvelle histoire e revisionismo (Furet sulla Rivoluzione francese), con incroci disciplinari e tensioni esplicite fra le tendenze.",
+      "supportedBy": [
+        "treccani-storiografia"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-storiografia",
+      "title": "Storiografia — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/storiografia/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "storiografia-metodo"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Definizione (indagine critica e principi metodologici); sezioni: storiografia greca (Erodoto, Tucidide come ricerca della verità distinta dal mito), romana, medievale, 15°–18° sec., sviluppi Ottocento (Monumenta Germaniae Historica), 20° sec. e eredità. Verificate nel testo: materialismo storico, Annales (Bloch, Febvre, mentalités), economia morale di Thompson, histoire économique et sociale di Le Roy Ladurie, microstoria (Grendi, Levi), nouvelle histoire, storia delle donne e di genere, De Felice sul consenso, revisionismo (Furet su Rivoluzione francese, leggende nere, totalitarismi), Hobsbawm Il secolo breve. LIMITI: Ranke e cliometria quantitativa non letti in questa ispezione; il claim NON li rivendica."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Annales in sintesi?",
+        "a": "Strutture, congiunture, eventi; Mediterraneo modello."
+      },
+      {
+        "q": "Regola anti-tifo?",
+        "a": "Evidenze prima, attribuzioni con opere."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La lunga durata studia:",
+        "choices": [
+          "Battaglie",
+          "Strutture quasi immobili (geografia, clima)",
+          "Biografie",
+          "Giornali"
+        ],
+        "answer": 1,
+        "explanation": "Braudel: sotto eventi e congiunture."
+      }
+    ],
+    "questionsOpen": [
+      "Applica la scheda a caduta di Roma: posizioni ed evidenze.",
+      "Quando il revisionismo è onesto e quando no?"
+    ]
+  }
+}

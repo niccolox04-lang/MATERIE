@@ -1,0 +1,132 @@
+{
+  "id": "filosofia:kant",
+  "subject": "filosofia",
+  "title": "Kant: rivoluzione copernicana e criticismo",
+  "slug": "kant",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:moderna",
+  "order": 2,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.805Z",
+  "level": "advanced",
+  "summary": "Kant (1724–1804, Königsberg): risvegliato da Hume, rovescia il rapporto mente-mondo (gli oggetti si conformano alle nostre forme). Estetica (spazio-tempo), analitica (categorie, io penso), dialettica (idee della ragione); morale del dovere e imperativo categorico; giudizio estetico e teleologico.",
+  "explanations": {
+    "semplice": "Kant dice: non vediamo il mondo 'com'è', ma come la nostra mente è fatta per vederlo — con gli occhiali di spazio, tempo e causa. Per questo la matematica e la fisica funzionano: studiano le regole dei nostri occhiali. Di Dio, anima e mondo intero la ragione non può sapere, ma deve credere per agire bene. Agisci solo come vorresti che agissero tutti.",
+    "approfondita": "Domanda guida (Critica della ragion pura, 1781/87): come sono possibili giudizi sintetici a priori (matematica, fisica pura, metafisica futura)? Risposta: rivoluzione copernicana — spazio e tempo come forme a priori della sensibilità (estetica), categorie dell'intelletto (sostanza, causa...) come condizioni dell'esperienza possibile (deduzione trascendentale, io penso come appercezione). Fenomeno contro noumeno: conosciamo apparenze strutturate, non cose in sé; la dialettica mostra le antinomie e l'uso regolativo delle idee (anima, mondo, Dio). Etica (Fondazione 1785, Critica pratica 1788): autonomia contro eteronomia; imperativo categorico (formula della legge universale e dell'umanità come fine); postulati (libertà, immortalità, Dio) per la ragion pratica. Terza Critica (1790): giudizio estetico (bello come finalità senza fine, universalità senza concetto) e teleologico come ponte natura-libertà. Pace perpetua e illuminismo (risposta 1784: uscita dalla minorità).",
+    "tecnica": "Nodi critici: deduzione metafisica/trascendentale; schematismo; seconda analogia e causalità come risposta a Hume; fatto della ragione; sublime matematico/dinamico."
+  },
+  "definitions": [
+    "Sintetico a priori: giudizio che amplia la conoscenza senza derivare dall'esperienza.",
+    "Fenomeno/noumeno: oggetto come appare nelle nostre forme contro cosa in sé inconoscibile.",
+    "Imperativo categorico: comanda incondizionatamente (contro ipotetico, legato a scopi)."
+  ],
+  "examples": [
+    "'Ogni evento ha una causa': sintetica a priori, condizione dell'esperienza, non dato.",
+    "'Non mentire': vale se può valere per tutti senza contraddirsi."
+  ],
+  "counterexamples": [
+    "Lo spazio come contenitore newtoniano assoluto: per Kant è forma del soggetto.",
+    "La morale come calcolo della felicità: eteronomia, non dovere."
+  ],
+  "errorsTypical": [
+    "'Non possiamo conoscere niente': conosciamo i fenomeni scientificamente; il limite riguarda il sovrasensibile.",
+    "Confondere noumeno con 'realtà vera nascosta': è concetto-limite, non mondo parallelo."
+  ],
+  "keywords": [
+    "copernicana",
+    "categorie",
+    "io penso",
+    "noumeno",
+    "imperativo categorico",
+    "autonomia",
+    "giudizio"
+  ],
+  "prerequisites": [
+    "filosofia:cartesio",
+    "filosofia:empirismo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:moderna",
+      "note": "Sintesi e superamento di razionalismo ed empirismo."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:empirismo",
+      "note": "Hume risveglia dal sonno dogmatico: la causalità va fondata altrimenti."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:cartesio",
+      "note": "Il soggetto come punto di partenza, rovesciato in trascendentale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "fisica:newton-secondo-principio",
+      "note": "La fisica di Newton come 'fatto' che la Critica deve rendere possibile."
+    }
+  ],
+  "claims": [
+    {
+      "id": "kant-copernicana",
+      "statement": "Gli oggetti si conformano alle forme a priori del soggetto (spazio, tempo, categorie): così sono possibili matematica e fisica pura.",
+      "supportedBy": [
+        "treccani-kant"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-kant",
+      "title": "Immanuel Kant — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/immanuel-kant/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200; contenuto NON ancora revisionato."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "La domanda della prima Critica?",
+        "a": "Come sono possibili giudizi sintetici a priori?"
+      },
+      {
+        "q": "Le due formule dell'imperativo?",
+        "a": "Legge universale; umanità sempre come fine, mai solo mezzo."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il noumeno è:",
+        "choices": [
+          "Un altro mondo conoscibile",
+          "Concetto-limite della cosa in sé, non conoscibile",
+          "Un fenomeno chiaro",
+          "L'inconscio"
+        ],
+        "answer": 1,
+        "explanation": "Segna il limite dell'uso teoretico, non un oggetto alternativo."
+      }
+    ],
+    "questionsOpen": [
+      "Come risponde Kant a Hume sulla causa?",
+      "Autonomia: perché la felicità non può fondare la morale?"
+    ]
+  }
+}

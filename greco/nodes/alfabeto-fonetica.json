@@ -1,0 +1,65 @@
+{
+  "id": "greco:alfabeto-fonetica",
+  "subject": "greco",
+  "title": "Alfabeto e fonetica",
+  "slug": "alfabeto-fonetica",
+  "status": "published",
+  "access": "free",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "24 lettere dall'alfa all'omega (derivate dal fenicio con vocali), spiriti (aspro/dolce), tre accenti (acuto, grave, circonflesso), quantità vocalica, dittonghi e iota sottoscritto: il sistema grafico-fonologico presupposto da ogni analisi.",
+  "explanations": {
+    "semplice": "Il greco ha 24 lettere, si legge da sinistra a destra. Ogni parola che inizia per vocale ha uno spiritello (dolce o aspro: l'aspro si pronuncia con una h). Gli accenti dicono quale sillaba è più forte; le vocali possono essere lunghe o brevi, e questo cambia il significato.",
+    "approfondita": "Alfabeto: Αα Ββ Γγ Δδ Εε Ζζ Ηη Θθ Ιι Κκ Λλ Μμ Νν Ξξ Οο Ππ Ρρ Σσς Ττ Υυ Φφ Χχ Ψψ Ωω; origine fenicia con innovazione delle vocali; sigma finale ς. Spiriti: solo su vocale iniziale (o dittongo) e su rho iniziale (sempre aspro); spirito aspro = aspirazione /h/. Accenti: acuto su sillaba breve o lunga, circonflesso solo su lunga (o dittongo) per natura, grave in sostituzione dell'acuto in contesto; legge del baritono e limiti di posizione (terzultima solo se ultima breve). Quantità: ε/ο sempre brevi, η/ω sempre lunghe, α/ι/υ ancipiti; dittonghi propri (αι, ει, οι, αυ, ευ, ου...) e impropri con iota sottoscritto (ᾳ, ῃ, ῳ). Punteggiatura: punto, virgola, punto in alto (·), punto interrogativo greco (;) uguale al nostro punto e virgola. Pronuncia scolastica erasmiana come convenzione didattica (non ricostruzione fonetica del V secolo, da dichiarare).",
+    "tecnica": "Regole operative: enclitiche e accento secondario; elisione, crasi, aferesi nei testi; traslitterazione scientifica per il lessico."
+  },
+  "definitions": [
+    "Spirito aspro: aspirazione iniziale /h/ su vocale o rho.",
+    "Quantità: durata breve/lunga di vocali e sillabe, distintiva in morfologia e metrica.",
+    "Iota sottoscritto: iota di antichi dittonghi lunghi scritto sotto α/η/ω."
+  ],
+  "examples": ["ὁ (con spirito aspro su omicron) contro ὀ (spirito dolce): aspirazione distintiva.", "λύω (upsilon breve) contro λύσω (sigma del futuro): la quantità guida l'analisi."],
+  "counterexamples": ["La pronuncia erasmiana come 'come parlava Platone': è convenzione scolastica, non verità storica."],
+  "errorsTypical": ["Confondere ; greco (domanda) con ; latino (pausa).", "Ignorare lo iota sottoscritto scambiando dativo singolare e nominativo.", "Accento sulla quartultima: impossibile per i limiti di posizione."],
+  "keywords": ["alfabeto", "spiriti", "accenti", "quantità", "dittonghi", "iota sottoscritto", "erasmiana"],
+  "prerequisites": ["greco:introduzione"],
+  "relations": [
+    { "type": "PART_OF", "to": "greco:introduzione", "note": "Base di ogni analisi." },
+    { "type": "RELATED_TO", "to": "filosofia:platone-opere", "note": "Il Cratilo discute natura dei nomi: la fonetica incontra la filosofia del linguaggio." }
+  ],
+  "sources": [
+    {
+      "id": "treccani-alfabeto-greco",
+      "title": "Alfabeto greco — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/alfabeto-greco/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200 il 2026-09-24; contenuto NON ancora revisionato: le regole del nodo seguono le grammatiche scolastiche standard."
+    }
+  ],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Quante lettere e quale innovazione rispetto al fenicio?", "a": "24; l'introduzione sistematica delle vocali." },
+      { "q": "Quando si usa il circonflesso?", "a": "Solo su vocale lunga per natura o dittongo." }
+    ],
+    "quiz": [
+      {
+        "q": "Lo spirito aspro indica:",
+        "choices": ["L'accento tonico", "Un'aspirazione /h/ iniziale", "Una vocale lunga", "Una pausa"],
+        "answer": 1,
+        "explanation": "Distingue p.es. ὁ da ὀ; su rho iniziale è sempre aspro."
+      }
+    ],
+    "questionsOpen": ["Perché la quantità vocalica è indispensabile per riconoscere i casi?", "Traslittera il tuo nome motivando ogni scelta."]
+  }
+}

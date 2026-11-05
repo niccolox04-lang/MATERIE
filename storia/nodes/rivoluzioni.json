@@ -1,0 +1,167 @@
+{
+  "id": "storia:rivoluzioni",
+  "subject": "storia",
+  "title": "Rivoluzione americana, francese, industriale",
+  "slug": "rivoluzioni",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:scoperte-riforma",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "chrono": {
+    "start": "1776",
+    "end": "1848",
+    "label": "dalla Dichiarazione americana alle rivoluzioni del Quarantotto (convenzione scolastica)",
+    "place": "Atlantico, Europa occidentale"
+  },
+  "summary": "Tre rotture intrecciate: indipendenza americana (1776, costituzione federale), Rivoluzione francese (1789, Dichiarazione, Terrore, Napoleone) e decollo industriale inglese (macchina a vapore, fabbrica); sovranit\u00c3\u00a0 popolare e mercato del lavoro come esiti.",
+  "explanations": {
+    "semplice": "Tre grandi cambiamenti insieme: gli Americani si staccano dall'Inghilterra e scrivono una costituzione; i Francesi abbattono il re e proclamano che tutti gli uomini sono uguali, ma finiscono nel Terrore e poi con Napoleone; in Inghilterra le macchine a vapore creano fabbriche e operai.",
+    "approfondita": "Americana: tasse senza rappresentanza, Boston 1773, Dichiarazione 1776 (diritti naturali come linguaggio, schiavit\u00c3\u00b9 come contraddizione), Yorktown 1781, costituzione federale 1787 con pesi e contrappesi. Francese: crisi fiscale e Stati generali 1789, presa della Bastiglia 14 luglio, Dichiarazione dei diritti, Costituente e Legislativa, repubblica 1792, Terrore 1793-94 (guerra esterna e nemico interno come meccanismo), Termidoro, Direttorio, Napoleone (Consolato, Impero, Codice 1804, diffusione e crollo). Industriale: carbone e vapore (Watt), filatura e telaio meccanico, fabbrica e divisione del lavoro, urbanizzazione, questione operaia; cause dibattute (risorse, istituzioni, domanda). Fatto contro interpretazione: date e atti contro tesi monocausali (borghesia, idee, caso); Napoleone come continuazione e negazione insieme.",
+    "tecnica": "Fonti: Dichiarazioni e costituzioni, dibattiti parlamentari, registri fiscali e catasti, statistiche produttive ottocentesche; cautela sulle cifre pre-statistiche."
+  },
+  "definitions": [
+    "Sovranit\u00c3\u00a0 popolare: potere legittimo fondato sul consenso dei cittadini.",
+    "Terrore: repressione rivoluzionaria sistematica del dissenso (1793-94).",
+    "Decollo industriale: crescita manifatturiera autosostenuta con fabbrica e vapore."
+  ],
+  "examples": [
+    "Dichiarazione 1789 art. 3: il principio di ogni sovranit\u00c3\u00a0 risiede nella nazione.",
+    "Codice Napoleone 1804: uguaglianza civile e propriet\u00c3\u00a0 come eredit\u00c3\u00a0 ambivalente."
+  ],
+  "counterexamples": [
+    "1789 come democrazia compiuta: suffragio ristretto e schiavit\u00c3\u00b9 coloniale persistente.",
+    "Industria come solo progresso tecnico: istituzioni, carbone e domanda insieme."
+  ],
+  "errorsTypical": [
+    "Confondere Terrore e Rivoluzione intera (fase specifica 1793-94).",
+    "Datare l'industria al 1769 come interruttore unico.",
+    "Fare dell'americana una rivoluzione sociale egualitaria."
+  ],
+  "keywords": [
+    "1776",
+    "1789",
+    "Dichiarazione",
+    "Terrore",
+    "Napoleone",
+    "vapore"
+  ],
+  "prerequisites": [
+    "storia:scoperte-riforma",
+    "storia:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:scoperte-riforma",
+      "note": "Esito moderno dell'espansione e della crisi d'antico regime."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:kant",
+      "note": "Illuminismo e criticismo come linguaggio dell'emancipazione (uso, non identit\u00c3\u00a0)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "rivoluzioni-snodi",
+      "statement": "Americana 1765-1789 tasse Yorktown 19 ott 1781 Parigi 1783; Francese 1789-1799 Stati Generali Assemblea Terrore 1793-94 20-40mila Brumaio 1799 Impero 1804-1814; Industriale britannica 1760-1840 vapore fabbriche centri urbani.",
+      "supportedBy": [
+        "whe-americana",
+        "whe-francese",
+        "whe-industriale"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-americana",
+      "title": "American Revolution - World History Encyclopedia",
+      "author": "Harrison W. Mark",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/American_Revolution/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "rivoluzioni-snodi"
+      ],
+      "note": "Ispezionato 2026-09-27 (2024). 1765-1789 Yorktown 1781 Parigi 1783."
+    },
+    {
+      "id": "whe-francese",
+      "title": "French Revolution - World History Encyclopedia",
+      "author": "Harrison W. Mark",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/French_Revolution/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "rivoluzioni-snodi"
+      ],
+      "note": "Ispezionato 2026-09-27 (2023). 1789-1799 Terrore 1793-94 Brumaio Impero 1804."
+    },
+    {
+      "id": "whe-industriale",
+      "title": "Industrial Revolution - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Industrial_Revolution/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "rivoluzioni-snodi"
+      ],
+      "note": "Ispezionato 2026-09-27. 1760-1840 vapore fabbriche urbani."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre date francesi?",
+        "a": "1789 Bastiglia; 1793-94 Terrore; 1804 Codice."
+      },
+      {
+        "q": "Industria in tre fattori?",
+        "a": "Vapore, fabbrica, lavoro salariato urbano."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il Terrore (1793-94) si spiega soprattutto come:",
+        "choices": [
+          "Piano prestabilito del 1789",
+          "Combinazione di guerra esterna e caccia al nemico interno",
+          "Invenzione napoleonica",
+          "Rivolta industriale"
+        ],
+        "answer": 1,
+        "explanation": "Meccanismo emergenziale, non programma iniziale."
+      }
+    ],
+    "questionsOpen": [
+      "1789: rottura o compimento dell'Illuminismo? Argomenta.",
+      "Perch\u00c3\u00a9 l'industria decolla prima in Inghilterra?"
+    ]
+  },
+  "contentDepth": "encyclopedic"
+}

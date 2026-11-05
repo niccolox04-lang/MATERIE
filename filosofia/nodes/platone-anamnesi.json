@@ -1,0 +1,121 @@
+{
+  "id": "filosofia:platone-anamnesi",
+  "subject": "filosofia",
+  "title": "Platone — Anamnesi e immortalità dell'anima",
+  "slug": "platone-anamnesi",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "filosofia:platone",
+  "order": 4,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "L'anima ha contemplato le idee nell'Iperuranio prima di unirsi al corpo; conoscere è ricordare (anamnesi). Da qui la prova dell'immortalità nel Fedone, la metempsicosi di ascendenza orfico-pitagorica e la filosofia come preparazione alla morte.",
+  "explanations": {
+    "semplice": "Come facciamo a capire le idee se non le vediamo? Platone risponde: l'anima le ha già viste prima di nascere e le ha dimenticate; studiare è ricordarsele. Poiché può vivere senza corpo, l'anima è immortale. Dopo la morte trasmigra in base a come si è comportata.",
+    "approfondita": "Argomento: le idee non sono conoscibili coi sensi, eppure l'intelletto le intuisce attraverso il molteplice sensibile; dunque l'anima le ha conosciute in un'esistenza precedente, nell'Iperuranio, e le ricorda riflettendo su somiglianze e dissomiglianze. L'anamnesi implica idee innate e preesistenza dell'anima (non ancora, da sola, sopravvivenza post mortem); presupponendo vita separata dal corpo, prepara la dimostrazione del Fedone per affinità di natura tra anima e forme eterne. Etica conseguente: la vita corporea è prigionia provvisoria; la filosofia, attività puramente intellettiva, libera l'anima e la orienta all'aldilà (filosofia come preparazione alla morte). Metempsicosi: trasmigrazione in corpi umani o animali secondo il comportamento morale; liberazione dagli interessi corporei e ritorno alla sede sopraceleste. L'eros del Simposio media sensibile e intelligibile spingendo alla contemplazione del bello-bene.",
+    "tecnica": "Termini: anamnesis, hyperouranios, metempsycosis, katharsis. Fonti: Menone (schiavo e geometria), Fedone (prove dell'immortalità), Fedro (Iperuranio), Simposio (Eros demone), Repubblica X e Fedone (miti escatologici)."
+  },
+  "definitions": [
+    "Anamnesi: reminiscenza delle idee contemplate prima della nascita, fonte di ogni conoscenza terrena.",
+    "Iperuranio: luogo sopraceleste del mito in cui l'anima contempla le idee.",
+    "Metempsicosi: trasmigrazione dell'anima in diversi corpi secondo il merito morale."
+  ],
+  "examples": [
+    "Nel Menone uno schiavo senza istruzione risolve un problema geometrico guidato da domande: per Platone ricorda, non apprende ex novo."
+  ],
+  "counterexamples": [
+    "L'anamnesi prova la preesistenza, non da sola l'eternità futura: la dimostrazione completa è nel Fedone."
+  ],
+  "errorsTypical": [
+    "Presentare la metempsicosi come invenzione platonica: Platone la riprende da orfici e pitagorici.",
+    "Confondere Eros-possesso con amore romantico moderno: è forza mediatrice verso il bello ideale."
+  ],
+  "keywords": [
+    "anamnesi",
+    "Iperuranio",
+    "Fedone",
+    "Menone",
+    "metempsicosi",
+    "preparazione alla morte"
+  ],
+  "prerequisites": [
+    "filosofia:platone-teoria-idee",
+    "filosofia:platone-mondi"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:platone",
+      "note": "Dottrina dell'anima nel sistema platonico."
+    },
+    {
+      "type": "CAUSE",
+      "to": "filosofia:platone-anima",
+      "note": "Dall'immortalità alla struttura tripartita dell'anima."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:platone-eros",
+      "note": "Eros come tensione anamnestica verso l'ideale."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-platone",
+      "title": "Platone — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/platone/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Sezione anamnesi/immortalità/moralescatologia verificata con fetch il 2026-09-23.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento delle opere",
+        "dottrina delle idee",
+        "morale e politica",
+        "dialettica tarda e Timeo"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Cosa prova l'anamnesi da sola?",
+        "a": "La preesistenza dell'anima, non ancora la sopravvivenza dopo la morte (Fedone)."
+      },
+      {
+        "q": "Da chi riprende Platone la metempsicosi?",
+        "a": "Da orfici e pitagorici."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Conoscere come ricordare presuppone:",
+        "choices": [
+          "Idee innate e anima preesistente al corpo",
+          "Tabula rasa",
+          "Solo sensazioni",
+          "Rivelazione divina diretta"
+        ],
+        "answer": 0,
+        "explanation": "L'intuizione intellettiva del molteplice sensibile richiede visione precedente nell'Iperuranio."
+      }
+    ],
+    "questionsOpen": [
+      "Perché l'affinità anima-idee fonda l'immortalità nel Fedone?",
+      "Filosofia come preparazione alla morte: cosa significa concretamente?"
+    ]
+  },
+  "level": "intermediate"
+}

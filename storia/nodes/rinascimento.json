@@ -1,0 +1,130 @@
+{
+  "id": "storia:rinascimento",
+  "subject": "storia",
+  "title": "Rinascimento: citt\u00c3\u00a0, signorie, stampa",
+  "slug": "rinascimento",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 10,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1400",
+    "end": "1527",
+    "label": "da Firenze al Sacco di Roma (convenzione)",
+    "place": "Italia, Europa"
+  },
+  "summary": "Fioritura italiana tra comuni e signorie: Medici e corti, Brunelleschi e prospettiva, umanesimo volgare e latino, stampa a caratteri mobili (~1455), 1453-1494 come soglie; guerre d'Italia come chiusura.",
+  "explanations": {
+    "semplice": "Nelle citt\u00c3\u00a0 italiane ricche di commerci nascono palazzi bellissimi, pitture perfette e libri stampati in serie. Firenze dei Medici \u00c3\u00a8 il centro: artisti pagati dai signori, studiosi che ritrovano i testi antichi. Poi eserciti stranieri invadono e la festa finisce.",
+    "approfondita": "Politica: Visconti-Sforza a Milano, Medici a Firenze (Cosimo, Lorenzo), Venezia oligarchica, Napoli aragonese, Stato pontificio; pace di Lodi 1454 ed equilibrio come sistema. Cultura: Brunelleschi (cupola, prospettiva), Donatello, Masaccio; umanesimo volgare (Petrarca e Boccaccio come precedenti) e cancellerie; stampa (Magonza ~1455, Subiaco e Venezia) e prezzi dei libri. 1453 (Costantinopoli, esuli greci) e 1492-94 (chiamata di Carlo VIII) come soglie convenzionali dichiarate; Sacco 1527 come cesura simbolica. Economia: banchi, fiere, manifatture; schiavit\u00c3\u00b9 mediterranea come lato oscuro dichiarato. Fatto contro mito: rinascita reale contro Medioevo inventato come barbarie.",
+    "tecnica": "Fonti: Vasari con cautela agiografica, lettere cancelleresche, registri bancari, incunaboli; attribuzioni d'arte come dibattiti."
+  },
+  "definitions": [
+    "Signoria: potere personale cittadino legittimato dall'alto o dal basso.",
+    "Prospettiva: costruzione geometrica dello spazio pittorico.",
+    "Incunabolo: libro a stampa del Quattrocento."
+  ],
+  "examples": [
+    "Cupola di Santa Maria del Fiore: cantiere senza armature tradizionali.",
+    "Pace di Lodi 1454: equilibrio pentarchico italiano."
+  ],
+  "counterexamples": [
+    "Rinascimento solo toscano: corti padane, Napoli, Urbino, Roma.",
+    "Stampa che uccide i copisti subito: manoscritti di lusso persistenti."
+  ],
+  "errorsTypical": [
+    "Fare del 1453 l'inizio secco (soglia storiografica).",
+    "Confondere umanesimo e Rinascimento come sinonimi.",
+    "Dimenticare le guerre d'Italia come fine del sistema."
+  ],
+  "keywords": [
+    "Medici",
+    "prospettiva",
+    "stampa",
+    "Lodi 1454",
+    "1527"
+  ],
+  "prerequisites": [
+    "storia:basso-medioevo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Fioritura italiana tra Medioevo ed et\u00c3\u00a0 moderna."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:basso-medioevo",
+      "note": "Comuni e signorie come matrice politica."
+    }
+  ],
+  "claims": [
+    {
+      "id": "rinascimento-quadro",
+      "statement": "Rinascimento inizia in Italia meta 14 sec e si afferma nel 15: filologia classici greci latini, lettere arti scienza vita civile, concezione immanente; oltre Italia in Europa; limiti meta Trecento-fine Cinquecento (varianti 1400-1550 o 1492-1600); prospettiva Brunelleschi-Alberti, Laocoonte Apollo Belvedere fine 15-inizio 16, Roma laboratorio Bramante Raffaello Michelangelo.",
+      "supportedBy": [
+        "treccani-rinascimento"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-rinascimento",
+      "title": "Rinascimento - Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/rinascimento/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "rinascimento-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27. Meta 14-15 sec filologia, Trecento-Cinquecento, prospettiva, Roma antico."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre soglie?",
+        "a": "Lodi 1454; stampa ~1455; Sacco 1527."
+      },
+      {
+        "q": "Firenze perch\u00c3\u00a9 centro?",
+        "a": "Banchi, Medici, cantieri e umanesimo insieme."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La pace di Lodi (1454) crea:",
+        "choices": [
+          "L'unit\u00c3\u00a0 d'Italia",
+          "Un equilibrio tra Stati italiani",
+          "La Riforma",
+          "L'impero"
+        ],
+        "answer": 1,
+        "explanation": "Sistema pentarchico dopo le guerre viscontee."
+      }
+    ],
+    "questionsOpen": [
+      "Rinascita o invenzione del Medioevo? Discuti Burckhardt.",
+      "Stampa: perch\u00c3\u00a9 cambia pi\u00c3\u00b9 dei copisti?"
+    ]
+  },
+  "contentDepth": "standard"
+}

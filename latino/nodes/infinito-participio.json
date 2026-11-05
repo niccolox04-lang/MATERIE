@@ -1,0 +1,111 @@
+{
+  "id": "latino:infinito-participio",
+  "subject": "latino",
+  "title": "Infinito e participio",
+  "slug": "infinito-participio",
+  "status": "published",
+  "access": "pro",
+  "type": "sottoargomento",
+  "parent": "latino:sistema-casi",
+  "order": 4,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Infinito presente/perfetto/futuro in attivo e passivo (amare, amavisse, amaturum esse) con accusativo con infinito dopo verba dicendi; participio presente/perfetto/futuro (amans, amatus, amaturus) e congiunto prima delle subordinate esplicite.",
+  "explanations": {
+    "semplice": "Anche in latino il verbo ha forme senza persona: l'infinito (amare, aver amato, stare per amare) per riportare ciò che si dice o si pensa, e il participio (amante, amato, che amerà) per unire due frasi. Il tempo dice se l'azione è insieme, prima o dopo quella principale.",
+    "approfondita": "Infinito: presente attivo/passivo (amare/amari; monere/moneri; legere/legi; audire/audiri), perfetto attivo (-isse: amavisse) e passivo (participio + esse: amatum esse), futuro attivo (participio futuro + esse: amaturum esse) e passivo (supino + iri: amatum iri); negazione non. Accusativo con infinito (AcI): soggetto in accusativo + infinito dopo dicere, putare, sentire, iubere (dico eum venire = dico che viene; iubeo eum venire = gli ordino di venire, con sfumatura volitiva); tempi relativi (presente contemporaneo, perfetto anteriore, futuro posteriore) con eccezione dell'epistolare. Participio: presente in -ns (amans, gen. amantis, contemporaneo), perfetto in -tus (amatus, anteriore, passivo nei transitivi), futuro in -turus (posteriore, attivo anche nei deponenti); declinazione (presente come aggettivo II classe a una uscita, altri come I classe); usi congiunto (accordato), sostantivato (amantes = gli amanti), ablativo assoluto (già noto) come cornice. Deponenti (hortor: hortari, hortatus, hortaturus con senso attivo) come ponte agli anomali.",
+    "tecnica": "Diagnosi: -re/-ri per il presente, -isse per il perfetto attivo, -tum esse per il passivo; -ns contro -tus/-turus per il participio; verifica del soggetto (accusativo vs nominativo) prima di tradurre."
+  },
+  "definitions": [
+    "AcI: accusativo con infinito, oggettiva implicita dei verba dicendi e sentiendi.",
+    "Tempo relativo: contemporaneità/anteriorità/posteriorità rispetto alla reggente.",
+    "Participio congiunto: accordato con un elemento della principale."
+  ],
+  "examples": [
+    "Dicit eum venisse: perfetto = dice che è venuto (anteriore).",
+    "Caesar, hostibus victis, profectus est: participio perfetto = vinti i nemici (anteriore)."
+  ],
+  "counterexamples": [
+    "AcI dopo spero senza futuro: spero + futuro (spero eum venturum esse).",
+    "Participio presente per anteriorità (è contemporaneo)."
+  ],
+  "errorsTypical": [
+    "Tradurre l'infinito perfetto come presente.",
+    "Confondere -us futuro (amaturus) con -us perfetto (amatus).",
+    "Soggetto dell'AcI in nominativo."
+  ],
+  "keywords": [
+    "AcI",
+    "infinito",
+    "participio",
+    "-turus",
+    "tempo relativo"
+  ],
+  "prerequisites": [
+    "latino:verbo",
+    "latino:ablativo-assoluto"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "latino:sistema-casi",
+      "note": "Forme nominali dopo il sistema verbale e l'ablativo assoluto."
+    },
+    {
+      "type": "SIMILAR_TO",
+      "to": "greco:verbo-completo",
+      "note": "Participi e infiniti come sistema parallelo greco-latino."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-lingua-latina",
+      "title": "Latino, lingua — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/lingua-latina/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Profilo già usato nei nodi latino; contenuto NON ancora revisionato puntualmente."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tempi dell'infinito?",
+        "a": "Presente contemporaneo, perfetto anteriore, futuro posteriore."
+      },
+      {
+        "q": "AcI in una riga?",
+        "a": "Soggetto accusativo + infinito dopo dire/pensare/sentire."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'Putat eos venturos esse': il futuro indica:",
+        "choices": [
+          "Contemporaneità",
+          "Anteriorità",
+          "Posteriorità rispetto al pensare",
+          "Comando"
+        ],
+        "answer": 2,
+        "explanation": "-urum esse: posteriore (che verranno)."
+      }
+    ],
+    "questionsOpen": [
+      "Volgi un'oggettiva esplicita in AcI e viceversa.",
+      "Perché i deponenti aiutano a capire il participio futuro?"
+    ]
+  }
+}

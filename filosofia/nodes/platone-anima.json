@@ -1,0 +1,116 @@
+{
+  "id": "filosofia:platone-anima",
+  "subject": "filosofia",
+  "title": "Platone — Anima tripartita (Fedro)",
+  "slug": "platone-anima",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "filosofia:platone",
+  "order": 5,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Nel Fedro l'anima è un carro alato: auriga razionale e due cavalli, irascibile e concupiscibile. La virtù non è repressione ma subordinazione armonica delle parti inferiori alla ragione.",
+  "explanations": {
+    "semplice": "Immagina un carro con due cavalli: uno bravo (coraggio) e uno ribelle (desideri). L'auriga è la ragione che li guida. Se comanda bene, l'anima vola verso le idee; se perde il controllo, cade.",
+    "approfondita": "Le tre parti: logistikon (razionale, conosce vero e bene), thymoeides (irascibile, impulsi nobili come coraggio e sdegno), epithymetikon (concupiscibile, desideri corporei). Morale: non negazione ascetica delle passioni ma ordine gerarchico — le facoltà inferiori subordinate alle superiori. La psicologia fonda la politica della Repubblica: alle tre parti corrispondono tre classi e tre virtù (sapienza, coraggio, temperanza) coronate dalla giustizia come ciascuno-al-suo-posto. Il dualismo ascesi/impegno politico resta in tensione: la Repubblica culmina in un mito escatologico analogo al Fedone.",
+    "tecnica": "Fonte dell'immagine: Fedro (mito della biga alata). Corrispondenza Repubblica IV: tripartizione e virtù cardinali. Virtù come salute/ordine (taxis) dell'anima e della città."
+  },
+  "definitions": [
+    "Parte razionale: sede di conoscenza di verità e bene, guida dell'anima.",
+    "Parte irascibile: sede degli impulsi nobili (coraggio, emulazione).",
+    "Parte concupiscibile: sede dei desideri legati al corpo."
+  ],
+  "examples": [
+    "Il coraggio senza ragione è temerarietà; il desiderio guidato dalla ragione diventa temperanza."
+  ],
+  "errorsTypical": [
+    "Attribuire il carro alato alla Repubblica: è nel Fedro; la Repubblica usa la corrispondenza anima-città."
+  ],
+  "keywords": [
+    "Fedro",
+    "biga alata",
+    "logistikon",
+    "thymoeides",
+    "epithymetikon",
+    "virtù"
+  ],
+  "prerequisites": [
+    "filosofia:platone-anamnesi"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:platone",
+      "note": "Psicologia del sistema platonico."
+    },
+    {
+      "type": "CAUSE",
+      "to": "filosofia:platone-politica",
+      "note": "La tripartizione fonda le tre classi della città ideale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:platone-eros",
+      "note": "Eros muove l'intero carro verso il bello."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-platone",
+      "title": "Platone — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/platone/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Immagine del Fedro e dottrina morale verificate con fetch il 2026-09-23.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento delle opere",
+        "dottrina delle idee",
+        "morale e politica",
+        "dialettica tarda e Timeo"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Le tre parti dell'anima?",
+        "a": "Razionale (auriga), irascibile (cavallo nobile), concupiscibile (cavallo focoso)."
+      },
+      {
+        "q": "Dove si trova il mito del carro alato?",
+        "a": "Nel Fedro."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La perfezione morale per Platone è:",
+        "choices": [
+          "Eliminazione di ogni desiderio",
+          "Subordinazione armonica delle parti inferiori alle superiori",
+          "Obbedienza cieca alle passioni",
+          "Isolamento dal mondo"
+        ],
+        "answer": 1,
+        "explanation": "Non ascesi negatrice ma ordine: ciascuna parte opera nel proprio campo (giustizia)."
+      }
+    ],
+    "questionsOpen": [
+      "Perché il coraggio da solo non basta a fare un'anima buona?",
+      "Come si passa dalla tripartizione psichica alle classi sociali?"
+    ]
+  },
+  "level": "intermediate"
+}

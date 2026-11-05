@@ -1,0 +1,111 @@
+{
+  "id": "latino:cum-ut",
+  "subject": "latino",
+  "title": "Cum narrativo, ut finale e consecutivo",
+  "slug": "cum-ut",
+  "status": "published",
+  "access": "pro",
+  "type": "sottoargomento",
+  "parent": "latino:sistema-casi",
+  "order": 5,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Prime subordinate col congiuntivo: cum narrativo (quando/poiché/sebbene, con indicativo solo per datazione), ut finale (perché/affinché) e ut consecutivo (così che) con correlativi (sic, ita, tantus); tempi relativi del congiuntivo prima della consecutio.",
+  "explanations": {
+    "semplice": "Sono le prime frasi secondarie vere: una parola (cum, quando) o (ut, perché/così che) introduce un verbo al congiuntivo. Il contesto dice se è un quando, un perché o un sebbene. Nelle conseguenze c'è spesso una parola che annuncia (così, tanto).",
+    "approfondita": "Cum: temporale con indicativo (datazione puntuale: cum Caesar venit), narrativo con congiuntivo (imperfetto/piuccheperfetto per anteriorità narrativa: cum urbem caperet = mentre/poiché/sebbene prendesse); valori dal contesto e dal verbo principale (causale con verbi di giudizio, concessivo con tamen). Ut finale: ut/ne + congiuntivo (presente/imperfetto per contemporaneità: venit ut videat = viene per vedere); negazione ne, ne quis/ne umquam; verbi di esortazione e timore (timeo ne veniat = temo che venga). Ut consecutivo: correlativo nella principale (sic, ita, tantus, talis, adeo) + ut + congiuntivo secondo consecutio embrionale (è venuto così stanco che dorme: presente dopo principale presente; venne così stanco che dormì: imperfetto dopo passato); negazione ut non. Distinzione finale/consecutivo: presenza del correlativo, senso (scopo voluto contro risultato), negazione (ne contro ut non). Congiuntivo presente/imperfetto/perfetto/piuccheperfetto già noti dal verbo; consecutio sistematica come sviluppo.",
+    "tecnica": "Diagnosi: cerca cum/ut, verifica modo (indicativo = datazione; congiuntivo = narrazione/scopo/risultato), poi correlativo e negazione per finale contro consecutivo."
+  },
+  "definitions": [
+    "Cum narrativo: cum + congiuntivo per circostanza narrativa (tempo, causa, concessione).",
+    "Ut finale: scopo voluto con ne come negazione.",
+    "Ut consecutivo: risultato con correlativo e ut non come negazione."
+  ],
+  "examples": [
+    "Cum taceret, clamabant: tacendo lui (mentre/poiché), gridavano.",
+    "Tam altus erat ut non videretur: così alto che non si vedeva (risultato)."
+  ],
+  "counterexamples": [
+    "Ogni cum col congiuntivo è temporale: spesso è causale o concessivo.",
+    "Ut sempre finale: col correlativo è consecutivo."
+  ],
+  "errorsTypical": [
+    "Tradurre ut consecutivo come scopo (perché al posto di così che).",
+    "Negare la finale con ut non invece di ne.",
+    "Cum con indicativo scambiato per narrativo."
+  ],
+  "keywords": [
+    "cum narrativo",
+    "ut finale",
+    "ut consecutivo",
+    "correlativo",
+    "ne"
+  ],
+  "prerequisites": [
+    "latino:verbo",
+    "latino:ablativo-assoluto"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "latino:sistema-casi",
+      "note": "Dalle implicite (assoluto, participio) alle prime esplicite."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "latino:ablativo-assoluto",
+      "note": "Stessi valori circostanziali in forma implicita ed esplicita."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-lingua-latina",
+      "title": "Latino, lingua — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/lingua-latina/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Profilo già usato nei nodi latino; contenuto NON ancora revisionato puntualmente."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Cum + indicativo o congiuntivo?",
+        "a": "Indicativo datazione; congiuntivo narrazione (tempo/causa/concessione)."
+      },
+      {
+        "q": "Finale o consecutivo?",
+        "a": "Correlativo + ut non = risultato; ne senza correlativo = scopo."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'Venit ut eum videat': ut è:",
+        "choices": [
+          "Consecutivo",
+          "Finale (per vedere)",
+          "Comparativo",
+          "Concessivo"
+        ],
+        "answer": 1,
+        "explanation": "Scopo senza correlativo, negazione possibile ne."
+      }
+    ],
+    "questionsOpen": [
+      "Distingui tre valori di cum in tre frasi.",
+      "Riscrivi una consecutiva come finale: cosa cambia nel senso?"
+    ]
+  }
+}

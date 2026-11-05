@@ -1,0 +1,127 @@
+{
+  "id": "filosofia:platone-dialettica",
+  "subject": "filosofia",
+  "title": "Platone — Dialettica tarda e cosmologia",
+  "slug": "platone-dialettica",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "filosofia:platone",
+  "order": 8,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Nei dialoghi tardi Platone rivede la dottrina: critica del sensismo (Teeteto), aporie sulle idee (Parmenide), parricidio di Parmenide nel Sofista (il non-essere come alterità), dialettica come divisione dei generi; nel Timeo racconta con mito la formazione del cosmo per opera del Demiurgo.",
+  "explanations": {
+    "semplice": "Da vecchio, Platone si fa domande difficilissime: come possono le idee essere in tante cose? Cosa significa dire 'non è'? Risponde che 'non essere' vuol dire 'essere diverso'. Poi racconta come il mondo è stato costruito da un artefice buono copiando le idee.",
+    "approfondita": "Percorso: Teeteto (critica del sensismo di origine eraclitea: conoscenza non è sensazione); Parmenide (obiezioni di Parmenide e Zenone contro idee e partecipazione; seconda parte: esercizio sulle contraddizioni dell'uno); Sofista (il parricidio: contro il divieto eleatico, il non-essere è in quanto alterità — dire che una cosa non è le altre significa che è diversa da esse; identico e diverso come generi sommi; comunanza/koinonia dei generi; soluzione di predicazione ed errore come dire il diverso). Metodo: dialettica come divisione (diairesis) di generi e specie secondo identico e diverso, con esemplificazioni multiple. Etica tarda: Filebo (il piacere puro entra nella scala dei valori sotto bene e scienza, correzione del dualismo); Politico (arte regia, mitigazione dell'utopia). Cosmologia: Timeo, mito dell'origine — distinzione tra ciò che è sempre e ciò che nasce; Demiurgo che plasma (non crea dal nulla) a immagine del modello; ricettacolo/chora come luogo-materia-spazio; Anima del mondo da indivisibile, divisibile e misture di identico/diverso; proporzioni matematiche e armonia; tempo come immagine mobile dell'eterno; elementi come figure geometriche (poliedri regolari per terra, acqua, aria, fuoco). Mediazione estrema: idee-numeri come intermediari (testimonianza aristotelica) e dottrine orali sui principi (ipotesi di Tubinga).",
+    "tecnica": "Generi sommi del Sofista: essere, identico, diverso (più moto e quiete). Errore come eteron-leghein. Timeo: struttura enciclopedica (cosmologia, astronomia, fisica, antropologia, medicina) e fortuna plurisecolare; in Occidente noto fino al XII sec. solo nella prima parte via Calcidio."
+  },
+  "definitions": [
+    "Parricidio: confutazione della tesi parmenidea che il non-essere non è.",
+    "Alterità: il non-essere come essere-diverso, che risolve aporie di predicazione ed errore.",
+    "Diairesis: divisione dei generi in specie secondo identico e diverso.",
+    "Demiurgo: artefice divino che plasma il cosmo sul modello eterno.",
+    "Chora: ricettacolo universale, luogo-materia in cui avviene il divenire."
+  ],
+  "examples": [
+    "Dire 'il cavallo non è uomo' significa: il cavallo è diverso dall'uomo, non che non esista.",
+    "Il tempo scandisce i moti planetari come immagine mobile dell'eterno."
+  ],
+  "counterexamples": [
+    "Il Timeo non è trattato dogmatico di fisica moderna: è racconto verosimile (mythos) con strumenti matematici antichi."
+  ],
+  "errorsTypical": [
+    "Presentare il Parmenide come abbandono delle idee: è riesame critico, non abiura.",
+    "Leggere il Demiurgo come creatore dal nulla biblico: plasma un ricettacolo preesistente sul modello."
+  ],
+  "keywords": [
+    "Teeteto",
+    "Parmenide",
+    "Sofista",
+    "parricidio",
+    "alterità",
+    "diairesis",
+    "Timeo",
+    "Demiurgo",
+    "chora"
+  ],
+  "prerequisites": [
+    "filosofia:platone-teoria-idee",
+    "filosofia:platone-mondi"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:platone",
+      "note": "Fase tarda del pensiero platonico."
+    },
+    {
+      "type": "DEVELOPS_INTO",
+      "to": "filosofia:platone-collegamenti",
+      "note": "La revisione apre ai confronti storici (Aristotele, platonismo)."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:presocratici",
+      "note": "Ritorno critico su eleatismo e sensismo eracliteo."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-platone",
+      "title": "Platone — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/platone/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Dialoghi dialettici, Filebo/Politico, Timeo e Platone orale verificati con fetch il 2026-09-23.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento delle opere",
+        "dottrina delle idee",
+        "morale e politica",
+        "dialettica tarda e Timeo"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Cosa significa 'il non-essere è' nel Sofista?",
+        "a": "Che il diverso è: dire 'x non è y' significa 'x è diverso da y'."
+      },
+      {
+        "q": "Chi plasma il mondo nel Timeo e come?",
+        "a": "Il Demiurgo, plasmando (non creando dal nulla) il ricettacolo a immagine del modello."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La dialettica tarda come divisione serve a:",
+        "choices": [
+          "Vincere le gare retoriche",
+          "Articolare generi e specie secondo identico e diverso",
+          "Dimostrare che le idee non esistono",
+          "Sostituire la matematica"
+        ],
+        "answer": 1,
+        "explanation": "È il metodo dei dialoghi dialettici, messo alla prova su etica e politica."
+      }
+    ],
+    "questionsOpen": [
+      "Come l'alterità risolve il problema dell'errore?",
+      "Perché il Timeo è un mito e non un trattato?"
+    ]
+  },
+  "level": "advanced"
+}

@@ -1,0 +1,115 @@
+{
+  "id": "latino:classica",
+  "subject": "latino",
+  "title": "Cicerone, Cesare, Virgilio, Orazio",
+  "slug": "classica",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "latino:introduzione",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Età tardo-repubblicana e augustea: Cicerone (oratoria, filosofia), Cesare (commentari), Sallustio e Livio (storiografia), Virgilio e Orazio (epica e lirica); classicismo come lingua e modello.",
+  "explanations": {
+    "semplice": "Sono gli autori che si leggono a scuola da duemila anni: un grande avvocato che parla e scrive di tutto, un generale che racconta le sue guerre in modo semplice, poeti che cantano eroi e campagne sotto l'imperatore Augusto.",
+    "approfondita": "Cicerone (106-43): Verrine e Catilinarie (giudiziario e deliberativo), De oratore e Brutus (retorica), De re publica e De officiis (filosofia politica e morale come mediazione greca); stile periodico e clausole. Cesare (100-44): De bello Gallico e Civili, chiarezza e terza persona come strategia (fatto stilistico), attendibilità discussa (interpretazione). Sallustio (Catilina, Giugurta) e Livio (Ab urbe condita: exempla e cause morali). Virgilio (70-19): Bucoliche, Georgiche, Eneide (mito e impero, pietà, dubbi moderni come interpretazione); Orazio (Odi, Satire, Epistole, Ars poetica: misura e autocontrollo). Contesto: crisi della repubblica e principato augusteo (Mecenate come mediazione); classicità come norma scolastica posteriore (fatto), non autocoscienza degli autori (distinzione).",
+    "tecnica": "Strumenti: periodo e brevitas, esametro e metro lirico come riconoscimento, proemi e discorsi come programma, exemplum come argomentazione storica."
+  },
+  "definitions": [
+    "Età classica: tardo-repubblica e principato come canone scolastico.",
+    "Commentario: narrazione militare in terza persona con pretesa di resoconto.",
+    "Classicismo: norma linguistica posteriore costruita su questi autori."
+  ],
+  "examples": [
+    "Quo usque tandem abutere patientia nostra: incipit come attacco diretto.",
+    "Gallia est omnis divisa in partes tres: apertura geografica come tesi."
+  ],
+  "counterexamples": [
+    "Cesare cronista neutro: testo politico con scelte lessicali.",
+    "Augusto mecenate disinteressato: committenza con margini (interpretazione)."
+  ],
+  "errorsTypical": [
+    "Fare di ogni opera ciceroniana un'orazione (molte sono trattati).",
+    "Leggere l'Eneide solo come propaganda (pietà e costi insieme).",
+    "Datare tutto ad Augusto (Cicerone e Cesare sono repubblicani)."
+  ],
+  "keywords": [
+    "Cicerone",
+    "Cesare",
+    "Virgilio",
+    "Orazio",
+    "Livio",
+    "classicismo"
+  ],
+  "prerequisites": [
+    "latino:cum-ut",
+    "latino:infinito-participio"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "latino:introduzione",
+      "note": "Letteratura classica dopo la sintassi di base."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:roma-repubblica",
+      "note": "Cicerone e Cesare come attori e voci della crisi repubblicana."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:roma-impero",
+      "note": "Virgilio e Orazio nel programma augusteo."
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-letteratura-latina",
+      "title": "Profilo standard di letteratura latina classica (Cicerone, Cesare, Virgilio, Orazio)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "I quattro nomi e un'opera?",
+        "a": "Cicerone Catilinarie; Cesare Galllico; Virgilio Eneide; Orazio Odi."
+      },
+      {
+        "q": "Repubblica o impero?",
+        "a": "Cicerone e Cesare repubblicani; Virgilio e Orazio augustei."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il De bello Gallico è scritto:",
+        "choices": [
+          "In versi",
+          "In terza persona con brevitas",
+          "In greco",
+          "Come commedia"
+        ],
+        "answer": 1,
+        "explanation": "Commentario: chiarezza e terza persona come strategia."
+      }
+    ],
+    "questionsOpen": [
+      "Cicerone mediatore dei Greci: con quali prove?",
+      "Eneide tra mito e impero: dove emergono i costi?"
+    ]
+  }
+}

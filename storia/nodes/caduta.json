@@ -1,0 +1,186 @@
+{
+  "id": "storia:caduta",
+  "subject": "storia",
+  "title": "Tardoantico e 'caduta' dell'Occidente",
+  "slug": "caduta",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:roma-impero",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "284",
+    "end": "476",
+    "label": "da Diocleziano a Odoacre (convenzione scolastica)",
+    "place": "Impero romano d'Occidente"
+  },
+  "summary": "Crisi del III secolo e riforme (Diocleziano, Costantino), cristianizzazione, divisione del 395, sacchi di Roma (410, 455), foederati e Odoacre (476) come simbolo; continuit\u00c3\u00a0 orientali e dibattito decadenza-trasformazione.",
+  "explanations": {
+    "semplice": "L'impero diventa troppo grande da governare: gli imperatori lo dividono, cambiano soldi ed esercito, e il cristianesimo diventa la religione ufficiale. Arrivano popoli da fuori, Roma viene saccheggiata e nel 476 l'ultimo imperatore d'Occidente viene deposto. Ma a est l'impero continua.",
+    "approfondita": "Crisi III: inflazione, usurpazioni, Gallieno e Palmira; Diocleziano (tetrarchia, editti, persecuzione) e Costantino (Milano 313, Nicea 325, Costantinopoli 330); esercito barbarizzato e foedus; Teodosio e divisione 395 (Arcadio/Onorio); Alarico e sacco 410 (Agostino risponde col De civitate Dei), Vandali 455, Attila e campi Catalaunici 451; Romolo Augustolo 476 con Odoacre (rex, non imperatore). Oriente: continuit\u00c3\u00a0 amministrativa e Giustiniano come orizzonte. Dibattito: Gibbon (cristianesimo e barbarie) contro Jones (fisco ed esercito), Brown e tardoantico come trasformazione, Ward-Perkins e fine violenta (da dichiarare come posizioni). 476 come convenzione (fatto), non crollo improvviso.",
+    "tecnica": "Fonti: Ammiano, Zosimo, Orosio, leggi imperiali, archeologia delle ville e delle citt\u00c3\u00a0; serie monetarie come termometro fiscale."
+  },
+  "definitions": [
+    "Foederati: gruppi barbarici insediati con patto militare.",
+    "Tetrarchia: governo collegiale di due augusti e due cesari.",
+    "Tardoantico: III-VIII sec. come trasformazione, non solo declino."
+  ],
+  "examples": [
+    "Editto dei prezzi 301: tetto massimo contro l'inflazione.",
+    "Sacco del 410: Alarico a Roma, shock simbolico raccontato da Agostino."
+  ],
+  "counterexamples": [
+    "476 come fine del mondo antico ovunque: Oriente e campagne continuano.",
+    "Barbari solo distruttori: eserciti, leggi e regni romano-barbarici."
+  ],
+  "errorsTypical": [
+    "Fare del cristianesimo l'unica causa (tesi gibboniana parziale).",
+    "Confondere deposizione di Romolo e fine dell'impero d'Oriente.",
+    "Trattare le cifre degli eserciti come censimenti."
+  ],
+  "keywords": [
+    "Diocleziano",
+    "Costantino",
+    "410",
+    "476",
+    "foederati",
+    "tardoantico"
+  ],
+  "prerequisites": [
+    "storia:roma-impero",
+    "storia:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:roma-impero",
+      "note": "Fase terminale dell'impero d'Occidente."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:agostino",
+      "note": "Il sacco del 410 e la risposta del De civitate Dei."
+    }
+  ],
+  "claims": [
+    {
+      "id": "caduta-476",
+      "statement": "Il 476 \u00c3\u00a8 convenzione simbolica (Odoacre depone Romolo Augustolo, settembre 476); la ricerca discute trasformazione tardoantica e continuit\u00c3\u00a0 orientali contro l'ipotesi di collasso violento.",
+      "supportedBy": [
+        "bbc-heather-fall-of-rome"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "bbc-heather-fall-of-rome",
+      "title": "The Fall of Rome \u00e2\u20ac\u201d BBC History (Ancient History in depth)",
+      "author": "Peter Heather (Worcester College, Oxford)",
+      "publisher": "BBC History",
+      "url": "https://www.bbc.co.uk/history/ancient/romans/fallofrome_article_01.shtml",
+      "sourceType": "article",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "caduta-476",
+        "caduta-dibattito"
+      ],
+      "note": "Contenuto letto il 2026-09-27. Verificati: deposizione di Romolo Augustolo (settembre 476) e invio delle insegne imperiali a Costantinopoli; \u00c2\u00abby the late 1990s the word 'transformation' had come into vogue\u00c2\u00bb; discussione di Heather su guerra endemica, fine della Pax Romana e calo demografico; bibliografia con Ward-Perkins, The Fall of Rome and the End of Civilization (OUP 2005). Limite: articolo divulgativo firmato, non rassegna neutra."
+    }
+  ],
+  "historiography": [
+    {
+      "id": "caduta-dibattito",
+      "question": "La fine dell'impero romano d'Occidente \u00c3\u00a8 una trasformazione o un collasso violento?",
+      "whyContested": "Gli stessi dati (archeologia, leggi, testi) ammettono due letture: continuit\u00c3\u00a0 di strutture romane nei regni successori e vitalit\u00c3\u00a0 dell'Oriente, oppure guerra endemica, fine della Pax Romana e crollo demografico.",
+      "positions": [
+        {
+          "label": "Trasformazione (evoluzione di lungo periodo)",
+          "authors": [],
+          "works": [],
+          "evidence": [
+            "L'Oriente sopravvive alla caduta del partner occidentale e fiorisce nel VI secolo sotto Giustiniano (527-565), con grandi monumenti pubblici e riconquiste.",
+            "Molti individui in Occidente continuano a definirsi romani e i regni successori usano istituzioni e valori romani.",
+            "\u00c2\u00abBy the late 1990s the word 'transformation' had come into vogue\u00c2\u00bb: nessuno negava i cambiamenti tra 350 e 600, ma li si leggeva come evoluzione pi\u00c3\u00b9 che come crollo."
+          ],
+          "status": "partially_verified"
+        },
+        {
+          "label": "Collasso violento (catastrofe)",
+          "authors": [
+            "Peter Heather",
+            "Bryan Ward-Perkins"
+          ],
+          "works": [
+            "Peter Heather, The Fall of the Roman Empire (Macmillan, 2005)",
+            "Bryan Ward-Perkins, The Fall of Rome and the End of Civilization (Oxford University Press, 2005)"
+          ],
+          "evidence": [
+            "Settembre 476: Romolo Augustolo \u00c3\u00a8 deposto da Odoacre, che invia le insegne imperiali a Costantinopoli: il potere centrale scompare e si frammenta in una dozzina di regni.",
+            "Caduta la Pax Romana, \u00c2\u00abwarfare became endemic\u00c2\u00bb, con eserciti che sostituiscono l'amministrazione al centro della vita delle \u00c3\u00a9lite.",
+            "La fine della tassazione per l'esercito professionale indebolisce gli Stati successori e la diminuzione della popolazione emerge dall'archeologia post-romana."
+          ],
+          "status": "partially_verified"
+        }
+      ],
+      "agreements": [
+        "Tra il 350 e il 600 d.C. cambi\u00c3\u00b2 profondamente la vita in Occidente: nessuno nega i mutamenti.",
+        "Il 476 \u00c3\u00a8 una data convenzionale: la deposizione di un imperatore, non lo spegnimento istantaneo di un mondo."
+      ],
+      "disputes": [
+        "Se le trasformazioni siano evoluzione di lungo periodo o distruzione violenta.",
+        "Quanto pesino i fattori esterni (migrazioni, pressione militare) rispetto a quelli interni (fisco, esercito, \u00c3\u00a9lite)."
+      ],
+      "limits": [
+        "L'articolo letto \u00c3\u00a8 una sintesi per il pubblico, firmata da un sostenitore della tesi catastrofista: la posizione della 'trasformazione' \u00c3\u00a8 descritta ma senza nominare i suoi autori.",
+        "Nessuna fonte letta in questa revisione \u00c3\u00a8 integrale: le cifre demografiche ed economiche restano ordini di grandezza."
+      ],
+      "supportedBy": [
+        "bbc-heather-fall-of-rome"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "476 in una riga?",
+        "a": "Simbolo: Odoacre depone Romolo, l'Oriente continua."
+      },
+      {
+        "q": "Due riformatori?",
+        "a": "Diocleziano (tetrarchia); Costantino (capitale cristiana)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il sacco del 410 fu opera di:",
+        "choices": [
+          "Attila",
+          "Alarico e i Visigoti",
+          "Odoacre",
+          "Diocleziano"
+        ],
+        "answer": 1,
+        "explanation": "Alarico; Attila arriva decenni dopo."
+      }
+    ],
+    "questionsOpen": [
+      "Decadenza o trasformazione? Confronta due posizioni.",
+      "Perch\u00c3\u00a9 l'Oriente sopravvive e l'Occidente no?"
+    ]
+  },
+  "contentDepth": "standard"
+}

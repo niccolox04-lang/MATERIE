@@ -1,0 +1,113 @@
+{
+  "id": "matematica:polinomi",
+  "subject": "matematica",
+  "title": "Polinomi: divisione, Ruffini, fattorizzazione",
+  "slug": "polinomi",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "matematica:introduzione",
+  "order": 10,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Aritmetica dei polinomi: somma, prodotto e divisione euclidea; Ruffini per divisori (x−a) con resto P(a); teorema del resto e di Ruffini; fattorizzazione in irriducibili e zeri razionali candidati.",
+  "explanations": {
+    "semplice": "I polinomi si sommano e moltiplicano come i numeri con le lettere. Dividirli è come la divisione con resto delle elementari: a volte avanza qualcosa. Ruffini è una scorciatoia quando dividi per (x meno un numero): il resto è il polinomio calcolato in quel numero.",
+    "approfondita": "Grado, coefficienti e forma ordinata completa; divisione euclidea A = B·Q+R con grado(R) < grado(B); teorema del resto (resto di P:(x−a) è P(a)) e di Ruffini (P(a) = 0 sse (x−a) divide P); schema sintetico con abbassamento dei coefficienti. Fattorizzazione: raccoglimenti, prodotti notevoli (quadrato e cubo di binomio, somma per differenza), trinomio caratteristico; zeri razionali candidati p/q tra divisori di noto e coefficiente direttore (regola operativa, non dimostrazione di esaustività); molteplicità e grafico (attraversamento contro tangenza come cenno). Equazioni di grado superiore per scomposizione con verifica. Errori: grado del resto, segni nello schema, zeri non verificati.",
+    "tecnica": "Dimostrazione guidata: resto di (x−a) per confronto dei gradi; unicità di quoziente e resto come orizzonte."
+  },
+  "definitions": [
+    "Grado: massimo esponente con coefficiente non nullo.",
+    "Resto: ciò che avanza dalla divisione con grado minore del divisore.",
+    "Zero o radice: valore che annulla il polinomio."
+  ],
+  "proof": [
+    "Dividere P per (x−a) dà resto costante r: P = (x−a)·Q+r per i gradi.",
+    "Valutando in a: P(a) = 0·Q(a)+r, quindi r = P(a) (teorema del resto).",
+    "Se P(a) = 0 allora (x−a) è fattore: scomposizione e ricerca degli altri zeri."
+  ],
+  "formulas": [
+    {
+      "expr": "P(x) = (x−a)·Q(x)+P(a)",
+      "meaning": "Divisione per il binomio e teorema del resto."
+    },
+    {
+      "expr": "(a±b)², a²−b², (a±b)³",
+      "meaning": "Prodotti notevoli per fattorizzare."
+    }
+  ],
+  "examples": [
+    "P = x³−2x²−x+2, a = 1: P(1) = 0, divisione dà (x−1)(x²−x−2).",
+    "x²−5x+6 = (x−2)(x−3): zeri 2 e 3 verificati."
+  ],
+  "counterexamples": [
+    "Resto nullo come coincidenza: equivale a zero del polinomio.",
+    "Ogni cubica scomponibile sui reali in lineari: almeno un fattore lineare sì, tre non detto."
+  ],
+  "errorsTypical": [
+    "Schema di Ruffini con coefficienti non ordinati o mancanti (zeri).",
+    "Dimenticare la verifica degli zeri candidati.",
+    "Grado del resto pari al divisore."
+  ],
+  "keywords": [
+    "Ruffini",
+    "resto",
+    "fattorizzazione",
+    "zeri",
+    "prodotti notevoli"
+  ],
+  "prerequisites": [
+    "matematica:equazioni-primo-grado",
+    "matematica:equazioni-secondo-grado"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "matematica:introduzione",
+      "note": "Algebra dei polinomi dopo le equazioni."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "matematica:funzioni",
+      "note": "Zeri del polinomio come zeri della funzione."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Teorema del resto?",
+        "a": "Resto di P:(x−a) uguale a P(a)."
+      },
+      {
+        "q": "Quando (x−a) divide P?",
+        "a": "Quando P(a) = 0 (Ruffini)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "P(x) = x³−6x²+11x−6, P(1) vale:",
+        "choices": [
+          "0",
+          "6",
+          "−6",
+          "1"
+        ],
+        "answer": 0,
+        "explanation": "1−6+11−6 = 0: (x−1) è fattore."
+      }
+    ],
+    "questionsOpen": [
+      "Scomponi x³−6x²+11x−6 fino agli irriducibili.",
+      "Perché gli zeri mancanti vanno scritti nello schema?"
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": "storia:tratta-atlantica",
+  "subject": "storia",
+  "title": "Tratta atlantica, resistenze, abolizione",
+  "slug": "tratta-atlantica",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 18,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1501",
+    "end": "1888",
+    "label": "dalle prime traversate all'abolizione brasiliana (stime: database Slave Voyages)",
+    "place": "Atlantico: Africa, Americhe, Europa"
+  },
+  "region": "Americhe",
+  "location": "Rotte Atlantico; piantagioni americane; porti africani ed europei",
+  "territories": "Golfo di Guinea e Angola come imbarchi; Brasile, Caraibi, Nord America come sbarchi",
+  "geographicalContext": "Alisei e correnti come autostrade; triangolo Europa-Africa-Americhe; isole atlantiche come laboratorio.",
+  "summary": "Deportazione transatlantica: cause (piantagioni, crollo demografico indigeno), database Slave Voyages (~12,5 mln imbarcati, ~10,7 mln sbarcati 1526-1866), Middle Passage, resistenze (quilombos, Haiti), abolizionismo e abolizioni fino al Brasile (1888); tesi Williams dibattuta.",
+  "explanations": {
+    "semplice": "Per lavorare nelle piantagioni di zucchero e cotone, gli Europei deportano milioni di africani con navi terribili dove moltissimi muoiono. Gli schiavi resistono in tutti i modi, fino a fondare Haiti libera. Dopo lunghe lotte la schiavit\u00c3\u00b9 viene abolita, per ultima in Brasile.",
+    "approfondita": "Cause: economia di piantagione (zucchero, poi cotone-tabacco-riso), crollo indigeno, sistemi schiavistici preesistenti in Africa e Mediterraneo (continuit\u00c3\u00a0 e rottura dichiarate, mai equivalenze). Attori: regni e mercanti africani, vettori portoghesi/britannici/francesi/olandesi con quote variabili per fasi (dettaglio quantitativo alle stime verificate). Rotte triangolari e Middle Passage (affollamento, malattie, mortalit\u00c3\u00a0 come ordini misurati dal database). Resistenze: rivolte a bordo, marronage e quilombos (Palmares), rivoluzione haitiana 1791-1804 come prima abolizione nera. Abolizionismo: 1807 tratta britannica, 1833 schiavit\u00c3\u00b9 britannica, 1865 USA (XIII emendamento), 1888 Brasile; enforcement navale con Sierra Leone. Tesi Williams (capitalismo e schiavit\u00c3\u00b9, 1944) e dibattito (dati contro intenzioni) senza vincitore. Memoria: memoriali e risarcimenti come questione aperta dichiarata.",
+    "tecnica": "Fonti: database Slave Voyages (34.948 viaggi, 66-80% stimato; registri fiscali, log di bordo); atti abolizionisti; narrazioni di schiavi (Equiano con cautela attributiva); stime sempre come intervalli del database."
+  },
+  "definitions": [
+    "Middle Passage: traversata atlantica dei deportati.",
+    "Quilombo: comunit\u00c3\u00a0 di fuggitivi (marronage) in Brasile.",
+    "Abolizionismo: movimento per la fine di tratta e schiavit\u00c3\u00b9."
+  ],
+  "examples": [
+    "Haiti 1791-1804: da rivolta servile a Stato indipendente.",
+    "Palmares: quilombo secolare contro portoghesi e olandesi."
+  ],
+  "counterexamples": [
+    "Schiavit\u00c3\u00b9 atlantica come continuazione identica di quella antica: razza ed ereditariet\u00c3\u00a0 come novit\u00c3\u00a0.",
+    "Abolizione come dono europeo: resistenze nere come motore."
+  ],
+  "errorsTypical": [
+    "Cifre tonde inventate invece delle stime del database (12,5/10,7).",
+    "Confondere tratta (commercio) e schiavit\u00c3\u00b9 (istituto).",
+    "Fare dell'Africa solo vittima passiva (attori e resistenze)."
+  ],
+  "keywords": [
+    "12,5 milioni",
+    "Middle Passage",
+    "Haiti",
+    "1807",
+    "1888"
+  ],
+  "prerequisites": [
+    "storia:scoperte-riforma"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Tratta atlantica come ramo mondiale fondazionale."
+    },
+    {
+      "type": "CAUSE",
+      "to": "storia:rivoluzioni",
+      "note": "Haiti 1791-1804 dentro l'et\u00c3\u00a0 delle rivoluzioni."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:scoperte-riforma",
+      "note": "Piantagioni e sistema atlantico dopo le scoperte."
+    }
+  ],
+  "claims": [
+    {
+      "id": "tratta-numeri",
+      "statement": "Il database Slave Voyages stima ~12,5 milioni di imbarcati e ~10,7 milioni di sbarcati tra 1526 e 1866 (34.948 viaggi documentati, 66-80% stimato del totale).",
+      "supportedBy": [
+        "neh-slavevoyages"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "id": "tratta-abolizioni",
+      "statement": "Sequenza abolizionista: 1807 tratta britannica, 1833 schiavit\u00c3\u00b9 britannica, 1865 USA, 1888 Brasile ultima; la tesi Williams resta dibattuta.",
+      "supportedBy": [
+        "manuale-tratta",
+        "whe-abolition"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "neh-slavevoyages",
+      "title": "The Transatlantic Slave Trade Database \u00e2\u20ac\u201d NEH / Emory (Voyages)",
+      "publisher": "National Endowment for the Humanities / Emory University",
+      "url": "https://www.neh.gov/project/transatlantic-slave-trade-database",
+      "sourceType": "institution",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "tratta-numeri"
+      ],
+      "note": "Passaggi verificati: 12,5 mln imbarcati / 10,7 mln sbarcati 1526-1866; 34.948 viaggi (66-80%); Eltis-Behrendt, archivi fiscali e di bordo."
+    },
+    {
+      "id": "manuale-tratta",
+      "title": "Profilo standard di tratta atlantica e abolizionismo",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-abolition",
+      "title": "Abolitionism - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Abolitionism/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "tratta-abolizioni"
+      ],
+      "note": "Ispezionato 2026-09-27. Abolizioni 1807 GB, 1833 GB, 1865 USA, 1888 Brasile, tesi Williams dibattuta."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Numeri del database?",
+        "a": "12,5 imbarcati / 10,7 sbarcati (1526-1866, stime)."
+      },
+      {
+        "q": "Abolizioni in sequenza?",
+        "a": "1807 tratta GB; 1833 schiavit\u00c3\u00b9 GB; 1865 USA; 1888 Brasile."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Haiti 1791-1804 rappresenta:",
+        "choices": [
+          "Una colonia fedele",
+          "La prima abolizione nera con Stato indipendente",
+          "Un trattato europeo",
+          "Una carestia"
+        ],
+        "answer": 1,
+        "explanation": "Rivolta servile vittoriosa dentro l'et\u00c3\u00a0 rivoluzionaria."
+      }
+    ],
+    "questionsOpen": [
+      "Tesi Williams: dati a favore e contro, senza tifoserie.",
+      "Perch\u00c3\u00a9 il Brasile abolisce per ultimo nel 1888?"
+    ]
+  },
+  "contentDepth": "deep"
+}

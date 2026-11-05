@@ -1,0 +1,114 @@
+{
+  "id": "matematica:elementari",
+  "subject": "matematica",
+  "title": "Funzioni elementari: lineari, quadratiche, esponenziali, logaritmi",
+  "slug": "elementari",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "matematica:introduzione",
+  "order": 8,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Catalogo operativo: rette (m, q, zeri), parabole (vertice, segno, disequazioni), esponenziali (crescita, proprietà delle potenze) e logaritmi (definizione, proprietà, cambio base, equazioni elementari) con grafici e domini.",
+  "explanations": {
+    "semplice": "Quattro famiglie da riconoscere al volo: linee dritte, parabole a U, curve che esplodono (raddoppi) e le loro inverse che schiacciano i numeri grandi (terremoti, pH). Ognuna ha il suo grafico e i suoi punti chiave.",
+    "approfondita": "Lineari f(x) = mx+q: zeri (−q/m), segno per intervalli, parallelismo e perpendicolarità come lettura; sistemi come intersezioni. Quadratiche f(x) = ax²+bx+c: vertice, asse, zeri da Δ, segno e disequazioni di II grado (parabola sopra/sotto l'asse); forma canonica per completamento. Esponenziali aˣ (a>0, a≠1): dominio R, positività, monotonia (crescente se a>1), proprietà (prodotto, potenza, inverso); numero e come base naturale (cenno). Logaritmi log_a(x): inversa su x>0, proprietà (prodotto, quoziente, potenza), cambio base, equazioni log_a(x) = k con condizioni di esistenza; scala logaritmica come applicazione. Metodo: dal grafico a dominio/segno e ritorno; verifica delle condizioni prima di applicare le proprietà.",
+    "tecnica": "Dimostrazioni: unicità del logaritmo come inversa; irrazionalità del cambio scala come motivazione; disequazioni esponenziali e logaritmiche per monotonia (casi a>1 e 0<a<1)."
+  },
+  "definitions": [
+    "Logaritmo: esponente da dare alla base per ottenere l'argomento.",
+    "Disequazione di II grado: segno della parabola rispetto all'asse x.",
+    "Cambio base: passaggio tra basi con il rapporto dei logaritmi."
+  ],
+  "proof": [
+    "log_a(xy) = log_a(x)+log_a(y): da aᵘ=x e aᵛ=y segue xy = aᵘ⁺ᵛ per le potenze.",
+    "L'esponenziale è iniettiva (a≠1): basi uguali con esponenti diversi danno valori diversi per monotonia stretta.",
+    "La quadratica ha al più due zeri: il grafico interseca l'asse dove Δ lo consente, mai altrove."
+  ],
+  "formulas": [
+    {
+      "expr": "V(−b/2a, −Δ/4a); zeri da Δ",
+      "meaning": "Vertice e radici della quadratica."
+    },
+    {
+      "expr": "log_a(xy) = log_a(x)+log_a(y); log_a(xᵏ) = k·log_a(x)",
+      "meaning": "Proprietà operative con condizioni x,y>0."
+    }
+  ],
+  "examples": [
+    "x²−3x+2 ≥ 0: zeri 1 e 2, parabola verso l'alto: esterne (x≤1 o x≥2).",
+    "log₂(x−1) = 3: condizione x>1, soluzione x = 9."
+  ],
+  "counterexamples": [
+    "log di somma come somma di log: proprietà falsa (vale per il prodotto).",
+    "Esponenziale con base negativa come funzione reale standard: non definita su R."
+  ],
+  "errorsTypical": [
+    "Applicare le proprietà dei logaritmi senza condizioni (argomenti ≤ 0).",
+    "Segno della quadratica senza il verso di a.",
+    "Confondere 0⁰ e forme con esponenziali (forme indeterminate come anticipazione)."
+  ],
+  "keywords": [
+    "lineari",
+    "quadratiche",
+    "esponenziali",
+    "logaritmi",
+    "disequazioni",
+    "grafici"
+  ],
+  "prerequisites": [
+    "matematica:funzioni",
+    "matematica:equazioni-secondo-grado"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "matematica:introduzione",
+      "note": "Catalogo delle funzioni prima dell'analisi."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "matematica:geometria-analitica",
+      "note": "Rette e parabole come grafici nel piano."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Condizioni dei logaritmi?",
+        "a": "Base >0 e ≠1; argomento >0; prima le condizioni, poi le proprietà."
+      },
+      {
+        "q": "Segno di ax²+bx+c con a>0?",
+        "a": "Esterne agli zeri se Δ>0; sempre positivo se Δ<0."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "log₃(81) vale:",
+        "choices": [
+          "3",
+          "4",
+          "9",
+          "27"
+        ],
+        "answer": 1,
+        "explanation": "3⁴ = 81: l'esponente è 4."
+      }
+    ],
+    "questionsOpen": [
+      "Risolvi 2ˣ⁻¹ > 8 distinguendo le basi.",
+      "Perché il dominio precede sempre le proprietà dei logaritmi?"
+    ]
+  }
+}

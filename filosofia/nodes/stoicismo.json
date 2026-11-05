@@ -1,0 +1,66 @@
+{
+  "id": "filosofia:stoicismo",
+  "subject": "filosofia",
+  "title": "Stoicismo",
+  "slug": "stoicismo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:ellenismo",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Da Zenone di Cizio (Stoa, 300 a.C.) a Crisippo fino a Seneca, Epitteto e Marco Aurelio: cosmo retto dal logos e dal destino, logica dei lecta, etica del vivere secondo natura con apatia, dovere e cittadinanza cosmica.",
+  "explanations": {
+    "semplice": "Gli stoici dicono: il mondo segue un ordine necessario (destino). Non controlli ciò che accade, ma controlli il tuo giudizio. Distingui ciò che dipende da te (opinioni, scelte) da ciò che non dipende da te (salute, ricchezza, fama): al primo dedica tutto, al secondo niente ansia. Così diventi libero e fai il tuo dovere verso tutti, perché tutti gli uomini sono concittadini.",
+    "approfondita": "Fisica: monismo materialistico-panteistico (tutto è corpo, anche l'anima: pneuma igneo), logos come ragione immanente e provvidenza, determinismo e conflagrazione ciclica; il saggio aderisce al destino (amor fati ante litteram). Logica: sensazione come criterio con rappresentazione catalettica, lekta come significati, sillogistica proposizionale (Crisippo), paradossi e dialettica contro scettici. Etica: bene solo la virtù, male solo il vizio, resto indifferente (preferibile/non preferibile); apatia come estirpazione delle passioni-giudizi errati; dovere (kathekon) e azioni convenienti; cosmopolis e fratellanza umana; suicidio del saggio come uscita razionale. Figure: Zenone, Cleante (Inno a Zeus), Crisippo (sistematore, ~281–208); Stoa media (Panezio, Posidonio); Roma: Seneca, Epitteto (Manuale: dicotomia del controllo), Marco Aurelio (Ricordi). Le vite e le date seguono Diogene Laerzio con cautela dossografica.",
+    "tecnica": "Strumenti: rappresentazione catalettica (phantasia kataleptike), lekton, condizionali e sillogismi ipotetici, teoria delle passioni come assensi."
+  },
+  "definitions": [
+    "Apatia: assenza di passioni intese come giudizi errati, non insensibilità.",
+    "Kathekon: azione conveniente/dovere proprio del ruolo.",
+    "Cosmopolis: città-mondo di dèi e uomini sotto un'unica legge razionale."
+  ],
+  "examples": ["Epitteto: 'non le cose ci turbano, ma i giudizi sulle cose'.", "Marco Aurelio: l'ostacolo diventa via quando la ragione lo usa."],
+  "counterexamples": ["Il 'sopporta e basta' moderno: senza fisica del logos e senza dovere cosmico non è stoicismo."],
+  "errorsTypical": ["Credere che l'apatia vieti ogni emozione: vieta gli assensi errati, non le prime reazioni (propatheiai).", "Fare degli stoici fatalisti passivi: il destino va compreso e assecondato agendo."],
+  "keywords": ["logos", "destino", "lekta", "apatia", "kathekon", "cosmopolis", "Crisippo", "Epitteto"],
+  "prerequisites": ["filosofia:ellenismo", "filosofia:aristotele-logica"],
+  "relations": [
+    { "type": "PART_OF", "to": "filosofia:ellenismo", "note": "Scuola ellenistica." },
+    { "type": "CONTRASTS_WITH", "to": "filosofia:epicureismo", "note": "Provvidenza e dovere contro caso e piacere catastematico." },
+    { "type": "CONTRASTS_WITH", "to": "filosofia:scetticismo", "note": "Criterio catalettico contro sospensione del giudizio." }
+  ],
+  "sources": [
+    {
+      "id": "treccani-stoicismo",
+      "title": "Stoicismo — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/stoicismo/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200 il 2026-09-24; contenuto NON ancora revisionato: le tesi del nodo derivano dalla redazione e attendono content_reviewed."
+    }
+  ],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Dicotomia del controllo?", "a": "Dipende da te: giudizi e scelte; non dipende da te: corpo, beni, fama." },
+      { "q": "Chi sistema la Stoa e quando?", "a": "Crisippo (~281–208), secondo fondatore dopo Zenone e Cleante." }
+    ],
+    "quiz": [
+      {
+        "q": "Per gli stoici le passioni sono:",
+        "choices": ["Forze divine", "Giudizi errati a cui si è dato assenso", "Malattie del corpo", "Illusioni ottiche"],
+        "answer": 1,
+        "explanation": "L'apatia è correzione del giudizio, non anestesia."
+      }
+    ],
+    "questionsOpen": ["Determinismo e responsabilità: se tutto è destino, che senso ha il dovere?", "Confronta cosmopolis stoica e polis aristotelica."]
+  }
+}

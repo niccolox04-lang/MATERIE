@@ -1,0 +1,157 @@
+{
+  "id": "storia:sparta",
+  "subject": "storia",
+  "title": "Sparta e il Peloponneso",
+  "slug": "sparta",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:atene-classica",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-800",
+    "end": "-371",
+    "label": "dalle origini all'egemonia e a Leuttra (convenzione scolastica)",
+    "place": "Laconia, Messenia, Peloponneso"
+  },
+  "summary": "Polis oligarchica di pari (homoioi): Licurgo come tradizione, gerusia ed efori, agogh\u00c3\u00a9 e krypteia; ilotismo messenico come base economica; egemonia peloponnesiaca, vittoria su Atene (404) e crollo a Leuttra (371).",
+  "explanations": {
+    "semplice": "Mentre Atene vota, Sparta si organizza come un esercito: pochi cittadini soldati comandano, i contadini asserviti lavorano la terra. I bambini vengono educati duramente dallo Stato. Sparta vince la guerra contro Atene ma poi perde contro Tebe.",
+    "approfondita": "Ordinamento (tradizione licurghea, fonti tarde: Erodoto, Senofonte, Plutarco): due re, gerusia (28 + re), apella, cinque efori annuali; homoioi e syssitia; iloti (messeni asserviti) e perieci liberi non cittadini; agogh\u00c3\u00a9 (paideia militare) e krypteia come controllo. Economia: klaroi inalienabili (modello), divieto dichiarato di moneta preziosa (interpretazione). Politica estera: lega peloponnesiaca, guerre persiane (Termopili 480 come episodio), guerra del Peloponneso (Decelea, Egospotami 405, resa 404), egemonia e pace di Antalcida 386, Leuttra 371 (Epaminonda, falange obliqua) e liberazione della Messenia 369. Fatto contro mito: austerit\u00c3\u00a0 reale contro propaganda (mirage spartiate, Ollier); demografia in calo (oliganthropia) come limite strutturale.",
+    "tecnica": "Fonti: Tirteo (eunomia), Erodoto, Tucidide, Senofonte (Costituzione), Aristotele (critica in Politica); archeologia lacone sobria."
+  },
+  "definitions": [
+    "Ilotismo: asservimento collettivo dei messeni allo Stato spartano.",
+    "Agogh\u00c3\u00a9: educazione pubblica militare dei giovani spartiati.",
+    "Mirage spartiate: idealizzazione antica e moderna di Sparta."
+  ],
+  "examples": [
+    "Egospotami 405: Lisandro distrugge la flotta ateniese, premessa del 404.",
+    "Leuttra 371: banda sacra e falange obliqua contro lo schieramento tradizionale."
+  ],
+  "counterexamples": [
+    "Sparta senza cultura: Tirteo e Alcmane come poesia (frammenti).",
+    "Uguaglianza spartana estesa: solo tra homoioi, mai con iloti."
+  ],
+  "errorsTypical": [
+    "Fare di Licurgo un legislatore databile (tradizione, non archivio).",
+    "Estendere l'austerit\u00c3\u00a0 a tutta la societ\u00c3\u00a0 (\u00c3\u00a9lite contro realt\u00c3\u00a0).",
+    "Confondere perieci e iloti (liberi contro asserviti)."
+  ],
+  "keywords": [
+    "Licurgo",
+    "iloti",
+    "agogh\u00c3\u00a9",
+    "Leuttra 371",
+    "mirage"
+  ],
+  "prerequisites": [
+    "storia:atene-classica",
+    "storia:guerra-peloponneso"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:atene-classica",
+      "note": "Seconda polis-modello del mondo greco."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:guerra-peloponneso",
+      "note": "Sparta come protagonista e vincitrice della guerra."
+    }
+  ],
+  "claims": [
+    {
+      "id": "sparta-ordinamento",
+      "statement": "Ordine spartano: tripartizione con spartiati detentori del potere e kleroi inalienabili coltivati dagli iloti, perieci ai confini dediti al commercio; diarchia Agiadi/Euripontidi con gerusia (re piu 28) ed efori che possono deporre i re; costituzione attribuita a Licurgo di dubbia storicita.",
+      "supportedBy": [
+        "treccani-sparta"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "sparta-egemonia",
+      "statement": "Sparta fonda nel 10 sec. dai Dori, conquista Messenia tra fine 8 e 7 sec., guida la lega peloponnesiaca nel 5 sec. e vince Atene nella guerra 431-404; sostegno persiano dal 412 e Antalcida 386; Leuttra 371 con Tebe, perdita Messenia e riduzione da 8000 spartiati del 480 a un quarto.",
+      "supportedBy": [
+        "treccani-sparta",
+        "whe-sparta"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-sparta",
+      "title": "Sparta \u00e2\u20ac\u201d Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/sparta/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "sparta-ordinamento",
+        "sparta-egemonia"
+      ],
+      "note": "Ispezionato 2026-09-27. Ordinamento, Licurgo dubbia storicita, kleroi iloti perieci, diarchia gerusia efori; Messenia fine 8-7 sec, lega peloponnesiaca, guerre persiane, 431-404 crollo Atene, Persia 412 Antalcida 386, Leuttra 371 Messenia autonoma, spartiati 8000 nel 480 a un quarto."
+    },
+    {
+      "id": "whe-sparta",
+      "title": "Sparta \u00e2\u20ac\u201d World History Encyclopedia",
+      "author": "Mark Cartwright",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/sparta/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "sparta-egemonia"
+      ],
+      "note": "Ispezionato 2026-09-27 (2013). Opliti Termopili Platea 5 sec, rivalita Atene Corinto, guerre peloponnesiache e corinzie, Eurota Laconia, Messenia 8 sec, 8500 kmq, perieci senza diritti, iloti, Egospotami 405 Trenta 404, Leuttra 371."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Chi lavora la terra a Sparta?",
+        "a": "Gli iloti messeni asserviti; i perieci sono liberi."
+      },
+      {
+        "q": "404 e 371?",
+        "a": "Vittoria su Atene; sconfitta a Leuttra contro Tebe."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Gli efori erano:",
+        "choices": [
+          "Due re ereditari",
+          "Cinque magistrati annuali di controllo",
+          "Schiavi messeni",
+          "Poeti di corte"
+        ],
+        "answer": 1,
+        "explanation": "Magistratura collegiale con ampi poteri di vigilanza."
+      }
+    ],
+    "questionsOpen": [
+      "Atene e Sparta: due libert\u00c3\u00a0 a confronto su chi ne \u00c3\u00a8 escluso.",
+      "Mirage spartiate: dove finisce il fatto e inizia il mito?"
+    ]
+  },
+  "contentDepth": "standard"
+}

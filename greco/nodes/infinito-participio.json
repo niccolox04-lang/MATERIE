@@ -1,0 +1,109 @@
+{
+  "id": "greco:infinito-participio",
+  "subject": "greco",
+  "title": "Infinito e participio",
+  "slug": "infinito-participio",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 5,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Forme nominali del verbo: infinito (presente λύειν, aoristo λῦσαι, perfetto λελυκέναι; soggetto in accusativo) e participio (presente λύων, aoristo λύσας, perfetto λελυκώς, declinati); usi dichiarativi, consecutivi e circostanziali prima del periodo.",
+  "explanations": {
+    "semplice": "Il verbo ha anche forme che funzionano quasi come nomi: l'infinito (sciogliere) per dire che qualcuno fa qualcosa, e il participio (sciogliendo, avendo sciolto) per unire due azioni in una frase sola. Il tempo dice se l'azione è insieme o prima di quella principale.",
+    "approfondita": "Infinito: presente (durativo: λύειν), aoristo (puntuale: λῦσαι), perfetto (risultativo: λελυκέναι), futuro (prospettico: λύσειν, raro); medio-passivi corrispondenti (λύεσθαι, λύσασθαι/λυθῆναι); negazione μή. Usi: dichiarativo dopo verbi di dire/pensare (νομίζω αὐτὸν σοφὸν εἶναι con soggetto in accusativo e predicato accordato), dinamico dopo verbi di volere/potere/dovere (βούλομαι λύειν, stesso soggetto), consecutivo con ὥστε + infinito (risultato possibile), finale con participio futuro. Participio: presente (λύων, contemporaneo), aoristo (λύσας, anteriore), perfetto (λελυκώς, stato); declinazione a tre uscite (maschile/femminile/neutro) con genitivo che dà il tema; usi attributivo (ὁ λύων = colui che scioglie), sostantivato, predicativo e circostanziale (tempo, causa, concessione, condizione dal contesto). Accordo in genere/numero/caso col nome cui si riferisce; participio congiunto contro assoluto (genitivo assoluto come sviluppo).",
+    "tecnica": "Diagnosi: infinito senza desinenze personali (cerca -ειν/-αι/-ναι); participio con desinenze aggettivali (-ων/-σας/-κως); tempo relativo, mai assoluto, salvo indicativo in obliquo."
+  },
+  "definitions": [
+    "Infinito dichiarativo: proposizione oggettiva con soggetto in accusativo.",
+    "Participio congiunto: accordato con un nome della principale.",
+    "Tempo relativo: contemporaneità/anteriorità rispetto alla reggente."
+  ],
+  "examples": [
+    "ἔφη αὐτοὺς ἐλθεῖν: aoristo = disse che erano venuti (anteriore).",
+    "λύσας ἀπῆλθε: participio aoristo = dopo aver sciolto, se ne andò."
+  ],
+  "counterexamples": [
+    "Infinito con soggetto in nominativo nella dichiarativa: va in accusativo.",
+    "Participio tradotto sempre col gerundio italiano: spesso è temporale o causale."
+  ],
+  "errorsTypical": [
+    "Confondere infinito aoristo e imperativo (forme simili, funzione diversa).",
+    "Accordare il participio col soggetto sbagliato.",
+    "Tradurre il tempo del participio come assoluto."
+  ],
+  "keywords": [
+    "infinito",
+    "participio",
+    "accusativo",
+    "tempo relativo",
+    "dichiarativo"
+  ],
+  "prerequisites": [
+    "greco:verbo-completo",
+    "greco:sintassi-casi"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "greco:introduzione",
+      "note": "Forme nominali prima del periodo complesso."
+    },
+    {
+      "type": "SIMILAR_TO",
+      "to": "latino:verbo",
+      "note": "Infinito e participio come sistema parallelo nelle due lingue."
+    }
+  ],
+  "sources": [
+    {
+      "id": "grammatiche-greco",
+      "title": "Forme nominali del verbo nelle grammatiche scolastiche (infinito, participio)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su grammatica a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tempi di infinito e participio?",
+        "a": "Presente contemporaneo, aoristo anteriore-puntuale, perfetto risultativo."
+      },
+      {
+        "q": "Soggetto dell'infinito dichiarativo?",
+        "a": "Accusativo (con predicato accordato in caso)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'νομίζουσιν αὐτὸν εἶναι σοφόν': la costruzione è:",
+        "choices": [
+          "Infinito dinamico",
+          "Infinito dichiarativo con soggetto accusativo",
+          "Participio assoluto",
+          "Finale"
+        ],
+        "answer": 1,
+        "explanation": "Verbo di opinione + accusativo + infinito: lo ritengono saggio."
+      }
+    ],
+    "questionsOpen": [
+      "Distingui λύων, λύσας, λελυκώς in tre frasi.",
+      "Quando il participio è attributivo e quando circostanziale?"
+    ]
+  }
+}

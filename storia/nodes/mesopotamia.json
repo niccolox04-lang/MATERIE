@@ -1,0 +1,155 @@
+{
+  "id": "storia:mesopotamia",
+  "subject": "storia",
+  "title": "Mesopotamia: Sumeri, Accadi, Babilonesi, Assiri",
+  "slug": "mesopotamia",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 6,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-3400",
+    "end": "-539",
+    "label": "da Uruk alla caduta di Babilonia (convenzione)",
+    "place": "Tigri, Eufrate"
+  },
+  "summary": "Prima civiltà urbana: Uruk e città-stato sumere, cuneiforme (~3400 a.C.), Accadi di Sargon, Ur III, Babilonia di Hammurabi (codice ~1750), Assiri e caduta (539); irrigazione, ziggurat, diritto e scribi.",
+  "explanations": {
+    "semplice": "Tra due fiumi nascono le prime città con re, templi a gradoni e scrivani che incidono segni su tavolette: così nasce la scrittura. Si alternano popoli: Sumeri, Accadi, Babilonesi con le loro leggi scritte, Assiri guerrieri.",
+    "approfondita": "Uruk (tavolette proto-cuneiformi, Eanna) e città-stato (ensi, lugal); Sargon di Acad (~2334, primo impero territoriale, dibattito sulla portata); Ur III (amministrazione e bilinguismo); Babilonia: Hammurabi (stele, 282 articoli, taglione graduato per ceti); Cassiti e medio periodo; Assiri (Ninive, esercito permanente, deportazioni, biblioteca di Assurbanipal); Nabucodonosor II e caduta persiana 539 (Ciro). Società: palazzo e tempio, scribi, debiti e schiavitù per debiti; religione politeista con Enlil-Marduk-Assur; astronomia e matematica sessagesimale come orizzonte. Irrigazione e salinizzazione come limite ecologico (discusso).",
+    "tecnica": "Fonti: tavolette cuneiformi, liste reali, codici, annali assiri (propaganda dichiarata); cronologie con margini (media/bassa)."
+  },
+  "definitions": [
+    "Città-stato: città con territorio e sovranità propria.",
+    "Cuneiforme: scrittura a tacche su argilla.",
+    "Codice di Hammurabi: raccolta normativa con pene graduate."
+  ],
+  "examples": [
+    "Stele di Hammurabi (Louvre): re davanti a Shamash, diritto esposto.",
+    "Biblioteca di Assurbanipal: Epopea di Gilgamesh ritrovata lì."
+  ],
+  "counterexamples": [
+    "Impero accadio come Stato moderno: dominio a rete con rivolte.",
+    "Assiri solo distruttori: amministrazione e deportazioni mirate."
+  ],
+  "errorsTypical": [
+    "Datare la scrittura come invenzione singola datata.",
+    "Confondere Sumeri e Semiti (lingue e tempi diversi).",
+    "Leggere gli annali assiri come cronaca neutra."
+  ],
+  "keywords": [
+    "Uruk",
+    "cuneiforme",
+    "Hammurabi",
+    "Assiri",
+    "ziggurat"
+  ],
+  "prerequisites": [
+    "storia:neolitico"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Prima civiltà urbana dopo il Neolitico."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:neolitico",
+      "note": "Irrigazione e surplus come base urbana."
+    }
+  ],
+  "claims": [
+    {
+      "id": "mesopotamia-quadro",
+      "statement": "Cuneiforme sumero 3600/3500, Uruk 3200 letteratura, dinastico 2900-2334, Enheduanna 2300, Gilgamesh 2100-1400, Assurbanipal 647-629 Ninive, abbandono dopo 100 a.C.; Sumeri Accadi Babilonesi Elamiti Hatti Ittiti Assiri Hurriti.",
+      "supportedBy": [
+        "whe-cuneiforme"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "mesopotamia-hammurabi",
+      "statement": "Hammurabi regna nel 1792-1750 a.C. come sesto re della prima dinastia amorrea di Babilonia; il suo codice non è il primo della Mesopotamia (ne esistono di anteriori) ma è il più chiaro e inclusivo e diventa modello per altre culture.",
+      "supportedBy": [
+        "whe-hammurabi"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-hammurabi",
+      "title": "Hammurabi: Conquerer, King, and Law-Giver — World History Encyclopedia",
+      "author": "Joshua J. Mark",
+      "publisher": "World History Encyclopedia (organizzazione non profit)",
+      "url": "https://www.worldhistory.org/hammurabi/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "mesopotamia-hammurabi"
+      ],
+      "note": "Contenuto letto il 2026-09-27 (articolo aggiornato 2026). Verificati: «Hammurabi (reign 1792-1750 BCE) was the sixth king of the Amorite First Dynasty of Babylon»; conquista di Mari (1760-1757 a.C.) e controllo della regione entro il 1750; «his law code, which is often cited as being the first in history, although it is not. There were earlier codes in Mesopotamia, but Hammurabi's were the clearest and most inclusive and so came to serve as a model for other cultures». NON verificati in questa lettura: altezza/materiale della stele, numero di articoli, testo delle singole leggi (nel nodo restano quindi non rivendicati come verificati)."
+    },
+    {
+      "id": "whe-cuneiforme",
+      "title": "Cuneiform: The Writing System That Made History - World History Encyclopedia",
+      "author": "Joshua J. Mark",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/cuneiform/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "mesopotamia-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27 (2026). Date Uruk Gilgamesh Assurbanipal, decifrazione Grotefend Rawlinson Smith."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Sequenza in quattro nomi?",
+        "a": "Sumeri, Accadi, Babilonesi, Assiri."
+      },
+      {
+        "q": "Hammurabi in sintesi?",
+        "a": "Codice esposto con pene graduate per ceti."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il cuneiforme nasce per:",
+        "choices": [
+          "Poesia",
+          "Contabilità di palazzo e tempio",
+          "Lettere d'amore",
+          "Mappe"
+        ],
+        "answer": 1,
+        "explanation": "Tavolette amministrative di Uruk."
+      }
+    ],
+    "questionsOpen": [
+      "Perché la scrittura nasce coi magazzini e non coi poemi?",
+      "Hammurabi giusto o disuguale? Leggi la stele."
+    ]
+  },
+  "contentDepth": "deep"
+}

@@ -1,0 +1,147 @@
+{
+  "id": "storia:decolonizzazione",
+  "subject": "storia",
+  "title": "Decolonizzazione e stati postcoloniali",
+  "slug": "decolonizzazione",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 22,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "chrono": {
+    "start": "1945",
+    "end": "1994",
+    "label": "dal dopoguerra al Sudafrica post-apartheid (convenzione)",
+    "place": "Africa, Asia"
+  },
+  "region": "Africa",
+  "location": "Africa subsahariana e settentrionale; Bandung come orizzonte",
+  "territories": "Nuovi Stati africani (Ghana 1957 apripista)",
+  "geographicalContext": "Confini ereditati (uti possidetis), capitali costiere, entroterra; Guerra fredda come cornice.",
+  "summary": "Fine degli imperi: seconda guerra e nazionalismi, Ghana 1957, Algeria 1962, Congo 1960, lusofone 1975, Sudafrica 1994; neocolonialismo, Guerra fredda e costruzione statale come nodi aperti.",
+  "explanations": {
+    "semplice": "Dopo la seconda guerra gli africani chiedono l'indipendenza e la ottengono uno dopo l'altro: prima il Ghana, poi l'Algeria con una guerra dura, poi quasi tutti negli anni Sessanta. Ma i confini disegnati dagli Europei e i debiti creano nuovi problemi.",
+    "approfondita": "Cause: guerra (veterani, promesse mancate), nazionalismi di \u00c3\u00a9lite scolarizzate (Nkrumah, Senghor, Kenyatta, Nasser come sponda), ONU e autodeterminazione, Guerra fredda come opportunit\u00c3\u00a0 e trappola. Casi: Ghana 1957 (Nkrumah e CPP), Algeria 1954-62 (FLN, Evian, pieds-noirs e harkis come ferite), Congo 1960 (Lumumba assassinato, Katanga, ONU), lusofone 1974-75 (caduta di Caetano, PAIGC, MPLA/FRELIMO), Zimbabwe 1980, Namibia 1990, Sudafrica 1994 (apartheid, ANC, Mandela). Postcoloniale: uti possidetis e conflitti (Biafra 1967-70), monopartitismi e colpi, debito e aggiustamenti, CFA come eredit\u00c3\u00a0 discussa. Fatto contro mito: indipendenze negoziate contro guerre; decolonizzazione compiuta contro neocolonialismo (Nkrumah stesso conia il termine, dibattito dichiarato).",
+    "tecnica": "Fonti: atti di indipendenza, archivi desecretati con ritardi, storia orale, statistiche coloniali/postcoloniali con cautela; Bandung 1955 come manifesto."
+  },
+  "definitions": [
+    "Uti possidetis: confini coloniali mantenuti dagli Stati nuovi.",
+    "Neocolonialismo: dipendenza economica senza dominio diretto (tesi discussa).",
+    "Apartheid: segregazione razziale sudafricana (1948-1994)."
+  ],
+  "examples": [
+    "Ghana 1957: prima subsahariana, modello nkrumiano.",
+    "Evian 1962: Algeria indipendente dopo otto anni di guerra."
+  ],
+  "counterexamples": [
+    "Decolonizzazione pacifica ovunque: Algeria, Kenya, Camerun armati.",
+    "1960 come fine: lusofone, Zimbabwe, Namibia, Sudafrica dopo."
+  ],
+  "errorsTypical": [
+    "Fare dell'indipendenza un dono (mobilitazioni decennali).",
+    "Confondere decolonizzazione e fine del colonialismo economico.",
+    "Datare l'apartheid come coloniale classico (regime interno 1948)."
+  ],
+  "keywords": [
+    "1957",
+    "Algeria 1962",
+    "Lumumba",
+    "apartheid",
+    "Bandung"
+  ],
+  "prerequisites": [
+    "storia:colonialismo",
+    "storia:guerre"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Decolonizzazione nel ramo Africa."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:post45",
+      "note": "Guerra fredda e Terzo mondo come cornice."
+    }
+  ],
+  "claims": [
+    {
+      "id": "decolonizzazione-quadro",
+      "statement": "Ghana 1957, Algeria 1962 e ondate anni Sessanta-Settanta chiudono gli imperi; confini ereditati e Guerra fredda segnano gli Stati nuovi (dibattito sul neocolonialismo).",
+      "supportedBy": [
+        "manuale-africa-moderna",
+        "whe-decolonization"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-africa-moderna",
+      "title": "Profilo standard di Africa coloniale e decolonizzazione",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-decolonization",
+      "title": "Decolonization of Africa - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Decolonization_of_Africa/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "decolonizzazione-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27. Ghana 1957, Algeria 1962, Congo 1960, Lusofone 1975, Sudafrica 1994, Guerra fredda, neocolonialismo."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Apripista e casi duri?",
+        "a": "Ghana 1957; Algeria 1962; lusofone 1975."
+      },
+      {
+        "q": "Eredit\u00c3\u00a0 strutturale?",
+        "a": "Confini uti possidetis, debito, Guerra fredda."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "L'Algeria diventa indipendente:",
+        "choices": [
+          "1957",
+          "1962 con Evian",
+          "1975",
+          "1946"
+        ],
+        "answer": 1,
+        "explanation": "Otto anni di guerra, accordi di Evian."
+      }
+    ],
+    "questionsOpen": [
+      "Neocolonialismo: categoria utile o slogan? Con quali dati?",
+      "Perch\u00c3\u00a9 i confini restano? Uti possidetis pro e contro."
+    ]
+  },
+  "contentDepth": "standard"
+}

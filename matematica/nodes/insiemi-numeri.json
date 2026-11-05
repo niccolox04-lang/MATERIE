@@ -1,0 +1,115 @@
+{
+  "id": "matematica:insiemi-numeri",
+  "subject": "matematica",
+  "title": "Insiemi numerici: N, Z, Q, R",
+  "slug": "insiemi-numeri",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "matematica:introduzione",
+  "order": 0,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.839Z",
+  "level": "foundation",
+  "summary": "Naturali (contare), interi (debiti e opposti), razionali (frazioni e decimali periodici), reali (retta continua, irrazionali inclusi): ogni ampliamento risolve equazioni prima impossibili; operazioni, potenze, MCD/mcm e valore assoluto come strumenti.",
+  "explanations": {
+    "semplice": "I numeri crescono per necessità: per contare bastano i naturali (1,2,3...), per i debiti servono i negativi (interi), per dividere le frazioni (razionali), per misurare diagonali e cerchi servono gli irrazionali (reali). Ogni famiglia contiene la precedente.",
+    "approfondita": "Catena N ⊂ Z ⊂ Q ⊂ R per chiusura operativa: in N mancano opposti (x+5=3) → Z; in Z mancano quozienti (2x=1) → Q come classi di frazioni equivalenti, decimali finiti/periodici; in Q mancano limiti e radici (x²=2, π) → R come completamento (retta reale, densità + continuità). Proprietà: commutativa/associativa/distributiva; potenze (aᵐ·aⁿ=aᵐ⁺ⁿ, (aᵐ)ⁿ=aᵐⁿ, a⁰=1 per a≠0, esponenti negativi); MCD/mcm via fattorizzazione; valore assoluto come distanza (|x| = max(x,−x); |x|<k ⇔ −k<x<k). Errori tipici: 0⁰ e 0/0 come forme indeterminate (non '1' e non '0'), confondere periodico e irrazionale (0,333...=1/3 razionale; π irrazionale). Collegamento: Q insufficiente → √2 (nodo) come motivazione di R.",
+    "tecnica": "Cenni: cardinalità (Q numerabile, R no — Cantor come approfondimento); assiomi di campo ordinato completo per R."
+  },
+  "definitions": [
+    "Numero razionale: p/q con q≠0; decimale finito o periodico.",
+    "Valore assoluto: distanza da zero sulla retta."
+  ],
+  "proof": [
+    "0,999... = x ⇒ 10x = 9,999... ⇒ 10x − x = 9 ⇒ x = 1: i periodici sono razionali.",
+    "√2 ∉ Q (vedi nodo dedicato): Q non basta, serve R."
+  ],
+  "formulas": [
+    {
+      "expr": "N ⊂ Z ⊂ Q ⊂ R",
+      "meaning": "Ogni ampliamento conserva le operazioni e ne aggiunge."
+    },
+    {
+      "expr": "|x| < k ⇔ −k < x < k",
+      "meaning": "Valore assoluto come intervallo simmetrico."
+    }
+  ],
+  "examples": [
+    "−3 + 8 = 5 (Z); 2/3 + 1/6 = 5/6 (Q); diagonale quadrato unitario = √2 (R∖Q)."
+  ],
+  "counterexamples": [
+    "0,101001000... non periodico: irrazionale, non frazione.",
+    "Dividere per zero 'dà infinito': operazione indefinita, non numero."
+  ],
+  "errorsTypical": [
+    "0⁰ = 1 sempre (forma indeterminata in analisi).",
+    "Semplificare 0/0.",
+    "Credere π = 3,14 esatto."
+  ],
+  "keywords": [
+    "N Z Q R",
+    "razionali",
+    "reali",
+    "potenze",
+    "MCD",
+    "valore assoluto"
+  ],
+  "prerequisites": [
+    "matematica:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "matematica:introduzione",
+      "note": "Fondamento numerico."
+    },
+    {
+      "type": "CAUSE",
+      "to": "matematica:equazioni-primo-grado",
+      "note": "Gli insiemi decidono esistenza e forma delle soluzioni."
+    },
+    {
+      "type": "CAUSE",
+      "to": "matematica:irrazionalita-sqrt2",
+      "note": "Q insufficiente motiva R."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Perché ogni ampliamento?",
+        "a": "Z: opposti; Q: quozienti; R: radici/limiti/continuum."
+      },
+      {
+        "q": "0,999... quanto vale?",
+        "a": "1: i periodici sono razionali (prova per differenza)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Quale NON è razionale?",
+        "choices": [
+          "0,777...",
+          "22/7",
+          "√2",
+          "−5"
+        ],
+        "answer": 2,
+        "explanation": "Periodici e frazioni sono Q; √2 è dimostrato irrazionale."
+      }
+    ],
+    "questionsOpen": [
+      "Mostra che tra due razionali c'è sempre un razionale (densità).",
+      "Perché 0/0 non può valere 1?"
+    ]
+  }
+}

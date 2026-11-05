@@ -1,0 +1,178 @@
+{
+  "id": "storia:roma-repubblica",
+  "subject": "storia",
+  "title": "Roma: monarchia e Repubblica",
+  "slug": "roma-repubblica",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-753",
+    "end": "-27",
+    "label": "dalla fondazione al principato augusteo",
+    "place": "Roma, Italia, Mediterraneo"
+  },
+  "summary": "Dalla monarchia (trad. 753\u00e2\u20ac\u201c509) alla Repubblica: istituzioni (consoli, senato, comizi, tribuni), conflitto patrizi-plebei (XII Tavole, 451\u00e2\u20ac\u201c450), espansione in Italia e Mediterraneo (guerre puniche 264\u00e2\u20ac\u201c146), crisi tardorepubblicana (Gracchi, Mario/Silla, Cesare) fino ad Augusto (27 a.C.).",
+  "explanations": {
+    "semplice": "Roma caccia i re e diventa repubblica: due consoli comandano per un anno, il senato consiglia, il popolo vota. I poveri (plebei) lottano per i diritti e ottengono leggi scritte. Roma conquista l'Italia e poi il Mediterraneo battendo Cartagine, ma i generali diventano troppo potenti: dopo Cesare arriva Augusto e inizia l'impero.",
+    "approfondita": "Quadro tradizionale (Livio, Dionigi; cautela annalistica): monarchia etrusca e cacciata di Tarquinio (509); magistrature collegiali e annuali (consoli, pretori, edili, questori, censori, dittatore), senato (auctoritas), comizi centuriati e tributi, concilium plebis e tribuni con intercessio; secessioni e XII Tavole (451\u00e2\u20ac\u201c450) come prima codificazione; leges Hortensia (287) e parificazione formale. Espansione: guerre sannitiche e latine, Pirro (280\u00e2\u20ac\u201c275), puniche (264\u00e2\u20ac\u201c241, 218\u00e2\u20ac\u201c201 con Annibale e Canne 216, 149\u00e2\u20ac\u201c146 con distruzione di Cartagine e Corinto); province, esercito professionale mariano, ricchezze e latifondo. Crisi: Gracchi (133/123), guerra sociale (91\u00e2\u20ac\u201c88) e cittadinanza italica, Mario/Silla e proscrizioni, Pompeo/Crasso/Cesare (triumvirato, Gallia 58\u00e2\u20ac\u201c50, guerra civile, dittatura, Idi di marzo 44), secondo triumvirato, Azio 31, principato 27. Economia: schiavit\u00c3\u00b9 di massa, tributi, evergetismo; societ\u00c3\u00a0: clientele, mobilit\u00c3\u00a0 equestre. Interpretazioni: Mommsen (statualit\u00c3\u00a0), Syme (rivoluzione romana come oligarchia), Brunt (manpower), Cornell (critica della tradizione). Fatto vs interpretazione: date alte tradizionali contro archeologia.",
+    "tecnica": "Fonti: Livio (perduto in parte), Polibio (costituzione mista, VI), Sallustio, Cicerone, Cesare, epigrafia (XII Tavole frammenti), Fasti; archeologia per le origini."
+  },
+  "definitions": [
+    "Intercessio: veto tribunizio contro atti dei magistrati.",
+    "Auctoritas senatus: peso politico-morale del senato, non potere legislativo formale.",
+    "Provincia: territorio extra-italico sotto magistrato con imperium."
+  ],
+  "examples": [
+    "XII Tavole esposte nel Foro: diritto pubblico contro arbitrio pontificale-patrizio.",
+    "Canne 216: capolavoro tattico annibalico e resilienza demografica romana."
+  ],
+  "counterexamples": [
+    "La repubblica come democrazia: oligarchia timocratica con elementi popolari.",
+    "La caduta come 'decadenza morale' unica causa: modello moralistico insufficiente."
+  ],
+  "errorsTypical": [
+    "Dare per certe le date della monarchia (tradizione, non archivio).",
+    "Confondere tribuni militari e tribuni della plebe.",
+    "Datare l'impero al 44: il principato \u00c3\u00a8 del 27."
+  ],
+  "keywords": [
+    "consoli",
+    "senato",
+    "XII Tavole",
+    "guerre puniche",
+    "Gracchi",
+    "Cesare",
+    "Azio",
+    "27 a.C."
+  ],
+  "prerequisites": [
+    "storia:introduzione",
+    "storia:atene-classica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Secondo caso di studio."
+    },
+    {
+      "type": "SIMILAR_TO",
+      "to": "storia:atene-classica",
+      "note": "Due repubbliche antiche a confronto: democrazia diretta contro costituzione mista."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:aristotele-etica",
+      "note": "Polibio e la teoria delle costituzioni (eco aristotelica)."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "latino:introduzione",
+      "note": "Il latino come lingua di questa storia."
+    }
+  ],
+  "claims": [
+    {
+      "id": "roma-repubblica-istituzioni",
+      "statement": "Fine 6 sec. Roma rovescia la monarchia e crea un governo repubblicano con istituzioni durevoli cinque secoli fino al principato: il senato sopravvive pur ridotto; la caduta della monarchia non e improvvisa ne incruenta e la storia arcaica e mito e tradizione orale (Livio 142 libri, Beard SPQR).",
+      "supportedBy": [
+        "whe-repubblica"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "roma-repubblica-fine",
+      "statement": "Crisi finale: Rubicone 10-11 gen 49 e guerra civile Cesare-Pompeo, dittatura perpetua e Idi di marzo 15 mar 44 (Bruto Cassio), secondo triumvirato 43-36, Filippi 42, Azio 2 set 31 (Ottaviano contro Antonio e Cleopatra VII), 27 Ottaviano riceve poteri straordinari e nome Augusto.",
+      "supportedBy": [
+        "whe-repubblica"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "roma-costituzione-mista",
+      "statement": "Polibio (Storie VI) distingue tre forme di costituzione (kingship, aristocrazia, democrazia), ritiene migliore la loro combinazione e collega il dominio romano in \u00c2\u00abmeno di cinquantatr\u00c3\u00a9 anni\u00c2\u00bb alle istituzioni.",
+      "supportedBy": [
+        "polibio-storie-vi"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-repubblica",
+      "title": "Roman Republic \u00e2\u20ac\u201d World History Encyclopedia",
+      "author": "Donald L. Wasson",
+      "url": "https://www.worldhistory.org/Roman_Republic/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "note": "Ispezionato 2026-09-27 (2016). Fine 6 sec repubblica 5 secoli senato; Tarquinio 510 mito Livio Beard; Rubicone 49 Idi 44 Filippi 42 Azio 31 Augusto 27.",
+      "publisher": "World History Encyclopedia (non profit)",
+      "supports": [
+        "roma-repubblica-istituzioni",
+        "roma-repubblica-fine"
+      ]
+    },
+    {
+      "id": "polibio-storie-vi",
+      "title": "Polibio, Storie, libro VI (La costituzione romana)",
+      "author": "Polibio; traduzione W. R. Paton (Loeb Classical Library, vol. III, 1923)",
+      "publisher": "LacusCurtius (University of Chicago), edizione di pubblico dominio",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Polybius/6*.html",
+      "sourceType": "primary-source",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "roma-costituzione-mista"
+      ],
+      "note": "FONTE PRIMARIA, testo letto il 2026-09-27. Produttore: Polibio di Megalopoli, deportato a Roma, scrive intorno alla met\u00c3\u00a0 del II sec. a.C.; destinatario: \u00c3\u00a9lite greca e romana; funzione: spiegare la superiorit\u00c3\u00a0 romana; provenienza/trasmissione: opera in 40 libri, per il libro VI frammenti trasmessi per via libraria (ed. Loeb vol. III, trad. Paton 1923). Passaggi letti: VI.2.2 (\u00c2\u00abin less than fifty-three years nearly the whole world was overcome and fell under the single dominion of Rome\u00c2\u00bb); VI.3.5-7 (tre forme: kingship, aristocracy, democracy e costituzione mista come migliore); VI.20-27 (coscrizione, campi, praefecti sociorum, cavalleria alleata tripla, adozione delle armi greche). Limiti: testo frammentario, prospettiva di un greco esterno e ammirato; nessun dato di archivio."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Le tre magistrature-chiave e le assemblee?",
+        "a": "Consoli/pretori/tribuni; comizi centuriati e tributi, concilium plebis."
+      },
+      {
+        "q": "Date puniche?",
+        "a": "264\u00e2\u20ac\u201c241, 218\u00e2\u20ac\u201c201 (Canne 216), 149\u00e2\u20ac\u201c146."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Le XII Tavole sono importanti perch\u00c3\u00a9:",
+        "choices": [
+          "Aboliscono la schiavit\u00c3\u00b9",
+          "Prima legge scritta e pubblica contro l'arbitrio",
+          "Danno il voto alle donne",
+          "Fondano l'impero"
+        ],
+        "answer": 1,
+        "explanation": "Codificazione plebea del diritto, esposta nel Foro."
+      }
+    ],
+    "questionsOpen": [
+      "Atene e Roma: quale libert\u00c3\u00a0 per chi?",
+      "Perch\u00c3\u00a9 l'esercito professionale mina la repubblica? (Mario)"
+    ]
+  },
+  "contentDepth": "deep"
+}

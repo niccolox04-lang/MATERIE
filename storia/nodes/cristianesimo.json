@@ -1,0 +1,148 @@
+{
+  "id": "storia:cristianesimo",
+  "subject": "storia",
+  "title": "Cristianesimo antico: diffusione e impero",
+  "slug": "cristianesimo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 9,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "30",
+    "end": "380",
+    "label": "dalla predicazione a Teodosio (convenzione)",
+    "place": "Impero romano, Mediterraneo"
+  },
+  "summary": "Da movimento giudaico a religione imperiale: Ges\u00c3\u00b9 nel contesto romano, Paolo e le comunit\u00c3\u00a0, persecuzioni e martiri, Costantino (313), Nicea (325), Teodosio (380); Agostino come voce del trapasso.",
+  "explanations": {
+    "semplice": "Un predicatore ebreo viene ucciso dai Romani ma i suoi seguaci dicono che \u00c3\u00a8 risorto e portano il messaggio in tutto l'impero. All'inizio vengono perseguitati, poi un imperatore si converte e alla fine il cristianesimo diventa la religione ufficiale.",
+    "approfondita": "Ges\u00c3\u00b9 di Nazareth nel Giudaismo del Secondo Tempio sotto Roma (fonti: Vangeli come testi di fede con nuclei storici discussi, Giuseppe Flavio e Tacito come esterni); Paolo di Tarso e apertura ai gentili (concilio di Gerusalemme ~49 come tradizione); comunit\u00c3\u00a0 domestiche, carit\u00c3\u00a0 e donne come fattori; persecuzioni discontinue (Nerone, Decio, Diocleziano) contro mito della persecuzione continua; Costantino (Milviano 312, Milano 313), Nicea 325 (Ario e homoousios), Giuliano l'Apostata come reazione; Teodosio 380 (Cunctos populos) e 391-92 divieti pagani; monachesimo (Antonio, Pacomio, Benedetto come orizzonte). Agostino (354-430) e il 410 come ponte dichiarato al nodo filosofico.",
+    "tecnica": "Fonti: Nuovo Testamento con critica, Padri, atti conciliari, epigrafia catacombale; persecuzioni da atti martiriali con cautela."
+  },
+  "definitions": [
+    "Editto di Milano (313): libert\u00c3\u00a0 religiosa e restituzioni alla Chiesa.",
+    "Nicea (325): concilio sulla divinit\u00c3\u00a0 del Figlio contro Ario.",
+    "Religione ufficiale (380): cristianesimo niceno come norma imperiale."
+  ],
+  "examples": [
+    "Paolo cittadino romano: appello a Cesare come strategia giuridica (Atti).",
+    "Nicea: homoousios contro homoiousios, una iota che divide."
+  ],
+  "counterexamples": [
+    "Costantino battezzato subito cristiano: battesimo in punto di morte (tradizione).",
+    "Paganesimo spento nel 380: resistenze aristocratiche e rurali."
+  ],
+  "errorsTypical": [
+    "Fare delle persecuzioni un continuum trecentesco.",
+    "Confondere Milano 313 e Tessalonica 380.",
+    "Leggere i Vangeli come cronache neutre."
+  ],
+  "keywords": [
+    "Paolo",
+    "313",
+    "Nicea 325",
+    "380",
+    "Agostino"
+  ],
+  "prerequisites": [
+    "storia:roma-impero"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Svolta religiosa dell'impero dopo il principato."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:agostino",
+      "note": "Agostino teologo del trapasso antico-medievale."
+    }
+  ],
+  "claims": [
+    {
+      "id": "cristianesimo-date",
+      "statement": "Costantino (306-337): tolleranza dal 312 (Milviano 28 ott 312, visione Chi-Rho), Milano 313, Nicea 325, Costantinopoli 11 mag 330; Diocleziano (284-305) persecuzione dal 23 feb 303 (Nicomedia, 8 anni).",
+      "supportedBy": [
+        "whe-costantino",
+        "whe-diocleziano"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-costantino",
+      "title": "Constantine I - World History Encyclopedia",
+      "author": "Donald L. Wasson",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Constantine_I/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "cristianesimo-date"
+      ],
+      "note": "Ispezionato 2026-09-27 (2013). Milviano 312 visione, Milano 313, Nicea 325, Costantinopoli 330."
+    },
+    {
+      "id": "whe-diocleziano",
+      "title": "Diocletian - World History Encyclopedia",
+      "author": "Donald L. Wasson",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Diocletian/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "cristianesimo-date"
+      ],
+      "note": "Ispezionato 2026-09-27 (2014). Persecuzione 303 Nicomedia, 8 anni."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre date cristiane?",
+        "a": "313 Milano; 325 Nicea; 380 Tessalonica."
+      },
+      {
+        "q": "Paolo in sintesi?",
+        "a": "Apertura ai gentili lungo le vie imperiali."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Nicea (325) decide su:",
+        "choices": [
+          "Il primato di Roma",
+          "La divinit\u00c3\u00a0 del Figlio contro Ario",
+          "Il celibato",
+          "Le crociate"
+        ],
+        "answer": 1,
+        "explanation": "Homoousios: stessa sostanza del Padre."
+      }
+    ],
+    "questionsOpen": [
+      "Perch\u00c3\u00a9 il cristianesimo vince dove i culti misterici no?",
+      "Costantino credente o stratega? Con quali prove?"
+    ]
+  },
+  "contentDepth": "standard"
+}

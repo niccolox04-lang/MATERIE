@@ -1,0 +1,224 @@
+{
+  "subject": "latino",
+  "curriculumScope": "Latino (classico e tardo) per liceo: lingua completa (fonologia→periodo), letteratura per età, traduzione come competenza integrata, confronto sistematico con italiano e greco.",
+  "version": 1,
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "requiredPrerequisites": [
+    "analisi grammaticale italiana"
+  ],
+  "macroAreas": [
+    {
+      "id": "fonologia",
+      "title": "Fonologia e prosodia",
+      "importance": "important",
+      "notes": "Quantità vocalica come prerequisito della metrica e di alcune desinenze.",
+      "units": [
+        {
+          "id": "alfabeto-quantita",
+          "title": "Alfabeto, quantità, accento",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "morfologia",
+      "title": "Morfologia",
+      "importance": "core",
+      "notes": "Casi + I–II coperti. Priorità: III–V, poi il verbo (cuore del sistema).",
+      "units": [
+        {
+          "id": "casi",
+          "title": "Sistema dei casi",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "latino:sistema-casi"
+        },
+        {
+          "id": "decl-1-2",
+          "title": "I e II declinazione",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "latino:seconda-declinazione"
+        },
+        {
+          "id": "decl-3-5",
+          "title": "III, IV, V declinazione",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "latino:declinazioni-3-5"
+        },
+        {
+          "id": "agg-pron",
+          "title": "Aggettivi e pronomi",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": "latino:agg-pron"
+        },
+        {
+          "id": "verbo",
+          "title": "Le quattro coniugazioni: temi e modi",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "latino:verbo"
+        },
+        {
+          "id": "anomali",
+          "title": "Sum, fero, eo, volo e deponenti",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "latino:anomali"
+        }
+      ]
+    },
+    {
+      "id": "sintassi",
+      "title": "Sintassi",
+      "importance": "core",
+      "notes": "Non iniziata. Dipende dal verbo: non anticipare oltre l'ablativo assoluto come anticipazione.",
+      "units": [
+        {
+          "id": "ablativo-assoluto",
+          "title": "Ablativo assoluto",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "latino:ablativo-assoluto"
+        },
+        {
+          "id": "infinitive",
+          "title": "Infinitive e participio",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "latino:infinito-participio"
+        },
+        {
+          "id": "cum-ut",
+          "title": "Cum narrativo, ut finale/consecutivo",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "latino:cum-ut"
+        },
+        {
+          "id": "consecutio",
+          "title": "Consecutio temporum",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": "latino:consecutio"
+        },
+        {
+          "id": "periodo",
+          "title": "Periodo e discorso indiretto",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": "latino:periodo"
+        },
+        {
+          "id": "gerundio",
+          "title": "Gerundio, gerundivo, perifrastiche",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "letteratura",
+      "title": "Letteratura",
+      "importance": "core",
+      "notes": "Richiede lingua di base + storia romana.",
+      "units": [
+        {
+          "id": "arcaica",
+          "title": "Plauto, Terenzio, Catone",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "latino:arcaica"
+        },
+        {
+          "id": "classica",
+          "title": "Cicerone, Cesare, Virgilio, Orazio",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "latino:classica"
+        },
+        {
+          "id": "imperiale",
+          "title": "Seneca, Tacito, Petronio",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        },
+        {
+          "id": "cristiana",
+          "title": "Agostino e la latinità cristiana",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "traduzione",
+      "title": "Traduzione e analisi",
+      "importance": "core",
+      "notes": "Competenza terminale.",
+      "units": [
+        {
+          "id": "metodo",
+          "title": "Metodo del periodo latino",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "latino:traduzione"
+        },
+        {
+          "id": "versioni",
+          "title": "Versioni guidate graduate",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "cultura",
+      "title": "Cultura romana",
+      "importance": "secondary",
+      "notes": "Contesto per letteratura e storia.",
+      "units": [
+        {
+          "id": "istituzioni",
+          "title": "Istituzioni e vita quotidiana",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    }
+  ],
+  "foundationalTopics": [
+    "alfabeto-quantita",
+    "casi",
+    "decl-1-2",
+    "decl-3-5",
+    "agg-pron",
+    "verbo"
+  ],
+  "advancedTopics": [
+    "anomali",
+    "consecutio",
+    "periodo",
+    "gerundio",
+    "imperiale",
+    "cristiana",
+    "versioni"
+  ],
+  "roadmap": [
+    "III–V declinazione",
+    "verbo regolare",
+    "aggettivi/pronomi",
+    "ablativo assoluto",
+    "infinitive",
+    "età classica"
+  ]
+}

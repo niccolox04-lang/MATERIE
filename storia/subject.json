@@ -1,0 +1,22 @@
+{
+  "subject": "storia",
+  "title": "Storia",
+  "description": "Mappa storica: cronologie, eventi, cause e conseguenze, istituzioni, fonti e interpretazioni storiografiche.",
+  "version": 1,
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "taxonomy": {
+    "levels": ["area", "periodo", "macroargomento", "argomento", "sottoargomento", "concetto", "approfondimento"],
+    "specializations": {
+      "evento": "sotto-tipo di concetto: fatto databile con cause e conseguenze",
+      "istituzione": "sotto-tipo di concetto: assetto politico-giuridico",
+      "fonte": "sotto-tipo di approfondimento: documento o testimonianza con critica della fonte"
+    }
+  },
+  "areas": [
+    { "id": "storia:antica", "title": "Storia antica", "description": "Vicino Oriente, Grecia, Roma.", "order": 0 },
+    { "id": "storia:medievale", "title": "Storia medievale", "description": "Alto e basso Medioevo.", "order": 1 },
+    { "id": "storia:moderna", "title": "Storia moderna", "description": "Dal 1492 al 1815.", "order": 2 },
+    { "id": "storia:contemporanea", "title": "Storia contemporanea", "description": "Dal 1815 a oggi.", "order": 3 },
+    { "id": "storia:metodo", "title": "Metodo storico", "description": "Fonti, cronologia, storiografia.", "order": 4 }
+  ]
+}

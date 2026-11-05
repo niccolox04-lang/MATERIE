@@ -1,0 +1,147 @@
+{
+  "id": "storia:assolutismo",
+  "subject": "storia",
+  "title": "Stati moderni e assolutismo",
+  "slug": "assolutismo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:scoperte-riforma",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1648",
+    "end": "1789",
+    "label": "da Vestfalia alla Rivoluzione (convenzione scolastica)",
+    "place": "Europa"
+  },
+  "summary": "Dopo le guerre di religione: Vestfalia (1648) e sovranità territoriale; Luigi XIV come modello (Versailles, intendenti, mercantilismo) e resistenze (Fronde, parlamenti); assolutismo illuminato e alternative (Inghilterra parlamentare, Olanda).",
+  "explanations": {
+    "semplice": "Dopo anni di guerre di religione i re dicono: comando io, una fede e una legge. Il re di Francia costruisce una reggia immensa e controlla tutto con funzionari e tasse. Ma in Inghilterra il parlamento vince e il re deve obbedire alle leggi.",
+    "approfondita": "Vestfalia 1648: sovranità territoriale e principio confessionale come cornice; Francia (Richelieu e Mazzarino contro ugonotti e nobili, Fronde come resistenza); Luigi XIV (1661-1715: révocation 1685, intendenti, esercito permanente, Colbert e mercantilismo, Versailles come macchina di corte). Prussia e Austria come assolutismi militari e amministrativi; Russia di Pietro (modernizzazione coatta); Spagna in declino relativo. Alternative: Inghilterra (guerra civile, Gloriosa 1688-89, Bill of Rights, cabinet come orizzonte), Olanda repubblicana e commerciale. Assolutismo illuminato (Federico II, Giuseppe II, Caterina) tra riforme e servitù. Fatto contro interpretazione: accentramento reale contro propaganda del Re Sole; modernità dello Stato fiscale-militare come tesi discussa.",
+    "tecnica": "Fonti: editti e bolle, memorialistica di corte (Saint-Simon), bilanci fiscali; ritratti come propaganda."
+  },
+  "definitions": [
+    "Assolutismo: concentrazione legislativa, esecutiva e giudiziaria nel sovrano.",
+    "Mercantilismo: ricchezza come riserva metallica da bilancia attiva.",
+    "Sovranità territoriale: autorità esclusiva entro confini riconosciuti."
+  ],
+  "examples": [
+    "Révocation dell'Editto di Nantes 1685: uniformità confessionale imposta.",
+    "Bill of Rights 1689: parlamento contro prerogativa regia."
+  ],
+  "counterexamples": [
+    "Assolutismo come potere illimitato di fatto: resistenze di ceti e parlamenti.",
+    "Inghilterra sempre parlamentare: Stuart e guerra civile prima."
+  ],
+  "errorsTypical": [
+    "Fare di Versailles solo lusso (macchina di governo).",
+    "Confondere assolutismo e dispotismo orientale come categorie."
+  ],
+  "keywords": [
+    "Vestfalia 1648",
+    "Luigi XIV",
+    "Versailles",
+    "1688",
+    "mercantilismo"
+  ],
+  "prerequisites": [
+    "storia:scoperte-riforma",
+    "storia:basso-medioevo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:scoperte-riforma",
+      "note": "Stati moderni dopo scoperte e frattura religiosa."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:rivoluzioni",
+      "note": "Assolutismo come antico regime delle rivoluzioni."
+    }
+  ],
+  "claims": [
+    {
+      "id": "assolutismo-modello",
+      "statement": "Vestfalia (24 ottobre 1648, due trattati) chiude la guerra dei Trent’anni e dà origine al concetto di sovranità occidentale: ogni stato, qualunque sia la sua dimensione, ha diritto all’autogoverno. La Francia di Luigi XIV (regno 1643-1715, Fronde 1648-53, Versailles, revoca dell’editto di Nantes 1685) incarna la monarchia assoluta di diritto divino.",
+      "supportedBy": [
+        "whe-vestfalia",
+        "whe-luigi-xiv"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-vestfalia",
+      "title": "Peace of Westphalia",
+      "author": "Elliott Gibson",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Peace_of_Westphalia/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "assolutismo-modello"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: firmato il 24 ottobre 1648 come insieme di trattati, chiude la guerra dei Trent’anni; garanzia di autonomia politica ai piccoli stati dell’Impero e libertà religiosa; nascita del concetto di Westphalian sovereignty (diritto all’autogoverno di ogni stato). LIMITI: la voce non tratta le alternative inglese e olandese: quelle restano fuori dal claim."
+    },
+    {
+      "id": "whe-luigi-xiv",
+      "title": "Louis XIV of France: The Sun King",
+      "author": "Harrison W. Mark",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Louis_XIV_of_France/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "assolutismo-modello"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: Luigi XIV (1638-1715), re dal 1643 al 1715, 72 anni di regno; credette nel diritto divino dei re e governò come monarca assoluto; Fronde 1648-1653; costruzione di Versailles; revoca dell’editto di Nantes 1685; guerre della Lega di Augusta e di successione spagnola, Trattato di Ryswick 1697."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Vestfalia in una riga?",
+        "a": "1648: sovranità territoriale dopo le guerre di religione."
+      },
+      {
+        "q": "Luigi XIV in tre mosse?",
+        "a": "Intendenti, esercito permanente, Versailles."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La Gloriosa del 1688-89 produce:",
+        "choices": [
+          "Assolutismo inglese",
+          "Monarchia parlamentare con Bill of Rights",
+          "Repubblica olandese",
+          "Impero francese"
+        ],
+        "answer": 1,
+        "explanation": "Parlamento e diritti contro prerogativa."
+      }
+    ],
+    "questionsOpen": [
+      "Assolutismo riuscito o mito di corte? Con quali prove?",
+      "Perché l'Inghilterra diverge dalla Francia?"
+    ]
+  }
+}

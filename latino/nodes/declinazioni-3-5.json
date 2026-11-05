@@ -1,0 +1,112 @@
+{
+  "id": "latino:declinazioni-3-5",
+  "subject": "latino",
+  "title": "Terza, quarta e quinta declinazione",
+  "slug": "declinazioni-3-5",
+  "status": "published",
+  "access": "pro",
+  "type": "sottoargomento",
+  "parent": "latino:sistema-casi",
+  "order": 1,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.831Z",
+  "level": "foundation",
+  "summary": "III declinazione (genitivo in -is: temi consonantici e in -i, rex/regis, mare/maris, urbs/urbis); IV in -us (manus) e V in -ei (res, dies). Il genitivo dà il tema; i parisillabi e i neutri in -e/-al/-ar seguono il tipo in -i.",
+  "explanations": {
+    "semplice": "La terza famiglia è la più grande e varia: per capire le parole devi guardare il genitivo (rex diventa reg-, quindi regis, regi, regem...). La quarta finisce in -us ma col genitivo in -u (manus, mano), la quinta in -es con genitivo in -ei (res, cosa).",
+    "approfondita": "III (gen. -is): temi consonantici (rex/regis: -is, -i, -em, -e abl.; plur. -es, -um, -ibus, -es, -es), neutri (nomen/nominis, corpus/corporis: nom.=acc.=voc.), tipo in -i (parisillabi: civis/civis; neutri mare/maris, animal/animalis: gen. plur. -ium, abl. sing. -i); particolarità (vis: vim/vi; Iuppiter; comparativi). IV (gen. -us): manus (-us, -us, -ui, -um, -u; plur. -us, -uum, -ibus, -us, -us), neutri (cornu, genu: dat. -u, plur. -ua). V (gen. -ei): res/diēs (-es, -ei, -ei, -em, -e; plur. solo res e dies completi). Regola aurea: nominativo spesso imprevedibile (sincopi, apofonie: iter/itineris), il genitivo non mente mai. Concordanze con aggettivi di II classe (brevis, breve) come ponte.",
+    "tecnica": "Alternanze: -s- intervocalica rotacizzata (genus/generis); -ns- con caduta (mons/montis); neutri con -a plurale costante; abl. sing. III in -e (-i per tipo in -i e participi con uso aggettivale)."
+  },
+  "definitions": [
+    "Tema consonantico: base ottenuta dal genitivo (reg- da regis).",
+    "Parisillabo: nome con uguale numero di sillabe in nom. e gen. (civis/civis), tipo in -i.",
+    "Genitivo in -ium: marca del tipo in -i e di molti monosillabi."
+  ],
+  "examples": [
+    "Urbem videt: -em accusativo III (la città).",
+    "Manibus: -ibus dat./abl. plur. IV (alle/con le mani)."
+  ],
+  "counterexamples": [
+    "Manus in II declinazione: genitivo manus (-us lungo) la mette in IV.",
+    "Mare come maschile: neutro (mare magnum)."
+  ],
+  "errorsTypical": [
+    "Declinare dal nominativo invece che dal genitivo.",
+    "Genitivo plurale -orum in III (è -um/-ium).",
+    "Ablativo singolare -i generalizzato (solo tipo in -i)."
+  ],
+  "keywords": [
+    "genitivo -is",
+    "parisillabi",
+    "-ium",
+    "manus",
+    "res",
+    "iter itineris"
+  ],
+  "prerequisites": [
+    "latino:sistema-casi",
+    "latino:seconda-declinazione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "latino:sistema-casi",
+      "note": "Famiglie III–V."
+    },
+    {
+      "type": "SIMILAR_TO",
+      "to": "greco:declinazioni-nome",
+      "note": "III greca atematica come parallelo del tipo consonantico."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-lingua-latina",
+      "title": "Latino, lingua — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/lingua-latina/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200; contenuto NON revisionato: paradigmi standard."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Uscite del genitivo III, IV, V?",
+        "a": "-is, -us, -ei."
+      },
+      {
+        "q": "Quando il genitivo plurale è -ium?",
+        "a": "Tipo in -i (parisillabi, neutri -e/-al/-ar) e monosillabi."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'Regibus' è:",
+        "choices": [
+          "Genitivo plurale",
+          "Dativo/ablativo plurale",
+          "Nominativo plurale",
+          "Accusativo singolare"
+        ],
+        "answer": 1,
+        "explanation": "-ibus: dat./abl. plur. III."
+      }
+    ],
+    "questionsOpen": [
+      "Declina corpus e spiega ogni forma dal tema.",
+      "Perché iter ha genitivo itineris? (suppletivismo)"
+    ]
+  }
+}

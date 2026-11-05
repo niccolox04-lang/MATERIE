@@ -1,0 +1,222 @@
+{
+  "subject": "matematica",
+  "curriculumScope": "Matematica della secondaria superiore: fondamenti e linguaggio, algebra, geometria (sintetica e analitica), funzioni e trigonometria, analisi, probabilità e statistica. Ogni concetto con definizione→teorema→dimostrazione→metodo→errori; prerequisiti espliciti.",
+  "version": 1,
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "requiredPrerequisites": [
+    "aritmetica di base e calcolo letterale iniziale"
+  ],
+  "macroAreas": [
+    {
+      "id": "fondamenti",
+      "title": "Fondamenti e linguaggio",
+      "importance": "core",
+      "notes": "Dimostrazione coperta come metodo; mancano insiemi numerici e logica di base.",
+      "units": [
+        {
+          "id": "insiemi-numeri",
+          "title": "Insiemi, N/Z/Q/R",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "matematica:insiemi-numeri"
+        },
+        {
+          "id": "irrazionali",
+          "title": "Irrazionali: √2 per assurdo",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "matematica:irrazionalita-sqrt2"
+        },
+        {
+          "id": "linguaggio",
+          "title": "Linguaggio della dimostrazione",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": "matematica:introduzione"
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "title": "Algebra",
+      "importance": "core",
+      "notes": "Area CORE vuota: priorità massima (ordine: 1° grado → sistemi → 2° grado).",
+      "units": [
+        {
+          "id": "eq-primo",
+          "title": "Equazioni e disequazioni di primo grado",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "matematica:equazioni-primo-grado"
+        },
+        {
+          "id": "sistemi",
+          "title": "Sistemi lineari e matrici elementari",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "matematica:sistemi"
+        },
+        {
+          "id": "eq-secondo",
+          "title": "Secondo grado e parabola",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "matematica:equazioni-secondo-grado"
+        },
+        {
+          "id": "polinomi",
+          "title": "Polinomi: divisione, Ruffini, fattorizzazione",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "matematica:polinomi"
+        }
+      ]
+    },
+    {
+      "id": "geometria",
+      "title": "Geometria",
+      "importance": "core",
+      "notes": "Pitagora coperto. Manca Euclide sistematico e l'analitica.",
+      "units": [
+        {
+          "id": "pitagora",
+          "title": "Teorema di Pitagora",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "matematica:teorema-pitagora"
+        },
+        {
+          "id": "euclide",
+          "title": "Congruenza, parallelismo, TALETE",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "matematica:euclide"
+        },
+        {
+          "id": "similitudine",
+          "title": "Similitudine e aree",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "matematica:similitudine"
+        },
+        {
+          "id": "analitica",
+          "title": "Retta, parabola, circonferenza nel piano",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": "matematica:geometria-analitica"
+        }
+      ]
+    },
+    {
+      "id": "funzioni",
+      "title": "Funzioni e trigonometria",
+      "importance": "core",
+      "notes": "Non iniziata. Prerequisito dell'analisi.",
+      "units": [
+        {
+          "id": "concetto",
+          "title": "Concetto di funzione, dominio, grafico",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "matematica:funzioni"
+        },
+        {
+          "id": "elementari",
+          "title": "Lineari, quadratiche, esponenziali, logaritmi",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "matematica:elementari"
+        },
+        {
+          "id": "trigonometria",
+          "title": "Seno, coseno, teoremi sui triangoli",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": "matematica:trigonometria"
+        }
+      ]
+    },
+    {
+      "id": "analisi",
+      "title": "Analisi",
+      "importance": "important",
+      "notes": "Dipende da funzioni. Non anticipare.",
+      "units": [
+        {
+          "id": "limiti",
+          "title": "Limiti e continuità",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": null
+        },
+        {
+          "id": "derivate",
+          "title": "Derivate e studio di funzione",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": null
+        },
+        {
+          "id": "integrali",
+          "title": "Integrali definiti e aree",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "probabilita",
+      "title": "Probabilità e statistica",
+      "importance": "important",
+      "notes": "Non iniziata.",
+      "units": [
+        {
+          "id": "combinatoria",
+          "title": "Calcolo combinatorio",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": null
+        },
+        {
+          "id": "probabilita",
+          "title": "Probabilità classica e condizionata",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": null
+        },
+        {
+          "id": "statistica",
+          "title": "Statistica descrittiva",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    }
+  ],
+  "foundationalTopics": [
+    "insiemi-numeri",
+    "irrazionali",
+    "linguaggio",
+    "eq-primo",
+    "pitagora"
+  ],
+  "advancedTopics": [
+    "analitica",
+    "trigonometria",
+    "limiti",
+    "derivate",
+    "integrali"
+  ],
+  "roadmap": [
+    "Insiemi numerici",
+    "Equazioni 1° grado",
+    "Euclide e congruenza",
+    "Secondo grado",
+    "Funzioni",
+    "Analitica",
+    "Analisi"
+  ]
+}

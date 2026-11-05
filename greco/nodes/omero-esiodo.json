@@ -1,0 +1,125 @@
+{
+  "id": "greco:omero-esiodo",
+  "subject": "greco",
+  "title": "Omero ed Esiodo: epos arcaico",
+  "slug": "omero-esiodo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 6,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Epos esametrico (VIII sec. circa, datazione dibattuta): Iliade (ira di Achille, 24 libri) e Odissea (ritorno di Odisseo, 24 libri) in dialetto epico con formule; Esiodo (Teogonia, Opere e giorni): cosmo, dèi e giustizia del lavoro.",
+  "explanations": {
+    "semplice": "Le prime grandi storie dei Greci sono due poemi lunghissimi cantati a memoria: una guerra con un eroe arrabbiato e un viaggio pieno di mostri e trucchi. Un altro poeta racconta come sono nati gli dèi e come si deve lavorare la terra con giustizia.",
+    "approfondita": "Questione omerica: aedo/cantore, tradizione orale e formule (epiteti, scene tipiche), fissazione scritta (Pisistrato come ipotesi antica, dibattuta); lingua epica mista (ionico con eolismi, arcaismi, digamma perduto); esametro dattilico come metro. Iliade: 15.693 versi, 51 giorni nel decimo anno, ira (μῆνις) di Achille contro Agamennone, Patroclo, Ettore, Priamo; valori (τιμή, κλέος, αἰδώς) e limiti del modello eroico. Odissea: 12.109 versi, Telemaco, Penelope, Odisseo polytropos (metis contro bia), dèi (Atena, Poseidone), riconoscimento e vendetta. Esiodo di Ascra (Beozia, VII sec. circa): Teogonia (cosmogonia da Chaos, successioni divine, Zeus e ordine), Opere e giorni (giustizia di Zeus, mito delle età, lavoro stagionale, morale pratica). Distinguere fatto (testi, papiri, dialetto) da interpretazione (autorità unica o tradizione) e ipotesi (datazione assoluta).",
+    "tecnica": "Strumenti: scansione dell'esametro (spondeo/dattilo, cesure), formule come blocchi mnemonici, cataloghi e similitudini estese come segnali di struttura."
+  },
+  "definitions": [
+    "Epos: narrazione eroica in esametri, pubblica e memoriale.",
+    "Formula: nesso fisso metro-contesto (epiteto + nome) della dizione orale.",
+    "Teogonia: racconto della nascita degli dèi come ordine cosmico."
+  ],
+  "examples": [
+    "μῆνιν ἄειδε θεά: primo verso dell'Iliade, programma dell'ira.",
+    "Le cinque età di Esiodo (oro, argento, bronzo, eroi, ferro) come storia morale."
+  ],
+  "counterexamples": [
+    "Omero storico-cronachista: aedo di verità eroica, non archivio.",
+    "Esiodo contadino ingenuo: teologia e sapienza strutturate."
+  ],
+  "errorsTypical": [
+    "Dare per certa la data di Omero (VIII sec. come ipotesi di lavoro).",
+    "Leggere gli dèi omerici come allegorie moderne.",
+    "Confondere metro e contenuto (esametro anche per Esiodo didascalico)."
+  ],
+  "keywords": [
+    "Iliade",
+    "Odissea",
+    "Esiodo",
+    "esametro",
+    "formula",
+    "kleos"
+  ],
+  "prerequisites": [
+    "greco:alfabeto-fonetica",
+    "greco:declinazioni-nome"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "greco:introduzione",
+      "note": "Primo incontro con la letteratura dopo la lingua di base."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "greco:verbo-completo",
+      "note": "Il dialetto epico si legge con aoristi, participi e forme in -μι."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:atene-classica",
+      "note": "L'epos come paideia condivisa dalla polis classica (uso, non contemporaneità)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "omero-data",
+      "statement": "Iliade e Odissea sono poemi esametrici della tradizione orale arcaica (datazione convenzionale VIII sec.), con lingua formulare mista; Esiodo autore di Teogonia e Opere e giorni.",
+      "supportedBy": [
+        "manuale-letteratura-greca"
+      ],
+      "status": "unverified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-letteratura-greca",
+      "title": "Profilo standard di letteratura greca arcaica (Omero, Esiodo, questione omerica)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "I due poemi in una riga?",
+        "a": "Iliade: ira di Achille; Odissea: ritorno di Odisseo (24+24 libri)."
+      },
+      {
+        "q": "Esiodo: le due opere?",
+        "a": "Teogonia (dèi e cosmo); Opere e giorni (lavoro e giustizia)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La lingua omerica è:",
+        "choices": [
+          "Attico puro del V sec.",
+          "Misto formulare (ionico-eolico, arcaismi)",
+          "Koinè ellenistica",
+          "Dorico di Sparta"
+        ],
+        "answer": 1,
+        "explanation": "Stratificazione orale, non dialetto di una città."
+      }
+    ],
+    "questionsOpen": [
+      "Achille e Odisseo: due eroismi a confronto.",
+      "Perché Esiodo unisce mito e calendario agricolo?"
+    ]
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "id": "storia:mediterraneo",
+  "subject": "storia",
+  "title": "Ittiti, Fenici, Ebrei",
+  "slug": "mediterraneo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 8,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-1600",
+    "end": "-332",
+    "label": "dagli Ittiti ad Alessandro (convenzione)",
+    "place": "Anatolia, Levante, Mediterraneo"
+  },
+  "summary": "Potenze del Levante: Ittiti di Hattusa (ferro, carri, Qadesh), Fenici (alfabeto, porpora, colonie e Cartagine), Ebrei (monoteismo, regni, esilio 586); crollo del ~1200 e commerci come ponte verso la Grecia.",
+  "explanations": {
+    "semplice": "Tra Turchia e Israele nascono popoli importanti: gli Ittiti forti col ferro, i Fenici marinai che inventano l'alfabeto e fondano Cartagine, gli Ebrei con un solo Dio e re famosi come Davide. Intorno al 1200 molti palazzi crollano misteriosamente.",
+    "approfondita": "Ittiti (Hattusa, trattati e vassalli, ferro come risorsa discussa, Qadesh e pace con l'Egitto); crisi del Bronzo finale ~1200 (Popoli del Mare come etichetta egizia, cause multiple dibattute: clima, sistemi, migrazioni). Fenici (Biblo, Tiro, Sidone: porpora, vetro, legname; alfabeto consonantico ~1050 come madre degli alfabeti; colonie e Cartagine 814 come tradizione); Ebrei (patriarchi come tradizione, monarchia unita discussa, scissione, Samaria 722, esilio babilonese 586, Secondo Tempio, Bibbia ebraica come fonte religiosa e storica con metodo critico dichiarato). Minoici e Micenei come ponte egeo verso la Grecia (rinvio all'area greca, non duplicazione).",
+    "tecnica": "Fonti: archivi di Hattusa ed Ebla, Bibbia con critica storica, archeologia levantina; date alte sempre come intervalli."
+  },
+  "definitions": [
+    "Alfabeto consonantico: scrittura di sole consonanti, madre degli alfabeti.",
+    "Monoteismo ebraico: esclusività di Yahweh come esito storico.",
+    "Collasso del Bronzo: crisi dei palazzi ~1200 a cause multiple."
+  ],
+  "examples": [
+    "Trattato di Qadesh: versione ittita ed egizia a confronto.",
+    "Cartagine 814: fondazione fenicia secondo la tradizione (Didone)."
+  ],
+  "counterexamples": [
+    "Fenici solo commercianti pacifici: talassocrazia e conflitti.",
+    "Bibbia come cronaca neutra: teologia con nuclei storici discussi."
+  ],
+  "errorsTypical": [
+    "Fare dell'alfabeto un'invenzione greca (adattamento fenicio).",
+    "Datare l'esodo come evento archeologicamente provato.",
+    "Confondere Ittiti anatolici e Hittiti biblici minori."
+  ],
+  "keywords": [
+    "Ittiti",
+    "Fenici",
+    "alfabeto",
+    "esilio 586",
+    "1200"
+  ],
+  "prerequisites": [
+    "storia:mesopotamia",
+    "storia:egitto"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Levante tra i grandi imperi fluviali e la Grecia."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:egitto",
+      "note": "Qadesh, commerci e influssi reciproci."
+    }
+  ],
+  "claims": [
+    {
+      "id": "mediterraneo-fenici",
+      "statement": "Fenici: popolazione semitica costiera in citta-stato commercianti (Biblo, Tiro, Sidone); predominio di Tiro intorno al 1000 con Pigmalione 820ca-774 e tradizione fondazione Cartagine; colonie Cipro 10-9 sec, Malta Mozia Tarro Spagna 9-8 sec; Sidone 675 assira e Tiro 573 babilonese; scrittura tra le piu antiche alfabetiche da cui deriva con probabilita l'alfabeto greco.",
+      "supportedBy": [
+        "treccani-fenici"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-fenici",
+      "title": "Fenici — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/fenici/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "mediterraneo-fenici"
+      ],
+      "note": "Ispezionato 2026-09-27. Mari 1 meta 2 mill Gubla Biblo; Ugarit Amarna Acco Tiro Sidone Berito; Sidone poi Tiro 1000 Pigmalione Cartagine; Cipro 10-9 Malta Mozia Tarro Spagna 9-8; Assiria 9 sec Sidone 675 Tiro 573; fenicio cananaico affine ebraico 11-10 sec punico neopunico; alfabeto tra i piu antichi da cui deriva greco."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre popoli in sintesi?",
+        "a": "Ittiti impero; Fenici mare e alfabeto; Ebrei monoteismo."
+      },
+      {
+        "q": "586 e 1200?",
+        "a": "Esilio babilonese; crollo del Bronzo."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "L'alfabeto fenicio è:",
+        "choices": [
+          "Silabico",
+          "Consonantico, madre degli alfabeti",
+          "Geroglifico",
+          "Cuneiforme"
+        ],
+        "answer": 1,
+        "explanation": "Segni per consonanti, adattati poi dai Greci."
+      }
+    ],
+    "questionsOpen": [
+      "1200: invasioni, clima o sistemi? Con quali prove?",
+      "Bibbia fonte storica: come usarla col metodo critico?"
+    ]
+  }
+}

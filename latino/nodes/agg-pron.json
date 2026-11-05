@@ -1,0 +1,112 @@
+{
+  "id": "latino:agg-pron",
+  "subject": "latino",
+  "title": "Aggettivi e pronomi",
+  "slug": "agg-pron",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "latino:sistema-casi",
+  "order": 7,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "Aggettivi I classe (bonus) e II classe (brevis, ingens, acer); gradi (comparativo -ior, superlativo -issimus); pronomi personali, riflessivi, dimostrativi (hic, iste, ille, is), relativo qui e indefiniti; concordanze.",
+  "explanations": {
+    "semplice": "Aggettivi e pronomi cambiano come i nomi e si accordano: bello ragazzo, bella ragazza. Per confrontare: più bello (con desinenza speciale) e bellissimo. I pronomi più usati: io, tu, lui (is), questo (hic), quello (ille), che (qui).",
+    "approfondita": "Aggettivi I classe (bonus/a/um su I-II) e II classe: tre uscite (acer/acris/acre), due uscite (brevis/breve), una uscita (ingens, gen. ingentis; vetus); comparativo in -ior/-ius (brevior, gen. brevioris, abl. -e) con secondo termine in ablativo o quam; superlativo in -issimus (o -rimus/-limus: acerrimus, facillimus); irregolari (bonus/melior/optimus, malus/peior/pessimus, magnus/maior/maximus, parvus/minor/minimus, multus/plus/plurimus). Pronomi: ego/tu/nos/vos; riflessivi se/sibi; possessivi meus/tuus/suus (suus solo del soggetto); dimostrativi hic (questo), iste (codesto), ille (quello), is (lui/esso, anaforico); ipse (stesso in persona) contro idem (stesso identico); relativo qui/quae/quod con antecedente; interrogativi e indefiniti (quis/qui, aliquis, quisque, ullus, nemo/nihil). Concordanze e posizione dell'aggettivo. Regola operativa: classe dall'uscita, tema dal genitivo, accordo col nome.",
+    "tecnica": "Diagnosi: -is/-e per la II classe; -ior contro -issimus; suus solo col soggetto della sua frase; qui senza antecedente espresso."
+  },
+  "definitions": [
+    "I classe: aggettivi su I-II declinazione.",
+    "II classe: aggettivi su III declinazione.",
+    "Anaforico: pronome che riprende un antecedente (is)."
+  ],
+  "examples": [
+    "Puer brevior patre: ragazzo più basso del padre (ablativo).",
+    "Idem dixit: disse la stessa cosa (idem invariato al neutro)."
+  ],
+  "counterexamples": [
+    "Suus riferito a un altro: vuole eius (di lui altrui).",
+    "Comparativo con genitivo (è ablativo o quam)."
+  ],
+  "errorsTypical": [
+    "Declinare brevis come bonus (è III declinazione).",
+    "Confondere ipse e idem (persona contro identità).",
+    "Suus senza soggetto di riferimento."
+  ],
+  "keywords": [
+    "-ior",
+    "-issimus",
+    "hic iste ille",
+    "qui",
+    "suus",
+    "concordanza"
+  ],
+  "prerequisites": [
+    "latino:sistema-casi",
+    "latino:seconda-declinazione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "latino:sistema-casi",
+      "note": "Morfologia nominale dopo le declinazioni."
+    },
+    {
+      "type": "SIMILAR_TO",
+      "to": "greco:declinazioni-nome",
+      "note": "Classi aggettivali e concordanze in parallelo."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-lingua-latina",
+      "title": "Latino, lingua — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/lingua-latina/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Profilo già usato nei nodi latino; contenuto NON ancora revisionato puntualmente."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Classi degli aggettivi?",
+        "a": "I su I-II (bonus); II su III (brevis, ingens)."
+      },
+      {
+        "q": "Suus o eius?",
+        "a": "Suus del soggetto; eius di un altro."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'Hic' contro 'ille':",
+        "choices": [
+          "Sinonimi",
+          "Questo (vicino) contro quello (lontano)",
+          "Plurali",
+          "Verbi"
+        ],
+        "answer": 1,
+        "explanation": "Deissi: hic vicino, ille lontano, iste intermedio."
+      }
+    ],
+    "questionsOpen": [
+      "Declina brevior al maschile singolare e spiega.",
+      "Quando is e quando ille per lui?"
+    ]
+  }
+}

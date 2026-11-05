@@ -1,0 +1,112 @@
+{
+  "id": "storia:ventunesimo-secolo",
+  "subject": "storia",
+  "title": "XXI secolo: globalizzazione, sfide ambientali, nuove tecnologie",
+  "slug": "ventunesimo-secolo",
+  "status": "draft",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 6,
+  "version": 1,
+  "createdAt": "2026-09-30T00:00:00.000Z",
+  "updatedAt": "2026-09-30T00:00:00.000Z",
+  "level": "advanced",
+  "chrono": {
+    "start": "2001",
+    "end": "2026",
+    "label": "dall'attacco dell'11 settembre 2001 alla data di redazione del corpus",
+    "place": "sistema mondiale"
+  },
+  "summary": "Il XXI secolo e' segnato da quattro processi intrecciati: l'accelerazione della globalizzazione (commercio, finanza, catene di fornitura, migrazioni), la crisi ambientale (cambiamento climatico, perdita di biodiversita', transizione energetica), l'ondata delle rivoluzioni tecnologiche (internet, intelligenza artificiale, biotecnologie) e una ridefinizione degli equilibri geopolitici, con l'emergenza di grandi potenze asiatiche.",
+  "explanations": {
+    "semplice": "Dopo il 2000 il mondo e' sempre piu' collegato: merci, persone e informazioni viaggiano veloce, e nazioni come Cina e India crescono. Lo stesso periodo porta problemi nuovi: il riscaldamento globale, la perdita di specie e l'uso dell'intelligenza artificiale.",
+    "approfondita": "Globalizzazione: accelerazione dopo la caduta del muro (1989) e la fine del blocco sovietico (1991), apertura cinese (riforme dal 1978, adesione all'OMC nel 2001), globalizzazione finanziaria, del turismo e delle migrazioni, con squilibri fra centro e periferia. Ambiente: Protocollo di Kyoto (1997), Protocollo di Parigi (2015) come quadro negoziale basato su piani nazionali, transizione energetica e rinnovabili, declino della biodiversita'. Tecnologie: diffusione di internet e social, intelligenza artificiale come questione tecnica, economica ed etica, biotecnologie, rivoluzione dei dati. Geopolitica: crescita della Cina, multipolarita' dopo il 2001, interventi e sanzioni, istituzioni come ONU, FMI e Banca Mondiale, ritorno del nazionalismo economico. Distinguere: i dati economici sono robusti, le previsioni sull'IA e sul clima molto meno.",
+    "tecnica": "Fonti: report ONU, IPCC e Banca Mondiale, trattati internazionali, dati statistici (FMI, Eurostat), letteratura scientifica. Nota critica: stime su IA e clima cambiano rapidamente e vanno citate con la data del rilevamento. Per published servono fonti revisionate: stato attuale = draft."
+  },
+  "definitions": [
+    "Globalizzazione: intensificazione dei flussi transfrontieri di merci, capitali, persone e informazioni.",
+    "Cambiamento climatico: variazione di lungo periodo del clima misurata a scala globale.",
+    "Multipolarita': distribuzione del potere mondiale fra piu' centri di decisione."
+  ],
+  "examples": [
+    "La catena di fornitura globale dell'elettronica, che lega l'Est asiatico all'Europa e alle Americhe.",
+    "Il Protocollo di Parigi come accordo basato sulla pianificazione nazionale, non su obblighi comuni."
+  ],
+  "counterexamples": [
+    "La 'fine della globalizzazione': il protezionismo riduce l'intensita' degli scambi ma non li annulla.",
+    "Il XXI secolo come progresso lineare: crisi ambientali, pandemie e guerre lo contraddicono."
+  ],
+  "errorsTypical": [
+    "Presentare la globalizzazione come processo solo economico: ha dimensioni culturali e politiche.",
+    "Dare per certe le proiezioni sull'intelligenza artificiale: sono ipotesi, non dati.",
+    "Collocare la fine della guerra fredda nel 2001: e' una convenzione, non un evento unico."
+  ],
+  "keywords": [
+    "globalizzazione",
+    "cambiamento climatico",
+    "intelligenza artificiale",
+    "multipolarita'",
+    "ONU",
+    "Protocollo di Parigi",
+    "transizione energetica",
+    "biodiversita'"
+  ],
+  "prerequisites": [
+    "storia:post45"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Nodo radice, periodo contemporaneo."
+    },
+    {
+      "type": "DEVELOPS_INTO",
+      "to": "storia:post45",
+      "note": "Prosegue la fine del bipolarismo."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:regni-marittimi-sud-est",
+      "note": "Controllo cinese sugli scali del mare del Sud."
+    }
+  ],
+  "claims": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "In quale anno e' stato firmato l'accordo climaticamente decisivo?",
+        "a": "Il Protocollo di Parigi, nel 2015."
+      },
+      {
+        "q": "Cosa significa multipolarita'?",
+        "a": "Il potere distribuito fra piu' centri di decisione."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il Protocollo di Parigi prevede principalmente:",
+        "choices": [
+          "Obblighi identici per tutti",
+          "Piani nazionali di riduzione",
+          "Un'unica tassa globale",
+          "Il divieto totale di fossili"
+        ],
+        "answer": 1,
+        "explanation": "L'accordo si fonda su contributi nazionali, non su obblighi uniformi."
+      }
+    ],
+    "questionsOpen": [
+      "Un accordo climatico senza sanzioni e' efficace: che argomenti ci sono?",
+      "Come valutare l'impatto dell'intelligenza artificiale su lavoro e istruzione?"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "storia:india-antica",
+  "subject": "storia",
+  "title": "Valle dell'Indo, Maurya, Ashoka, Gupta",
+  "slug": "india-antica",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 16,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-2600",
+    "end": "550",
+    "label": "dall'Indo maturo ai Gupta (date circa, dibattute)",
+    "place": "Subcontinente indiano"
+  },
+  "region": "Asia",
+  "location": "Pianure dell'Indo e del Gange, Deccan",
+  "territories": "Citt\u00c3\u00a0 harappane, regni vedici e mahajanapada, impero Maurya, regni Gupta",
+  "geographicalContext": "Monsoni e grandi fiumi come base agricola; passi nord-occidentali (Khyber) come via di invasioni e commerci; Oceano Indiano per Roma e Sud-est asiatico.",
+  "summary": "India antica: civilt\u00c3\u00a0 dell'Indo (Harappa, Mohenjo-daro, scrittura non decifrata), periodo vedico, Maurya con Ashoka (Kalinga, editti, dhamma) e Gupta come et\u00c3\u00a0 classica; buddhismo e induismo, commerci oceanici.",
+  "explanations": {
+    "semplice": "In India nascono citt\u00c3\u00a0 con strade dritte e fogne quattromila anni fa, ma non sappiamo ancora leggere la loro scrittura. Poi arrivano i Veda, grandi re unificano quasi tutto il paese (Ashoka) e secoli dopo fioriscono arte e scienza (Gupta). Da qui si diffonde il buddhismo.",
+    "approfondita": "Indo maturo (~2600-1900): Harappa e Mohenjo-daro (piani ortogonali, Gran Bagno, magazzini), sigilli con scrittura NON decifrata (limite dichiarato), commerci con Meluhha-Mesopotamia; declino per mutamenti fluviali e trasformazioni (invasione ariana unica come tesi superata, dibattito dichiarato). Vedico (~1500-600): Veda, sacrificio e varna come sistema tardo, mahajanapada e Magadha; Alessandro all'Idaspe (326) come marcatore esterno. Maurya (~321-185): Chandragupta e Kautilya/Arthashastra (trattato di governo), Ashoka (date tradizionali c. 268-232, varianti c. 265-238 dibattute): conquista cruenta di Kalinga (~260), rinuncia alla guerra, editti su rocce e pilastri, dhamma come condotta retta e tolleranza tra fedi, missioni (Sri Lanka per tradizione); Lion Capital come emblema dell'India odierna. Post-Maurya e Gupta (~320-550: Kalidasa, Aryabhata, Ajanta) come et\u00c3\u00a0 classica discussa. Storiografia: letture coloniali, nazionaliste e Thapar (formazione statale) senza vincitore dichiarato.",
+    "tecnica": "Fonti: archeologia harappana, Veda con critica testuale, editti di Ashoka (Brahmi decifrata nel XIX sec.), Arthashastra stratificato, Fa-Hien e Xuanzang come esterni; cronologie maurya con margini."
+  },
+  "definitions": [
+    "Dhamma ashokiano: condotta retta (onest\u00c3\u00a0, compassione, non violenza) come politica.",
+    "Varna: ordini sociali brahmanici, sistema tardo non vedico antico.",
+    "Editto: iscrizione pubblica di precetti su roccia, pilastro o grotta."
+  ],
+  "examples": [
+    "Editto XIII (Kalinga): rimorso per strage e deportazioni, svolta al dhamma.",
+    "Gran Bagno di Mohenjo-daro: urbanistica idraulica harappana."
+  ],
+  "counterexamples": [
+    "Ashoka pacifista da sempre: conversione DOPO Kalinga (sequenza degli editti).",
+    "Scrittura dell'Indo letta: tentativi non consensuali, resta chiusa."
+  ],
+  "errorsTypical": [
+    "Fare di Ashoka un buddhista settario (dhamma sovraconfessionale negli editti).",
+    "Datare i Veda come cronaca (testi rituali stratificati).",
+    "Confondere Gupta e Maurya (cinque secoli di distanza)."
+  ],
+  "keywords": [
+    "Harappa",
+    "Ashoka",
+    "Kalinga",
+    "dhamma",
+    "Gupta"
+  ],
+  "prerequisites": [
+    "storia:neolitico",
+    "storia:mesopotamia"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "India antica come ramo mondiale fondazionale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:mesopotamia",
+      "note": "Meluhha: contatti Indo-Mesopotamia documentati."
+    }
+  ],
+  "claims": [
+    {
+      "id": "ashoka-kalinga",
+      "statement": "Dopo la cruenta conquista di Kalinga (~260 a.C.), Ashoka (regno date tradizionali c. 268-232, varianti dibattute) rinunci\u00c3\u00b2 alla guerra, promosse il dhamma con editti su rocce e pilastri e sostenne il buddhismo.",
+      "supportedBy": [
+        "britannica-ashoka"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "id": "indo-scrittura",
+      "statement": "Harappa e Mohenjo-daro mostrano urbanistica pianificata; la scrittura dell'Indo resta non decifrata e il declino \u00c3\u00a8 a cause multiple dibattute.",
+      "supportedBy": [
+        "manuale-india",
+        "whe-indus-valley"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "britannica-ashoka",
+      "title": "Ashoka \u00e2\u20ac\u201d Encyclopaedia Britannica",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Ashoka",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "ashoka-kalinga"
+      ],
+      "note": "Passaggi verificati: conquista cruenta di Kalinga e rinuncia; 'conquest by dharma'; editti su pilastri/rocce; regno c. 265-238 con variante c. 273-232."
+    },
+    {
+      "id": "manuale-india",
+      "title": "Profilo standard di India antica (Indo, Maurya, Gupta)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-indus-valley",
+      "title": "Indus Valley Civilization - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Indus_Valley_Civilization/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "indo-scrittura"
+      ],
+      "note": "Ispezionato 2026-09-27. Harappa, Mohenjo-daro, urbanistica pianificata, scrittura non decifrata, declino multicausale."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Kalinga in sintesi?",
+        "a": "Conquista cruenta ~260, poi rinuncia e dhamma negli editti."
+      },
+      {
+        "q": "Indo in due limiti?",
+        "a": "Scrittura non decifrata; declino multicausale dibattuto."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il dhamma ashokiano \u00c3\u00a8:",
+        "choices": [
+          "Una setta buddhista chiusa",
+          "Condotta retta sovraconfessionale (onest\u00c3\u00a0, compassione, non violenza)",
+          "Un esercito",
+          "Una tassa"
+        ],
+        "answer": 1,
+        "explanation": "Precetti morali per una societ\u00c3\u00a0 complessa, non solo buddhismo."
+      }
+    ],
+    "questionsOpen": [
+      "Ashoka tollerante o propagandista? Con quali passi degli editti?",
+      "Perch\u00c3\u00a9 la scrittura dell'Indo resiste? Cosa manca (bilinguismo)?"
+    ]
+  },
+  "contentDepth": "deep"
+}

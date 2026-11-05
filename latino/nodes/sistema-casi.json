@@ -1,0 +1,65 @@
+{
+  "id": "latino:sistema-casi",
+  "subject": "latino",
+  "title": "Il sistema dei casi",
+  "slug": "sistema-casi",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "latino:introduzione",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "Sei casi (nominativo, genitivo, dativo, accusativo, vocativo, ablativo) marcano le funzioni sintattiche con desinenze; cinque declinazioni distinte dall'uscita del genitivo singolare. Il caso si riconosce da desinenza + contesto, mai dalla sola traduzione italiana.",
+  "explanations": {
+    "semplice": "In latino la fine della parola dice il suo lavoro: chi fa l'azione (nominativo), di chi è (genitivo), a chi (dativo), chi subisce (accusativo), con cosa o da dove (ablativo). Esistono cinque famiglie di parole (declinazioni): per sapere a quale appartiene un nome, guarda il genitivo.",
+    "approfondita": "Funzioni nucleari: nominativo (soggetto, nome del predicato), genitivo (specificazione: possesso, partitivo, oggettivo/soggettivo, qualità), dativo (termine, possesso, fine), accusativo (oggetto, moto a luogo, estensione), vocativo (chiamata), ablativo (sintetizza separazione, mezzo, modo, causa, luogo, tempo, agente con a/ab). Cinque declinazioni dal genitivo singolare (-ae, -i, -is, -us, -ei). Paradigma modello della I (rosa): -a, -ae, -ae, -am, -a (voc. -a), -ā; plurale -ae, -ārum, -īs, -ās, -ae, -īs. Principio operativo: analizzare desinenza, numero, caso possibile, poi sciogliere l'ambiguità col contesto e con le concordanze (aggettivo-nome, soggetto-verbo). Sincretismi inevitabili (p.es. -ae = gen./dat. sing. e nom. plur. in I): l'analisi è morfosintattica, non meccanica.",
+    "tecnica": "Criteri: uscita del genitivo singolare per la declinazione; quantità delle desinenze (-ā abl. contro -a nom. in I); concordanze come vincoli; preposizioni come marche dell'ablativo/accusativo."
+  },
+  "definitions": [
+    "Caso: categoria flessionale che marca la funzione sintattica del nome.",
+    "Declinazione: classe flessiva identificata dall'uscita del genitivo singolare.",
+    "Sincretismo: coincidenza formale di due casi nella stessa desinenza."
+  ],
+  "examples": ["Rosa (nom.), rosam (acc. oggetto), rosae (gen. o dat. o nom. plur.: decide il contesto).", "Gladio pugnare (abl. di mezzo) contro a gladio vulnerari (abl. di agente con preposizione)."],
+  "counterexamples": ["Tradurre l'ablativo sempre con 'con': copre solo il mezzo/compagnia, non causa, separazione, agente."],
+  "errorsTypical": ["Scegliere il caso dalla preposizione italiana della traduzione invece che dalla desinenza latina.", "Confondere genitivo e dativo singolari in -ae della I declinazione.", "Dimenticare il vocativo uguale al nominativo (salvo II in -us)."],
+  "keywords": ["nominativo", "genitivo", "dativo", "accusativo", "ablativo", "declinazioni", "sincretismo"],
+  "prerequisites": ["latino:introduzione"],
+  "relations": [
+    { "type": "PART_OF", "to": "latino:introduzione", "note": "Fondamento morfologico." },
+    { "type": "SIMILAR_TO", "to": "greco:alfabeto-fonetica", "note": "Entrambe lingue flessive: caso e desinenza contro ordine delle parole." }
+  ],
+  "sources": [
+    {
+      "id": "treccani-lingua-latina",
+      "title": "Latino, lingua — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/lingua-latina/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200 il 2026-09-24; contenuto NON ancora revisionato: il paradigma della I segue le grammatiche scolastiche standard, revisione su grammatica a stampa pianificata."
+    }
+  ],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Le uscite del genitivo delle 5 declinazioni?", "a": "-ae, -i, -is, -us, -ei." },
+      { "q": "Tre valori dell'ablativo?", "a": "Mezzo, separazione, luogo (più modo, causa, tempo, agente)." }
+    ],
+    "quiz": [
+      {
+        "q": "In 'rosae' (I declinazione) i casi possibili sono:",
+        "choices": ["Solo genitivo", "Genitivo singolare, dativo singolare, nominativo plurale", "Solo accusativo", "Solo ablativo"],
+        "answer": 1,
+        "explanation": "Sincretismo -ae: decide contesto e concordanze."
+      }
+    ],
+    "questionsOpen": ["Analizza morfosintatticamente 'puellae rosas dant': ogni parola, caso e funzione.", "Perché il vocativo è quasi sempre uguale al nominativo?"]
+  }
+}

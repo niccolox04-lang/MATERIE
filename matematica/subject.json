@@ -1,0 +1,21 @@
+{
+  "subject": "matematica",
+  "title": "Matematica",
+  "description": "Mappa matematica: concetti, teoremi, dimostrazioni, metodi risolutivi ed errori tipici.",
+  "version": 1,
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "taxonomy": {
+    "levels": ["area", "macroargomento", "argomento", "sottoargomento", "concetto", "approfondimento"],
+    "specializations": {
+      "teorema": "sotto-tipo di concetto: enunciato, ipotesi, tesi, dimostrazione",
+      "metodo": "sotto-tipo di concetto: procedura risolutiva con esempi svolti",
+      "esercizio": "sotto-tipo di approfondimento: problema graduato con soluzione"
+    }
+  },
+  "areas": [
+    { "id": "matematica:algebra", "title": "Algebra", "description": "Insiemi, equazioni, funzioni.", "order": 0 },
+    { "id": "matematica:geometria", "title": "Geometria", "description": "Euclidea, analitica, trasformazioni.", "order": 1 },
+    { "id": "matematica:analisi", "title": "Analisi", "description": "Limiti, derivate, integrali.", "order": 2 },
+    { "id": "matematica:probabilita", "title": "Probabilità e statistica", "description": "Calcolo combinatorio, distribuzioni, inferenza.", "order": 3 }
+  ]
+}

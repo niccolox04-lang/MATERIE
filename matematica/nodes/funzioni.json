@@ -1,0 +1,114 @@
+{
+  "id": "matematica:funzioni",
+  "subject": "matematica",
+  "title": "Funzioni: dominio, grafico, proprietà",
+  "slug": "funzioni",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "matematica:introduzione",
+  "order": 6,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Relazione che a ogni x del dominio associa una sola y: dominio naturale (denominatori, radici, logaritmi), grafico cartesiano, zeri e segno, crescenza, pari/dispari, iniettiva/suriettiva/invertibile con esempi lineari e quadratici.",
+  "explanations": {
+    "semplice": "Una funzione è una macchina con una regola: metti un numero, esce un solo risultato. Non tutti i numeri possono entrare (non si divide per zero, non si fa la radice di un negativo). Il disegno dei risultati è il grafico: dove tocca l'asse, dove sale o scende.",
+    "approfondita": "Definizione: f: D → R con unicità dell'immagine; dominio naturale come massimale (fratte: denominatore ≠ 0; pari: radicando ≥ 0; logaritmo: argomento > 0); codominio e immagine. Grafico come {(x, f(x))}; test della retta verticale. Zeri (f(x) = 0, equazioni di grado noto), segno per intervalli (disequazioni), intersezioni assi. Proprietà: crescente/decrescente (monotonia), pari (f(−x) = f(x), simmetria y) e dispari (simmetria origine), iniettiva (y uniche), suriettiva (su immagine), invertibile (biiettiva su immagine, inversa con scambio x/y). Lettura di grafici: dominio, immagine, massimi/minimi intuitivi. Collegamento: retta e parabola come prime funzioni (sviluppo nelle elementari); cinematica come modello (spazio-tempo). Errori: scambiare zero e segno, dominio dichiarato dopo i calcoli.",
+    "tecnica": "Composizione (f∘g) e restrizione del dominio per l'invertibilità come anticipazione misurata; controesempio x² su R (non iniettiva) contro su [0,+∞)."
+  },
+  "definitions": [
+    "Dominio naturale: il più grande insieme dove l'espressione ha senso.",
+    "Funzione pari/dispari: simmetrie rispetto a asse y e origine.",
+    "Invertibile: biiettiva tra dominio e immagine, con inversa."
+  ],
+  "proof": [
+    "x² non è iniettiva su R: f(2) = f(−2) = 4 con 2 ≠ −2, contro la definizione.",
+    "La restrizione a [0,+∞) è iniettiva: se a² = b² con a,b ≥ 0 allora a = b (radice aritmetica unica).",
+    "Il test verticale decide: due punti sulla stessa x violano l'unicità dell'immagine."
+  ],
+  "formulas": [
+    {
+      "expr": "D: denominatore ≠ 0; pari ≥ 0; log > 0",
+      "meaning": "Condizioni base del dominio naturale."
+    },
+    {
+      "expr": "f(−x) = f(x) pari; f(−x) = −f(x) dispari",
+      "meaning": "Simmetrie leggibili sul grafico."
+    }
+  ],
+  "examples": [
+    "f(x) = 1/(x−2): D = R ∖ {2}; segno positivo per x > 2.",
+    "f(x) = x²−4: zeri ±2, parabola con vertice (0,−4)."
+  ],
+  "counterexamples": [
+    "x² + y² = 1 non è funzione su R (a x = 0 due y).",
+    "1/x con 0 incluso nel dominio: indefinita, non zero."
+  ],
+  "errorsTypical": [
+    "Dominio dimenticato nelle fratte e nelle radici pari.",
+    "Confondere iniettiva e crescente (la prima è unicità, la seconda ordine).",
+    "Leggere massimi dal grafico senza dominio."
+  ],
+  "keywords": [
+    "dominio",
+    "grafico",
+    "zeri",
+    "segno",
+    "pari dispari",
+    "invertibile"
+  ],
+  "prerequisites": [
+    "matematica:insiemi-numeri",
+    "matematica:equazioni-secondo-grado"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "matematica:introduzione",
+      "note": "Fondamento dell'analisi futura."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "fisica:cinematica",
+      "note": "Leggi orarie come funzioni del tempo con grafico."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Dominio di 1/(x−2) e √(x+1)?",
+        "a": "x ≠ 2; x ≥ −1."
+      },
+      {
+        "q": "Quando una funzione è invertibile?",
+        "a": "Quando è biiettiva su dominio e immagine (test orizzontale)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "f(x) = √(x−3): dominio?",
+        "choices": [
+          "x > 3",
+          "x ≥ 3",
+          "ogni x",
+          "x ≠ 3"
+        ],
+        "answer": 1,
+        "explanation": "Radicando non negativo: x − 3 ≥ 0."
+      }
+    ],
+    "questionsOpen": [
+      "Studia dominio, zeri e segno di (x−1)/(x+2).",
+      "Perché x² è invertibile solo restringendo il dominio?"
+    ]
+  }
+}

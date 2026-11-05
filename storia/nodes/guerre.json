@@ -1,0 +1,257 @@
+{
+  "id": "storia:guerre",
+  "subject": "storia",
+  "title": "Guerre mondiali e totalitarismi",
+  "slug": "guerre",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:ottocento",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "chrono": {
+    "start": "1914",
+    "end": "1945",
+    "label": "dalla Grande guerra alla fine del secondo conflitto (convenzione scolastica)",
+    "place": "Europa, mondo"
+  },
+  "summary": "Prima guerra mondiale (1914-18, fronte e trincea), dopoguerra e totalitarismi (fascismo 1922, nazismo 1933, stalinismo), seconda guerra mondiale (1939-45, Resistenza, Shoah, bombe atomiche); ONU come esito istituzionale.",
+  "explanations": {
+    "semplice": "Due guerre enormi a trent'anni di distanza: la prima in trincea con milioni di morti, poi dittature che promettono ordine e potenza (Mussolini, Hitler, Stalin), poi una seconda guerra ancora peggiore con lo sterminio degli ebrei e le bombe atomiche. Alla fine nasce l'ONU per evitare altre guerre.",
+    "approfondita": "1914-18: Sarajevo, piani e mobilitazioni, fronte occidentale (Marna, Verdun, Somme) e orientale, Caporetto 1917, intervento USA e crollo degli Imperi; trattati 1919-20 (Versailles e colpe di guerra come nodo). Dopoguerra: biennio rosso, marcia su Roma 1922 e regime fascista (leggi eccezionali, corporativismo, Etiopia 1935-36); Weimar e presa nazista 1933 (incendio, pieni poteri, Norimberga 1935, notte dei cristalli 1938); URSS (piani quinquennali, purghe); crisi del 1929 come acceleratore. 1939-45: Polonia 1-9-1939 e dichiarazione franco-britannica del 3-9, Francia 1940, Barbarossa 1941, Pearl Harbor, Stalingrado (febbraio 1943, svolta orientale) ed El Alamein, Normandia 6-6-1944, Italia 1943-45 (armistizio, RSI, Resistenza), Shoah (pianificazione e meccanismo, unicit\u00c3\u00a0 e comparazioni come dibattito), Hiroshima-Nagasaki; costi 40-50 milioni (ordine Britannica, dibattito per area dichiarato). Mobilitazione totale: economie di guerra, donne in fabbrica, propaganda e censura; tecnologia (carri, aerei, radar, atomiche); civili come bersaglio (bombardamenti, pulizie, genocidi). Memoria e ordine: Norimberga, ONU e diritti umani, Guerra fredda come eredit\u00c3\u00a0. Storiografia strutturata \u00e2\u20ac\u201d WWI: Fischer (colpe tedesche programmate) contro strutturalisti (alleanze e mobilitazioni automatiche); evidenze condivise (piani rigidi, crisi di luglio); dispute (primato Germania). WWII/Shoah: intenzionalisti (programma hitleriano, Bullock/Trevor-Roper) contro funzionalisti (policrazia, Broszat/Mason); evidenze (ordini, conferenza Wannsee 1942, macchine amministrative); dispute (decisione unica contro radicalizzazione cumulativa). Totalitarismo (Arendt, Friedrich) come categoria discussa. Fatto contro interpretazione sempre dichiarato.",
+    "tecnica": "Fonti: trattati e discorsi, diari e memorialistica, archivi militari, processi (Norimberga); stime delle vittime dibattute per area, mai cifre secche uniche. Enciclopedico: contesto, cronologie, geografia dei fronti, cause, attori, istituzioni belliche, societ\u00c3\u00a0 mobilitate, economie, culture di guerra, tecnologie, diplomazie, conseguenze, memoria, fonti, storiografia Q/A/evidenze, controversie, errori, collegamenti, esercizi."
+  },
+  "definitions": [
+    "Guerra totale: mobilitazione integrale di eserciti, economie e societ\u00c3\u00a0.",
+    "Totalitarismo: regime a partito unico con controllo ideologico capillare (categoria dibattuta).",
+    "Resistenza: opposizione armata e civile all'occupazione e ai regimi."
+  ],
+  "examples": [
+    "Versailles 1919 art. 231: clausola delle colpe come nodo storiografico.",
+    "Leggi razziali 1938: svolta persecutoria del fascismo italiano."
+  ],
+  "counterexamples": [
+    "Seconda guerra come solo scontro Hitler-Stalin: coalizioni e fronti multipli.",
+    "Resistenza solo militare: scioperi, stampa, reti civili."
+  ],
+  "errorsTypical": [
+    "Fare del 1914 un incidente senza tensioni strutturali.",
+    "Confondere fascismo, nazismo e comunismo come identici.",
+    "Datare la Shoah al 1942 come inizio (processo per fasi)."
+  ],
+  "keywords": [
+    "1914",
+    "Versailles",
+    "1922",
+    "1933",
+    "Resistenza",
+    "Shoah"
+  ],
+  "prerequisites": [
+    "storia:ottocento",
+    "storia:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:ottocento",
+      "note": "Le guerre del Novecento dopo gli Stati-nazione ottocenteschi."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:rivoluzioni",
+      "note": "Mobilitazione di massa e nazionalismo come eredit\u00c3\u00a0 rivoluzionaria."
+    }
+  ],
+  "claims": [
+    {
+      "id": "guerre-date",
+      "statement": "Snodi: prima guerra mondiale 1914-18 (conflitto intercontinentale con 28 Paesi, Intesa contro imperi centrali, circa 8 milioni di morti e 20 milioni di feriti, 65 milioni di mobilitati); marcia su Roma del 28 ottobre 1922 e incarico a Mussolini il 29 ottobre (inizio del ventennio); presa del potere nazista nel 1933 (Hitler cancelliere e pieni poteri, regime 1933-45); seconda guerra mondiale 1939-45. Le stime delle vittime e le responsabilit\u00c3\u00a0 quantitative restano dibattute per area.",
+      "supportedBy": [
+        "treccani-pgm",
+        "treccani-marcia-roma",
+        "treccani-nazionalsocialismo",
+        "britannica-wwii"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "wwii-snodi",
+      "statement": "Seconda guerra: Polonia 1-9-1939 con dichiarazione franco-britannica del 3-9; Stalingrado (febbraio 1943) come svolta orientale; costi 40-50 milioni (ordine di grandezza).",
+      "supportedBy": [
+        "britannica-wwii"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "guerre-storiografia",
+      "statement": "Dibattiti storiografici documentati: su Fritz Fischer (1961, Griff nach der Weltmacht) la politica di scopi della Germania guglielmina 1914-18 e la controversa tesi di continuit\u00c3\u00a0 della politica di potenza dall\u00e2\u20ac\u2122et\u00c3\u00a0 guglielmina al Terzo Reich; sul totalitarismo come categoria (concetto nato per il fascismo italiano, esteso poi a nazismo e sistemi comunisti, con partito unico, antipluralismo, ideologia della rivoluzione permanente e terrore sistematico, distinto dall\u00e2\u20ac\u2122autoritarismo).",
+      "supportedBy": [
+        "treccani-fischer",
+        "treccani-totalitarismo"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "guerre-storiografia-shoah",
+      "statement": "Intenzionalisti contro funzionalisti su Shoah e decisione (Bullock e Trevor-Roper contro Broszat e Mason): decisione unica contro radicalizzazione cumulativa.",
+      "supportedBy": [
+        "britannica-wwii",
+        "treccani-totalitarismo"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-novecento",
+      "title": "Profilo standard del Novecento (guerre mondiali, totalitarismi, Resistenza)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "britannica-wwii",
+      "title": "World War II \u00e2\u20ac\u201d Encyclopaedia Britannica",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/World-War-II",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "wwii-snodi"
+      ],
+      "note": "Passaggi verificati: Polonia 1-9-1939/dichiarazione 3-9; Stalingrado febbraio 1943 svolta; costi 40-50 mln; Normandia 6-6-1944."
+    },
+    {
+      "id": "treccani-pgm",
+      "title": "Mondiale, Prima guerra \u00e2\u20ac\u201d Treccani, Dizionario di Storia (2010)",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/prima-guerra-mondiale_(Dizionario-di-Storia)/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "guerre-date"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: conflitto 1914-1918, 28 Paesi, Intesa (Francia, Gran Bretagna, Russia, Italia) contro imperi centrali; causa scatenante Sarajevo 28 giugno 1914, ultimatum austriaco 23 luglio, catena di dichiarazioni di guerra d\u00c3\u00a0 agosto; mobilitazione totale (65 milioni di uomini); circa 8 milioni di morti e 20 milioni di feriti; trattati di pace e Societ\u00c3\u00a0 delle Nazioni 1919."
+    },
+    {
+      "id": "treccani-marcia-roma",
+      "title": "Marcia su Roma \u00e2\u20ac\u201d Treccani, Dizionario di Storia (2010)",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/marcia-su-roma_(Dizionario-di-Storia)/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "guerre-date"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: manifestazione eversiva del PNF il 28 ottobre 1922; stato d\u00e2\u20ac\u2122assedio deciso dal governo Facta alle cinque del mattino e non firmato dal re; dimissioni di Facta; il 29 ottobre Vittorio Emanuele III affida l\u00e2\u20ac\u2122incarico a Mussolini; governo con esponenti liberali, popolari, democratici e nazionalisti; inizio del ventennio."
+    },
+    {
+      "id": "treccani-nazionalsocialismo",
+      "title": "Nazionalsocialismo \u00e2\u20ac\u201d Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/nazionalsocialismo/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "guerre-date"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: ideologia elaborata da Hitler in Mein Kampf, sistema di governo dal 1933 al 1945; mito della razza ariana; partito costituito ufficialmente a Monaco nell\u00e2\u20ac\u2122aprile 1920; putsch di Monaco 1923 fallito; ricostituito nel 1925; nel 1933 Hitler nominato cancelliere e poi pieni poteri; disciolto dopo la sconfitta del 1945."
+    },
+    {
+      "id": "treccani-fischer",
+      "title": "Fischer, Fritz \u00e2\u20ac\u201d Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/fritz-fischer/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "guerre-storiografia"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: storico tedesco (Ludwigstadt 1908 - Amburgo 1999); studi sugli obiettivi della politica bellica tedesca nella prima guerra mondiale (Griff nach der Weltmacht. Die Kriegszielpolitik des kaiserlichen Deutschland 1914-18, 1961); vasto dibattito sull\u00e2\u20ac\u2122imperialismo tedesco e sulla controversa tesi di continuit\u00c3\u00a0 della politica di potenza dall\u00e2\u20ac\u2122et\u00c3\u00a0 guglielmina al Terzo Reich."
+    },
+    {
+      "id": "treccani-totalitarismo",
+      "title": "Totalitarismo \u00e2\u20ac\u201d Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/totalitarismo/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "guerre-storiografia"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: sistema a partito unico con controllo centralizzato di economia, politica, cultura e repressione poliziesca; concetto nato per il fascismo italiano (Amendola su Il Mondo 1923; sostantivo da L. Basso 1925; Mussolini rivendica la volont\u00c3\u00a0 totalitaria); esteso a nazismo e sistemi comunisti; modello: preminenza del partito unico, antipluralismo, ideologia di rivoluzione permanente e nemico oggettivo, propaganda, terrore sistematico; distinzione dall\u00e2\u20ac\u2122autoritarismo che ammette pluralismo limitato. LIMITI: le figure di Arendt e Friedrich non compaiono nella voce: restano fuori dal claim."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Le due guerre in date?",
+        "a": "1914-18; 1939-45 (svolte 1917, 1941-43)."
+      },
+      {
+        "q": "Tre prese del potere?",
+        "a": "1922 Roma; 1933 Berlino; consolidamento staliniano."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Caporetto (1917) \u00c3\u00a8:",
+        "choices": [
+          "Una vittoria italiana",
+          "Una disfatta con arretramento al Piave",
+          "L'armistizio",
+          "Lo sbarco in Sicilia"
+        ],
+        "answer": 1,
+        "explanation": "Sfondamento austro-tedesco e ritirata sul Piave-Grappa."
+      },
+      {
+        "q": "Stalingrado (febbraio 1943) segna:",
+        "choices": [
+          "L'inizio della guerra",
+          "La svolta orientale contro il Terzo Reich",
+          "La resa del Giappone",
+          "Versailles"
+        ],
+        "answer": 1,
+        "explanation": "Distruzione di due armate tedesche, inizio della fine."
+      }
+    ],
+    "questionsOpen": [
+      "Versailles: pace punitiva o compromesso instabile?",
+      "Totalitarismo: categoria utile o fuorviante? Con quali prove?"
+    ]
+  },
+  "contentDepth": "encyclopedic"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "filosofia:medievale",
+  "subject": "filosofia",
+  "title": "Filosofia medievale — panoramica",
+  "slug": "medievale",
+  "status": "published",
+  "access": "free",
+  "type": "area",
+  "parent": null,
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Dal tardo antico al XIV secolo: Agostino e la patristica, Anselmo, Tommaso e la scolastica, fede e ragione, universali. Quest'area contiene per ora solo la panoramica; i rami analitici sono pianificati e verranno pubblicati dopo revisione.",
+  "explanations": {
+    "semplice": "Nel Medioevo i filosofi sono spesso anche teologi: si chiedono come accordare la fede cristiana con la ragione greca. Nascono le università e i grandi dibattiti, come quello sugli universali.",
+    "approfondita": "Snodi pianificati: patristica greca e latina (Agostino), monachesimo e scuole, Anselmo (prova ontologica), Abelardo, Aristotele arabo-latino (Avicenna, Averroè), Tommaso d'Aquino e la sintesi scolastica, Scoto e Ockham, mistica renana. Questioni: rapporto fede-ragione, universali, analogia dell'essere, etica e diritto naturale. Stato redazionale onesto: solo la panoramica è pubblicata; ogni sotto-ramo nascerà con fonti verificate prima della pubblicazione."
+  },
+  "definitions": [
+    "Scolastica: metodo di lectio, quaestio e disputatio nelle università medievali."
+  ],
+  "examples": [
+    "La disputa sugli universali: esistono davvero i generi o sono solo nomi?"
+  ],
+  "keywords": [
+    "patristica",
+    "scolastica",
+    "Agostino",
+    "Tommaso",
+    "universali"
+  ],
+  "prerequisites": [
+    "filosofia:antica"
+  ],
+  "relations": [
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:platone",
+      "note": "Agostino e il platonismo cristiano."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Questione centrale medievale?",
+        "a": "Il rapporto tra fede e ragione."
+      }
+    ],
+    "quiz": [],
+    "questionsOpen": [
+      "Perché gli universali sono un problema insieme logico e teologico?"
+    ]
+  },
+  "level": "foundation"
+}

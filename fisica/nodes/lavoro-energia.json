@@ -1,0 +1,112 @@
+{
+  "id": "fisica:lavoro-energia",
+  "subject": "fisica",
+  "title": "Lavoro, energia, conservazione",
+  "slug": "lavoro-energia",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "fisica:newton-secondo-principio",
+  "order": 0,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.820Z",
+  "level": "intermediate",
+  "summary": "Lavoro W = F·s·cosθ (joule); energia cinetica K = ½mv² come teorema (lavoro = ΔK); potenziali gravitazionale (mgh) ed elastica (½kx²); conservazione dell'energia meccanica con sole forze conservative; potenza P = W/t.",
+  "explanations": {
+    "semplice": "Spingere qualcosa che si muove è 'lavoro' e dà energia di movimento: più veloce = molta più energia (va col quadrato). Sollevare un peso accumula energia che si può restituire cadendo. Se non ci sono attriti, l'energia totale non si crea né si distrugge, si trasforma.",
+    "approfondita": "Definizione: lavoro di forza costante lungo spostamento rettilineo W = Fs·cosθ (solo la componente lungo s lavora; θ=90° ⇒ zero); unità joule (N·m). Teorema dell'energia cinetica: W_tot = ΔK con K = ½mv² (derivazione da F=ma con cinematica: v²−v₀² = 2as). Forze conservative (peso, elastica): lavoro indipendente dal percorso ⇒ potenziali U_g = mgh, U_e = ½kx²; conservazione E = K+U con sole conservative; attrito come non conservativa (dissipa in calore: E_mecc diminuisce, energia totale no). Potenza media P = W/t (watt). Applicazioni: caduta (mgh = ½mv² ⇒ v = √(2gh)), molla, piani inclinati senza attrito. Limiti: modello del punto materiale; forze variabili richiedono integrale (cenno). Errori: confondere energia e forza; 'consumare energia' come distruzione; lavoro nullo scambiato per forza nulla.",
+    "tecnica": "Lavoro come integrale W = ∫F·ds; conservatività ⇔ circuitazione nulla ⇔ potenziale; primo principio come cornice (termodinamica futura)."
+  },
+  "definitions": [
+    "Joule: lavoro di 1 N su 1 m nella direzione dello spostamento.",
+    "Forza conservativa: lavoro tra due punti indipendente dal percorso.",
+    "Potenza: rapidità di trasferimento energetico (watt = J/s)."
+  ],
+  "formulas": [
+    {
+      "expr": "W = F·s·cosθ",
+      "meaning": "Solo la componente lungo lo spostamento lavora."
+    },
+    {
+      "expr": "K = ½mv²; W_tot = ΔK",
+      "meaning": "Teorema dell'energia cinetica."
+    },
+    {
+      "expr": "E = K + U = costante (sole conservative)",
+      "meaning": "Conservazione dell'energia meccanica."
+    }
+  ],
+  "examples": [
+    "Caduta da 20 m: v = √(2·9,81·20) ≈ 19,8 m/s senza cinematica.",
+    "Spingere un muro fermo: forza senza spostamento ⇒ lavoro zero."
+  ],
+  "counterexamples": [
+    "Forza centripeta: perpendicolare a v, lavoro nullo, K costante.",
+    "'Energia consumata' dall'auto: trasformata in calore/attrito, totale conservata."
+  ],
+  "errorsTypical": [
+    "Somma di energie con zeri diversi senza coerenza (U definita a meno di costante).",
+    "Applicare la conservazione con attrito senza termine dissipativo."
+  ],
+  "keywords": [
+    "lavoro",
+    "joule",
+    "cinetica",
+    "potenziale",
+    "conservazione",
+    "potenza"
+  ],
+  "prerequisites": [
+    "fisica:newton-secondo-principio",
+    "fisica:cinematica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "fisica:newton-secondo-principio",
+      "note": "Conseguenza energetica della dinamica."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "matematica:equazioni-secondo-grado",
+      "note": "Cadute e moti danno equazioni quadratiche nel tempo."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Teorema dell'energia cinetica?",
+        "a": "Il lavoro totale eguaglia la variazione di ½mv²."
+      },
+      {
+        "q": "Quando si conserva E = K+U?",
+        "a": "Con sole forze conservative (niente attrito)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Raddoppia la velocità: l'energia cinetica:",
+        "choices": [
+          "Raddoppia",
+          "Quadruplica",
+          "Resta uguale",
+          "Si dimezza"
+        ],
+        "answer": 1,
+        "explanation": "K ∝ v²: fattore 4."
+      }
+    ],
+    "questionsOpen": [
+      "Deriva v = √(2gh) per via energetica e per via cinematica.",
+      "Dove 'va' l'energia con l'attrito?"
+    ]
+  }
+}

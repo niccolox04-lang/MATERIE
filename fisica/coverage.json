@@ -1,0 +1,193 @@
+{
+  "subject": "fisica",
+  "curriculumScope": "Fisica della secondaria superiore: meccanica, termodinamica, elettromagnetismo, cenni di moderna; metodo sperimentale e strumenti matematici. Ogni legge con fenomeno→modello→formula→significato→limiti→errori; prerequisiti matematici espliciti.",
+  "version": 1,
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "requiredPrerequisites": [
+    "algebra di base, proporzionalità, geometria elementare"
+  ],
+  "macroAreas": [
+    {
+      "id": "metodo",
+      "title": "Metodo e misure",
+      "importance": "important",
+      "notes": "Introduzione coperta; mancano errori di misura.",
+      "units": [
+        {
+          "id": "metodo-sperimentale",
+          "title": "Metodo, modelli, leggi",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": "fisica:introduzione"
+        },
+        {
+          "id": "misure-errori",
+          "title": "Misure, unità SI, errori",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": "fisica:misure-errori"
+        }
+      ]
+    },
+    {
+      "id": "cinematica",
+      "title": "Cinematica",
+      "importance": "core",
+      "notes": "Moto coperto; mancano vettori e moti composti.",
+      "units": [
+        {
+          "id": "moto",
+          "title": "Velocità, accelerazione, MRU/MRUA",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "fisica:cinematica"
+        },
+        {
+          "id": "vettori-moti",
+          "title": "Vettori, moto circolare e parabolico",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "fisica:vettori-moti"
+        }
+      ]
+    },
+    {
+      "id": "dinamica",
+      "title": "Dinamica ed energia",
+      "importance": "core",
+      "notes": "Secondo principio coperto. Priorità: lavoro-energia, poi quantità di moto e gravitazione.",
+      "units": [
+        {
+          "id": "newton",
+          "title": "Principi della dinamica (F = ma)",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "fisica:newton-secondo-principio"
+        },
+        {
+          "id": "attrito",
+          "title": "Attrito e piano inclinato",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "fisica:attrito"
+        },
+        {
+          "id": "energia",
+          "title": "Lavoro, energia, conservazione",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "fisica:lavoro-energia"
+        },
+        {
+          "id": "gravitazione",
+          "title": "Gravitazione universale e Keplero",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": "fisica:gravitazione"
+        }
+      ]
+    },
+    {
+      "id": "termodinamica",
+      "title": "Termodinamica",
+      "importance": "important",
+      "notes": "Non iniziata.",
+      "units": [
+        {
+          "id": "calore",
+          "title": "Temperatura, calore, gas perfetti",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "fisica:calore"
+        },
+        {
+          "id": "principi",
+          "title": "Primo e secondo principio, entropia",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "elettromagnetismo",
+      "title": "Elettromagnetismo",
+      "importance": "important",
+      "notes": "Non iniziata. Richiede vettori e derivate concettuali.",
+      "units": [
+        {
+          "id": "elettrostatica",
+          "title": "Cariche, campo, potenziale",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "fisica:elettrostatica"
+        },
+        {
+          "id": "circuiti",
+          "title": "Corrente e circuiti",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": null
+        },
+        {
+          "id": "magnetismo",
+          "title": "Magnetismo e induzione",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        },
+        {
+          "id": "maxwell-onde",
+          "title": "Maxwell e onde elettromagnetiche",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "moderna",
+      "title": "Fisica moderna",
+      "importance": "secondary",
+      "notes": "Cenni conclusivi del curricolo.",
+      "units": [
+        {
+          "id": "relativita",
+          "title": "Relatività ristretta: postulati e dilatazione",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        },
+        {
+          "id": "quanti",
+          "title": "Fotoni, atomo, dualismo",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    }
+  ],
+  "foundationalTopics": [
+    "metodo-sperimentale",
+    "misure-errori",
+    "moto",
+    "newton"
+  ],
+  "advancedTopics": [
+    "gravitazione",
+    "principi",
+    "magnetismo",
+    "maxwell-onde",
+    "relativita",
+    "quanti"
+  ],
+  "roadmap": [
+    "Vettori e moti composti",
+    "Lavoro-energia",
+    "Attrito",
+    "Gas e principi",
+    "Elettrostatica",
+    "Circuiti e induzione"
+  ]
+}

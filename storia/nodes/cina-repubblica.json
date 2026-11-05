@@ -1,0 +1,143 @@
+{
+  "id": "storia:cina-repubblica",
+  "subject": "storia",
+  "title": "Repubblica cinese: 1911, signori della guerra, Nanchino",
+  "slug": "cina-repubblica",
+  "status": "published",
+  "access": "pro",
+  "type": "approfondimento",
+  "parent": "storia:cina-contemporanea",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "chrono": {
+    "start": "1911",
+    "end": "1949",
+    "label": "da Wuchang alla guerra civile (convenzione)",
+    "place": "Cina"
+  },
+  "region": "Asia",
+  "location": "Nanchino, Canton, Shanghai, Yan'an",
+  "territories": "Repubblica di Cina con controllo variabile",
+  "geographicalContext": "Costa dei trattati contro interno contadino; Manciuria contesa.",
+  "summary": "Approfondimento: Wuchang 1911 e Sun Yat-sen, Yuan Shikai e signori della guerra, Nanchino di Chiang (1927), comunisti e Lunga Marcia, invasione giapponese (1937, Nanchino) e guerra civile fino al 1949.",
+  "explanations": {
+    "semplice": "Caduto l'imperatore, la Cina si divide tra generali che comandano ognuno un pezzo. Un partito prova a riunirla da Nanchino, i comunisti scappano in montagna e marciano per un anno intero. Il Giappone invade e fa strage a Nanchino, poi ricomincia la guerra tra cinesi.",
+    "approfondita": "1911 (Wuchang, Sun e Tre Principi come programma); Yuan Shikai (presidenza-impero effimero 1915-16) e frammentazione (Zhang Zuolin, Wu Peifu, Fengtian-Zhili); Nanchino 1927 (Chiang, massacro di Shanghai contro comunisti, decennio: accademie, fisco, Nuova Vita); sovietici di Jiangxi e Lunga Marcia (Zunyi 1935, Mao leader); Xi'an 1936 e secondo fronte unito; invasione 1937 (Marco Polo, Nanchino dicembre: massacro documentato da fonti multiple con cifre dibattute dichiarate), Chongqing e Yenan come capitali parallele; guerra civile 1945-49 (Huaihai, Beiping) e fuga a Taiwan. Fatto contro mito: Nanchino come decennio d'oro contro corruzione e limiti; comunisti vincitori per organizzazione rurale, non solo ideologia.",
+    "tecnica": "Fonti: stampa repubblicana, memoriali Chiang/Mao con cautela, archivi giapponesi e cominternali desecretati parziali; Nanchino con dossier giudiziari di Tokyo."
+  },
+  "definitions": [
+    "Signori della guerra: militaristi regionali post-1916.",
+    "Secondo fronte unito: alleanza tattica anti-giapponese (1937).",
+    "Massacro di Nanchino: atrocità del dicembre 1937, scala dibattuta."
+  ],
+  "examples": [
+    "Zunyi 1935: Mao prende la leadership durante la Marcia.",
+    "Shanghai 1927: rottura Chiang-comunisti nel sangue."
+  ],
+  "counterexamples": [
+    "Repubblica democratica stabile: autoritarismo di partito unico.",
+    "Resistenza solo comunista: eserciti nazionalisti in prima linea."
+  ],
+  "errorsTypical": [
+    "Fare del 1911 una rivoluzione sociale (politico-militare d'élite).",
+    "Confondere prima e seconda guerra sino-giapponese (1894 contro 1937).",
+    "Cifre di Nanchino come censimenti (dossier e dibattiti)."
+  ],
+  "keywords": [
+    "1911",
+    "Nanchino",
+    "Lunga Marcia",
+    "1937",
+    "Chiang"
+  ],
+  "prerequisites": [
+    "storia:cina-contemporanea"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:cina-contemporanea",
+      "note": "Repubblica nel ramo Cina."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:guerre",
+      "note": "Fronte cinese della seconda guerra mondiale."
+    }
+  ],
+  "claims": [
+    {
+      "id": "cina-repubblica-quadro",
+      "statement": "Da Wuchang (1911) a Nanchino (1927), Lunga Marcia e invasione (1937) fino alla guerra civile: repubblica dei generali e fronti paralleli, con Nanchino a scala dibattuta.",
+      "supportedBy": [
+        "manuale-cina-moderna",
+        "whe-republic-china"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-cina-moderna",
+      "title": "Profilo standard di Cina moderna e contemporanea",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-republic-china",
+      "title": "Republic of China (1912-1949) - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Republic_of_China/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": ["cina-repubblica-quadro"],
+      "note": "Ispezionato 2026-09-27. 1911 Wuchang, Yuan Shikai, signori della guerra, Nanchino 1927, Lunga Marcia, invasione 1937."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "1911 e 1927?",
+        "a": "Wuchang repubblica; Nanchino Chiang dopo rottura."
+      },
+      {
+        "q": "1937 in sintesi?",
+        "a": "Invasione, Nanchino, secondo fronte unito."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Zunyi (1935) segna:",
+        "choices": [
+          "Fondazione RPC",
+          "Leadership Mao durante la Marcia",
+          "Invasione giapponese",
+          "Trattato ineguale"
+        ],
+        "answer": 1,
+        "explanation": "Svolta interna al PCC in marcia."
+      }
+    ],
+    "questionsOpen": [
+      "Chi combatte davvero il Giappone? Nazionalisti e comunisti a confronto.",
+      "Nanchino: come si scrive una storia con cifre dibattute?"
+    ]
+  }
+}

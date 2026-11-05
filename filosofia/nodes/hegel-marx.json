@@ -1,0 +1,146 @@
+{
+  "id": "filosofia:hegel-marx",
+  "subject": "filosofia",
+  "title": "Hegel e Marx: dialettica e materialismo storico",
+  "slug": "hegel-marx",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:contemporanea",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Hegel (1770-1831): dialettica tesi-antitesi-sintesi come movimento dello Spirito, Fenomenologia e sistema; i giovani hegeliani e il rovesciamento di Marx (1818-1883): materialismo storico (struttura/sovrastruttura), alienazione, plusvalore e critica dell'economia politica.",
+  "explanations": {
+    "semplice": "Hegel dice che la realtà ragiona per contrasti che si superano: un'idea incontra il suo contrario e da lì nasce una verità più ricca, come nella storia che avanza per conflitti. Marx prende questo movimento ma lo mette coi piedi per terra: non è lo Spirito a muovere la storia, sono il lavoro e l'economia. Chi possiede le fabbriche guadagna sul lavoro altrui.",
+    "approfondita": "Hegel: contro Kant (cosa in sé) e l'intelletto astratto, la ragione come sistema dialettico (Fenomenologia dello spirito 1807: coscienza, autocoscienza servo-padrone, ragione, spirito; Scienza della logica: essere-nulla-divenire; Enciclopedia: logica, natura, spirito oggettivo con diritto astratto, moralità, eticità in famiglia, società civile, Stato). La storia come teodicea della libertà (mondo orientale, greco, romano, germanico-cristiano); lo Stato come realtà dell'idea morale (lettura controversa: conservazione o razionalità del reale). Sinistra hegeliana (Feuerbach: rovesciamento antropologico, l'uomo crea Dio). Marx con Engels: critica a Hegel (misticismo logico), a Feuerbach (materialismo contemplativo, Tesi su Feuerbach: trasformare il mondo), all'economia classica. Materialismo storico: struttura (forze e rapporti di produzione) condiziona la sovrastruttura (diritto, politica, religione); lotta di classe come motore; alienazione (Manoscritti 1844: dal prodotto, dal lavoro, dalla specie, dagli altri); Manifesto 1848 e Capitale I 1867: valore-lavoro, forza-lavoro come merce, plusvalore (differenza tra valore prodotto e salario), accumulazione e crisi. Prassi rivoluzionaria (dittatura del proletariato come transizione nella lettura marxiana). Distinguere Marx da marxismi successivi (interpretazione dibattuta).",
+    "tecnica": "Nodi critici: Aufhebung (negare-conservare-superare); idealismo oggettivo contro materialismo dialettico (Engels) e storico; plusvalore relativo/assoluto; caduta tendenziale del saggio di profitto come tesi controversa."
+  },
+  "definitions": [
+    "Dialettica: movimento per negazioni determinate verso totalità più concrete.",
+    "Struttura/sovrastruttura: base economica contro forme giuridico-politiche e coscienza che vi sorgono.",
+    "Plusvalore: secondo Marx, eccedenza di valore prodotta dalla forza-lavoro oltre il suo costo di riproduzione."
+  ],
+  "examples": [
+    "Servo-padrone: la coscienza si forma nel lavoro e nel riconoscimento, non da sola.",
+    "Giornata lavorativa di 10 ore pagata come 6: le 4 restanti come illustrazione scolastica del plusvalore."
+  ],
+  "counterexamples": [
+    "Hegel come apologeta dello Stato prussiano senz'altro: lettura parziale, dibattuta.",
+    "Marx come determinista tecnologico: i rapporti sociali e la lotta restano centrali nel suo testo."
+  ],
+  "errorsTypical": [
+    "Tesi-antitesi-sintesi come schemino rigido: in Hegel è movimento immanente, non formula.",
+    "Confondere Marx con gli usi politici novecenteschi del suo nome."
+  ],
+  "keywords": [
+    "dialettica",
+    "spirito",
+    "alienazione",
+    "materialismo storico",
+    "plusvalore",
+    "struttura"
+  ],
+  "prerequisites": [
+    "filosofia:kant",
+    "filosofia:empirismo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:contemporanea",
+      "note": "Apertura dell'Ottocento dopo Kant."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:kant",
+      "note": "Hegel porta a sistema ciò che Kant aveva lasciato diviso."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:empirismo",
+      "note": "Marx eredita l'istanza anti-metafisica: partire dall'esperienza del lavoro."
+    }
+  ],
+  "claims": [
+    {
+      "id": "hegel-dialettica",
+      "statement": "In Hegel la verità è processo dialettico dello Spirito e la storia è realizzazione progressiva della libertà.",
+      "supportedBy": [
+        "treccani-hegel"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "id": "marx-struttura",
+      "statement": "Secondo Marx i rapporti di produzione condizionano il processo sociale, politico e spirituale della vita.",
+      "supportedBy": [
+        "treccani-marx"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-hegel",
+      "title": "Hegel, Georg Wilhelm Friedrich — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/georg-wilhelm-friedrich-hegel/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Voce esistente e consultabile; contenuto NON ancora revisionato puntualmente."
+    },
+    {
+      "id": "treccani-marx",
+      "title": "Marx, Karl — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/karl-marx/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Voce esistente e consultabile; contenuto NON ancora revisionato puntualmente."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Hegel in una riga?",
+        "a": "Il vero come intero: dialettica dello Spirito verso libertà concreta."
+      },
+      {
+        "q": "Struttura e sovrastruttura?",
+        "a": "Base economica dei rapporti di produzione; su di essa diritto, politica, idee."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il plusvalore, in Marx, è:",
+        "choices": [
+          "Il profitto commerciale in sé",
+          "Eccedenza di valore oltre il costo della forza-lavoro",
+          "Il salario equo",
+          "La rendita fondiaria"
+        ],
+        "answer": 1,
+        "explanation": "Differenza tra valore prodotto e valore pagato come salario."
+      }
+    ],
+    "questionsOpen": [
+      "Hegel supera davvero Kant o lo tradisce? Argomenta.",
+      "Alienazione in Feuerbach e in Marx: cosa cambia?"
+    ]
+  }
+}

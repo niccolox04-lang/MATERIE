@@ -1,0 +1,116 @@
+{
+  "id": "filosofia:presocratici",
+  "subject": "filosofia",
+  "title": "Presocratici e Sofisti",
+  "slug": "presocratici",
+  "status": "published",
+  "access": "free",
+  "type": "periodo",
+  "parent": "filosofia:antica",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Ionici, Pitagorici, Eraclito, Eleati, Pluralisti e Atomisti cercano il principio della natura; nel V secolo i Sofisti spostano l'attenzione su linguaggio, politica e relatività delle norme, preparando la reazione socratica.",
+  "explanations": {
+    "semplice": "Prima i filosofi studiano la natura (acqua, aria, numeri, atomi, essere). Poi i Sofisti, maestri a pagamento, insegnano a discutere e dicono che le leggi cambiano da città a città. Socrate risponde cercando definizioni stabili di bene e giustizia.",
+    "approfondita": "Linea essenziale: Talete-Anassimandro-Anassimene (Ionici, arché materiale); Pitagora e pitagorici (numero e armonia, metempsicosi); Eraclito (divenire, logos, fuoco); Parmenide-Zenone-Melisso (Eleati: essere uno, immutabile; critica del divenire); Empedocle-Anassagora-Democrito (pluralisti e atomisti: conciliare essere e divenire). I Sofisti (Protagora, Gorgia) professionalizzano l'insegnamento retorico nella democrazia ateniese: relativismo gnoseologico ed etico-giuridico (nomos contro physis). La dialettica platonica nasce anche come risposta all'eristica sofistica.",
+    "tecnica": "Avvertenza filologica: dei presocratici restano frammenti e testimonianze (Diels-Kranz). Le attribuzioni vanno trattate come ipotesi dossografiche, non come testi continui."
+  },
+  "definitions": [
+    "Presocratici: pensatori anteriori a Socrate o estranei alla sua impostazione, dediti alla cosmologia.",
+    "Sofisti: maestri itineranti di retorica e cultura politica nel V sec. a.C., a pagamento.",
+    "Eristica: arte di vincere la discussione a prescindere dalla verità, bersaglio polemico di Platone."
+  ],
+  "examples": [
+    "Parmenide: l'essere è e non può non essere; il divenire è apparenza.",
+    "Protagora: l'uomo è misura di tutte le cose (frammento riportato dalla tradizione).",
+    "Democrito: atomi e vuoto come principi della molteplicità."
+  ],
+  "counterexamples": [
+    "Socrate non è un sofista: non chiede compenso e cerca definizioni universali, non vittorie retoriche."
+  ],
+  "errorsTypical": [
+    "Attribuire ai presocratici opere integre: possediamo quasi solo frammenti.",
+    "Ridurre i Sofisti a imbroglioni: furono anche educatori e teorici del linguaggio e del diritto."
+  ],
+  "keywords": [
+    "Ionici",
+    "Eraclito",
+    "Parmenide",
+    "atomisti",
+    "Protagora",
+    "Gorgia",
+    "nomos",
+    "physis",
+    "eristica"
+  ],
+  "prerequisites": [],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:antica",
+      "note": "Il periodo appartiene all'area antica."
+    },
+    {
+      "type": "INFLUENCES",
+      "to": "filosofia:socrate",
+      "note": "La sfida sofistica provoca la ricerca socratica delle definizioni."
+    },
+    {
+      "type": "INFLUENCES",
+      "to": "filosofia:platone",
+      "note": "Eleatismo ed eracliteismo confluiscono nella teoria platonica delle idee."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-presocratici",
+      "title": "Presocratici — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/presocratici/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Voce indicata come riferimento da verificare: URL raggiungibile (GET 200 il 2026-09-24); contenuto NON ancora revisionato.",
+      "verificationStatus": "reachable"
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Eleati: tesi centrale?",
+        "a": "L'essere è uno, immutabile; divenire e molteplicità sono apparenza."
+      },
+      {
+        "q": "Differenza Sofisti / Socrate?",
+        "a": "I Sofisti insegnano retorica a pagamento; Socrate cerca definizioni universali senza compenso."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Quale coppia esprime la tensione presocratica che Platone eredita?",
+        "choices": [
+          "Eleatismo (essere) vs eracliteismo (divenire)",
+          "Stoicismo vs epicureismo",
+          "Fede vs ragione",
+          "Empirismo vs razionalismo moderno"
+        ],
+        "answer": 0,
+        "explanation": "Platone contrappone mondo intelligibile immutabile (eco eleatica) e mondo sensibile in divenire (eco eraclitea)."
+      }
+    ],
+    "questionsOpen": [
+      "Perché l'atomismo tenta di salvare insieme essere parmenideo e divenire?",
+      "Nomos e physis: cosa distingue le due nozioni nel dibattito sofistico?"
+    ]
+  },
+  "level": "foundation"
+}

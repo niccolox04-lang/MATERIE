@@ -1,0 +1,151 @@
+{
+  "id": "storia:egitto",
+  "subject": "storia",
+  "title": "Egitto: faraoni, piramidi, Nilo",
+  "slug": "egitto",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 7,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-3100",
+    "end": "-30",
+    "label": "da Narmer a Cleopatra (convenzione)",
+    "place": "Valle del Nilo"
+  },
+  "summary": "Stato faraonico sul Nilo: unificazione (~3100), Antico Regno e piramidi (Djoser, Giza), Medio e Nuovo Regno (Hatshepsut, Akhenaton, Ramesse II, Qadesh ~1274); geroglifici, Rosetta-Champollion (1822), religione funeraria.",
+  "explanations": {
+    "semplice": "Lungo il Nilo, che allaga i campi ogni anno, nasce un regno unito da un re-dio, il faraone. Si costruiscono piramidi enormi come tombe, si scrive con disegni (geroglifici) e si crede nella vita dopo la morte con mummie e tesori.",
+    "approfondita": "Narmer e unificazione (tavolozza come fonte celebrativa); Antico Regno (Djoser a Saqqara, Giza: Cheope, Chefren, Micerino; amministrazione e corv\u00c3\u00a9e); Primo periodo intermedio; Medio Regno (Sesostri, Faiyum); Secondo intermedio e Hyksos; Nuovo Regno (Hatshepsut, Thutmose III, Akhenaton e Amarna con monoteismo di Aton come episodio, Tutankhamon, Ramesse II e Qadesh con trattato ittita, Esodo come tradizione non documentata archeologicamente); Terzo intermedio, Kushiti, Saite, Persiani, Tolomei e Cleopatra (30 a.C.). Scrittura: geroglifico, ieratico, demotico; Stele di Rosetta (1799) e Champollion (1822). Religione: Maat, Osiride e Libro dei morti; templi come economie. Nilo e piena come base fiscale (nilometri).",
+    "tecnica": "Fonti: liste reali (Canone di Torino), annali, autobiografie tombali, archeologia; cronologie con margini decennali."
+  },
+  "definitions": [
+    "Faraone: re-dio garante di Maat (ordine cosmico).",
+    "Piramide: tomba regale a struttura monumentale.",
+    "Geroglifico: scrittura figurativa con valori fonetici e ideografici."
+  ],
+  "examples": [
+    "Piramide di Djoser: da mastaba a gradoni, prima pietra monumentale.",
+    "Qadesh (~1274): battaglia e primo trattato di pace conservato."
+  ],
+  "counterexamples": [
+    "Piramidi costruite da schiavi frustati: lavoro stagionale organizzato (prove).",
+    "Geroglifici solo disegni: sistema fonetico-ideografico complesso."
+  ],
+  "errorsTypical": [
+    "Collocare Tutankhamon tra i grandi costruttori (tomba intatta, regno breve).",
+    "Fare di Akhenaton un monoteista moderno (Aton legato al re).",
+    "Confondere Alto e Basso Egitto (sud contro nord)."
+  ],
+  "keywords": [
+    "Nilo",
+    "piramidi",
+    "geroglifici",
+    "Akhenaton",
+    "Qadesh"
+  ],
+  "prerequisites": [
+    "storia:neolitico"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Seconda civilt\u00c3\u00a0 fluviale dopo la Mesopotamia."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:mesopotamia",
+      "note": "Stati idraulici a confronto, contatti e scambi."
+    }
+  ],
+  "claims": [
+    {
+      "id": "egitto-quadro",
+      "statement": "Unificazione ~3100; Antico Regno delle piramidi, Nuovo Regno imperiale con Qadesh ~1274; geroglifici decifrati da Champollion (1822) via Rosetta.",
+      "supportedBy": [
+        "manuale-antico",
+        "whe-rosetta"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "id": "egitto-rosetta",
+      "statement": "La Stele di Rosetta \u00c3\u00a8 una stele incompleta di granodiorite del 196 a.C. con un decreto sacerdotale per Tolomeo V Epifane in tre scritture (geroglifico, demotico, greco); fu trovata a Rosetta nel 1799 e la decifrazione dei geroglifici fu annunciata dal Champollion nel 1822; \u00c3\u00a8 conservata al British Museum.",
+      "supportedBy": [
+        "whe-rosetta"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-antico",
+      "title": "Profilo standard del Vicino Oriente antico",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-rosetta",
+      "title": "Rosetta Stone \u00e2\u20ac\u201d World History Encyclopedia",
+      "author": "Mark Cartwright",
+      "publisher": "World History Encyclopedia (organizzazione non profit)",
+      "url": "https://www.worldhistory.org/Rosetta_Stone/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "egitto-quadro",
+        "egitto-rosetta"
+      ],
+      "note": "Contenuto letto il 2026-09-27. Verificati: stele incompleta di granodiorite \u00c2\u00abdating from 196 BCE\u00c2\u00bb, decreto sacerdotale su Tolomeo V Epifane (205-180 a.C.) un anno dopo l'incoronazione; tre testi (14 righe geroglifiche, 32 demotiche, 54 greche); ritrovamento nel 1799 a Rashid/Rosetta da Pierre-Fran\u00c3\u00a7ois Bouchard durante la campagna d'Egitto; Thomas Young identifica i segni di Tolomeo V; \u00c2\u00abin the early 1820s CE ... fully deciphered by the French scholar Jean-Fran\u00c3\u00a7ois Champollion\u00c2\u00bb; annuncio della decifrazione nel 1822; oggi al British Museum. Limite: fonte enciclopedica divulgativa; il testo inciso NON \u00c3\u00a8 stato letto integralmente (nessuna fonte primaria registrata in questo ciclo per la stele)."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre regni in sintesi?",
+        "a": "Antico piramidi; Medio rinascita; Nuovo impero."
+      },
+      {
+        "q": "Rosetta in una riga?",
+        "a": "Tre scritture, Champollion 1822 decifra i geroglifici."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Qadesh (~1274) \u00c3\u00a8 rilevante perch\u00c3\u00a9:",
+        "choices": [
+          "Prima piramide",
+          "Battaglia con primo trattato conservato",
+          "Unificazione",
+          "Caduta"
+        ],
+        "answer": 1,
+        "explanation": "Ramesse II contro gli Ittiti, pace scritta."
+      }
+    ],
+    "questionsOpen": [
+      "Nilo e potere: perch\u00c3\u00a9 il faraone controlla la piena?",
+      "Akhenaton rivoluzionario o restauratore? Argomenta."
+    ]
+  },
+  "contentDepth": "deep"
+}

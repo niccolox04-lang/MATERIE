@@ -1,0 +1,131 @@
+{
+  "id": "filosofia:empirismo",
+  "subject": "filosofia",
+  "title": "Empirismo: Locke, Berkeley, Hume",
+  "slug": "empirismo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:moderna",
+  "order": 1,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.800Z",
+  "level": "intermediate",
+  "summary": "Da Locke (tabula rasa, qualità primarie/secondarie) a Berkeley (esse est percipi) a Hume (impressioni/idee, critica di causa e io, scetticismo mitigato): tutta la conoscenza deriva dall'esperienza, e la ragione da sola non fonda né il mondo esterno né la causalità.",
+  "explanations": {
+    "semplice": "Gli empiristi dicono: nasciamo con la mente vuota e tutto ciò che sappiamo viene dai sensi. Locke distingue ciò che sta nelle cose (forma, movimento) da ciò che sta in noi (colori, sapori). Berkeley dice che esistere è essere percepiti. Hume va oltre: non vediamo mai la 'causa', solo una cosa dopo l'altra, e ci abituiamo ad aspettarcela.",
+    "approfondita": "Locke (Saggio, 1690): contro l'innatismo cartesiano, mente come tabula rasa; idee semplici di sensazione e riflessione, complesse per combinazione; qualità primarie (oggettive: estensione, figura, moto) contro secondarie (poteri soggettivi: colore, sapore); sostanza come supposizione oscura; conoscenza come percezione di accordi tra idee, con gradi (intuitiva, dimostrativa, sensitiva). Berkeley (Trattato, 1710): critica della distinzione (anche le primarie sono percepite); esse est percipi, cose come collezioni di idee sostenute da Dio contro scetticismo e ateismo. Hume (Trattato 1739–40, Ricerca 1748): impressioni (vive) contro idee (copie sbiadite); principio della copia; relazioni tra idee contro questioni di fatto; critica della connessione necessaria (congiunzione costante + abitudine, non impressione); critica dell'io come fascio di percezioni; problema dell'induzione (il futuro somiglierà al passato? nessuna giustificazione razionale); scetticismo mitigato e scienza umana come antropologia sperimentale sul modello newtoniano. Risveglio di Kant dal 'sonno dogmatico' (Prolegomeni).",
+    "tecnica": "Nodi critici: velo delle idee e mondo esterno in Locke; strategie anti-scettiche di Berkeley (Dio) e Hume (natura/abitudine); fork humiano come antenato del verificazionismo."
+  },
+  "definitions": [
+    "Tabula rasa: mente priva di contenuti innati, riempita dall'esperienza.",
+    "Principio della copia: ogni idea deriva da un'impressione corrispondente.",
+    "Fork di Hume: relazioni tra idee (certe ma vuote) contro questioni di fatto (piene ma incerte)."
+  ],
+  "examples": [
+    "Il pane di ieri ha nutrito: aspettarselo domani è abitudine, non dimostrazione.",
+    "Il colore rosso: secondario per Locke, idea come le altre per Berkeley."
+  ],
+  "counterexamples": [
+    "Le verità matematiche in Hume: relazioni tra idee, non fatti d'esperienza.",
+    "L'io cartesiano come sostanza: per Hume, fascio senza impressione costante."
+  ],
+  "errorsTypical": [
+    "Fare di Berkeley un solipsista: Dio garantisce continuità e intersoggettività.",
+    "Fare di Hume un nichilista: scetticismo mitigato + scienza della natura umana."
+  ],
+  "keywords": [
+    "tabula rasa",
+    "qualità primarie",
+    "esse est percipi",
+    "impressioni",
+    "causalità",
+    "induzione",
+    "fork"
+  ],
+  "prerequisites": [
+    "filosofia:cartesio"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:moderna",
+      "note": "Seconda gamba della modernità."
+    },
+    {
+      "type": "CONTRASTS_WITH",
+      "to": "filosofia:cartesio",
+      "note": "Esperienza contro ragione come fonte."
+    },
+    {
+      "type": "CAUSE",
+      "to": "filosofia:kant",
+      "note": "Hume risveglia Kant: il criticismo nasce qui (nodo creato nello stesso ciclo)."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "fisica:newton-secondo-principio",
+      "note": "La scienza newtoniana come modello del sapere certo che Hume problematizza."
+    }
+  ],
+  "claims": [
+    {
+      "id": "empirismo-copia",
+      "statement": "Per Hume ogni idea legittima deriva da un'impressione; causa e io non hanno impressione corrispondente.",
+      "supportedBy": [
+        "treccani-hume"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-hume",
+      "title": "David Hume — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/david-hume/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200; contenuto NON ancora revisionato."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Locke: primarie vs secondarie?",
+        "a": "Primarie oggettive (estensione, moto); secondarie poteri soggettivi (colore, sapore)."
+      },
+      {
+        "q": "Il problema dell'induzione?",
+        "a": "Nessuna giustificazione razionale che il futuro somigli al passato: solo abitudine."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Per Hume la connessione necessaria tra causa ed effetto è:",
+        "choices": [
+          "Un'impressione vivida",
+          "Un'abitudine da congiunzione costante, senza impressione",
+          "Un'idea innata",
+          "Una qualità primaria"
+        ],
+        "answer": 1,
+        "explanation": "Vediamo successione, non necessità: la inferiamo per consuetudine."
+      }
+    ],
+    "questionsOpen": [
+      "Se la causalità è abitudine, la scienza è salva? Come?",
+      "Berkeley confuta davvero lo scetticismo o lo sposta in Dio?"
+    ]
+  }
+}

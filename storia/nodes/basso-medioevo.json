@@ -1,0 +1,171 @@
+{
+  "id": "storia:basso-medioevo",
+  "subject": "storia",
+  "title": "Basso Medioevo: comuni, monarchie, crisi del Trecento",
+  "slug": "basso-medioevo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:alto-medioevo",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1000",
+    "end": "1492",
+    "label": "dall'et\u00c3\u00a0 comunale alle scoperte (convenzione scolastica)",
+    "place": "Europa, Mediterraneo"
+  },
+  "summary": "Rinascita dell'XI sec. (demografia, dissodamenti, citt\u00c3\u00a0), comuni e monarchie (Francia, Inghilterra con Magna Carta 1215), papato e Impero (lotta investiture, Bonifacio VIII), crociate, crisi del Trecento (peste 1347-52, carestie, rivolte) senza catastrofismo unico.",
+  "explanations": {
+    "semplice": "Dopo il Mille l'Europa riparte: pi\u00c3\u00b9 gente, pi\u00c3\u00b9 campi, pi\u00c3\u00b9 citt\u00c3\u00a0 che si governano da sole. I re diventano pi\u00c3\u00b9 forti con parlamenti e tasse, il papa e l'imperatore litigano per il potere. Poi arriva una grande peste che uccide moltissimi e cambia lavoro e prezzi.",
+    "approfondita": "Ripresa: rotazione, aratro pesante, mulini; moneta e fiere (Champagne), lettere di cambio; comuni (consoli, podest\u00c3\u00a0, Arti; pace di Costanza 1183 con Barbarossa); monarchie (Capetingi, Plantageneti: Magna Carta 1215 come patto baronale, non costituzione moderna; parlamenti; Guerra dei Cent'anni 1337-1453 come cornice tarda). Chiesa: riforma gregoriana (Dictatus papae 1075, Canossa 1077, Worms 1122), Innocenzo III, mendicanti (Francesco, Domenico), crociate (1095-1291: motivazioni miste, Stati latini, IV crociata 1204); Bonifacio VIII (Unam sanctam 1302) e Avignone. Crisi trecentesca: carestia 1315-17, peste 1347-52 (un terzo circa, cifre dibattute), calo rendite e rivolte (Jacquerie 1358, Ciompi 1378), ristrutturazioni (salari, mezzadria, Stati regionali). Fatto contro interpretazione: crescita e crisi come ciclo, non decadenza morale unica; regionalismo italiano (Signorie, Venezia, Firenze, Milano, Napoli, Stato pontificio).",
+    "tecnica": "Fonti: cronache comunali, statuti, registri fiscali; archeologia urbana; cautela demografica (stime, non censimenti)."
+  },
+  "definitions": [
+    "Comune: citt\u00c3\u00a0 con autonomia giurisdizionale e magistrature proprie.",
+    "Lotta per le investiture: conflitto su nomina dei vescovi tra papato e Impero.",
+    "Crisi del Trecento: shock demografico ed economico con ristrutturazione, non fine del mondo."
+  ],
+  "examples": [
+    "Pace di Costanza 1183: Barbarossa riconosce le autonomie comunali.",
+    "Magna Carta 1215: privilegi baronali con clausole fiscali e giudiziarie."
+  ],
+  "counterexamples": [
+    "Comuni come democrazie moderne: oligarchie di Arti e milites.",
+    "Peste come unica causa: carestie, guerre e moneta contano gi\u00c3\u00a0 prima."
+  ],
+  "errorsTypical": [
+    "Datare la modernit\u00c3\u00a0 alla peste senza ciclo precedente.",
+    "Fare delle crociate un solo motivo religioso o solo economico."
+  ],
+  "keywords": [
+    "comuni",
+    "Magna Carta 1215",
+    "Canossa 1077",
+    "crociate",
+    "peste 1347",
+    "Ciompi"
+  ],
+  "prerequisites": [
+    "storia:alto-medioevo",
+    "storia:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:alto-medioevo",
+      "note": "Seconda met\u00c3\u00a0 del Medioevo dopo l'impianto curtense."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:tommaso",
+      "note": "Scolastica e universit\u00c3\u00a0 nel mondo comunale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "latino:introduzione",
+      "note": "Latino comunale, notarile e universitario."
+    }
+  ],
+  "claims": [
+    {
+      "id": "basso-snodi",
+      "statement": "Magna Carta 15 giu 1215 imposta a Giovanni (1199-1216) da baroni: limiti a confische e tasse, processo equo, simbolo rule of law; Peste Nera 1347-1352 Yersinia pestis 25-30 mln morti 30-50% luoghi colpiti, carestia salari rivolte abbandoni, 200 anni recupero; Crociate otto ufficiali 1095-1270, prima 1095-1102, Acri 1291 Mamelucchi.",
+      "supportedBy": [
+        "whe-magna",
+        "whe-peste",
+        "whe-crociate"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-magna",
+      "title": "Magna Carta - World History Encyclopedia",
+      "author": "Mark Cartwright",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Magna_Carta/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "basso-snodi"
+      ],
+      "note": "Ispezionato 2026-09-27 (2018). 15 giu 1215 baroni tasse processo, rule of law."
+    },
+    {
+      "id": "whe-peste",
+      "title": "Black Death - World History Encyclopedia",
+      "author": "Mark Cartwright",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Black_Death/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "basso-snodi"
+      ],
+      "note": "Ispezionato 2026-09-27 (2023). 1347-1352 Yersinia 25-30 mln 30-50%, fine servitu rivolte, 200 anni."
+    },
+    {
+      "id": "whe-crociate",
+      "title": "Crusades - World History Encyclopedia",
+      "author": "Mark Cartwright",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Crusades/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "basso-snodi"
+      ],
+      "note": "Ispezionato 2026-09-27 (2018). Otto 1095-1270, prima 1095-1102, Acri 1291 Mamelucchi."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Comune in una riga?",
+        "a": "Citt\u00c3\u00a0 autonoma con magistrature (consoli, podest\u00c3\u00a0, Arti)."
+      },
+      {
+        "q": "Crisi del Trecento: tre cause?",
+        "a": "Carestie, peste, guerre e stretta monetaria con rivolte."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La Magna Carta (1215) \u00c3\u00a8 meglio intesa come:",
+        "choices": [
+          "Costituzione democratica",
+          "Patto baronale su tasse e giustizia",
+          "Fine del feudalesimo",
+          "Fondazione del Parlamento italiano"
+        ],
+        "answer": 1,
+        "explanation": "Concessione di Giovanni Senzaterra ai baroni, non sovranit\u00c3\u00a0 popolare."
+      }
+    ],
+    "questionsOpen": [
+      "Comuni e monarchie: due vie allo Stato moderno?",
+      "Peste: perch\u00c3\u00a9 i salari salgono dopo il crollo?"
+    ]
+  },
+  "contentDepth": "deep"
+}

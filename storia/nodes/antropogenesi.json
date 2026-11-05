@@ -1,0 +1,126 @@
+{
+  "id": "storia:antropogenesi",
+  "subject": "storia",
+  "title": "Antropogenesi e migrazioni",
+  "slug": "antropogenesi",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 3,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "chrono": {
+    "start": "-7000000",
+    "end": "-10000",
+    "label": "dai primi ominini alla fine delle glaciazioni (date circa, dibattute)",
+    "place": "Africa, Eurasia"
+  },
+  "summary": "Origine africana degli ominini (bipedismo), Homo habilis, erectus (fuoco, migrazioni), neanderthalensis e sapiens (circa 300.000 anni fa, Jebel Irhoud); uscita dall'Africa (~60.000-50.000 anni fa), mescolanze e popolamento del pianeta.",
+  "explanations": {
+    "semplice": "L'uomo nasce in Africa milioni di anni fa imparando a camminare su due gambe. Poi il cervello cresce, si usa il fuoco e si esce dall'Africa popolando tutto il mondo. Noi siamo Homo sapiens, ma nel DNA abbiamo tracce di incontri con i Neanderthal.",
+    "approfondita": "Bipedismo (Orrorin, Ardipithecus, Australopithecus/Lucy 1974) come prima svolta; Homo habilis (~2,4 Ma, chopper olduvaiani) e aumento encefalico; Homo erectus (~1,9 Ma: fuoco controllato, Acheuleano, prima uscita dall'Africa verso Dmanisi e Giava). Neanderthalensis (Eurasia, sepolture e cura come fatti discussi) e sapiens (Jebel Irhoud ~300 ka come riferimento attuale, Omo-Kibish); seconda uscita Out of Africa ~60-50 ka lungo le coste; incroci documentati dal DNA antico (P\u00c3\u00a4\u00c3\u00a4bo, Nobel 2022 come orizzonte); colonizzazione di Australia (~65 ka, dibattuta), Americhe via Beringia (~15 ka) ed Europa (Cro-Magnon). Fatto contro interpretazione: fossili e genomi contro modelli lineari (cespuglio, non scala).",
+    "tecnica": "Fonti: fossili (Olduvai, Dmanisi, Atapuerca), datazioni radiometriche e genetiche, archeologia sperimentale; cifre sempre come intervalli."
+  },
+  "definitions": [
+    "Ominini: primati bipedi della linea umana.",
+    "Out of Africa: modello dell'origine africana recente di sapiens.",
+    "Paleoantropologia: studio dei fossili umani e dei contesti."
+  ],
+  "examples": [
+    "Lucy (Afar, 1974): scheletro di Australopithecus che camminava eretta.",
+    "Jebel Irhoud: sapiens arcaico ~300.000 anni fa, datazione rivoluzionata."
+  ],
+  "counterexamples": [
+    "Scala lineare scimmia-uomo: rami multipli e convivenze.",
+    "Neanderthal come bruto senza cultura: sepolture e ornamenti discussi."
+  ],
+  "errorsTypical": [
+    "Dare date secche invece di intervalli (tutte circa e rivedibili).",
+    "Confondere habilis ed erectus (strumenti e cervello diversi).",
+    "Fare dell'uomo il fine prestabilito dell'evoluzione."
+  ],
+  "keywords": [
+    "bipedismo",
+    "habilis",
+    "erectus",
+    "Neanderthal",
+    "Out of Africa"
+  ],
+  "prerequisites": [
+    "storia:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Fondamento di tutta la storia umana."
+    }
+  ],
+  "claims": [
+    {
+      "id": "antropogenesi-africa",
+      "statement": "Homo sapiens origine Africa circa 200000 anni fa (da heidelbergensis/erectus), grande uscita circa 55000; scheletro gracile testa grande, cervello ridotto ultimi 20000, 2% Neanderthal fuori Africa piu Denisova; simbolico da 40000; Paleolitico 2.6mln-12000, Mesolitico 12000-9000/4000, Neolitico 9000-3300, Bronzo 3300-1200.",
+      "supportedBy": [
+        "whe-sapiens"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-sapiens",
+      "title": "Homo Sapiens - World History Encyclopedia",
+      "author": "Emma Groeneveld",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Homo_Sapiens/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "antropogenesi-africa"
+      ],
+      "note": "Ispezionato 2026-09-27 (2017). Africa 200k uscita 55k DNA simbolico date periodi."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Prima svolta umana?",
+        "a": "Bipedismo africano, poi cervello e strumenti."
+      },
+      {
+        "q": "Out of Africa in sintesi?",
+        "a": "Sapiens ~300 ka; uscita ~60-50 ka; incroci neanderthaliani."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Homo habilis \u00c3\u00a8 associato a:",
+        "choices": [
+          "Pitture di Lascaux",
+          "Chopper olduvaiani",
+          "Agricoltura",
+          "Scrittura"
+        ],
+        "answer": 1,
+        "explanation": "Industria litica olduvaiana e primo aumento encefalico."
+      }
+    ],
+    "questionsOpen": [
+      "Perch\u00c3\u00a9 il modello \u00c3\u00a8 un cespuglio e non una scala?",
+      "Cosa prova il DNA antico sugli incroci?"
+    ]
+  },
+  "contentDepth": "deep"
+}

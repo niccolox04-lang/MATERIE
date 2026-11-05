@@ -1,0 +1,21 @@
+{
+  "subject": "latino",
+  "title": "Latino",
+  "description": "Lingua e letteratura latina: fonologia, morfologia, sintassi dei casi e del periodo, autori e traduzione.",
+  "version": 1,
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "taxonomy": {
+    "levels": ["area", "macroargomento", "argomento", "sottoargomento", "concetto", "approfondimento"],
+    "specializations": {
+      "paradigma": "sotto-tipo di concetto: tabelle flessionali verificate",
+      "costrutto": "sotto-tipo di concetto: struttura sintattica con esempi autentici",
+      "autore": "sotto-tipo di argomento: vita, opere e lingua di un autore",
+      "opera": "sotto-tipo di sottoargomento: singolo testo con analisi"
+    }
+  },
+  "areas": [
+    { "id": "latino:lingua", "title": "Lingua", "description": "Fonologia, morfologia, sintassi, lessico.", "order": 0 },
+    { "id": "latino:letteratura", "title": "Letteratura", "description": "Autori, generi, storia letteraria.", "order": 1 },
+    { "id": "latino:traduzione", "title": "Traduzione e analisi", "description": "Metodo, periodo, versioni.", "order": 2 }
+  ]
+}

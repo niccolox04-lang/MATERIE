@@ -1,0 +1,111 @@
+{
+  "id": "greco:verbo-completo",
+  "subject": "greco",
+  "title": "Verbo: aoristo, perfetto, modi, -μι",
+  "slug": "verbo-completo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 3,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.824Z",
+  "level": "intermediate",
+  "summary": "Aoristo I (ἔλυσα) e II (ἔλιπον), perfetto con raddoppiamento (λέλυκα) e piuccheperfetto; congiuntivo (vocale lunga) e ottativo (-οι-/-αι-) con usi; imperativo, infinito, participio; verbi in -μι (τίθημι, ἵστημι, δίδωμι).",
+  "explanations": {
+    "semplice": "Oltre al presente c'è il passato 'puntuale' (aoristo: feci, in un colpo solo) e il perfetto (ho fatto e ne resta il risultato). Poi il verbo cambia 'modo': congiuntivo per dubbi e scopi, ottativo per desideri, imperativo per comandi. Infine ci sono verbi speciali in -μι con forme tutte loro.",
+    "approfondita": "Aoristo I (sigmatico): aumento + tema + -σα- + secondarie (ἔλυσα, ἔλυσας...; medio ἐλυσάμην; passivo aoristo in -θη-: ἐλύθην con desinenze attive). Aoristo II (tematico/forte): tema variato + secondarie senza -σ- (ἔλιπον da λείπω, ἔλαβον da λαμβάνω: da lessico). Aspetto: aoristo puntuale contro imperfetto durativo (narrazione: sfondo vs eventi). Perfetto: raddoppiamento (λέ-λυ-κα), tema perfetto + -κα + primarie; valore stativo-risultativo (οἶδα 'so' = ho visto); medio λέλυμαι; piuccheperfetto ἐλελύκειν. Congiuntivo: allungamento vocale tematica (λύωμεν) — usi: esortativo, dubitativo, finale/consecutivo dopo primario; ottativo: suffisso -οι-/-ιη- (λύοιμι) — desiderio, potenziale con ἄν, obliquo; imperativo: -ε/-έτω, -ον (presente) e -σον/-σάτω, -σαν (aoristo). Infinito (λύειν/λῦσαι/λελυκέναι) e participio (λύων/λύσας/λελυκώς, declinati) come forme nominali. Verbi in -μι: temi puri con alternanza lunga/breve, raddoppiamento al presente (τί-θη-μι, δί-δω-μι), desinenze atematiche (-μι, -ς, -σι...); ἵστημι transitivo/intransitivo; εἰμί (presente atematico senza raddoppiamento).",
+    "tecnica": "Operativo: aoristo II e perfetti forti solo da lessico/paradigmi; -θη- passivo con desinenze attive; participi aoristi in -σας/-ών (uso nel genitivo assoluto futuro); aumento temporale nei temi vocalici (ἀκούω→ἤκουσα)."
+  },
+  "definitions": [
+    "Aspetto: durativo (presente/imperfetto) contro puntuale (aoristo) contro risultativo (perfetto).",
+    "Raddoppiamento: ripetizione dell'iniziale (λέλυκα) che marca il perfetto.",
+    "Modo: congiuntivo/ottativo/imperativo come atteggiamenti dell'azione."
+  ],
+  "examples": [
+    "ἔγραφον (scrivevo, sfondo) contro ἔγραψα (scrissi, evento).",
+    "λύσαιμι ἄν: potenziale ('scioglierei')."
+  ],
+  "counterexamples": [
+    "Aoristo come 'passato remoto' italiano: è aspetto, non tempo relativo.",
+    "Perfetto come passato prossimo: indica stato presente da azione passata."
+  ],
+  "errorsTypical": [
+    "Confondere aoristo I e futuro (entrambi con -σ-: l'aumento decide).",
+    "Tradurre il participio sempre con gerundio italiano.",
+    "Dimenticare il raddoppiamento nei perfetti."
+  ],
+  "keywords": [
+    "aoristo",
+    "perfetto",
+    "congiuntivo",
+    "ottativo",
+    "participio",
+    "-μι",
+    "aspetto"
+  ],
+  "prerequisites": [
+    "greco:verbo-presente",
+    "greco:declinazioni-nome"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "greco:introduzione",
+      "note": "Completamento del sistema verbale."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "greco:verbo-presente",
+      "note": "Presente come base di confronto aspettuale."
+    }
+  ],
+  "sources": [
+    {
+      "id": "grammatiche-greco",
+      "title": "Paradigmi standard delle grammatiche scolastiche (aoristo, perfetto, modi, -μι)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su grammatica a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Aoristo I vs II?",
+        "a": "I sigmatico (-σα-); II tematico con tema variato (da lessico)."
+      },
+      {
+        "q": "Valore del perfetto?",
+        "a": "Stato presente risultante (οἶδα = so, avendo visto)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'ἔλυσαν' è:",
+        "choices": [
+          "Presente 3ª plur.",
+          "Aoristo 3ª plur.",
+          "Perfetto 3ª plur.",
+          "Futuro 3ª plur."
+        ],
+        "answer": 1,
+        "explanation": "Aumento + -σαν senza -σ-: aoristo."
+      }
+    ],
+    "questionsOpen": [
+      "Narrazione: distribuisci imperfetti e aoristi in un racconto.",
+      "Coniuga il presente di τίθημι e spiega il raddoppiamento."
+    ]
+  }
+}

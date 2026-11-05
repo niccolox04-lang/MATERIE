@@ -1,0 +1,127 @@
+{
+  "id": "filosofia:platone-politica",
+  "subject": "filosofia",
+  "title": "Platone — Città ideale e giustizia (Repubblica)",
+  "slug": "platone-politica",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "filosofia:platone",
+  "order": 6,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Nella Repubblica la città ideale ha tre classi (filosofi, guardiani, produttori) corrispondenti alle parti dell'anima; le virtù sono sapienza, coraggio, temperanza e, sopra tutte, giustizia come ordine in cui ciascuno fa il proprio. Ne segue un'aristocrazia del sapere con comunione di beni e famiglia tra i governanti.",
+  "explanations": {
+    "semplice": "Come l'anima ha tre parti, la città ha tre gruppi: chi pensa (filosofi al governo), chi difende (soldati), chi produce (artigiani e contadini). Se ognuno fa il suo lavoro senza invadere gli altri, la città è giusta.",
+    "approfondita": "Corrispondenze: filosofi/sapienza (parte razionale), guardiani/coraggio (irascibile), produttori/temperanza come obbedienza (concupiscibile); giustizia come principio architettonico del ciascuno-al-suo-posto, nell'anima e nella città. Condizioni: i sapienti governano perché contemplano il bene; proprietà e famiglia tradizionali dissolte nell'unica famiglia-proprietà dello Stato per i reggitori (assenza di interessi privati corruttori); critica di famiglia, proprietà privata e governo dei molti. Esito paradossale: il dualismo tra impegno fattivo e orientamento all'aldilà non è pienamente conciliato; la Repubblica si chiude con il mito escatologico di Er. Sviluppi tardi: Politico (arte regia, attenzione al concreto) e Leggi (vasto ordinamento giuridico-costituzionale, seconda navigazione pratica). L'arte è svalutata: imitazione di imitazione (terzo grado dell'essere), eccita le passioni e antropomorfizza il divino.",
+    "tecnica": "Struttura Repubblica: I (definizione di giustizia, Trasimaco), II-IV (città-anima), V-VII (filosofi-re, sole-linea-caverna), VIII-IX (degenerazioni: timocrazia, oligarchia, democrazia, tirannide), X (arte, immortalità, Er). Degenerazioni come criterio di lettura politica."
+  },
+  "definitions": [
+    "Giustizia: virtù architettonica per cui ciascuna parte/classe opera nel proprio campo senza usurpare gli altri.",
+    "Filosofi-governanti: reggitori che contemplano le idee e legiferano secondo il bene.",
+    "Degenerazioni: forme corrotte per allontanamento progressivo dal modello (timocrazia, oligarchia, democrazia, tirannide)."
+  ],
+  "examples": [
+    "Sapienza nei filosofi come la ragione nell'anima; coraggio nei guardiani come l'irascibile ben educato."
+  ],
+  "counterexamples": [
+    "La democrazia ateniese contemporanea è per Platone governo dei molti senza scienza: l'opposto del modello."
+  ],
+  "errorsTypical": [
+    "Fare di Platone un totalitarista moderno: categoria anacronistica; va letto come aristocrazia del sapere antica.",
+    "Dimenticare che comunione di beni/famiglia riguarda i reggitori-guardiani, non tutta la popolazione indistintamente."
+  ],
+  "keywords": [
+    "Repubblica",
+    "filosofi-re",
+    "giustizia",
+    "classi",
+    "virtù cardinali",
+    "degenerazioni",
+    "Leggi"
+  ],
+  "prerequisites": [
+    "filosofia:platone-anima",
+    "filosofia:platone-teoria-idee"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:platone",
+      "note": "Filosofia politica del sistema."
+    },
+    {
+      "type": "APPLIES_TO",
+      "to": "filosofia:platone-anima",
+      "note": "Applicazione politica della psicologia."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:platone-vita",
+      "note": "Fallimento siracusano e critica della democrazia ateniese."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:atene-classica",
+      "note": "Democrazia, demagogia e guerra come bersaglio storico."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-platone",
+      "title": "Platone — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/platone/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Dottrina politica e critica dell'arte verificate con fetch il 2026-09-23.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento delle opere",
+        "dottrina delle idee",
+        "morale e politica",
+        "dialettica tarda e Timeo"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Le tre classi e le virtù corrispondenti?",
+        "a": "Filosofi-sapienza, guardiani-coraggio, produttori-temperanza; giustizia come ordine del tutto."
+      },
+      {
+        "q": "Perché i filosofi devono governare?",
+        "a": "Solo chi contempla il bene sa cosa è bene per la città."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La giustizia platonica consiste in:",
+        "choices": [
+          "Uguaglianza di tutti i beni",
+          "Ciascuno al suo posto secondo natura e scienza",
+          "Governo dei più ricchi",
+          "Assenza di ogni governo"
+        ],
+        "answer": 1,
+        "explanation": "È principio d'ordine: ogni parte/classe opera nel proprio campo."
+      }
+    ],
+    "questionsOpen": [
+      "Perché proprietà e famiglia dei governanti vanno comunitarizzate?",
+      "Ordina le degenerazioni e spiega il criterio della decaduta."
+    ]
+  },
+  "level": "intermediate"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "filosofia:cartesio",
+  "subject": "filosofia",
+  "title": "Cartesio: metodo, dubbio e cogito",
+  "slug": "cartesio",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:moderna",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Cartesio (1596–1650): fondatore del razionalismo moderno. Dubbio metodico fino al cogito (prima certezza), dualismo res cogitans/res extensa, meccanicismo fisico, Dio garante delle verità; Meditazioni, Discorso sul metodo, Principi.",
+  "explanations": {
+    "semplice": "Cartesio dubita di tutto: sensi, mondo, matematica (un genio maligno potrebbe ingannarmi). Ma di una cosa non può dubitare: che sta dubitando, quindi che pensa, quindi che esiste — 'penso, dunque sono'. Da qui ricostruisce tutto: Dio esiste e non inganna, il mondo materiale esiste ed è una macchina.",
+    "approfondita": "Metodo: quattro regole del Discorso (evidenza, analisi, sintesi, enumerazione) modellate sulla matematica; mathesis universalis. Dubbio iperbolico (Meditazioni I): sensi ingannatori, sogno, genio maligno; funzione metodica, non scettica. Cogito (II): prima verità indubitabile come atto, non sillogismo; da qui idea di perfezione → prova dell'esistenza di Dio per causalità (III) e ontologica (V); veracità divina come garante contro il genio (IV: errore come cattivo uso del libero arbitrio tra intelletto finito e volontà infinita). Fisica (V–VI, Principi): res extensa come pura estensione meccanica (figure e movimenti), negazione del vuoto e delle forme sostanziali; dualismo interazionista (ghiandola pineale) e obiezioni (Elisabetta, Gassendi, Hobbes). Eredità: razionalismo (Spinoza, Leibniz), occasione del cogito per la filosofia della mente; meccanicismo come programma scientifico. Date e opere della tradizione critica standard.",
+    "tecnica": "Distinzioni: dubbio metodico/scettico; cogito come intuizione vs sillogismo; tre gradi di realtà oggettiva delle idee; circolo cartesiano come obiezione (Arnauld)."
+  },
+  "definitions": [
+    "Cogito: prima certezza come atto di pensiero esistente, fondamento della ricostruzione.",
+    "Res cogitans/res extensa: sostanza pensante inestesa e sostanza estesa non pensante.",
+    "Genio maligno: ipotesi scettica radicale per saggiare ogni certezza."
+  ],
+  "examples": ["Il pezzo di cera (Med. II): i sensi mutano, resta l'estensione colta dall'intelletto.", "La statua/macchina: il corpo-animale come automa senza pensiero."],
+  "counterexamples": ["Il cogito agostiniano (si fallor, sum): anti-scettico ma senza fondazione sistematica.", "Lo scetticismo pirroniano: dubbio come fine atarassico, non come mezzo."],
+  "errorsTypical": ["Citare 'cogito ergo sum' dai Principi come sillogismo: nelle Meditazioni è intuizione prima.", "Fare di Cartesio un ateo mascherato o un fideista: il Dio verace è architrave del sistema."],
+  "keywords": ["dubbio metodico", "cogito", "dualismo", "meccanicismo", "Meditazioni", "genio maligno"],
+  "prerequisites": ["filosofia:scetticismo", "filosofia:agostino", "filosofia:metodo-lessico"],
+  "relations": [
+    { "type": "PART_OF", "to": "filosofia:moderna", "note": "Fondazione della modernità razionalista." },
+    { "type": "INFLUENCED_BY", "to": "filosofia:agostino", "note": "Il si fallor sum come precedente dell'argomento." },
+    { "type": "CONTRASTS_WITH", "to": "filosofia:scetticismo", "note": "Dubbio-mezzo contro dubbio-fine." }
+  ],
+  "claims": [
+    {
+      "id": "cartesio-cogito",
+      "statement": "Il dubbio iperbolico si arresta al cogito come prima verità indubitabile, da cui la ricostruzione via Dio verace.",
+      "supportedBy": ["treccani-cartesio"],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-cartesio",
+      "title": "Cartesio — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/cartesio/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200; contenuto NON ancora revisionato: le tesi seguono la critica standard, in attesa di content_reviewed."
+    }
+  ],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Le quattro regole del metodo?", "a": "Evidenza, analisi, sintesi, enumerazione." },
+      { "q": "Perché Dio è necessario al sistema?", "a": "Garantisce contro il genio maligno e fonda la fisica dell'estensione." }
+    ],
+    "quiz": [
+      {
+        "q": "Il dubbio cartesiano è:",
+        "choices": ["Scetticismo definitivo", "Strumento metodico per trovare il fondamento", "Negazione della ragione", "Fede cieca"],
+        "answer": 1,
+        "explanation": "Dubita per ricostruire: cogito → Dio → mondo."
+      }
+    ],
+    "questionsOpen": ["Circolo cartesiano: Dio fonda l'evidenza e l'evidenza prova Dio?", "Mente e corpo: come possono interagire se opposti?"]
+  }
+}

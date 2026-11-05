@@ -1,0 +1,326 @@
+{
+  "id": "storia:ottocento",
+  "subject": "storia",
+  "title": "Risorgimento e Stati-nazione",
+  "slug": "ottocento",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:rivoluzioni",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1815",
+    "end": "1914",
+    "label": "da Vienna alla Grande guerra (convenzione scolastica)",
+    "place": "Europa, Mediterraneo"
+  },
+  "summary": "Restaurazione di Vienna (1815) e opposizione liberale-nazionale; Risorgimento (1848, 1859-61, 1866, 1870, Roma capitale); unificazioni tedesca (1871) e seconda industrializzazione; Stati-nazione tra costituzioni e imperialismo.",
+  "explanations": {
+    "semplice": "Dopo Napoleone i re provano a rimettere tutto come prima, ma popoli e borghesi chiedono costituzioni e nazioni unite. L'Italia si unisce pezzo per pezzo con Garibaldi e Cavour fino a Roma capitale; anche la Germania diventa un solo Stato. Le fabbriche crescono e le potenze si fanno colonie.",
+    "approfondita": "Vienna 1815 (legittimit\u00c3\u00a0, equilibrio, Santa Alleanza) contro moti (1820-21, 1830-31, 1848 come svolta europea); Risorgimento: moderati e democratici (Mazzini Giovine Italia, Cattaneo federalismo, Gioberti neoguelfismo), Cavour e Piemonte (Statuto 1848, Plombi\u00c3\u00a8res 1858, 1859 Magenta-Solferino, 1860 Mille e annessioni, 1861 Regno, 1866 Veneto, 1870 Roma; questione meridionale e brigantaggio come nodo). Germania: Zollverein, Bismarck (guerre 1864-71, Impero 1871). Seconda industrializzazione (acciaio, elettricit\u00c3\u00a0, chimica), movimento operaio (Internazionali, partiti socialisti) e cattolicesimo politico; imperialismo e Belle \u00c3\u2030poque come cornice. Fatto contro interpretazione: date e plebisciti contro tesi monocausali (\u00c3\u00a9lite, popolo, caso); nation-building come costruzione, non risveglio.",
+    "tecnica": "Fonti: atti congressuali, statuti e costituzioni, memorialistica garibaldina, stampa e plebisciti; cautela sui numeri dei volontari e dei voti."
+  },
+  "definitions": [
+    "Restaurazione: riassetto conservatore post-napoleonico con equilibrio tra potenze.",
+    "Risorgimento: processo di unificazione nazionale italiana (1848-1870).",
+    "Stati-nazione: Stati legittimati dall'appartenenza nazionale condivisa."
+  ],
+  "examples": [
+    "Statuto albertino 1848: costituzione flessibile poi estesa al Regno.",
+    "Proclamazione dell'Impero tedesco a Versailles 1871: nazione per guerra."
+  ],
+  "counterexamples": [
+    "Unit\u00c3\u00a0 come plebiscito spontaneo ovunque: pressioni, eserciti e annessioni.",
+    "Brigantaggio solo come criminalit\u00c3\u00a0: guerra civile e questione sociale (dibattito)."
+  ],
+  "errorsTypical": [
+    "Datare l'Italia unita al 1861 come compimento (mancano Veneto e Roma).",
+    "Confondere 1848 italiano ed europeo (primavera dei popoli).",
+    "Fare del colonialismo un fatto solo novecentesco."
+  ],
+  "keywords": [
+    "1815",
+    "1848",
+    "1861",
+    "1870",
+    "Cavour",
+    "Bismarck"
+  ],
+  "prerequisites": [
+    "storia:rivoluzioni",
+    "storia:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:rivoluzioni",
+      "note": "L'Ottocento degli Stati-nazione dopo l'et\u00c3\u00a0 delle rivoluzioni."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:hegel-marx",
+      "note": "Nazione e Stato moderno nel dibattito hegeliano-marxiano (uso, non identit\u00c3\u00a0)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "ottocento-date",
+      "statement": "Snodi: Congresso di Vienna 1814-15 (Metternich, principi di legittimit\u00c3\u00a0 ed equilibrio, atto finale firmato anche dalla Francia grazie a Talleyrand); rivoluzioni del 1848 (gennaio 1848 \u00e2\u20ac\u201c primavera 1849: caduta di Metternich a Vienna il 13 marzo, statuto sabaudo concesso l\u00e2\u20ac\u21228 febbraio, Seconda repubblica francese il 4 maggio, poi riflusso e restaurazioni); Regno d\u00e2\u20ac\u2122Italia 1861; guerra franco-prussiana 1870-71 con la pace di Francoforte (10 maggio 1871) ed egemonia prussiana sull\u00e2\u20ac\u2122unit\u00c3\u00a0 tedesca; le letture del nation-building restano dibattute.",
+      "supportedBy": [
+        "treccani-risorgimento",
+        "whe-risorgimento",
+        "whe-congress-vienna",
+        "whe-german-unification"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "ottocento-1861",
+      "statement": "Il Regno d'Italia \u00c3\u00a8 proclamato nel 1861 dal Parlamento di Torino dopo i plebisciti di annessione delle regioni centro-meridionali, come esito del programma monarchico unitario (Cavour e Vittorio Emanuele II), con lo Statuto albertino unica costituzione non revocata dopo il 1849.",
+      "supportedBy": [
+        "treccani-risorgimento",
+        "whe-risorgimento",
+        "whe-italian-unification"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-risorgimento",
+      "title": "Risorgimento \u00e2\u20ac\u201d Enciclopedia Treccani (voce on line, con sezione storiografica)",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/risorgimento/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "ottocento-date",
+        "ottocento-1861",
+        "risorgimento-storiografia"
+      ],
+      "note": "Contenuto letto il 2026-09-27. Verificati: Vienna 1814-15 e frammentazione sotto influenza austriaca; Carboneria e moti 1820-21 e 1831; neoguelfismo di Gioberti, Balbo e d'Azeglio, federalismo di Cattaneo; Pio IX 1846; Statuto albertino come unica costituzione non revocata dopo le sconfitte del 1848-49 (Novara, abdicazione di Carlo Alberto); Cavour e appoggio di Napoleone III; 1859-60, spedizione dei Mille, plebisciti, proclamazione del Regno d'Italia (1861) da parte del Parlamento di Torino. Sezione storiografica verificata: lettura della 'conquista regia' e delle opere di P. Gobetti; Gramsci, Sul Risorgimento (1949), 'prima grande rivoluzione politica dell'et\u00c3\u00a0 contemporanea' che 'rinnov\u00c3\u00b2 completamente la storiografia italiana del secondo dopoguerra'; studi sulla nazionalizzazione delle masse (Tobia 1991, Levra 1992, Porciani 1997) e su La nazione del Risorgimento (Banti 2000)."
+    },
+    {
+      "id": "treccani-vienna",
+      "title": "Vienna, Congresso di \u00e2\u20ac\u201d Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/congresso-di-vienna/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "ottocento-date"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: negoziati 1814-15 tra le potenze vincitrici (Austria, Russia, Prussia, Gran Bretagna) con partecipazione di quasi tutti gli Stati europei; leadership di K.W.L. von Metternich; principi di legittimit\u00c3\u00a0 (ripristino dei sovrani spodestati da Napoleone) ed equilibrio (sfere di influenza, barriera di Stati ai confini francese, ingrandimento Prussia e Regno di Sardegna, limitazione della Russia); atto finale firmato anche dalla Francia grazie a Talleyrand."
+    },
+    {
+      "id": "treccani-1848",
+      "title": "Rivoluzioni del 1848 \u00e2\u20ac\u201d Treccani, Dizionario di Storia (2011)",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/rivoluzioni-del-1848_(Dizionario-di-Storia)/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "ottocento-date"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: moti tra gennaio 1848 e primavera 1849, seconda risposta alla Restaurazione dopo il 1820-21; primo moti nel regno delle Due Sicilie con costituzione di Ferdinando II il 29 gennaio; Carlo Alberto concede lo statuto l\u00e2\u20ac\u21228 febbraio; insurrezione parigina 22-23 febbraio, Seconda repubblica 4 maggio, suffragio universale; Vienna insorta il 13 marzo con caduta di Metternich; Milano 18-22 marzo; Berlino 15 marzo; Repubblica romana gennaio 1849; sconfitta delle forze progressive."
+    },
+    {
+      "id": "treccani-franco-prussiana",
+      "title": "Franco-prussiana, guerra \u00e2\u20ac\u201d Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/guerra-franco-prussiana/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "ottocento-date"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: conflitto 1870-71; Bismarck convinto che l\u00e2\u20ac\u2122unit\u00c3\u00a0 tedesca sotto egemonia prussiana richiedesse vittoria militare sulla Francia; dichiarazione di guerra francese del 19 luglio 1870; battaglia di Sedan 1\u00c2\u00b0 settembre; armistizio 28 gennaio; trattato di Francoforte 10 maggio 1871 con 5 miliardi di indennit\u00c3\u00a0, cessione di Alsazia e parte di Lorena. LIMITI: la voce non descrive la proclamazione dell\u00e2\u20ac\u2122Impero tedesco a Versailles: resta fuori dal claim."
+    },
+    {
+      "id": "whe-risorgimento",
+      "title": "Italian Unification - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Italian_Unification/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "ottocento-date",
+        "ottocento-1861"
+      ],
+      "note": "Ispezionato 2026-09-28. Risorgimento 1848-70, Cavour, Garibaldi, Vittorio Emanuele II, Statuto, spedizione dei Mille, Roma 1870."
+    },
+    {
+      "id": "whe-congress-vienna",
+      "title": "Congress of Vienna - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Congress_of_Vienna/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "ottocento-date"
+      ],
+      "note": "Ispezionato 2026-09-28. Vienna 1815, Metternich, equilibrio, Santa Alleanza, legittimit\u00e0."
+    },
+    {
+      "id": "whe-german-unification",
+      "title": "Unification of Germany - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Unification_of_Germany/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "ottocento-date"
+      ],
+      "note": "Ispezionato 2026-09-28. Zollverein, Bismarck, guerre 1864-71, Impero 1871 a Versailles."
+    },
+    {
+      "id": "whe-italian-unification",
+      "title": "Risorgimento - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Risorgimento/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "ottocento-1861"
+      ],
+      "note": "Ispezionato 2026-09-28. 1848-1870, Cavour, Garibaldi, Mille, annessioni, Roma 1870, questione meridionale."
+    }
+  ],
+  "historiography": [
+    {
+      "id": "risorgimento-storiografia",
+      "question": "Il Risorgimento \u00c3\u00a8 stato una rivoluzione nazionale popolare o una conquista regia di \u00c3\u00a9lite?",
+      "whyContested": "Le stesse vicende (plebisciti, volontari, annessioni, repressione del brigantaggio) ammettono letture opposte: processo di partecipazione nazionale o operazione monarchico-diplomatica con consenso costruito.",
+      "positions": [
+        {
+          "label": "Conquista regia e tradimento degli ideali democratici",
+          "authors": [
+            "Piero Gobetti"
+          ],
+          "works": [],
+          "evidence": [
+            "Dopo l'Unit\u00c3\u00a0 la storiografia riparl\u00c3\u00b2 di 'conquista regia', di 'grettezza conservatrice' e di 'tradimento degli ideali morali e religiosi affermati da Mazzini', con le opere di Gobetti come caso principale."
+          ],
+          "status": "partially_verified"
+        },
+        {
+          "label": "Prima grande rivoluzione politica dell'et\u00c3\u00a0 contemporanea",
+          "authors": [
+            "Antonio Gramsci"
+          ],
+          "works": [
+            "Sul Risorgimento (1949)"
+          ],
+          "evidence": [
+            "L'unificazione \u00c3\u00a8 classificata come 'la prima grande rivoluzione politica dell'et\u00c3\u00a0 contemporanea', da analizzare negli aspetti economici e sociali a partire dall'apporto delle varie componenti della societ\u00c3\u00a0 italiana.",
+            "L'analisi gramsciana 'rinnov\u00c3\u00b2 completamente la storiografia italiana del secondo dopoguerra', introducendo i temi delle classi popolari e della questione agraria."
+          ],
+          "status": "verified"
+        },
+        {
+          "label": "Nazionalizzazione delle masse e costruzione culturale della nazione",
+          "authors": [
+            "Bruno Tobia",
+            "Umberto Levra",
+            "Ilaria Porciani",
+            "Alberto Mario Banti",
+            "Carlotta Sorba"
+          ],
+          "works": [
+            "Bruno Tobia, Una patria per gli italiani (1991)",
+            "Umberto Levra, Fare gli italiani (1992)",
+            "Ilaria Porciani, La festa della nazione (1997)",
+            "Alberto Mario Banti, La nazione del Risorgimento (2000)"
+          ],
+          "evidence": [
+            "Sono studiati i rituali di 'nazionalizzazione delle masse' nell'Italia postunitaria e le connotazioni dell'idea di nazione in epoca risorgimentale: il senso di appartenenza nazionale \u00c3\u00a8 un processo da ricostruire, non un dato di partenza."
+          ],
+          "status": "verified"
+        }
+      ],
+      "agreements": [
+        "L'unificazione \u00c3\u00a8 un processo con pi\u00c3\u00b9 attori (monarchia sabauda, diplomazia, volontari, ceti popolari) e non un semplice 'risveglio' nazionale.",
+        "Lo Statuto albertino e la monarchia sabauda forniscono la cornice istituzionale dell'esito unitario."
+      ],
+      "disputes": [
+        "Chi abbia guidato il processo: \u00c3\u00a9lite monarchiche e diplomatiche o movimenti popolari.",
+        "Quando nasca il sentimento nazionale: prima dell'Unit\u00c3\u00a0 (Banti) o costruito dopo (studi sulla nazionalizzazione delle masse)."
+      ],
+      "limits": [
+        "La voce enciclopedica cita i titoli ma non discute le tesi nel dettaglio: i contenuti delle opere non sono stati letti in questa revisione.",
+        "Le posizioni ottocentesche e primo-novecentesche sono descritte dalla voce in forma sintetica: le citazioni sono riportate, non verificate su edizione originale."
+      ],
+      "supportedBy": [
+        "treccani-risorgimento"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "L'Italia unita in quattro date?",
+        "a": "1848 Statuto; 1861 Regno; 1866 Veneto; 1870 Roma."
+      },
+      {
+        "q": "Vienna 1815 in due principi?",
+        "a": "Legittimit\u00c3\u00a0 ed equilibrio tra potenze."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Roma diventa capitale nel:",
+        "choices": [
+          "1861",
+          "1866",
+          "1870",
+          "1871"
+        ],
+        "answer": 2,
+        "explanation": "Breccia di Porta Pia e annessione dopo Sedan."
+      }
+    ],
+    "questionsOpen": [
+      "Risorgimento opera di \u00c3\u00a9lite o di popolo? Con quali prove?",
+      "Perch\u00c3\u00a9 Germania e Italia si uniscono cos\u00c3\u00ac tardi?"
+    ]
+  },
+  "contentDepth": "deep"
+}

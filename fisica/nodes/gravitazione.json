@@ -1,0 +1,121 @@
+{
+  "id": "fisica:gravitazione",
+  "subject": "fisica",
+  "title": "Gravitazione universale e Keplero",
+  "slug": "gravitazione",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "fisica:newton-secondo-principio",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "summary": "Dalle tre leggi di Keplero (ellissi, aree, armonica) alla sintesi newtoniana F = G·mM/r²: peso come caso locale (g = GM/R²), satelliti e velocità di fuga; limiti (Mercurio, relatività) come orizzonte.",
+  "explanations": {
+    "semplice": "I pianeti girano su ellissi e vanno più veloci vicino al Sole. Newton capì che la stessa forza che fa cadere la mela tiene la Luna in orbita: tutto si attrae in proporzione alle masse e al contrario del quadrato della distanza.",
+    "approfondita": "Keplero (dati di Brahe): I ellissi col Sole in un fuoco; II aree uguali in tempi uguali (velocità areolare costante); III T² proporzionale ad a³. Newton: stessa dinamica celeste e terrestre, F = G·mM/r² con G di Cavendish (1798, bilancia di torsione); g locale come GM/R² con variazioni di quota e latitudine (cenno). Orbite: satelliti geostazionari e velocità orbitale v = √(GM/r); fuga v = √(2GM/R) ≈ 11,2 km/s. Energia potenziale gravitazionale U = −GMm/r come ponte col lavoro. Limiti: precessione di Mercurio e deflessione della luce spiegate dalla relatività generale (dichiarato come orizzonte, non sviluppo). Errori: confondere massa e peso, g universale costante ovunque.",
+    "tecnica": "Derivazione guidata: dalla III di Keplero per orbite circolari (forza centripeta = m·4π²r/T² con T² = k·r³) alla dipendenza 1/r²; dimensioni di G."
+  },
+  "definitions": [
+    "Legge di gravitazione: attrazione proporzionale alle masse e inversa al quadrato della distanza.",
+    "Velocità di fuga: minima per sfuggire senza ulteriore spinta.",
+    "Geostazionario: orbita equatoriale con periodo di un giorno siderale."
+  ],
+  "formulas": [
+    {
+      "expr": "F = G·mM/r²",
+      "meaning": "Modulo della forza gravitazionale tra masse puntiformi."
+    },
+    {
+      "expr": "T² = (4π²/GM)·a³; v = √(GM/r)",
+      "meaning": "III legge e velocità orbitale circolare."
+    }
+  ],
+  "examples": [
+    "g dai dati: G·M/R² ≈ 9,81 m/s² con M e R terrestri.",
+    "Luna: centripeta v²/r ≈ 0,0027 m/s² come g/3600 (caduta di 1/60²)."
+  ],
+  "counterexamples": [
+    "Assenza di peso in orbita come assenza di gravità: è caduta libera continua.",
+    "Ellissi molto schiacciate come traiettorie di fuga: restano legate se e < 1."
+  ],
+  "errorsTypical": [
+    "Applicare 1/r² a distribuzioni estese senza il teorema dei gusci.",
+    "Confondere giorno solare e siderale nei geostazionari.",
+    "Trattare G e g come la stessa grandezza."
+  ],
+  "keywords": [
+    "Keplero",
+    "G",
+    "orbite",
+    "fuga",
+    "g"
+  ],
+  "prerequisites": [
+    "fisica:newton-secondo-principio",
+    "fisica:vettori-moti"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "fisica:newton-secondo-principio",
+      "note": "Applicazione celeste della dinamica."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "fisica:lavoro-energia",
+      "note": "Potenziale gravitazionale ed energia di fuga."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-dinamica",
+      "title": "Dinamica — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/dinamica/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Profilo già usato nei nodi fisica; contenuto NON ancora revisionato puntualmente."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Keplero in tre leggi?",
+        "a": "Ellissi; aree uguali; T² proporzionale ad a³."
+      },
+      {
+        "q": "Peso contro massa?",
+        "a": "Massa invariante; peso = GMm/r² locale."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Raddoppia la distanza: la forza gravitazionale:",
+        "choices": [
+          "Raddoppia",
+          "Si dimezza",
+          "Diventa un quarto",
+          "Resta uguale"
+        ],
+        "answer": 2,
+        "explanation": "Dipendenza 1/r²: fattore 1/4."
+      }
+    ],
+    "questionsOpen": [
+      "Mela e Luna: mostra che è la stessa forza (g/3600).",
+      "Perché i geostazionari stanno solo sull'equatore?"
+    ]
+  }
+}

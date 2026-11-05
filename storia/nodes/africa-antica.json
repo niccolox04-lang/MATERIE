@@ -1,0 +1,173 @@
+{
+  "id": "storia:africa-antica",
+  "subject": "storia",
+  "title": "Nubia/Kush, Axum, Cartagine",
+  "slug": "africa-antica",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 13,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-2500",
+    "end": "698",
+    "label": "da Kerma alla caduta di Cartagine araba (convenzione)",
+    "place": "Nilo sudanese, Corno d'Africa, Tunisia"
+  },
+  "region": "Africa",
+  "location": "Nubia e Sudan nilotico; altopiani etiopici; Tunisia",
+  "territories": "Regno di Kush, Axum, Cartagine e rete punica",
+  "geographicalContext": "Nilo navigabile e cataratte come frontiera con l'Egitto; Mar Rosso verso Arabia e India; Mediterraneo occidentale per Cartagine.",
+  "summary": "Africa antica oltre l'Egitto: Nubia/Kush (Kerma, Meroe, ferro e piramidi), Axum (moneta, cristianesimo, stele) e Cartagine fenicia (talassocrazia, guerre puniche, 146 a.C.); regni africani come attori, non sfondo.",
+  "explanations": {
+    "semplice": "Anche a sud dell'Egitto c'erano regni potenti con piramidi e re guerrieri (Nubia). In Etiopia un regno cristiano coniava monete (Axum). In Tunisia i Fenici fondarono Cartagine, che combatt\u00c3\u00a9 Roma per il Mediterraneo e perse.",
+    "approfondita": "Kush (Kerma, poi Napata e Meroe: XXV dinastia d'Egitto ~744-656 come fatto; ferro meroitico e piramidi nubiane come orizzonte); rapporti con l'Egitto tra dominio e scambio. Axum (I-VII sec.: moneta propria, obelischi-stele, conversione con Ezana ~IV sec., commercio Mar Rosso-Oceano Indiano, declino con Islam come dibattito). Cartagine (fondazione 814 come tradizione, talassocrazia, Magonidi e Barcidi, guerre puniche 264-146 come rinvio all'area Roma senza duplicare, distruzione 146 e provincia Africa). Fatto contro mito: Africa di soli villaggi contro Stati documentati; Cartagine solo mercantile contro potenza territoriale. Geografia: Nilo, deserto e monsoni come condizioni, non destini.",
+    "tecnica": "Fonti: archeologia nubiana e axumita, iscrizioni meroitiche (non decifrate: limite dichiarato), Polibio e Livio con cautela filoromana, peripli."
+  },
+  "definitions": [
+    "Kush: regno nubiano a sud dell'Egitto, con fasi a Napata e Meroe.",
+    "Axum: regno etiopico tardoantico, cristiano e monetato.",
+    "Talassocrazia: dominio fondato sul controllo del mare."
+  ],
+  "examples": [
+    "Piramidi di Meroe: Nubia monumentale oltre l'Egitto.",
+    "Moneta axumita con croce: cristianesimo di Stato."
+  ],
+  "counterexamples": [
+    "Cartagine distrutta e arata col sale: mito moderno, non fonte antica.",
+    "Axum isolata: monete e anfore fino all'India."
+  ],
+  "errorsTypical": [
+    "Fare dell'Africa antica il vuoto prima degli Europei.",
+    "Confondere Cartagine fenicia e regni numidi (alleati/nemici variabili).",
+    "Datare Kush come copia tarda dell'Egitto (Kerma precede)."
+  ],
+  "keywords": [
+    "Kush",
+    "Meroe",
+    "Axum",
+    "Cartagine",
+    "146 a.C."
+  ],
+  "prerequisites": [
+    "storia:neolitico"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Africa antica come ramo mondiale fondazionale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:egitto",
+      "note": "Nubia ed Egitto: frontiera, dominio e scambi lungo il Nilo."
+    },
+    {
+      "type": "CAUSE",
+      "to": "storia:roma-repubblica",
+      "note": "Le guerre puniche come banco dell'espansione repubblicana."
+    }
+  ],
+  "claims": [
+    {
+      "id": "africa-antica-quadro",
+      "statement": "Kush regno 1069 BCE-350 CE (Napata-Meroe), 25th Dynasty Egitto 750-666 BCE, capitale Meroe c.590 BCE; Axum regno 1st-8th century CE (stelae, coinage, Candace); Cartagine fondazione 814 a.C., Punic Wars, distruzione 146 a.C.; meroitico scrittura non decifrata.",
+      "supportedBy": [
+        "whe-kush",
+        "whe-axum",
+        "treccani-cartagine"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-kush",
+      "title": "Kingdom of Kush - World History Encyclopedia",
+      "author": "Joshua J. Mark",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Kush/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "africa-antica-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27 (2018). 2400-350 CE, Napata-Meroe, 25th Dynasty, Meroe 590 BCE, capital move."
+    },
+    {
+      "id": "whe-axum",
+      "title": "Axum - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Axum/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "africa-antica-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27 (2018). Regno 1st-8th century, stelae, coinage, Candace."
+    },
+    {
+      "id": "treccani-cartagine",
+      "title": "Cartagine - Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/cartagine/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "africa-antica-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27. 814 a.C. fondazione, Punic Wars, distruzione 146 a.C."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre Stati in sintesi?",
+        "a": "Kush nubiano; Axum etiopico; Cartagine punica."
+      },
+      {
+        "q": "146 a.C.?",
+        "a": "Distruzione di Cartagine, provincia Africa."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Le piramidi di Meroe provano:",
+        "choices": [
+          "Dominio egizio diretto",
+          "Statualit\u00c3\u00a0 nubiana monumentale",
+          "Origine cartaginese",
+          "Isolamento totale"
+        ],
+        "answer": 1,
+        "explanation": "Regno di Kush con tradizione propria."
+      }
+    ],
+    "questionsOpen": [
+      "Nilo frontiera o corridoio? Con quali prove?",
+      "Cartagine: perch\u00c3\u00a9 Roma la temeva davvero?"
+    ]
+  },
+  "contentDepth": "standard"
+}

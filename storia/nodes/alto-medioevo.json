@@ -1,0 +1,155 @@
+{
+  "id": "storia:alto-medioevo",
+  "subject": "storia",
+  "title": "Alto Medioevo: regni romano-barbarici, Islam, feudalesimo",
+  "slug": "alto-medioevo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:roma-impero",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "476",
+    "end": "1000",
+    "label": "dalla deposizione di Romolo Augustolo (data simbolica) all'et\u00c3\u00a0 ottoniana",
+    "place": "Europa, Mediterraneo, Vicino Oriente"
+  },
+  "summary": "Dopo il 476 (simbolo): regni romano-barbarici (ostrogoti, franchi, longobardi), Bisanzio e Giustiniano, espansione islamica (VII-VIII sec.), Carlo Magno (800) e feudalesimo curtense come risposta a insicurezza e calo demografico.",
+  "explanations": {
+    "semplice": "L'impero occidentale non crolla in un giorno: arrivano nuovi re germani che mescolano leggi romane e usanze proprie. A est resta l'impero di Costantinopoli. Nasce l'Islam e cambia il Mediterraneo. Carlo Magno prova a riunire l'Europa a Natale dell'800. Nei campi i contadini lavorano per i signori in cambio di protezione.",
+    "approfondita": "Continuit\u00c3\u00a0 e rottura (Pirenne, Brown contro catastrofismo): Odoacre (476) e Teodorico (493-526: Ravenna, editto, coesistenza); Giustiniano (527-565: Corpus iuris, Belisario/Narsete, Santa Sofia, ma costi e peste); longobardi (568, ducati, Liutprando, 774 caduta); franchi (Clodoveo, battesimo; maggiordomi, Poitiers 732 come freno, Pipino e donazione); Carlo Magno (768-814: Sassoni, Avari, Marca hispanica, incoronazione 800, missi, scuole, minuscola carolina) e divisione di Verdun 843. Islam: Maometto (egira 622), Corano, califfi, Omayyadi e Abbasidi (Baghdad), Mediterraneo conteso e commerci. Economia curtense: villa, manso, corv\u00c3\u00a9e, autosufficienza e calo urbano; vassallaggio-beneficio-immunit\u00c3\u00a0 come rete privata di potere; incursioni (vichinghi, saraceni, ungari) e incastellamento. Chiesa: monachesimo (Benedetto, Cluny dal 909), papato tra Bizantini e franchi. Fonti: Gregorio di Tours, Paolo Diacono, Eginardo (Vita Karoli, panegirico), archeologia e numismatica; cautela sulle cifre.",
+    "tecnica": "Questioni: tardoantico lungo (III-VIII) contro cesura 476; feudalesimo come modello storiografico (Ganshof contro Reynolds); Pirenne e la chiusura del Mediterraneo."
+  },
+  "definitions": [
+    "Foedus: patto di insediamento e servizio militare tra Roma e gruppi barbarici.",
+    "Curtis: azienda agraria altomedievale con riserva signorile e mansi contadini.",
+    "Beneficio: concessione fondiaria in cambio di servizio, matrice del feudo."
+  ],
+  "examples": [
+    "Editto di Rotari (643): diritto longobardo scritto in latino.",
+    "Capitulare de villis: gestione delle ville carolinge come economia diretta."
+  ],
+  "counterexamples": [
+    "Secoli bui come vuoto totale: monasteri, Bisanzio e Baghdad conservano e traducono.",
+    "Feudalesimo uguale ovunque: scansioni regionali e cronologiche diverse."
+  ],
+  "errorsTypical": [
+    "Trattare il 476 come fine improvvisa di tutto.",
+    "Fare di Carlo Magno un imperatore romano identico agli antichi."
+  ],
+  "keywords": [
+    "476",
+    "ostrogoti",
+    "Giustiniano",
+    "Islam 622",
+    "Carlo Magno 800",
+    "Verdun 843",
+    "curtis"
+  ],
+  "prerequisites": [
+    "storia:roma-impero",
+    "storia:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:roma-impero",
+      "note": "Prosecuzione cronologica dopo il tardoantico."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:agostino",
+      "note": "Agostino (De civitate Dei) come ponte culturale al Medioevo."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "latino:introduzione",
+      "note": "Il latino medievale e carolingio nasce dalla scuola e dalla cancelleria."
+    }
+  ],
+  "claims": [
+    {
+      "id": "alto-snodi",
+      "statement": "Giustiniano 527-565 (Vandali 533-534, Goti 535-554, Corpus 529-534, Hagia Sophia dal 532); Carlo Magno re Franchi 768-814 e Longobardi 774-814, imperatore 800-814 (incoronazione 800 da Leone III), Sassoni 772-804, Roncisvalle 778; morte 814 e Luigi il Pio.",
+      "supportedBy": [
+        "whe-giustiniano",
+        "whe-carlo"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-giustiniano",
+      "title": "Justinian I - World History Encyclopedia",
+      "author": "Will Wyeth",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Justinian_I/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "alto-snodi"
+      ],
+      "note": "Ispezionato 2026-09-27 (2012). 527-565, Vandali 533-534 Goti 535-554, Hagia Sophia 532, Corpus 529-534."
+    },
+    {
+      "id": "whe-carlo",
+      "title": "Charlemagne - World History Encyclopedia",
+      "author": "Joshua J. Mark",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Charlemagne/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "alto-snodi"
+      ],
+      "note": "Ispezionato 2026-09-27 (2019). Franchi 768-814 Longobardi 774-814 imperatore 800-814, incoronazione 800 Leone III, Sassoni 772-804 Roncisvalle 778, morte 814 Luigi."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre date-chiave e perch\u00c3\u00a9?",
+        "a": "622 egira (Islam); 800 impero carolingio; 843 Verdun (divisione)."
+      },
+      {
+        "q": "Curtis in una riga?",
+        "a": "Riserva + mansi: autosufficienza e lavoro dipendente."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "L'incoronazione dell'800 avviene a:",
+        "choices": [
+          "Costantinopoli",
+          "Roma",
+          "Aquisgrana",
+          "Ravenna"
+        ],
+        "answer": 1,
+        "explanation": "Notte di Natale a San Pietro da parte del papa."
+      }
+    ],
+    "questionsOpen": [
+      "Continuit\u00c3\u00a0 o rottura dopo il 476? Usa due prove.",
+      "Curtis ed economia: perch\u00c3\u00a9 le citt\u00c3\u00a0 si restringono?"
+    ]
+  },
+  "contentDepth": "deep"
+}

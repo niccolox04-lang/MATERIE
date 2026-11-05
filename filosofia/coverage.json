@@ -1,0 +1,252 @@
+{
+  "subject": "filosofia",
+  "curriculumScope": "Filosofia occidentale dalle origini greche al Novecento: percorso liceale completo con fondamenti universitari. Perimetro: autori, correnti, problemi e lessico; esclusi orientalismi salvo ricezione.",
+  "version": 1,
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "requiredPrerequisites": [
+    "alfabetizzazione argomentativa di base",
+    "cronologia essenziale del mondo antico"
+  ],
+  "macroAreas": [
+    {
+      "id": "antica",
+      "title": "Filosofia antica",
+      "importance": "core",
+      "notes": "Cuore coperto: presocratici→ellenismo. Manca la tarda antichità (Plotino, neoplatonismo, patrística greca).",
+      "units": [
+        {
+          "id": "presocratici",
+          "title": "Presocratici e sofisti",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "filosofia:presocratici"
+        },
+        {
+          "id": "socrate",
+          "title": "Socrate",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "filosofia:socrate"
+        },
+        {
+          "id": "platone",
+          "title": "Platone (ramo completo)",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "filosofia:platone"
+        },
+        {
+          "id": "aristotele",
+          "title": "Aristotele (ramo completo)",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "filosofia:aristotele"
+        },
+        {
+          "id": "ellenismo",
+          "title": "Ellenismo: stoa, giardino, scettici",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "filosofia:ellenismo"
+        },
+        {
+          "id": "tarda-antichita",
+          "title": "Tarda antichità: Plotino e neoplatonismo",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "medievale",
+      "title": "Filosofia medievale",
+      "importance": "core",
+      "notes": "Due pilastri presenti. Lacune critiche: Anselmo (ontologico), filosofia araba ed ebraica (mediazione di Aristotele), tarda scolastica.",
+      "units": [
+        {
+          "id": "agostino",
+          "title": "Agostino",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "filosofia:agostino"
+        },
+        {
+          "id": "tommaso",
+          "title": "Tommaso d'Aquino",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "filosofia:tommaso"
+        },
+        {
+          "id": "anselmo",
+          "title": "Anselmo e l'argomento ontologico",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "filosofia:anselmo"
+        },
+        {
+          "id": "arabi-ebrei",
+          "title": "Avicenna, Averroè, Maimonide: la mediazione",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        },
+        {
+          "id": "scolastica-tarda",
+          "title": "Scoto, Ockham e la crisi della sintesi",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "moderna",
+      "title": "Filosofia moderna",
+      "importance": "core",
+      "notes": "Area CORE quasi vuota: priorità massima del prossimo ciclo (ordine: Cartesio → razionalismo/empirismo → Kant).",
+      "units": [
+        {
+          "id": "umanesimo",
+          "title": "Umanesimo e Rinascimento (Ficino, Cusano)",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": "filosofia:umanesimo"
+        },
+        {
+          "id": "cartesio",
+          "title": "Cartesio: metodo, cogito, dualismo",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "filosofia:cartesio"
+        },
+        {
+          "id": "razionalismo",
+          "title": "Spinoza e Leibniz",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "filosofia:razionalismo"
+        },
+        {
+          "id": "empirismo",
+          "title": "Locke, Berkeley, Hume",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "filosofia:empirismo"
+        },
+        {
+          "id": "illuminismo",
+          "title": "Illuminismo e filosofia politica moderna",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "filosofia:illuminismo"
+        },
+        {
+          "id": "kant",
+          "title": "Kant: criticismo",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": "filosofia:kant"
+        }
+      ]
+    },
+    {
+      "id": "contemporanea",
+      "title": "Filosofia contemporanea",
+      "importance": "core",
+      "notes": "Non iniziata. Ordine: Hegel/Marx → Nietzsche → fenomenologia → analitica → critica.",
+      "units": [
+        {
+          "id": "idealismo-marx",
+          "title": "Hegel e Marx",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "filosofia:hegel-marx"
+        },
+        {
+          "id": "nietzsche",
+          "title": "Schopenhauer, Kierkegaard, Nietzsche",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "filosofia:nietzsche"
+        },
+        {
+          "id": "fenomenologia",
+          "title": "Husserl, Heidegger, esistenzialismo",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        },
+        {
+          "id": "analitica",
+          "title": "Frege, Wittgenstein, filosofia analitica",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        },
+        {
+          "id": "critica",
+          "title": "Francoforte, strutturalismo, post-strutturalismo",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    },
+    {
+      "id": "metodo",
+      "title": "Metodo e lessico",
+      "importance": "important",
+      "notes": "Solo panoramica. Schede lessicali con etimologie verificate pianificate.",
+      "units": [
+        {
+          "id": "logica-base",
+          "title": "Logica e argomentazione",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": "filosofia:metodo-lessico"
+        },
+        {
+          "id": "fallacie",
+          "title": "Fallacie e lettura dei testi",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": null
+        },
+        {
+          "id": "lessico",
+          "title": "Schede lessicali greco-latine",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": null
+        }
+      ]
+    }
+  ],
+  "foundationalTopics": [
+    "presocratici",
+    "socrate",
+    "platone",
+    "aristotele",
+    "agostino",
+    "cartesio",
+    "logica-base",
+    "fallacie"
+  ],
+  "advancedTopics": [
+    "tarda-antichita",
+    "arabi-ebrei",
+    "scolastica-tarda",
+    "kant",
+    "fenomenologia",
+    "analitica",
+    "critica"
+  ],
+  "roadmap": [
+    "Completare tarda antichità (Plotino) per chiudere l'antica",
+    "Anselmo + arabi/ebrei + Scoto/Ockham per la medievale",
+    "Cartesio → empirismo → Kant (ordine curricolare vincolante)",
+    "Poi idealismo/Marx → Nietzsche → Novecento"
+  ]
+}

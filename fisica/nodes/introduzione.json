@@ -1,0 +1,56 @@
+{
+  "id": "fisica:introduzione",
+  "subject": "fisica",
+  "title": "Introduzione alla Fisica",
+  "slug": "introduzione",
+  "status": "published",
+  "access": "free",
+  "type": "area",
+  "parent": null,
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "La fisica descrive la natura con leggi matematiche verificate sperimentalmente: meccanica, termodinamica, elettromagnetismo e fisica moderna, ognuna con il proprio dominio di validità.",
+  "explanations": {
+    "semplice": "La fisica spiega perché le cose si muovono, si scaldano, conducono elettricità. Ogni legge ha i suoi limiti: Newton va bene per la vita quotidiana, per velocità enormi serve Einstein.",
+    "approfondita": "Metodo: osservazione, modello matematico, previsione, esperimento, revisione. Aree: meccanica (cinematica, principi della dinamica, lavoro-energia), termodinamica (principi, entropia), elettromagnetismo (campi, Maxwell, onde), fisica moderna (relatività, quanti). Errori concettuali tipici (forza come causa della velocità invece che dell'accelerazione) saranno trattati nei rami analitici con esperimenti descritti e replicabili concettualmente."
+  },
+  "definitions": [
+    "Legge fisica: regolarità quantitativa valida entro un dominio e con un'incertezza sperimentale.",
+    "Modello: rappresentazione semplificata che cattura gli aspetti rilevanti di un fenomeno."
+  ],
+  "examples": [
+    "Il secondo principio della dinamica F=ma come legge della meccanica classica."
+  ],
+  "keywords": [
+    "leggi",
+    "esperimento",
+    "modelli",
+    "meccanica",
+    "energia",
+    "campi"
+  ],
+  "prerequisites": [],
+  "relations": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Forza e velocità in Newton?",
+        "a": "La forza causa accelerazione (variazione di velocità), non la velocità stessa."
+      }
+    ],
+    "quiz": [],
+    "questionsOpen": [
+      "Perché una legge ha sempre un dominio di validità?"
+    ]
+  },
+  "level": "foundation"
+}

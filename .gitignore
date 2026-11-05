@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+data/
+public/bundle/
+public/index/free.json
+public/index/premium-manifest.json
+.playwright-mcp/

@@ -1,0 +1,113 @@
+{
+  "id": "matematica:geometria-analitica",
+  "subject": "matematica",
+  "title": "Geometria analitica: retta, parabola, circonferenza",
+  "slug": "geometria-analitica",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "matematica:introduzione",
+  "order": 7,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Piano cartesiano: distanza e punto medio; retta (y = mx+q, parallelismo, perpendicolarità, fasci, distanza punto-retta); parabola y = ax²+bx+c (vertice, zeri) e circonferenza (centro-raggio); intersezioni come sistemi.",
+  "explanations": {
+    "semplice": "I punti diventano coppie di numeri e le figure diventano equazioni: la retta è una proporzione con partenza, la parabola è la curva delle equazioni di secondo grado, il cerchio è l'insieme dei punti alla stessa distanza dal centro. Incontrare due figure vuol dire risolvere insieme le equazioni.",
+    "approfondita": "Coordinate: distanza AB = √((xB−xA)²+(yB−yA)²) (Pitagora), punto medio come media. Retta: implicita ax+by+c = 0, esplicita y = mx+q (m pendenza, q intercetta); rette verticali x = k; parallelismo m uguali, perpendicolarità m1·m2 = −1 (con assi come casi); fasci proprio (centro) e improprio (direzione); distanza punto-retta |ax0+by0+c|/√(a²+b²). Parabola ad asse verticale y = ax²+bx+c: vertice (−b/2a, −Δ/4a), fuoco e direttrice come cenno, zeri da Δ, segno di a per concavità; legame con eq-secondo (zeri come intersezioni). Circonferenza (x−h)²+(y−k)² = r² e forma x²+y²+Dx+Ey+F = 0 (condizioni di realtà); tangenze (Δ = 0 nel sistema retta-curva), secanti ed esterne. Metodo: intersezioni come sistemi tra equazioni; discussione di Δ per retta-parabola e retta-circonferenza. Errori: m come angolo invece di pendenza, vertice con segno sbagliato, circonferenza senza verifica del raggio.",
+    "tecnica": "Completamento del quadrato come ponte algebra-geometria; discriminante come condizione di tangenza; inviluppo dei casi degeneri (retta doppia, punto, vuoto)."
+  },
+  "definitions": [
+    "Pendenza: variazione di y su variazione di x tra due punti.",
+    "Vertice: estremo della parabola, in x = −b/2a.",
+    "Circonferenza: luogo dei punti a distanza r dal centro."
+  ],
+  "proof": [
+    "La distanza discende da Pitagora sul triangolo delle differenze di coordinate.",
+    "Il vertice si ottiene completando il quadrato: y = a(x+b/2a)² − Δ/4a, estremo per x = −b/2a.",
+    "Retta e parabola si incontrano dove il sistema ha soluzioni: sostituzione dà una quadratica, Δ decide 0/1/2 punti."
+  ],
+  "formulas": [
+    {
+      "expr": "y = mx+q; m1·m2 = −1 (perpendicolari)",
+      "meaning": "Pendenza, parallelismo e perpendicolarità."
+    },
+    {
+      "expr": "V(−b/2a, −Δ/4a); (x−h)²+(y−k)² = r²",
+      "meaning": "Vertice della parabola; centro-raggio del cerchio."
+    }
+  ],
+  "examples": [
+    "Retta per (0,1) e (2,5): m = 2, y = 2x+1.",
+    "y = x²−3x+2: zeri 1 e 2, vertice (1.5, −0.25)."
+  ],
+  "counterexamples": [
+    "x²+y²+1 = 0 come circonferenza reale: raggio immaginario, insieme vuoto.",
+    "Due rette con stesso m ma q diverso come incidenti: sono parallele distinte."
+  ],
+  "errorsTypical": [
+    "Perpendicolare con m uguale invece che antireciproco.",
+    "Vertice con +b/2a al posto di −b/2a.",
+    "Tangenza dichiarata senza Δ = 0."
+  ],
+  "keywords": [
+    "pendenza",
+    "vertice",
+    "circonferenza",
+    "tangenza",
+    "sistemi"
+  ],
+  "prerequisites": [
+    "matematica:equazioni-secondo-grado",
+    "matematica:euclide"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "matematica:introduzione",
+      "note": "Algebra e geometria sintetica fuse nel piano."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "fisica:vettori-moti",
+      "note": "Coordinate e componenti per i moti piani."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Condizioni di parallelismo e perpendicolarità?",
+        "a": "m1 = m2; m1·m2 = −1."
+      },
+      {
+        "q": "Vertice e zeri della parabola?",
+        "a": "V(−b/2a, −Δ/4a); zeri da Δ ≥ 0."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Retta perpendicolare a y = 2x+1 per (0,0)?",
+        "choices": [
+          "y = 2x",
+          "y = −x/2",
+          "y = x/2",
+          "y = −2x"
+        ],
+        "answer": 1,
+        "explanation": "Antireciproco di 2: −1/2, passaggio per l'origine."
+      }
+    ],
+    "questionsOpen": [
+      "Trova tangenti da un punto esterno a una circonferenza col sistema.",
+      "Perché Δ decide secante/tangente/esterna?"
+    ]
+  }
+}

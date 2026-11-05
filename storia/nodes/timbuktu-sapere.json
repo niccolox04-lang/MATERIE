@@ -1,0 +1,131 @@
+{
+  "id": "storia:timbuktu-sapere",
+  "subject": "storia",
+  "title": "Timbuktu: moschee, università, manoscritti",
+  "slug": "timbuktu-sapere",
+  "status": "published",
+  "access": "pro",
+  "type": "approfondimento",
+  "parent": "storia:africa-occidentale",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1325",
+    "end": "1591",
+    "label": "da Djingareyber all'apogeo Askia (convenzione)",
+    "place": "Timbuktu, ansa del Niger"
+  },
+  "region": "Africa",
+  "location": "Timbuktu: moschee Djingareyber, Sankoré, Sidi Yahia",
+  "territories": "Rete urbana Mali-Songhai (Timbuktu, Djenné, Gao)",
+  "geographicalContext": "Confine Sahara-Sahel sul Niger: emporio e frontiera del sapere.",
+  "summary": "Approfondimento culturale: Timbuktu capitale intellettuale XV-XVI (Sankoré con 180 scuole coraniche e 25.000 studenti), tre moschee, mercato dei manoscritti, commercio sale-oro-bestiame-grano; salvataggi e memoria contemporanea.",
+  "explanations": {
+    "semplice": "Timbuktu non era solo mercato: aveva un'università con tantissimi studenti che studiavano religione, stelle e medicina sui libri scritti a mano. Le tre grandi moschee di fango sono ancora lì. Quando arrivano i fanatici nel 2012, la gente nasconde i libri per salvarli.",
+    "approfondita": "Sankoré e madrasa: 180 scuole coraniche e 25.000 studenti all'apogeo (UNESCO, cifre istituzionali dichiarate come tali); ulama, qadi e reti Maghreb-Egitto; manoscritti di teologia, diritto malikita, astronomia, medicina, storia (Tarikh) con commercio librario documentato. Moschee: Djingareyber (Mansa Musa/Kankan, poi al-Aqib 1570-83), Sankoré (XIV, al-Aqib 1578-82), Sidi Yahia (~1400, 1577-78); banco e manutenzione comunitaria come tecnica viva. Economia del sapere: copisti, legatori, prezzi dei libri; 2012 (distruzioni e salvataggio in casse verso Bamako) e ritorno 2025 come memoria contemporanea dichiarata. Fatto contro mito: mito dell'isolamento contro emporio connesso; mito dei soli mercanti contro università.",
+    "tecnica": "Fonti: UNESCO WHC 119 (descrizioni verificate), tarikh locali, biblioteche Haidara; manoscritti datati XIII-XIX come orizzonte."
+  },
+  "definitions": [
+    "Madrasa: scuola coranica superiore con maestri e studenti.",
+    "Banco: impasto di fango e paglia dell'architettura saheliana.",
+    "Tarikh: cronaca storica locale araba."
+  ],
+  "examples": [
+    "Djingareyber: minareto-manifesto di Mansa Musa, poi al-Aqib.",
+    "Mercato dei manoscritti: libri come merce e capitale insieme."
+  ],
+  "counterexamples": [
+    "Timbuktu villaggio sperduto: 100.000 abitanti nel XVI (UNESCO).",
+    "Sapere solo orale: centinaia di migliaia di manoscritti."
+  ],
+  "errorsTypical": [
+    "Quantificare manoscritti e studenti come censimenti (cifre istituzionali).",
+    "Confondere le tre moschee e le fasi (XIV contro al-Aqib).",
+    "Fare del 2012 una perdita totale (salvataggio maggioritario)."
+  ],
+  "keywords": [
+    "Sankoré",
+    "Djingareyber",
+    "manoscritti",
+    "25.000",
+    "banco"
+  ],
+  "prerequisites": [
+    "storia:africa-occidentale"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:africa-occidentale",
+      "note": "Sapere del ramo saheliano."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:trans-sahariano",
+      "note": "Libri come merce e capitale carovaniero."
+    }
+  ],
+  "claims": [
+    {
+      "id": "timbuktu-sapere",
+      "statement": "Timbuktu fu capitale intellettuale XV-XVI (Sankoré, 180 scuole, 25.000 studenti; tre moschee) ed emporio di manoscritti, sale di Teghaza, oro, bestiame e grano (UNESCO).",
+      "supportedBy": [
+        "unesco-timbuktu-whc"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "unesco-timbuktu-whc",
+      "title": "Timbuktu — UNESCO World Heritage Centre",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/119",
+      "sourceType": "institution",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": ["timbuktu-sapere"],
+      "note": "Passaggi verificati: Sankoré + madrasa, capitale XV-XVI, 3 moschee, 180 scuole/25.000 studenti, mercato manoscritti/sale/oro/bestiame/grano."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Timbuktu in tre elementi?",
+        "a": "Sankoré, 3 moschee, mercato dei manoscritti."
+      },
+      {
+        "q": "2012 in sintesi?",
+        "a": "Distruzioni e salvataggio maggioritario verso Bamako."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Sankoré era:",
+        "choices": [
+          "Un mercato del sale",
+          "Università coranica con madrasa",
+          "Una miniera",
+          "Un porto"
+        ],
+        "answer": 1,
+        "explanation": "Capitale intellettuale con 180 scuole."
+      }
+    ],
+    "questionsOpen": [
+      "Libri come merci: cosa dice del Sahel colto?",
+      "2012-2025: salvataggio riuscito? Con quali prove?"
+    ]
+  }
+}

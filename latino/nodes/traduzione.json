@@ -1,0 +1,112 @@
+{
+  "id": "latino:traduzione",
+  "subject": "latino",
+  "title": "Metodo del periodo latino",
+  "slug": "traduzione",
+  "status": "published",
+  "access": "pro",
+  "type": "sottoargomento",
+  "parent": "latino:sistema-casi",
+  "order": 3,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Competenza terminale: analisi del periodo latino e resa in italiano, con scelta lessicale e grammaticale consapevole. Si costruisce dopo morfologia e sintassi.",
+  "explanations": {
+    "semplice": "Analizzare il periodo latino significa spezzare la frase nelle sue parti: chi fa (soggetto), che azione (verbo), a chi/interviene (complementi), e ricostruire in italiano rispettando l'ordine naturale. Si scelgono le parole giuste al posto giusto, considerando il registro e il contesto. Le principali tecniche di resa sono: diretta, indiretta, liberale. Gli errori tipici sono: tradurre parola per parola ignorando la sintassi latina, confondere i casi, ignorare le reggenze. Il metodo prevede: analisi della frase a livello lessicale, morfologico, sintattico, pragmatico; resa in italiano con verifica di senso e forma.",
+    "approfondita": "Analisi morfosintattica: individuazione del tema e della desinenza, casi e reggenze, costruzione del periodo, uso degli articoli e delle particelle. Scelta lessicale: corrispondenza dei termini latini con i termini italiani, considerando il registro (alto/basso) e il contesto. Tecniche di resa: diretta, indiretta, liberale. Metodo: passaggio da paradigma a frase, da frase a testo; verifica delle reggenze (casi, preposizioni), dell'ausiliare e del participio; lettura del contesto: chi parla, a chi, perché, in quale situazione.",
+    "tecnica": "Operativo: passaggio da paradigma a frase, da frase a testo; verifica delle reggenze (casi, preposizioni), dell'ausiliare e del participio; verifica del contesto di discorso."
+  },
+  "definitions": [
+    "Analisi morfosintattica: dissezione della frase nei suoi componenti fondamentali.",
+    "Reggenza: caso richiesto dal verbo o dalla preposizione.",
+    "Resa: trasformazione del senso latino in italiano."
+  ],
+  "examples": [
+    "Dixit eum venire: disse che veniva (analisi: verbo dicere + accusativo + infinito).",
+    "Virum bonum videns: vedendo l'uomo buono (analisi: accusativo + participio)."
+  ],
+  "counterexamples": [
+    "Tradurre sicut eum venit come 'mentre egli veniva': richiede analisi syntattica precisa.",
+    "Omnes homines mori mustur: tradurre 'tutti gli uomini moriranno' richiede conoscenza dei tempi e delle desinenze."
+  ],
+  "errorsTypical": [
+    "Tradurre ogni genitivo con 'di' senza distinguere la funzione sintattica.",
+    "Confondere accusativo di estensione (tres dies) con oggetto diretto.",
+    "Ignorare la preposizione che fissa il ruolo del complemento."
+  ],
+  "keywords": [
+    "analisi",
+    "lessicale",
+    "sintattica",
+    "resa",
+    "reggenza",
+    "participio"
+  ],
+  "prerequisites": [
+    "latino:consecutio",
+    "latino:verbo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "latino:sistema-casi",
+      "note": "Competenza terminale dopo morfologia e sintassi."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:roma-repubblica",
+      "note": "L'analisi linguistica come chiave di lettura della storia romana."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-lingua-latina",
+      "title": "Latino, lingua — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/lingua-latina/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Profilo già usato nei nodi latino; contenuto NON ancora revisionato puntualmente."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre passaggi dell'analisi?",
+        "a": "Lessicale, morfologico, sintattico."
+      },
+      {
+        "q": "L'analisi parte da?",
+        "a": "Chi fa l'azione (soggetto)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'Dixit eum venisse': il verbo è al:",
+        "choices": [
+          "Presente",
+          "Perfetto",
+          "Aoristo",
+          "Futuro"
+        ],
+        "answer": 1,
+        "explanation": "Perfetto: azione anteriore rispetto al dire."
+      }
+    ],
+    "questionsOpen": [
+      "Analizza due frasi latine diverse per tipo sintattico e registro.",
+      "Perché la scelta lessicale è cruciale nella traduzione latino-italiano?"
+    ]
+  }
+}

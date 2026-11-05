@@ -1,0 +1,130 @@
+{
+  "id": "storia:paleolitico",
+  "subject": "storia",
+  "title": "Paleolitico: caccia, fuoco, arte",
+  "slug": "paleolitico",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 4,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "chrono": {
+    "start": "-2600000",
+    "end": "-10000",
+    "label": "dall'Olduvaiano alla fine del ghiaccio (convenzione)",
+    "place": "Africa, Eurasia"
+  },
+  "summary": "Et\u00c3\u00a0 della pietra antica: industrie litiche (Olduvaiano, Acheuleano, Levallois), controllo del fuoco, bande nomadi di cacciatori-raccoglitori; arte parietale (Chauvet, Lascaux) e mobiliare come prime culture simboliche.",
+  "explanations": {
+    "semplice": "Per milioni di anni gli uomini vivono in piccoli gruppi che cacciano e raccolgono, spostandosi. Imparano a scheggiare pietre, ad accendere il fuoco e alla fine dipingono animali nelle grotte: le prime opere d'arte.",
+    "approfondita": "Litica: chopper olduvaiani, bifacciali acheuleani (~1,7 Ma), metodo Levallois (schegge predeterminate) e lame del Paleolitico superiore; fuoco (tracce ~1 Ma, uso abituale pi\u00c3\u00b9 tardo, dibattito dichiarato). Societ\u00c3\u00a0: bande mobili, divisione dei compiti ipotizzata, sepolture neanderthaliane e sapiens come fatti discussi. Arte: Chauvet (~36 ka), Lascaux (~17 ka), Altamira; Veneri e incisioni; interpretazioni (magia venatoria, sciamanesimo, narrazione) dichiarate come ipotesi, mai fatti. Fine: riscaldamento olocenico e megafauna (clima contro caccia come dibattito).",
+    "tecnica": "Fonti: stratigrafie, industrie litiche, datazioni C14 oltre ~50 ka come limite; arte non databile con certezza assoluta."
+  },
+  "definitions": [
+    "Industria litica: insieme tecnico di scheggiatura di un periodo.",
+    "Banda: gruppo mobile di cacciatori-raccoglitori.",
+    "Arte parietale: figure dipinte o incise sulle pareti."
+  ],
+  "examples": [
+    "Bifacciale acheuleano: scheggiatura su due facce, standard per un milione di anni.",
+    "Lascaux: sala dei tori come narrazione o rituale (ipotesi)."
+  ],
+  "counterexamples": [
+    "Arte come decorazione moderna: contesti profondi e non abitativi.",
+    "Progresso lineare degli strumenti: lunghe stabilit\u00c3\u00a0 e salti."
+  ],
+  "errorsTypical": [
+    "Datare Chauvet e Lascaux allo stesso orizzonte.",
+    "Fare del fuoco una scoperta singola datata.",
+    "Leggere le Veneri con categorie contemporanee."
+  ],
+  "keywords": [
+    "Olduvaiano",
+    "Acheuleano",
+    "Levallois",
+    "Lascaux",
+    "bande"
+  ],
+  "prerequisites": [
+    "storia:antropogenesi"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Prima et\u00c3\u00a0 della storia umana dopo l'antropogenesi."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:antropogenesi",
+      "note": "Specie e tecniche in parallelo."
+    }
+  ],
+  "claims": [
+    {
+      "id": "paleolitico-quadro",
+      "statement": "Il Paleolitico copre dall'industria pi\u00c3\u00b9 antica (2,7\u00e2\u20ac\u201c2 milioni di anni fa, Africa orientale) alla fine dell'ultima glaciazione (~10.000 anni fa): Olduvaiano (choppers su ciottolo), bifacciali dell'Acheuleano (da ~1,4 milioni di anni, coesistenti), Levalloisiano, Musteriano con Neandertal; Paleolitico superiore da ~35.000 anni (Aurignaziano, Solutreano, Maddaleniano) con lame, manufatti d'osso, arte parietale (Chauvet, Romito) e sepolture intenzionali.",
+      "supportedBy": [
+        "treccani-paleolitico"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-paleolitico",
+      "title": "Paleolitico \u00e2\u20ac\u201d Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/paleolitico/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "paleolitico-quadro"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: termine introdotto da Lubbock 1865; inizio 2,7\u00e2\u20ac\u201c2 Ma (prime industrie litiche, Pliocene superiore Africa orientale); fine con W\u00c3\u00bcrm ~10.000 anni fa; Olduvaiano (choppers, chopping tools, poliedri) attribuito ad Australopithecus e Homo habilis; bifacciali Olduvaiano evoluto/Acheuleano da ~1.400.000 anni; Levalloisiano europeo; Musteriano e Neandertal; Paleolitico superiore da ~35.000 anni con Perigordiano, Aurignaziano, Solutreano, Maddaleniano, manufatti d'osso, pitture rupestri (Chauvet, Romito a Cosenza) e sepolture intenzionali; bande di poche decine di individui nomadi, non gerarchizzate. LIMITI: la voce non data specificamente Lascaux e non tratta esplicitamente il fuoco: questi dettagli restano fuori dal claim verificato."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre industrie in ordine?",
+        "a": "Olduvaiano, Acheuleano, Levallois."
+      },
+      {
+        "q": "Lascaux e Chauvet?",
+        "a": "Arte parietale paleolitica, significati ipotetici."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il metodo Levallois prepara:",
+        "choices": [
+          "Vasi",
+          "Schegge predeterminate dal nucleo",
+          "Metalli",
+          "Semi"
+        ],
+        "answer": 1,
+        "explanation": "Preparazione del nucleo per stacchi programmati."
+      }
+    ],
+    "questionsOpen": [
+      "Fuoco: cosa cambia davvero nella vita umana?",
+      "Arte per magia o racconto? Con quali prove?"
+    ]
+  },
+  "contentDepth": "standard"
+}

@@ -1,0 +1,146 @@
+{
+  "id": "storia:cina-contemporanea",
+  "subject": "storia",
+  "title": "Cina contemporanea: crisi Qing, Repubblica, RPC",
+  "slug": "cina-contemporanea",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 25,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "chrono": {
+    "start": "1839",
+    "end": "2026",
+    "label": "dalle guerre dell'oppio a oggi (limite SCOPE; recente solo con fonti)",
+    "place": "Cina"
+  },
+  "region": "Asia",
+  "location": "Cina: costa dei trattati, Pechino, campagne interne",
+  "territories": "Qing tardo, Repubblica di Cina, RPC",
+  "geographicalContext": "Pressione marittima occidentale e giapponese; divario costa-interno.",
+  "summary": "Ramo di sintesi: crisi Qing (oppio, Taiping, Boxer), Repubblica (1911, signori della guerra, Nanchino), guerra col Giappone, guerra civile e RPC (1949); approfondimenti nei nodi figli (repubblica, RPC).",
+  "explanations": {
+    "semplice": "L'impero cinese crolla sotto le guerre con gli Europei e i giapponesi e le rivolte interne. Nel 1911 nasce la repubblica ma i generali si fanno guerra; poi comunisti e nazionalisti lottano e vincono i comunisti nel 1949. Da l\u00c3\u00ac la Cina cambia ancora tantissimo.",
+    "approfondita": "Quadro: guerre dell'oppio (1840-42 Nanchino, 1856-60 Pechino) e trattati ineguali; Taiping (1850-64) e Nian come crisi interne; autorafforzamento e fallimento (1894-95 col Giappone, Boxer 1899-1901); 1911 (Wuchang, Sun Yat-sen, Yuan Shikai) e signori della guerra; Nanchino di Chiang (1927, decennio, marcia del Nord), comunisti (Mao, Jiangxi, Lunga Marcia 1934-35); invasione giapponese (1937 Nanchino come massacro documentato) e fronte comune fragile; guerra civile 1945-49 e RPC (1-10-1949) con Taiwan come esito; Mao (Balzo, Cultura) e Deng (riforme 1978) come nodi figli. Fatto contro mito: secolo dell'umiliazione come narrazione ufficiale da usare con critica dichiarata.",
+    "tecnica": "Fonti: trattati ineguali, memoriali Qing, stampa repubblicana, archivi PCC desecretati parziali; statistiche demografiche come serie discusse."
+  },
+  "definitions": [
+    "Trattati ineguali: concessioni extraterritoriali alle potenze.",
+    "Signori della guerra: militaristi regionali dopo il 1916.",
+    "Secolo dell'umiliazione: narrazione ufficiale 1840-1949 (uso critico)."
+  ],
+  "examples": [
+    "Nanchino 1842: primo trattato ineguale dopo l'oppio.",
+    "Lunga Marcia 1934-35: mito fondativo comunista."
+  ],
+  "counterexamples": [
+    "1911 come democrazia compiuta: repubblica dei generali.",
+    "1949 come pace immediata: Corea, Tibet, campagne interne."
+  ],
+  "errorsTypical": [
+    "Fare della Cina una vittima passiva (riforme e resistenze interne).",
+    "Confondere Repubblica di Cina (1912) e RPC (1949).",
+    "Datare l'apertura al 1978 senza antefatti (Nixon 1972)."
+  ],
+  "keywords": [
+    "oppio",
+    "1911",
+    "Lunga Marcia",
+    "1949",
+    "riforme"
+  ],
+  "prerequisites": [
+    "storia:cina-imperiale"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Cina contemporanea dopo l'imperiale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:ottocento",
+      "note": "Imperialismo europeo in Cina a confronto."
+    }
+  ],
+  "claims": [
+    {
+      "id": "cina-contemporanea-quadro",
+      "statement": "Da oppio e Taiping a 1911, guerra col Giappone e guerra civile fino alla RPC (1949): transizione secolare, non evento singolo.",
+      "supportedBy": [
+        "manuale-cina-moderna",
+        "whe-china-contemporary"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-cina-moderna",
+      "title": "Profilo standard di Cina moderna e contemporanea",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-china-contemporary",
+      "title": "Modern China - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/China/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "cina-contemporanea-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27. Guerre oppio, Taiping, Boxer, 1911, guerra Giappone, 1949 RPC."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Sequenza in quattro date?",
+        "a": "Oppio 1840-42; 1911; 1937-45; 1949 RPC."
+      },
+      {
+        "q": "Lunga Marcia?",
+        "a": "1934-35: mito fondativo e selezione dirigente."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La RPC \u00c3\u00a8 proclamata nel:",
+        "choices": [
+          "1911",
+          "1927",
+          "1937",
+          "1949"
+        ],
+        "answer": 3,
+        "explanation": "1 ottobre 1949 dopo la guerra civile."
+      }
+    ],
+    "questionsOpen": [
+      "Secolo dell'umiliazione: categoria utile o propaganda? Con quali prove?",
+      "Perch\u00c3\u00a9 i comunisti vincono nel 1949? Tre fattori."
+    ]
+  },
+  "contentDepth": "deep"
+}

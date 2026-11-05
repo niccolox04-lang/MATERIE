@@ -1,0 +1,23 @@
+{
+  "subject": "filosofia",
+  "title": "Filosofia",
+  "description": "Mappa della conoscenza filosofica: dalla Grecia arcaica al pensiero contemporaneo. Ogni nodo indica prerequisiti, relazioni e fonti verificate.",
+  "version": 1,
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "taxonomy": {
+    "levels": ["area", "periodo", "macroargomento", "argomento", "sottoargomento", "concetto", "approfondimento"],
+    "specializations": {
+      "filosofo": "sotto-tipo di argomento: vita, opere e dottrine di un singolo autore",
+      "opera": "sotto-tipo di sottoargomento: singolo dialogo o trattato",
+      "problema": "sotto-tipo di concetto: questione filosofica trasversale",
+      "lessico": "sotto-tipo di concetto: termine tecnico e suo uso"
+    }
+  },
+  "areas": [
+    { "id": "filosofia:antica", "title": "Filosofia antica", "description": "Dalle origini greche alla tarda antichità: presocratici, Socrate, Platone, Aristotele, ellenismo.", "order": 0 },
+    { "id": "filosofia:medievale", "title": "Filosofia medievale", "description": "Patristica e scolastica: incontro tra fede e ragione.", "order": 1 },
+    { "id": "filosofia:moderna", "title": "Filosofia moderna", "description": "Dal Rinascimento a Kant: soggetto, scienza e critica.", "order": 2 },
+    { "id": "filosofia:contemporanea", "title": "Filosofia contemporanea", "description": "Dall'Ottocento a oggi: fenomenologia, analitica, ermeneutica, critica sociale.", "order": 3 },
+    { "id": "filosofia:metodo-lessico", "title": "Metodo e lessico", "description": "Strumenti trasversali: logica, argomentazione, termini tecnici.", "order": 4 }
+  ]
+}

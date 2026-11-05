@@ -1,0 +1,64 @@
+{
+  "id": "latino:seconda-declinazione",
+  "subject": "latino",
+  "title": "Seconda declinazione",
+  "slug": "seconda-declinazione",
+  "status": "published",
+  "access": "pro",
+  "type": "sottoargomento",
+  "parent": "latino:sistema-casi",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "La II declinazione (genitivo in -i): maschili e femminili in -us/-er/-ir, neutri in -um; vocativo in -e, genitivo plurale in -orum. Casi speciali: puer/ager senza -us, deus, vir.",
+  "explanations": {
+    "semplice": "È la famiglia di dominus (padrone) e bellum (guerra). Si riconosce dal genitivo in -i. Il vocativo (quando chiami) finisce in -e: domine! I neutri al plurale finiscono in -a: bella.",
+    "approfondita": "Modello maschile (dominus): -us, -i, -o, -um, -e (voc.), -o; plur. -i, -orum, -is, -os, -i, -is. Neutro (bellum): -um, -i, -o, -um, -um, -o; plur. -a, -orum, -is, -a, -a, -is. Tipi senza -us: puer (puer, pueri...), ager (ager, agri con caduta di -e-), vir (vir, viri), -ir (un solo tipo corrente). Eccezioni da memorizzare: deus (voc. deus, plur. di/dis/dibus, dat.-abl. plur. dis), locus (plur. loci e loca con distinzione di senso), filius (voc. fili), genius. Femminili in -us (manus è IV; in II: humus, alvus e pochi altri). Concordanze: bonus dominus, bonum bellum; il neutro plurale -a vuole il verbo al singolare? No: quello è il greco; in latino il verbo concorda al plurale (bella geruntur).",
+    "tecnica": "Origine tematica in -o-; vocativo -e da antica desinenza; -orum da *-osom; sincretismo dat.-abl. plur. -is comune a I e II."
+  },
+  "definitions": [
+    "Vocativo in -e: uscita propria del chiamato singolare in -us (domine).",
+    "Neutro in -um: paradigma con nom.=acc.=voc. in -um e plurale in -a."
+  ],
+  "examples": ["Servus dominum videt: -us soggetto, -um oggetto.", "Bella longa: neutro plurale -a con aggettivo concorde."],
+  "counterexamples": ["Manus (IV declinazione) nonostante -us: il genitivo (manus, -us) decide, non il nominativo."],
+  "errorsTypical": ["Vocativo dominus invece di domine.", "Genitivo plurale -arum (è della I; qui -orum).", "Verbo al singolare con soggetto neutro plurale (regola greca, non latina)."],
+  "keywords": ["dominus", "bellum", "vocativo -e", "-orum", "puer", "ager", "deus"],
+  "prerequisites": ["latino:sistema-casi"],
+  "relations": [
+    { "type": "PART_OF", "to": "latino:sistema-casi", "note": "Seconda famiglia flessiva." },
+    { "type": "SIMILAR_TO", "to": "greco:declinazioni-nome", "note": "II greca in -ος come parallelo strutturale." }
+  ],
+  "sources": [
+    {
+      "id": "treccani-lingua-latina",
+      "title": "Latino, lingua — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/lingua-latina/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200; contenuto NON revisionato: paradigma standard delle grammatiche scolastiche."
+    }
+  ],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Desinenze di dominus al singolare?", "a": "-us, -i, -o, -um, -e, -o." },
+      { "q": "Plurale neutro di bellum?", "a": "bella, bellorum, bellis, bella, bella, bellis." }
+    ],
+    "quiz": [
+      {
+        "q": "'Domine, servum voca': domine e servum sono:",
+        "choices": ["Nominativo e genitivo", "Vocativo e accusativo", "Dativo e ablativo", "Due nominativi"],
+        "answer": 1,
+        "explanation": "-e chiamato, -um oggetto del comando."
+      }
+    ],
+    "questionsOpen": ["Declina puer e spiega la caduta di -e- in ager/agri.", "Perché deus è irregolare? Ipotesi storica."]
+  }
+}

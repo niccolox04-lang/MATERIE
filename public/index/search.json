@@ -1,0 +1,199 @@
+{
+  "updatedAt": "2026-10-23T13:07:33.238Z",
+  "entries": [
+    {
+      "id": "filosofia:antica",
+      "title": "Filosofia antica — panoramica",
+      "subject": "filosofia",
+      "type": "area",
+      "summary": "La filosofia antica nasce in Grecia tra VII e VI secolo a.C. e prosegue fino alla tarda antichità: cerca il principio (arché) della realtà, poi si concentra su uomo, conoscenza, etica e politica con Socrate, Platone e Ar",
+      "keywords": [
+        "arché",
+        "physis",
+        "presocratici",
+        "Socrate",
+        "Platone",
+        "Aristotele",
+        "ellenismo"
+      ]
+    },
+    {
+      "id": "filosofia:contemporanea",
+      "title": "Filosofia contemporanea — panoramica",
+      "subject": "filosofia",
+      "type": "area",
+      "summary": "Dall'Ottocento a oggi: idealismo e Marx, positivismo, Nietzsche, fenomenologia, filosofia analitica, ermeneutica, teoria critica. Solo panoramica pubblicata; rami analitici pianificati.",
+      "keywords": [
+        "fenomenologia",
+        "analitica",
+        "ermeneutica",
+        "Marx",
+        "Nietzsche"
+      ]
+    },
+    {
+      "id": "filosofia:medievale",
+      "title": "Filosofia medievale — panoramica",
+      "subject": "filosofia",
+      "type": "area",
+      "summary": "Dal tardo antico al XIV secolo: Agostino e la patristica, Anselmo, Tommaso e la scolastica, fede e ragione, universali. Quest'area contiene per ora solo la panoramica; i rami analitici sono pianificati e verranno pubblic",
+      "keywords": [
+        "patristica",
+        "scolastica",
+        "Agostino",
+        "Tommaso",
+        "universali"
+      ]
+    },
+    {
+      "id": "filosofia:metodo-lessico",
+      "title": "Metodo e lessico filosofico — panoramica",
+      "subject": "filosofia",
+      "type": "area",
+      "summary": "Strumenti trasversali: logica e argomentazione, lettura dei testi, termini tecnici (eidos, ousia, logos, a priori). Solo panoramica pubblicata; schede lessicali pianificate con etimologie verificate.",
+      "keywords": [
+        "logica",
+        "argomentazione",
+        "fallacie",
+        "lessico",
+        "metodo"
+      ]
+    },
+    {
+      "id": "filosofia:moderna",
+      "title": "Filosofia moderna — panoramica",
+      "subject": "filosofia",
+      "type": "area",
+      "summary": "Dal Rinascimento a Kant: umanesimo, rivoluzione scientifica, razionalismo ed empirismo, Illuminismo e criticismo. Quest'area contiene per ora solo la panoramica; i rami analitici sono pianificati.",
+      "keywords": [
+        "Cartesio",
+        "empirismo",
+        "Kant",
+        "Illuminismo",
+        "metodo"
+      ]
+    },
+    {
+      "id": "filosofia:presocratici",
+      "title": "Presocratici e Sofisti",
+      "subject": "filosofia",
+      "type": "periodo",
+      "summary": "Ionici, Pitagorici, Eraclito, Eleati, Pluralisti e Atomisti cercano il principio della natura; nel V secolo i Sofisti spostano l'attenzione su linguaggio, politica e relatività delle norme, preparando la reazione socrati",
+      "keywords": [
+        "Ionici",
+        "Eraclito",
+        "Parmenide",
+        "atomisti",
+        "Protagora",
+        "Gorgia",
+        "nomos",
+        "physis",
+        "eristica"
+      ]
+    },
+    {
+      "id": "filosofia:socrate",
+      "title": "Socrate",
+      "subject": "filosofia",
+      "type": "argomento",
+      "summary": "Socrate (Atene, 470/469–399 a.C.) non lascia scritti: lo conosciamo da Platone, Senofonte e Aristofane. Pratica l'esame dialogico (elenchos) alla ricerca di definizioni universali del bene e della virtù; condannato a mor",
+      "keywords": [
+        "elenchos",
+        "virtù-scienza",
+        "eudemonismo",
+        "questione socratica",
+        "Apologia",
+        "399 a.C."
+      ]
+    },
+    {
+      "id": "fisica:introduzione",
+      "title": "Introduzione alla Fisica",
+      "subject": "fisica",
+      "type": "area",
+      "summary": "La fisica descrive la natura con leggi matematiche verificate sperimentalmente: meccanica, termodinamica, elettromagnetismo e fisica moderna, ognuna con il proprio dominio di validità.",
+      "keywords": [
+        "leggi",
+        "esperimento",
+        "modelli",
+        "meccanica",
+        "energia",
+        "campi"
+      ]
+    },
+    {
+      "id": "greco:alfabeto-fonetica",
+      "title": "Alfabeto e fonetica",
+      "subject": "greco",
+      "type": "argomento",
+      "summary": "24 lettere dall'alfa all'omega (derivate dal fenicio con vocali), spiriti (aspro/dolce), tre accenti (acuto, grave, circonflesso), quantità vocalica, dittonghi e iota sottoscritto: il sistema grafico-fonologico presuppos",
+      "keywords": [
+        "alfabeto",
+        "spiriti",
+        "accenti",
+        "quantità",
+        "dittonghi",
+        "iota sottoscritto",
+        "erasmiana"
+      ]
+    },
+    {
+      "id": "greco:introduzione",
+      "title": "Introduzione al Greco",
+      "subject": "greco",
+      "type": "area",
+      "summary": "Il greco antico (attico e koinè) è la lingua di Omero, della tragedia, della filosofia e del Nuovo Testamento: si studia per morfologia e sintassi rigorose, lessico etimologico e traduzione analitica.",
+      "keywords": [
+        "attico",
+        "koinè",
+        "declinazioni",
+        "coniugazioni",
+        "genitivo assoluto",
+        "etimologia"
+      ]
+    },
+    {
+      "id": "latino:introduzione",
+      "title": "Introduzione al Latino",
+      "subject": "latino",
+      "type": "area",
+      "summary": "Il latino è la lingua di Roma, del diritto e della Chiesa: cinque declinazioni, coniugazioni regolari e irregolari, sintassi dei casi e del periodo (cum, ut, ablativo assoluto), base del lessico italiano.",
+      "keywords": [
+        "declinazioni",
+        "coniugazioni",
+        "ablativo assoluto",
+        "consecutio",
+        "Cicerone",
+        "Virgilio"
+      ]
+    },
+    {
+      "id": "matematica:introduzione",
+      "title": "Introduzione alla Matematica",
+      "subject": "matematica",
+      "type": "area",
+      "summary": "La matematica studia strutture astratte con dimostrazione: dal numero alle funzioni, dalla geometria euclidea all'analisi, fino a probabilità e statistica. Ogni concetto richiede prerequisiti espliciti ed esercizi gradua",
+      "keywords": [
+        "dimostrazione",
+        "funzioni",
+        "geometria",
+        "analisi",
+        "probabilità"
+      ]
+    },
+    {
+      "id": "storia:introduzione",
+      "title": "Introduzione alla Storia",
+      "subject": "storia",
+      "type": "area",
+      "summary": "La storia studia il passato umano con fonti e metodo critico: cronologia e periodizzazione, cause e conseguenze, istituzioni ed economia, interpretazioni storiografiche a confronto.",
+      "keywords": [
+        "fonti",
+        "cronologia",
+        "cause",
+        "storiografia",
+        "periodizzazione"
+      ]
+    }
+  ]
+}

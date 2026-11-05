@@ -1,0 +1,66 @@
+{
+  "id": "filosofia:scetticismo",
+  "subject": "filosofia",
+  "title": "Scetticismo antico",
+  "slug": "scetticismo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:ellenismo",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "summary": "Da Pirrone (sospensione, afasia, atarassia) all'Accademia di Arcesilao e Carneade fino a Sesto Empirico: isostenia delle ragioni opposte, tropi, epoché come via all'imperturbabilità; bersaglio polemico di stoici ed epicurei e banco di prova della teoria della conoscenza.",
+  "explanations": {
+    "semplice": "Gli scettici dicono: per ogni opinione esiste un'opinione contraria altrettanto forte. Quindi non decidere: sospendi il giudizio. Stranamente, proprio smettendo di agitarti per avere ragione, trovi la pace.",
+    "approfondita": "Pirrone di Elide (~360–270, tramite Timone): a ogni asserzione si oppone un'asserzione di pari forza (isostenia); epoché (sospensione), afasia (non-asserzione), atarassia come esito per ombra (skia). Accademia scettica: Arcesilao contro il criterio stoico, Carneade e il probabile/persuasivo (pithanon) con gradi di assentibilità. Neopirronismo: Enesidemo (dieci tropi: relatività a soggetto, oggetto, circostanze), Agrippa (cinque tropi: disaccordo, regresso, relatività, ipotesi, circolo), Sesto Empirico (Schizzi pirroniani, Contro i matematici) come fonte sistematica. Obiezioni classiche: apraxia (inazione), autocontraddizione del discorso scettico, risposta con vita secondo apparenze e costumi. Le attribuzioni dipendono da fonti tarde (Diogene Laerzio, Sesto) con cautela.",
+    "tecnica": "Strumenti: isostenia, epoché, tropi di Enesidemo e Agrippa, distinzione pirronismo/accademismo, criterio pratico delle apparenze (phainomena)."
+  },
+  "definitions": [
+    "Epoché: sospensione del giudizio tra ragioni equipollenti.",
+    "Isostenia: pari forza delle ragioni opposte.",
+    "Tropi: schemi argomentativi che producono la sospensione."
+  ],
+  "examples": ["Il tropo del disaccordo: i sapienti discordano su tutto, dunque sospendi.", "Il miele appare dolce al sano e amaro al malato: relatività della percezione."],
+  "counterexamples": ["Il dubbio cartesiano: metodico e provvisorio verso la certezza, non fine atarassico."],
+  "errorsTypical": ["'Gli scettici non credono a niente': sospendono l'assenso dogmatico, vivono secondo apparenze.", "Confondere pirroniani e accademici: i secondi ammettono il probabile."],
+  "keywords": ["epoché", "isostenia", "tropi", "atarassia", "Pirrone", "Carneade", "Sesto Empirico"],
+  "prerequisites": ["filosofia:ellenismo", "filosofia:stoicismo"],
+  "relations": [
+    { "type": "PART_OF", "to": "filosofia:ellenismo", "note": "Terza via ellenistica." },
+    { "type": "CONTRASTS_WITH", "to": "filosofia:stoicismo", "note": "Sospensione contro criterio catalettico." },
+    { "type": "RELATED_TO", "to": "filosofia:metodo-lessico", "note": "I tropi come educazione al controllo delle inferenze." }
+  ],
+  "sources": [
+    {
+      "id": "treccani-scetticismo",
+      "title": "Scetticismo — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/scetticismo/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200 il 2026-09-24; contenuto NON ancora revisionato."
+    }
+  ],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "La triade pirroniana?", "a": "Isostenia → epoché/afasia → atarassia." },
+      { "q": "Differenza pirroniani/accademici?", "a": "I secondi accettano il probabile (pithanon) come guida pratica." }
+    ],
+    "quiz": [
+      {
+        "q": "L'obiezione dell'apraxia accusa lo scettico di:",
+        "choices": ["Contraddirsi parlando", "Rendere impossibile l'azione senza assensi", "Credere troppo", "Essere dogmatico"],
+        "answer": 1,
+        "explanation": "Risposta scettica: si agisce secondo apparenze, costumi e bisogni, senza assenso dogmatico."
+      }
+    ],
+    "questionsOpen": ["L'epoché è uno stato psicologico o una tesi filosofica?", "I tropi di Agrippa colpiscono ancora la fondazione del sapere?"]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "id": "latino:anomali",
+  "subject": "latino",
+  "title": "Sum, fero, eo, volo e deponenti",
+  "slug": "anomali",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "latino:sistema-casi",
+  "order": 8,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Verbi irregolari essenziali: sum (esse, fui) con composti, fero (ferre, tuli, latum), eo (ire, ii, itum), volo/nolo/malo; deponenti (hortor, sequor, utor) con forme passive e senso attivo; participi e infiniti propri.",
+  "explanations": {
+    "semplice": "Alcuni verbi non seguono le quattro squadre: essere (sono, sei), portare (fero, tutto strano), andare (eo), volere. Poi ci sono i deponenti: sembrano passivi (finiscono in -r) ma significano attivo (hortor = esorto, non sono esortato).",
+    "approfondita": "Sum: sum/es/est/sumus/estis/sunt; fut. ero; impf. eram; perf. fui; fut. ant. fuero; cong. sim/essem; inf. esse; imperativo es/este; composti (adsum, desum, possum da potis+sum con assimilationi, prosum con -d-). Fero: fero/fers/fert/ferimus; impf. ferebam; fut. feram; perf. tuli; sup. latum; pass. feror; imperativo fer/ferte; composti con raddoppiamenti (affero/attuli/allatum). Eo: eo/is/it/imus; impf. ibam; fut. ibo; perf. ii/ivi; sup. itum; ire come ausiliare del passivo futuro (amatum iri). Volo: volo/vis/vult/volumus; impf. volebam; perf. volui; nolo (non+volo) e malo (magis+volo) con stesse anomalie. Deponenti: I hortor, II vereor, III sequor/utor/fruor, IV partior/potior; participio presente attivo (hortans), perfetto passivo in senso attivo (hortatus), futuro (hortaturus), gerundivo (hortandus); semi-deponenti (audeo/ausus, gaudeo/gavisi). Reggenze proprie (utor + ablativo). Regola operativa: paradigmi da imparare interi, mai ricavati.",
+    "tecnica": "Diagnosi: temi suppletivi (fer-/tul-/lat-); potis+sum; deponente riconosciuto dal lessico (voce passiva, senso attivo)."
+  },
+  "definitions": [
+    "Suppletivismo: temi diversi per uno stesso verbo (fero/tuli/latum).",
+    "Deponente: forma passiva con significato attivo.",
+    "Semi-deponente: perfetto deponente con presente attivo."
+  ],
+  "examples": [
+    "Possunt venire: possono venire (possum + infinito).",
+    "Usus est consilio: si servì del consiglio (utor + ablativo)."
+  ],
+  "counterexamples": [
+    "Hortor tradotto passivo: è attivo (esorto).",
+    "Fero coniugato come lego (fers, non legis)."
+  ],
+  "errorsTypical": [
+    "Ricavare tuli da fero per analogia.",
+    "Tradurre i deponenti al passivo.",
+    "Dimenticare l'ablativo con utor/fruor/fungor."
+  ],
+  "keywords": [
+    "sum",
+    "fero",
+    "eo",
+    "volo",
+    "deponenti",
+    "suppletivismo"
+  ],
+  "prerequisites": [
+    "latino:verbo",
+    "latino:sistema-casi"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "latino:sistema-casi",
+      "note": "Verbo irregolare dopo le coniugazioni regolari."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "latino:verbo",
+      "note": "Stesse categorie (tempi, modi) su temi anomali."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-lingua-latina",
+      "title": "Latino, lingua — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/lingua-latina/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Profilo già usato nei nodi latino; contenuto NON ancora revisionato puntualmente."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Paradigmi di fero ed eo?",
+        "a": "Fero/tuli/latum; eo/ii(itum)."
+      },
+      {
+        "q": "Deponente in una riga?",
+        "a": "Forma passiva, senso attivo (hortor = esorto)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'Sequitur hostes' significa:",
+        "choices": [
+          "È seguito dai nemici",
+          "Segue i nemici",
+          "Seguirà",
+          "I nemici seguono lui passivamente"
+        ],
+        "answer": 1,
+        "explanation": "Sequor deponente: attivo (insegue)."
+      }
+    ],
+    "questionsOpen": [
+      "Coniuga possum al presente e spiega potis+sum.",
+      "Perché amatum iri usa eo? (passivo futuro)"
+    ]
+  }
+}

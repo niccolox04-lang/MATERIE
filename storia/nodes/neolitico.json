@@ -1,0 +1,131 @@
+{
+  "id": "storia:neolitico",
+  "subject": "storia",
+  "title": "Neolitico: agricoltura, villaggi, citt\u00c3\u00a0",
+  "slug": "neolitico",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 5,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "chrono": {
+    "start": "-9500",
+    "end": "-3000",
+    "label": "dalla Mezzaluna fertile alle prime citt\u00c3\u00a0 (convenzione)",
+    "place": "Mezzaluna fertile, Mediterraneo"
+  },
+  "summary": "Rivoluzione neolitica: domesticazione di cereali e animali nella Mezzaluna fertile (~9500 a.C.), villaggi stabili (\u00c3\u2021atalh\u00c3\u00b6y\u00c3\u00bck), ceramica e tessitura; surplus, propriet\u00c3\u00a0, gerarchie e prime citt\u00c3\u00a0 come premesse della civilt\u00c3\u00a0.",
+  "explanations": {
+    "semplice": "Finisce il ghiaccio e in Medio Oriente alcuni iniziano a coltivare grano e ad allevare pecore invece di cercare cibo: nascono villaggi di case, si fanno vasi e vestiti. Chi ha pi\u00c3\u00b9 raccolto comanda di pi\u00c3\u00b9: nascono ricchi, capi e poi citt\u00c3\u00a0.",
+    "approfondita": "Natufiani sedentari pre-agricoli come premessa; neolitico preceramico (Gerico, mura e torre); grano, orzo, legumi, pecore, capre, bovini e maiali come pacchetto (date circa, centri multipli discussi: Anatolia, Zagros, Cina e Americhe come sviluppi indipendenti dichiarati). \u00c3\u2021atalh\u00c3\u00b6y\u00c3\u00bck (case-addossate, affreschi, sepolture domestiche) come caso. Conseguenze: surplus e stoccaggio, propriet\u00c3\u00a0 e disuguaglianze (scheletri e corredi come prove), specializzazione, culti comunitari (G\u00c3\u00b6bekli Tepe pre-agricolo come problema aperto), crescita demografica e malattie; megalitismo atlantico (Stonehenge come orizzonte). Dibattito: rivoluzione o transizione graduale (Braidwood, Childe riletto).",
+    "tecnica": "Fonti: archeobotanica e zooarcheologia, sequenze stratigrafiche, datazioni C14 calibrate; domesticazione come processo, non evento."
+  },
+  "definitions": [
+    "Neolitico: et\u00c3\u00a0 della pietra levigata con produzione del cibo.",
+    "Domesticazione: controllo riproduttivo di piante e animali.",
+    "Surplus: eccedenza oltre la sussistenza immediata."
+  ],
+  "examples": [
+    "Gerico preceramica: torre e mura prima della ceramica.",
+    "\u00c3\u2021atalh\u00c3\u00b6y\u00c3\u00bck: case senza strade, tetti come vie."
+  ],
+  "counterexamples": [
+    "Agricoltura inventata una volta sola: centri indipendenti multipli.",
+    "Progresso felice automatico: lavoro, malattie e gerarchie."
+  ],
+  "errorsTypical": [
+    "Confondere Mesolitico e Neolitico (predazione contro produzione).",
+    "Datare la ceramica prima dell'agricoltura in Oriente.",
+    "Fare delle citt\u00c3\u00a0 un esito immediato (millenni dopo)."
+  ],
+  "keywords": [
+    "Mezzaluna",
+    "domesticazione",
+    "\u00c3\u2021atalh\u00c3\u00b6y\u00c3\u00bck",
+    "surplus",
+    "Gerico"
+  ],
+  "prerequisites": [
+    "storia:paleolitico"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Soglia delle civilt\u00c3\u00a0 dopo il Paleolitico."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:paleolitico",
+      "note": "Continuit\u00c3\u00a0 di tecniche e rottura economica."
+    }
+  ],
+  "claims": [
+    {
+      "id": "neolitico-rivoluzione",
+      "statement": "Neolitico come ultima fase eta pietra con agricoltura tempi diversi: Vicino Oriente 9000, SE Europa 7000, Centro 5500, Nord 4000, E Asia 6000-2000; Childe 1940s rivoluzione ma oggi cambiamento graduale con semi-nomadismo; ceramica non sempre dopo agricoltura (Giappone prima, Vicino Oriente dopo).",
+      "supportedBy": [
+        "whe-neolitico"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-neolitico",
+      "title": "Neolithic Period - World History Encyclopedia",
+      "author": "Cristian Violatti",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Neolithic/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "neolitico-rivoluzione"
+      ],
+      "note": "Ispezionato 2026-09-27 (2018). Date regionali, Childe, gradualismo, ceramica."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Dove e quando l'agricoltura?",
+        "a": "Mezzaluna fertile ~9500 a.C.; altri centri indipendenti."
+      },
+      {
+        "q": "Surplus porta a?",
+        "a": "Propriet\u00c3\u00a0, gerarchie, specializzazione, citt\u00c3\u00a0."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "\u00c3\u2021atalh\u00c3\u00b6y\u00c3\u00bck mostra:",
+        "choices": [
+          "Nomadismo",
+          "Villaggio denso con case-addossate",
+          "Piramidi",
+          "Monete"
+        ],
+        "answer": 1,
+        "explanation": "Abitato neolitico anatolico senza strade."
+      }
+    ],
+    "questionsOpen": [
+      "Rivoluzione o transizione? Con quali prove?",
+      "Perch\u00c3\u00a9 l'agricoltura peggiora salute e uguaglianza all'inizio?"
+    ]
+  },
+  "contentDepth": "deep"
+}

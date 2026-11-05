@@ -1,0 +1,138 @@
+{
+  "id": "filosofia:aristotele-etica",
+  "subject": "filosofia",
+  "title": "Aristotele — Anima, etica, politica e arte",
+  "slug": "aristotele-etica",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "filosofia:aristotele",
+  "order": 3,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "L'anima è forma del corpo (nutritiva, sensitiva, pensante); la virtù etica è abito del giusto mezzo, sopra di essa le virtù dianoetiche e al culmine la contemplazione. L'uomo è animale politico: la polis è il fine. L'arte imita l'universale e purifica (catarsi).",
+  "explanations": {
+    "semplice": "L'anima non è prigioniera del corpo: è la sua forma, come la vista è forma dell'occhio. Essere virtuosi significa trovare la giusta misura tra troppo e troppo poco (il coraggio sta tra viltà e temerarietà), con l'abitudine. La cosa più alta resta pensare, e l'uomo diventa buono solo vivendo con gli altri nella città. Le tragedie ci emozionano e ci purificano.",
+    "approfondita": "Anima: forma della materia corporea; gradi gerarchici (nutritiva nelle piante, anche motrice-senziente negli animali, anche pensante nell'uomo); mortale in quanto legata al corpo, salvo il problema dell'intelletto: la conoscenza noetica dipende da un'attività divina esterna (intelletto agente contro intelletto in potenza/passivo-fantasia). Etica: virtù come hexis pratica (ethos, non teoria), giusto mezzo tra eccesso e difetto; sopra le etiche, le dianoetiche; culmine nella vita teoretica di impronta platonica. Politica: polis come atto rispetto a individuo-famiglia (potenza); analisi empirica delle 158 costituzioni con la scuola. Arte: mimesi non del singolo ma dell'universale che traluce in esso (rivalutazione antiplatonica); potere catartico della tragedia; resta il presupposto imitativo, senza libera creazione.",
+    "tecnica": "Corpus: De anima 3 libri, Etica Nicomachea 10, Politica 8, Poetica, Retorica 3. Phronesis giovanile (contemplativa) vs phronesis matura (prudenza pratica tra le virtù)."
+  },
+  "definitions": [
+    "Giusto mezzo: equilibrio dell'abito tra vizio per eccesso e per difetto.",
+    "Hexis: abito stabile del volere, prodotto dall'esercizio.",
+    "Catarsi: purificazione affettiva operata dalla tragedia."
+  ],
+  "examples": [
+    "Coraggio tra viltà ed temerarietà; liberalità tra avarizia e prodigalità.",
+    "Edipo come mimesi di un universale umano, non cronaca di un singolo."
+  ],
+  "counterexamples": [
+    "L'ascesi platonica della separazione: Aristotele integra corpo e passioni nell'ordine.",
+    "L'arte come copia di copia: rovesciata in imitazione dell'universale."
+  ],
+  "errorsTypical": [
+    "Ridurre il giusto mezzo a mediocrità: è eccellenza calibrata sulla retta ragione.",
+    "Fare dell'intelletto agente una 'parte' mortale: è attività divina separata."
+  ],
+  "keywords": [
+    "hexis",
+    "giusto mezzo",
+    "phronesis",
+    "animale politico",
+    "catarsi",
+    "mimesi"
+  ],
+  "prerequisites": [
+    "filosofia:aristotele-metafisica",
+    "filosofia:platone-anima",
+    "filosofia:platone-politica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:aristotele",
+      "note": "Filosofia pratica e psicologia."
+    },
+    {
+      "type": "CONTRASTS_WITH",
+      "to": "filosofia:platone-anima",
+      "note": "Anima-forma del corpo contro anima separata."
+    },
+    {
+      "type": "CONTRASTS_WITH",
+      "to": "filosofia:platone-politica",
+      "note": "Analisi empirica delle costituzioni contro città ideale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:ellenismo",
+      "note": "Etica come modello e bersaglio delle scuole ellenistiche."
+    }
+  ],
+  "claims": [
+    {
+      "id": "aristotele-mezzo",
+      "statement": "La virtù etica è abito del giusto mezzo tra eccesso e difetto, coronato da virtù dianoetiche e contemplazione.",
+      "supportedBy": [
+        "treccani-aristotele"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-aristotele",
+      "title": "Aristotele — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/aristotele/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "supports": [
+        "anima forma del corpo e intelletto agente",
+        "virtù come abito e giusto mezzo",
+        "polis e costituzioni",
+        "mimesi e catarsi"
+      ],
+      "note": "Sezioni etica/anima/arte lette via fetch il 2026-09-24."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "I tre gradi dell'anima?",
+        "a": "Nutritiva (piante), sensitivo-motrice (animali), pensante (uomo)."
+      },
+      {
+        "q": "Perché la tragedia purifica?",
+        "a": "La mimesi dell'universale muove e scarica gli affetti (catarsi)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La virtù etica aristotelica è:",
+        "choices": [
+          "Conoscenza teorica innata",
+          "Abito pratico del giusto mezzo acquisito con l'esercizio",
+          "Dono divino",
+          "Obbedienza alla legge scritta"
+        ],
+        "answer": 1,
+        "explanation": "Dipende da capacità pratiche ed ethos, non da dottrine."
+      }
+    ],
+    "questionsOpen": [
+      "Se l'anima è forma del corpo, che ne è dell'immortalità personale?",
+      "Polis come atto dell'individuo: cosa implica per chi vive fuori dalla città?"
+    ]
+  }
+}

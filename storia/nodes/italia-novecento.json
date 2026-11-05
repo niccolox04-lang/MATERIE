@@ -1,0 +1,146 @@
+{
+  "id": "storia:italia-novecento",
+  "subject": "storia",
+  "title": "Italia del Novecento: liberale, fascismo, Resistenza, Repubblica",
+  "slug": "italia-novecento",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 20,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1861",
+    "end": "2026",
+    "label": "dall'Unit\u00c3\u00a0 a oggi (limite SCOPE; date recenti solo con fonti)",
+    "place": "Italia"
+  },
+  "region": "Europa",
+  "location": "Penisola italiana",
+  "territories": "Regno d'Italia, Repubblica italiana",
+  "geographicalContext": "Mediterraneo centrale; divario Nord-Sud; emigrazione e immigrazione.",
+  "summary": "Ramo di sintesi trasversale: et\u00c3\u00a0 liberale, Grande guerra, fascismo, Resistenza, Repubblica e Costituzione, boom, anni di piombo, Tangentopoli e Seconda Repubblica; approfondimenti nei nodi figli.",
+  "explanations": {
+    "semplice": "L'Italia unita da poco affronta il Novecento: prima una democrazia fragile, poi Mussolini al potere per vent'anni con la dittatura, la guerra persa, i partigiani che liberano il Nord, la Repubblica col voto e la Costituzione, il benessere degli anni Sessanta e le crisi dopo.",
+    "approfondita": "Quadro: Stato liberale post-risorgimentale (Destra/Sinistra, trasformismo, Giolitti tra riforme e limiti, questione meridionale e suffragio 1912-13); interventismo e Grande guerra (Caporetto, Vittorio Veneto, 600.000 caduti come ordine); dopoguerra (Biennio Rosso, Fiume, squadrismo); fascismo (marcia 1922, regime, Patti 1929, Etiopia, leggi razziali 1938, guerra e 25 luglio 1943) come nodo figlio; RSI, Resistenza e liberazione come nodo figlio; Repubblica (referendum 1946, Costituente, Costituzione 1948) come nodo figlio; centrismo e centrosinistra, boom (miracolo, migrazioni interne, consumi), contestazione e strategia della tensione/anni di piombo (dibattito dichiarato), Tangentopoli 1992-94 e Seconda Repubblica. Fatto contro interpretazioni: continuit\u00c3\u00a0/rottura dello Stato, Resistenza come guerra triplice (dibattito).",
+    "tecnica": "Fonti: atti parlamentari, discorsi, memorialistica, ISTAT storico, archivi RSI/Resistenza; stime caduti come ordini discussi."
+  },
+  "definitions": [
+    "Trasformismo: prassi di maggioranze mutevoli oltre gli schieramenti.",
+    "Biennio Rosso: 1919-20, occupazioni e scioperi di massa.",
+    "Seconda Repubblica: sistema post-1994 dopo Tangentopoli (etichetta discussa)."
+  ],
+  "examples": [
+    "Suffragio quasi universale maschile (1912): democratizzazione incompiuta.",
+    "Referendum 1946: Repubblica con scarto ridotto e frattura Nord-Sud."
+  ],
+  "counterexamples": [
+    "Fascismo come parentesi senza radici: crisi liberale come terreno.",
+    "Boom solo miracolo: squilibri e costi sociali insieme."
+  ],
+  "errorsTypical": [
+    "Fare del 1922 un colpo di Stato militare (trasferimento con resa delle autorit\u00c3\u00a0).",
+    "Confondere RSI e Regno del Sud (due Italie 1943-45).",
+    "Datare la Costituzione al 1946 (promulgata dicembre 1947, in vigore 1948)."
+  ],
+  "keywords": [
+    "Giolitti",
+    "1922",
+    "Resistenza",
+    "Costituzione",
+    "Tangentopoli"
+  ],
+  "prerequisites": [
+    "storia:ottocento"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Percorso Italia come ramo trasversale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:guerre",
+      "note": "Guerre mondiali come cesure italiane."
+    }
+  ],
+  "claims": [
+    {
+      "id": "italia-novecento-quadro",
+      "statement": "L'Italia attraversa Stato liberale, fascismo (1922-43), guerra-Resistenza e Repubblica (referendum 1946, Costituzione vigente 1948) fino a Tangentopoli e Seconda Repubblica.",
+      "supportedBy": [
+        "manuale-italia",
+        "whe-italy-20th-century"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-italia",
+      "title": "Profilo standard di Italia del Novecento",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-italy-20th-century",
+      "title": "Italy in the 20th Century - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Italy_in_the_20th_Century/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "italia-novecento-quadro"
+      ],
+      "note": "Ispezionato 2026-09-28. Italia liberale, Grande guerra, fascismo 1922-43, Resistenza, Repubblica 1946, boom economico, anni di piombo, Tangentopoli 1992-94."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Sequenza in cinque date?",
+        "a": "1922 marcia; 1943 caduta; 1946 Repubblica; 1948 Costituzione; 1992 Tangentopoli."
+      },
+      {
+        "q": "Due Italie 1943-45?",
+        "a": "RSI al Nord, Regno del Sud con Alleati."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La Costituzione entra in vigore il:",
+        "choices": [
+          "2 giugno 1946",
+          "1 gennaio 1948",
+          "25 aprile 1945",
+          "27 dicembre 1947"
+        ],
+        "answer": 1,
+        "explanation": "Promulgata il 27-12-1947, vigente dal 1-1-1948."
+      }
+    ],
+    "questionsOpen": [
+      "1922: colpo di Stato o resa delle autorit\u00c3\u00a0? Con quali prove?",
+      "Resistenza: una o tre guerre? Il dibattito storiografico."
+    ]
+  },
+  "contentDepth": "encyclopedic"
+}

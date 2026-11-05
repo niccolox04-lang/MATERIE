@@ -1,0 +1,64 @@
+{
+  "id": "matematica:equazioni-primo-grado",
+  "subject": "matematica",
+  "title": "Equazioni e disequazioni di primo grado",
+  "slug": "equazioni-primo-grado",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "matematica:introduzione",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "Risolvere ax + b = 0 (a ≠ 0) con i due principi di equivalenza; discussione dei casi degeneri (a = 0); disequazioni con inversione del verso per fattori negativi; verifica della soluzione e problemi con modellizzazione.",
+  "explanations": {
+    "semplice": "Un'equazione è una bilancia: ciò che fai da un lato devi farlo anche dall'altro. Sposti i numeri cambiando segno, poi dividi per il numero davanti alla x (se non è zero). Alla fine rimetti la soluzione al posto della x per controllare. Nelle disequazioni (> o <), se moltiplichi per un numero negativo il verso si gira.",
+    "approfondita": "Principi: addizionando/moltiplicando entrambi i membri per quantità uguali (≠0 per il secondo) si ottiene equazione equivalente; forma normale ax = −b; se a ≠ 0 soluzione unica x = −b/a; se a = 0 e b = 0 identità (infinite), se a = 0 e b ≠ 0 impossibile. Disequazioni: stessi principi con verso conservato per fattori positivi e invertito per negativi; studio del segno per prodotti/rapporti; soluzioni come intervalli. Metodo: denominatori (mcm, C.E. se frazionarie), parentesi, trasporto, forma normale, discussione, verifica per sostituzione. Modellizzazione: traduzione testo→equazione (incognita, vincoli, unità), controllo di plausibilità. Errori tipici: dividere per zero/espressioni nulle, dimenticare l'inversione, confondere = con ⇔ nei passaggi non reversibili.",
+    "tecnica": "Equivalenza come relazione (riflessiva, simmetrica, transitiva); i principi conservano l'insieme delle soluzioni; nelle frazionarie le C.E. escludono radici estranee."
+  },
+  "definitions": ["Equazione determinata/indeterminata/impossibile: una/nessuna/infinite soluzioni.", "Disequazione: disuguaglianza con incognita, soluzione come intervallo."],
+  "proof": [
+    "Da ax + b = 0 sottrai b a entrambi i membri (1° principio): ax = −b, equazione equivalente.",
+    "Se a ≠ 0 dividi per a (2° principio): x = −b/a, equivalente alla precedente.",
+    "Ogni passaggio è reversibile, quindi l'insieme soluzioni è esattamente {−b/a}.",
+    "Se a = 0: resta b = 0 (vera per ogni x: indeterminata) oppure b ≠ 0 (falsa sempre: impossibile)."
+  ],
+  "formulas": [
+    { "expr": "ax + b = 0, a ≠ 0 ⇒ x = −b/a", "meaning": "Soluzione unica dell'equazione lineare." },
+    { "expr": "a < b, c < 0 ⇒ ac > bc", "meaning": "Inversione del verso per fattori negativi." }
+  ],
+  "examples": ["3x − 7 = 5 ⇒ 3x = 12 ⇒ x = 4; verifica: 12−7=5.", "−2x < 6 ⇒ x > −3 (divisione per −2, verso invertito)."],
+  "counterexamples": ["0x = 5 non ha soluzioni: non 'x = 5/0'.", "x < 3 e x > 5 insieme: sistema impossibile, non 'nessuna regola'."],
+  "errorsTypical": ["Dividere per (x−2) senza C.E.: si perdono/aggiungono soluzioni.", "Dimenticare l'inversione del verso.", "Verifica omessa: errori di calcolo non rilevati."],
+  "keywords": ["principi di equivalenza", "forma normale", "C.E.", "intervalli", "modellizzazione"],
+  "prerequisites": ["matematica:introduzione"],
+  "relations": [
+    { "type": "PART_OF", "to": "matematica:introduzione", "note": "Algebra di base." },
+    { "type": "CAUSE", "to": "matematica:teorema-pitagora", "note": "Il calcolo letterale serve a manipolare le formule geometriche." }
+  ],
+  "sources": [],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "I due principi in una riga?", "a": "Stessa operazione ai due membri; ×/÷ per ≠0 conservano le soluzioni." },
+      { "q": "Quando si inverte il verso?", "a": "Moltiplicando/dividendo per un numero negativo." }
+    ],
+    "quiz": [
+      {
+        "q": "2(x − 3) = 4: soluzione?",
+        "choices": ["x = 1", "x = 5", "x = −1", "impossibile"],
+        "answer": 1,
+        "explanation": "2x − 6 = 4 ⇒ 2x = 10 ⇒ x = 5."
+      },
+      {
+        "q": "0x = 0 è:",
+        "choices": ["Impossibile", "Determinata", "Indeterminata (ogni x)", "Senza senso"],
+        "answer": 2,
+        "explanation": "Uguaglianza vera per ogni valore dell'incognita."
+      }
+    ],
+    "questionsOpen": ["Modella: un numero più il suo doppio fa 27. Quale numero?", "Perché nelle frazionarie le C.E. vanno poste prima di moltiplicare?"]
+  }
+}

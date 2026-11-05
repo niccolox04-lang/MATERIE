@@ -1,0 +1,56 @@
+{
+  "id": "filosofia:contemporanea",
+  "subject": "filosofia",
+  "title": "Filosofia contemporanea — panoramica",
+  "slug": "contemporanea",
+  "status": "published",
+  "access": "free",
+  "type": "area",
+  "parent": null,
+  "order": 3,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Dall'Ottocento a oggi: idealismo e Marx, positivismo, Nietzsche, fenomenologia, filosofia analitica, ermeneutica, teoria critica. Solo panoramica pubblicata; rami analitici pianificati.",
+  "explanations": {
+    "semplice": "I contemporanei si dividono in grandi famiglie: chi studia la coscienza e il vissuto, chi studia il linguaggio, chi critica società ed economia.",
+    "approfondita": "Snodi pianificati: Hegel e idealismo, Marx, Schopenhauer, Nietzsche, Kierkegaard, positivismo, Frege e svolta linguistica, Husserl e fenomenologia, Heidegger, Wittgenstein, Scuola di Francoforte, esistenzialismo, strutturalismo e post-strutturalismo, filosofia della mente. Stato redazionale onesto: solo panoramica pubblicata."
+  },
+  "definitions": [
+    "Svolta linguistica: priorità dell'analisi del linguaggio sui problemi metafisici tradizionali."
+  ],
+  "examples": [
+    "Husserl: tornare alle cose stesse con l'epoché fenomenologica."
+  ],
+  "keywords": [
+    "fenomenologia",
+    "analitica",
+    "ermeneutica",
+    "Marx",
+    "Nietzsche"
+  ],
+  "prerequisites": [
+    "filosofia:moderna"
+  ],
+  "relations": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre famiglie del '900?",
+        "a": "Fenomenologia/ermeneutica, filosofia analitica, teoria critica."
+      }
+    ],
+    "quiz": [],
+    "questionsOpen": [
+      "Cosa accomuna e divide fenomenologia e filosofia analitica?"
+    ]
+  },
+  "level": "foundation"
+}

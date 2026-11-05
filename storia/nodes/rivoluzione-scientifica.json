@@ -1,0 +1,207 @@
+{
+  "id": "storia:rivoluzione-scientifica",
+  "subject": "storia",
+  "title": "Rivoluzione scientifica e metodo",
+  "slug": "rivoluzione-scientifica",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 12,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1543",
+    "end": "1687",
+    "label": "da Copernico a Newton (convenzione)",
+    "place": "Europa"
+  },
+  "summary": "Nuova scienza della natura: Copernico (1543), Keplero e Galileo (cannocchiale, metodo), Bacone e Cartesio sul metodo, Newton (1687) come sintesi; accademie, strumenti e stampa come condizioni; processo a Galileo (1633) come nodo.",
+  "explanations": {
+    "semplice": "Alcuni studiosi cambiano idea sull'universo: la Terra gira intorno al Sole, la Luna ha montagne e tutto si può misurare con la matematica. Si guarda col cannocchiale, si fanno esperimenti e si stampano libri. La Chiesa condanna Galileo ma le idee vincono.",
+    "approfondita": "Copernico (De revolutionibus 1543, eliocentrismo con epicicli residui); Keplero (ellissi e aree-armonica dai dati di Brahe); Galileo (Sidereus 1610, caduta e moto, Dialogo 1632, abiura 1633 con distinzione fatto-processo); Bacone (Novum Organum, idola e induzione) e Cartesio (metodo, dubbio, meccanicismo) come programmi contrapposti e complementari; Newton (Principia 1687: leggi, gravitazione, calcolo come orizzonte) e Royal Society/Académie come istituzioni. Condizioni: stampa, strumenti (lenti, orologi, pompe), navigazione e artiglieria; ermetismo e astrologia come contesto superato (dichiarato). Fatto contro mito: rivoluzione come processo con continuità medievali (Merton, Duhem come orizzonte storiografico).",
+    "tecnica": "Fonti: trattati a stampa, lettere, atti processuali galileiani, registri accademici; priorità e scoperte simultanee come problemi."
+  },
+  "definitions": [
+    "Metodo sperimentale-matematico: ipotesi, misura, legge verificabile.",
+    "Eliocentrismo: Sole al centro dei moti planetari.",
+    "Accademia: istituzione collettiva di ricerca e verifica."
+  ],
+  "examples": [
+    "Sidereus Nuncius 1610: satelliti di Giove contro sfere intoccabili.",
+    "Principia 1687: stessa legge per mela e Luna (programma). "
+  ],
+  "counterexamples": [
+    "Medioevo senza scienza: Scuola di Chartres e calcolatori di Oxford.",
+    "Galileo solo martire: cortigiano e accademico di successo prima."
+  ],
+  "errorsTypical": [
+    "Fare del 1543 l'interruttore unico (processo secolare).",
+    "Confondere Bacone e Cartesio come stesso metodo.",
+    "Ridurre il processo a scienza contro fede in blocco."
+  ],
+  "keywords": [
+    "1543",
+    "Galileo",
+    "Keplero",
+    "metodo",
+    "1687"
+  ],
+  "prerequisites": [
+    "storia:rinascimento",
+    "storia:scoperte-riforma"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Nuova natura tra Rinascimento e Lumi."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:cartesio",
+      "note": "Metodo cartesiano come programma filosofico."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "matematica:geometria-analitica",
+      "note": "Geometria cartesiana come linguaggio (1637)."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "fisica:cinematica",
+      "note": "Moto galileiano come fisica nuova."
+    }
+  ],
+  "claims": [
+    {
+      "id": "rivoluzione-scienza-quadro",
+      "statement": "La rivoluzione scientifica e per convenzione collocata tra il De revolutionibus di Copernico (1543) e i Principia di Newton (1687), caratterizzata da calcolo matematico applicato alla fisica e indagine sperimentale.",
+      "supportedBy": [
+        "treccani-rivoluzione",
+        "sep-kuhn"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-rivoluzione",
+      "title": "Rivoluzione scientifica — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/rivoluzione-scientifica/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "rivoluzione-scienza-quadro"
+      ],
+      "note": "Contenuto ispezionato il 2026-09-27. Verificati: trasformazione tra 16 e 17 sec. di immagine di natura e cosmo; convenzione 1543-1687; calcolo matematico e indagine sperimentale."
+    },
+    {
+      "id": "sep-kuhn",
+      "title": "Thomas Kuhn — Stanford Encyclopedia of Philosophy",
+      "author": "Thomas Kuhn (voce SEP, rev. 2025)",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/thomas-kuhn/",
+      "sourceType": "academic-site",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "rivoluzione-scienza-quadro"
+      ],
+      "note": "Contenuto ispezionato il 2026-09-27 (rev. 2 set 2025). Verificati: Kuhn 1922-1996; Structure 1962 tra i libri piu citati; Copernican Revolution 1957; scienza con fasi stabili e rivoluzioni; incommensurabilita; analogia evolutiva non teleologica nel cap. Progress through Revolutions."
+    }
+  ],
+  "historiography": [
+    {
+      "id": "rivoluzione-rottura-o-continuita",
+      "question": "La rivoluzione scientifica e rottura paradigmatica o processo con continuita medievali?",
+      "whyContested": "La stessa periodizzazione 1543-1687 presenta come convenzione una rottura che le fonti (trattati, lettere, registri) mostrano come processo con persistenze; la ricerca discute se i paradigmi siano incommensurabili o cumulativi.",
+      "positions": [
+        {
+          "label": "Discontinuita paradigmatica (Kuhn)",
+          "authors": [
+            "Thomas Kuhn"
+          ],
+          "works": [
+            "The Structure of Scientific Revolutions (1962)"
+          ],
+          "evidence": [
+            "La scienza alterna fasi stabili e rivoluzioni revisionarie.",
+            "Le teorie di periodi diversi soffrono di incommensurabilita.",
+            "Il progresso e allontanamento dal primitivo senza telos verso il vero (analogia darwiniana)."
+          ],
+          "status": "verified"
+        },
+        {
+          "label": "Continuita e processo (limite documentato)",
+          "authors": [],
+          "works": [],
+          "evidence": [
+            "La periodizzazione 1543-1687 e dichiarata per convenzione, non come interruttore unico.",
+            "Il nodo registra continuita medievali come orizzonte storiografico da discutere."
+          ],
+          "status": "partially_verified"
+        }
+      ],
+      "agreements": [
+        "Copernico 1543 e Newton 1687 sono capisaldi cronologici convenzionali.",
+        "Matematizzazione e sperimentalismo sono tratti distintivi del processo."
+      ],
+      "disputes": [
+        "Se il mutamento sia rivoluzione incommensurabile o trasformazione cumulativa.",
+        "Quanto pesino ermetismo, astrologia e scienza medievale come continuita."
+      ],
+      "limits": [
+        "La posizione continuista non e sostenuta in questa revisione da una fonte moderna ispezionata: resta partially_verified.",
+        "SEP ispezionata solo per Kuhn; Koyre e Shapin restano orizzonte da verificare."
+      ],
+      "supportedBy": [
+        "treccani-rivoluzione",
+        "sep-kuhn"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "1543 e 1687?",
+        "a": "Copernico pubblica; Newton sintetizza."
+      },
+      {
+        "q": "Galileo in due mosse?",
+        "a": "Cannocchiale e metodo; processo 1633."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il Sidereus Nuncius prova soprattutto:",
+        "choices": [
+          "La sfericità terrestre",
+          "Cieli corruttibili contro sfere perfette",
+          "La stampa",
+          "L'America"
+        ],
+        "answer": 1,
+        "explanation": "Luna montuosa e satelliti medicei osservati."
+      }
+    ],
+    "questionsOpen": [
+      "Rottura o continuità col Medioevo? Con quali prove?",
+      "Perché le accademie contano quanto i geni?"
+    ]
+  }
+}

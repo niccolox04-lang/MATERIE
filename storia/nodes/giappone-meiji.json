@@ -1,0 +1,164 @@
+{
+  "id": "storia:giappone-meiji",
+  "subject": "storia",
+  "title": "Bakumatsu e Restaurazione Meiji",
+  "slug": "giappone-meiji",
+  "status": "published",
+  "access": "pro",
+  "type": "approfondimento",
+  "parent": "storia:giappone-premoderno",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1853",
+    "end": "1890",
+    "label": "da Perry alla Costituzione (convenzione)",
+    "place": "Giappone"
+  },
+  "region": "Asia",
+  "location": "Edo-Tokyo, Kyoto, Satsuma e Choshu",
+  "territories": "Impero giapponese nascente",
+  "geographicalContext": "Pressione navale occidentale; trattati ineguali come ferita.",
+  "summary": "Transizione come processo: Perry (1853) e trattati ineguali, Bakumatsu e Boshin, editto 1868 e Patto dei Cinque Articoli (aprile 1868, testo verificato), abolizione han, coscrizione, Costituzione 1889 e Dieta 1890.",
+  "explanations": {
+    "semplice": "Navi americane costringono il Giappone ad aprire i porti: molti danno la colpa allo shogun e riportano l'imperatore al potere. Il nuovo governo promette scuole e leggi moderne, toglie i privilegi ai samurai e in vent'anni il Giappone diventa forte come l'Europa.",
+    "approfondita": "Bakumatsu (1853-68): Perry e Kanagawa 1854, Harris 1858 e trattati ineguali, sonno-joi e Choshu-Satsuma contro bakufu, Yoshinobu e Boshin 1868-69. Patto dei Cinque Articoli (aprile 1868, testo verificato parola per parola): assemblee e discussione pubblica, unione delle classi, carriere aperte, fine dei cattivi costumi, sapere dal mondo. Riforme: han aboliti 1871, coscrizione 1873, scuola 1872, fisco fondiario, Iwakura e modelli tedesco-britannici (dibattito dichiarato), Costituzione 1889 e Dieta 1890; ribellioni samuraiche (Satsuma 1877) come costo. Fatto contro mito: restaurazione come rivoluzione dall'alto di ex-samurai, non ritorno all'antico.",
+    "tecnica": "Fonti: Patto (testo verificato Columbia/de Bary), editti, memoriali Iwakura, stampa Meiji; statistiche fiscali come serie discusse."
+  },
+  "definitions": [
+    "Bakumatsu: fine del bakufu tra pressioni e guerre (1853-68).",
+    "Patto dei Cinque Articoli: programma imperiale dell'aprile 1868.",
+    "Trattati ineguali: concessioni extraterritoriali alle potenze."
+  ],
+  "examples": [
+    "Art. 5 del Patto: sapere dal mondo per rafforzare l'impero.",
+    "Satsuma 1877: ultimi samurai contro coscritti."
+  ],
+  "counterexamples": [
+    "Meiji come imperatore regnante effettivo: oligarchia ex-samurai.",
+    "Modernizzazione senza costi: fisco, leva e rivolte."
+  ],
+  "errorsTypical": [
+    "Fare del 1868 un interruttore (processo al 1890).",
+    "Confondere Perry (1853-54) e Harris (1858).",
+    "Leggere il Patto come costituzione democratica (programma)."
+  ],
+  "keywords": [
+    "Perry",
+    "1868",
+    "Patto",
+    "han 1871",
+    "1889"
+  ],
+  "prerequisites": [
+    "storia:giappone-tokugawa"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:giappone-premoderno",
+      "note": "Transizione nel ramo Giappone."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:ottocento",
+      "note": "Imperialismi a confronto: Giappone tra le potenze."
+    }
+  ],
+  "claims": [
+    {
+      "id": "meiji-patto",
+      "statement": "Il Patto dei Cinque Articoli (aprile 1868) promette assemblee, unione delle classi, carriere aperte, fine dei cattivi costumi e sapere dal mondo (testo verificato).",
+      "supportedBy": [
+        "columbia-charter-oath"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "id": "meiji-riforme",
+      "statement": "Han aboliti (1871), coscrizione, scuola, Costituzione (1889) e Dieta (1890) modernizzano lo Stato con ribellioni samuraiche come costo.",
+      "supportedBy": [
+        "manuale-giappone",
+        "whe-meiji"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "columbia-charter-oath",
+      "title": "The Charter Oath (1868) — Asia for Educators, Columbia University",
+      "publisher": "Columbia University (NCTA)",
+      "url": "https://afe.easia.columbia.edu/main_pop/ps//ps_japan-charter-oath-1868.htm",
+      "sourceType": "primary-source",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": ["meiji-patto"],
+      "note": "PRIMARIA: testo integrale verificato (5 articoli, aprile 1868, de Bary/Tsunoda/Keene, Columbia UP). Prima primaria del corpus."
+    },
+    {
+      "id": "manuale-giappone",
+      "title": "Profilo standard di Giappone premoderno",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-meiji",
+      "title": "Meiji Restoration - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Meiji_Restoration/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": ["meiji-riforme"],
+      "note": "Ispezionato 2026-09-27. Bakumatsu, Boshin, 1868 Patto, abolizione han 1871, coscrizione 1873, Costituzione 1889, Dieta 1890."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "1868 in sintesi?",
+        "a": "Editto, Patto dei Cinque Articoli, Boshin."
+      },
+      {
+        "q": "Art. 5 del Patto?",
+        "a": "Sapere dal mondo per rafforzare l'impero."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il Patto promette assemblee e discussione: è:",
+        "choices": [
+          "Costituzione democratica",
+          "Programma di modernizzazione imperiale",
+          "Trattato con gli USA",
+          "Editto di chiusura"
+        ],
+        "answer": 1,
+        "explanation": "Aprile 1868: programma, non costituzione (1889)."
+      }
+    ],
+    "questionsOpen": [
+      "Restaurazione o rivoluzione? Chi comanda davvero dopo?",
+      "Il Patto fu rispettato? Verifica articolo per articolo."
+    ]
+  }
+}

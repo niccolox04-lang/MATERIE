@@ -1,0 +1,115 @@
+{
+  "id": "storia:regni-marittimi-sud-est",
+  "subject": "storia",
+  "title": "Regni marittimi e commercianti del Sud-est asiatico",
+  "slug": "regni-marittimi-sud-est",
+  "status": "draft",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 3,
+  "version": 1,
+  "createdAt": "2026-09-30T00:00:00.000Z",
+  "updatedAt": "2026-09-30T00:00:00.000Z",
+  "level": "advanced",
+  "chrono": {
+    "start": "300",
+    "end": "1500",
+    "label": "dai regni fluviali del delta del Mekong alle reti marittime successive al 1500",
+    "place": "Indonesia, Malesia, Filippine, Thailandia, Vietnam, Myanmar"
+  },
+  "summary": "I regni del Sud-est asiatico si strutturano attorno a due fulcri: i porti di scambio con l'India e la Cina, e le rotte interne dei delta del Mekong e del Chao Phraya. La navigazione monsooniale sostiene il commercio delle spezie, l'adozione di religioni e tecnologie indiane e cinesi, e la nascita di potenze portuali come Srivijaya, Majapahit, Ayutthaya e Toungoo, fino alle presenze europee (Malacca 1511, Manila 1571).",
+  "explanations": {
+    "semplice": "Tra il primo e il secondo dopo Cristo, e ancora oggi, i popoli del Sud-est asiatico commerciano per via di mare: vendono spezie e riso, importano religioni e tecniche. Nascono regni potenti come Srivijaya, Majapahit e Ayutthaya, che dominano i mari del Sud per secoli, finche' portoghesi e spagnoli non arrivano nel XVI secolo.",
+    "approfondita": "Il periodo arcaico distingue una fase fluviale (Funan e i regni del delta del Mekong, I-III secolo) da una fase marittima fondata sui porti (Oc Eo, con scambi verso l'India meridionale e la Cina). Regni marittimi: Srivijaya (VII-XIII secolo) con la flotta e il controllo dei passaggi, Kadiri, Majapahit (1293-1527) con espansione nell'arcipelago, i regni birmani (Bagan, Pegu, Ava) e le dinastie thai (Sukhothai, Ayutthaya dal 1351, Toungoo dal 1555, che proietta un impero continentale). Contatti religiosi: buddismo theravada e islam, con conversioni legate ai porti; modelli di amministrazione e scrittura (kawi) di derivata indiana. Contatto con la potenza cinese: la flotta di Zheng He nel primo XV secolo, poi le basi militari cinesi in Vietnam nel XX secolo. Distinguere i fatti documentati dalle ricostruzioni: le cronache successive riflettono memoria dinastica.",
+    "tecnica": "Fonti: iscrizioni in sanskrit e kawi (Vo Canh, Talang Tuwo, Ciaruteun), il Chu Fan Chi di Zhao Rugua (1225) e i resoconti portoghesi e olandesi, l'archeologia fluviale (Oc Eo, Khao Sam Kaeo). Per passare a published il nodo richiede fonti revisionate con supports espliciti: stato attuale = draft."
+  },
+  "definitions": [
+    "Navigazione monsooniale: rotte stagionali sfruttate dai venti alternati dei monsoni.",
+    "Zomia: fascia di alta e media montagna non controllata dagli Stati agrari della regione.",
+    "Srivijaya: potenza portuale di Sumatra, attiva fra VII e XIII secolo e citata nelle fonti cinesi."
+  ],
+  "examples": [
+    "Chu Fan Chi (1225) di Zhao Rugua: descrizione cinese di Srivijaya, del Giappone e dei regni della regione.",
+    "I carichi di ceramica cinese e i relitti: prove archeologiche delle rotte a sud dell'equatore."
+  ],
+  "counterexamples": [
+    "Il Sud-est asiatico come spazio isolato: i porti sono nodi di un sistema che tocca India, Cina e arcipelago.",
+    "Un declino uniforme dopo il 1500: alcuni regni si riorganizzano (Toungoo, poi il Vietnam) prima della subordinazione europea."
+  ],
+  "errorsTypical": [
+    "Attribuire il commercio delle spezie a un solo regno: la rete coinvolge molti porti e attori.",
+    "Usare 'Sud-est asiatico' come spazio unico e omogeneo: regioni, lingue e traiettorie politiche divergono."
+  ],
+  "keywords": [
+    "Srivijaya",
+    "Majapahit",
+    "Ayutthaya",
+    "Toungoo",
+    "monsoon",
+    "kawi",
+    "spezie",
+    "Zheng He",
+    "Malacca",
+    "Mekong"
+  ],
+  "prerequisites": [
+    "storia:introduzione",
+    "storia:india-antica",
+    "storia:cina-imperiale"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Area mondiale asiatica, ramo marittimo."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:india-moderna",
+      "note": "Reti commerciali indiane e oceaniche."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:ventunesimo-secolo",
+      "note": "Controllo cinese contemporaneo sugli scali del mare del Sud."
+    }
+  ],
+  "claims": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Cosa rende distintiva la navigazione del Sud-est asiatico?",
+        "a": "I venti monsonici, stagionali e alternati."
+      },
+      {
+        "q": "Chi descrive i regni della regione nel 1225?",
+        "a": "Zhao Rugua, nel Chu Fan Chi."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La zomia indica:",
+        "choices": [
+          "Le pianure alluvionali",
+          "Le fasce montane non controllate dagli Stati",
+          "Le rotte commerciali",
+          "I porti franchi"
+        ],
+        "answer": 1,
+        "explanation": "E' l'area di alta e media montagna che sfugge al controllo degli Stati agrari."
+      }
+    ],
+    "questionsOpen": [
+      "Che ruolo ebbe il monsoon nel definire le alleanze fra i porti?",
+      "Le iscrizioni di Srivijaya sono fonte diretta o memoria costruita?"
+    ]
+  }
+}

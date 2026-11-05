@@ -1,0 +1,111 @@
+{
+  "id": "latino:consecutio",
+  "subject": "latino",
+  "title": "Consecutio temporum",
+  "slug": "consecutio",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "latino:sistema-casi",
+  "order": 6,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "summary": "Corrispondenza dei tempi al congiuntivo: principale presente/futuro con presente/perfetto subordinati (contemporaneità/anteriorità), principale passata con imperfetto/piuccheperfetto; eccezioni (presente storico, verità generali, consecutio dell'infinito e del participio).",
+  "explanations": {
+    "semplice": "Nelle frasi secondarie col congiuntivo il tempo non è libero: dipende dal verbo principale. Se il principale è al presente, la secondaria usa presente o passato prossimo del congiuntivo; se è al passato, usa imperfetto o trapassato. Contemporaneo o anteriore: questo decide.",
+    "approfondita": "Tempi principali (presente, futuro, imperativo, perfetto logico) con contemporaneità al presente e anteriorità al perfetto del congiuntivo; tempi storici (imperfetto, perfetto storico, piuccheperfetto) con imperfetto e piuccheperfetto. Posteriorità con participio futuro + sim/essem (dicturum esse ut veniret come modello). Eccezioni sistematiche: presente storico come tempo principale o storico secondo il contesto narrativo (da dichiarare); verità generali e massime al presente anche dopo passati; consecutio dell'infinito (presente/perfetto/futuro relativi) e del participio (presente/perfetto relativi) senza congiuntivo; attrazione e consecutio interna nelle subordinate di secondo grado (il tempo segue la sua reggente immediata). Diagnosi: individua il tempo della principale, poi il rapporto (stesso tempo o prima), poi scegli tra le due coppie; verifica con cum narrativo e ut già noti.",
+    "tecnica": "Operativo: perfetto logico (risultato presente) contro perfetto storico (fatto passato); piuccheperfetto solo con principale storica; consecutio mancata come segnale di indipendenza (parentesi, verità)."
+  },
+  "definitions": [
+    "Tempi principali: presente, futuro e perfetto logico della reggente.",
+    "Tempi storici: i passati narrativi della reggente.",
+    "Anteriorità al congiuntivo: perfetto dopo principali, piuccheperfetto dopo storici."
+  ],
+  "examples": [
+    "Rogat ut venias: principale presente, contemporanea al presente.",
+    "Rogavit ut venires: principale passata, contemporanea all'imperfetto."
+  ],
+  "counterexamples": [
+    "Perfetto congiuntivo dopo un passato per la contemporaneità: vuole l'imperfetto.",
+    "Presente storico trattato sempre come passato: segue il contesto."
+  ],
+  "errorsTypical": [
+    "Confondere perfetto logico e storico (risultato contro narrazione).",
+    "Applicare la consecutio all'infinito (ha tempi propri relativi).",
+    "Dimenticare la consecutio interna nelle subordinate dipendenti."
+  ],
+  "keywords": [
+    "consecutio",
+    "principali",
+    "storici",
+    "contemporaneità",
+    "anteriorità"
+  ],
+  "prerequisites": [
+    "latino:cum-ut",
+    "latino:verbo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "latino:sistema-casi",
+      "note": "Sistema dei tempi subordinati dopo le prime subordinate."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "latino:cum-ut",
+      "note": "Cum narrativo e ut come casi di applicazione."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-lingua-latina",
+      "title": "Latino, lingua — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/lingua-latina/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Profilo già usato nei nodi latino; contenuto NON ancora revisionato puntualmente."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Le due coppie?",
+        "a": "Principali: presente/perfetto; storici: imperfetto/piuccheperfetto."
+      },
+      {
+        "q": "Posteriorità al congiuntivo?",
+        "a": "Participio futuro + sim/essem secondo la principale."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'Imperavit ut milites fortiter pugnarent': l'imperfetto perché:",
+        "choices": [
+          "Anteriorità",
+          "Contemporaneità dopo principale storica",
+          "Posteriorità",
+          "Verità generale"
+        ],
+        "answer": 1,
+        "explanation": "Principale passata + azione contemporanea: imperfetto."
+      }
+    ],
+    "questionsOpen": [
+      "Distingui perfetto logico e storico in due frasi.",
+      "Perché l'infinito non segue la consecutio?"
+    ]
+  }
+}

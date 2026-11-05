@@ -1,0 +1,114 @@
+{
+  "id": "filosofia:platone-mondi",
+  "subject": "filosofia",
+  "title": "Platone — Sensibile e intelligibile",
+  "slug": "platone-mondi",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "filosofia:platone",
+  "order": 3,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Il mondo visibile in divenire (opinione) si oppone al mondo invisibile dell'essere (scienza): le cose sensibili traggono fondamento dalle idee e ne sono immagini; la conoscenza vera è dialettica, non sensazione.",
+  "explanations": {
+    "semplice": "Ci sono due livelli: ciò che cambia (le cose che tocchiamo) e ciò che resta sempre uguale (le idee che pensiamo). Con gli occhi abbiamo solo opinioni; con la mente, studiando i collegamenti tra idee, arriviamo alla scienza.",
+    "approfondita": "Il dualismo è insieme ontologico e gnoseologico: mondo ideale invisibile, eleatico, dell'essere contro mondo eracliteo del divenire visibile. Le idee non sono solo criteri gnoseologici ma fondamento dell'esistenza delle cose. La dialettica, depurata dall'eristica sofistica, ripercorre i nessi oggettivi tra idee senza riferimenti sensibili e culmina nella contemplazione della gerarchia. La crisi del socratismo (Menone: scienza come conoscenza di verità eterne; Gorgia: dualismo bene/piacere, anima/corpo) prepara questo esito. Resta il problema — che il tardo Platone affronterà — di mediare i due mondi senza cadere nel rigido dualismo (idee-numeri, Timeo).",
+    "tecnica": "Coppie: doxa/episteme, aisthesis/dianoia-nous, methexis/mimesis. La dialettica come metodo sarà ridefinita nel Sofista come divisione (diairesis) dei generi."
+  },
+  "definitions": [
+    "Opinione (doxa): conoscenza legata al sensibile, mutevole e non fondante.",
+    "Scienza (episteme): contemplazione intellettuale delle idee e dei loro rapporti."
+  ],
+  "examples": [
+    "Giudicare un'azione confrontandola con l'idea di Giusto invece che con l'impressione del momento."
+  ],
+  "counterexamples": [
+    "Il sensismo criticato nel Teeteto: ridurre conoscenza a sensazione dissolve stabilità e verità."
+  ],
+  "errorsTypical": [
+    "Credere che Platone disprezzi ogni esperienza: il sensibile è immagine, inferiore ma non nulla, e avvia il ricordo (Fedro, Simposio)."
+  ],
+  "keywords": [
+    "doxa",
+    "episteme",
+    "dialettica",
+    "eristica",
+    "Menone",
+    "Gorgia"
+  ],
+  "prerequisites": [
+    "filosofia:platone-teoria-idee"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:platone",
+      "note": "Aspetto della dottrina platonica."
+    },
+    {
+      "type": "CAUSE",
+      "to": "filosofia:platone-dialettica",
+      "note": "Il dualismo richiede il metodo dialettico; la sua revisione tarda ne deriva."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:platone-anamnesi",
+      "note": "Come l'anima passa dal sensibile all'intelligibile."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-platone",
+      "title": "Platone — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/platone/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Sezione La filosofia verificata con fetch il 2026-09-23.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento delle opere",
+        "dottrina delle idee",
+        "morale e politica",
+        "dialettica tarda e Timeo"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Doxa vs episteme?",
+        "a": "Opinione sul sensibile mutevole contro scienza delle idee."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La dialettica platonica si distingue dall'eristica perché:",
+        "choices": [
+          "Serve a vincere ogni discussione",
+          "Ricerca la verità nei nessi oggettivi tra idee",
+          "Si basa solo sulle sensazioni",
+          "Rifiuta ogni argomentazione"
+        ],
+        "answer": 1,
+        "explanation": "Contro le degenerazioni sofistiche, la dialettica è strumento supremo della conoscenza."
+      }
+    ],
+    "questionsOpen": [
+      "Menone e Gorgia: in che senso preparano il dualismo?",
+      "Perché il dualismo rigido genera il problema della mediazione?"
+    ]
+  },
+  "level": "intermediate"
+}

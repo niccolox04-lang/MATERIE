@@ -1,0 +1,76 @@
+{
+  "id": "fisica:newton-secondo-principio",
+  "subject": "fisica",
+  "title": "Secondo principio della dinamica (F = ma)",
+  "slug": "newton-secondo-principio",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "fisica:introduzione",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "In un riferimento inerziale la forza risultante su un corpo è uguale al prodotto di massa per accelerazione (F = ma, in forma vettoriale): la forza causa variazioni di velocità, non la velocità stessa. Unità: il newton (kg·m/s²).",
+  "explanations": {
+    "semplice": "Spingi un carrello: più è pesante, più fatica per la stessa accelerazione; più spingi forte, più accelera. La forza non serve a mantenere la velocità (su ghiaccio il disco scivola da solo), ma a cambiarla.",
+    "approfondita": "Enunciato: ΣF = m·a con massa inerziale costante nel regime classico; in forma generale F = dp/dt (variazione della quantità di moto), che include massa variabile. Significato fisico: secondo principio come definizione operativa di forza e massa inerziale una volta fissati spazio-tempo inerziali (primo principio); terzo principio per le interazioni. Vettorialità: forza e accelerazione hanno direzione e verso; la risultante si compone col parallelogramma. Limiti: v ≪ c (oltre serve la relatività), scale quantistiche, riferimenti non inerziali (forze apparenti). Esempio svolto: m = 2 kg, a = 3 m/s² nella stessa direzione ⇒ F = 6 N. Caduta libera come caso: a = g ≈ 9,81 m/s² ⇒ peso P = mg.",
+    "tecnica": "Dimensioni: [F] = M·L·T⁻²; 1 N = 1 kg·m/s². Composizione vettoriale e scomposizione su assi; diagramma di corpo libero come metodo."
+  },
+  "definitions": [
+    "Massa inerziale: resistenza del corpo alla variazione di velocità.",
+    "Newton: forza che imprime a 1 kg l'accelerazione di 1 m/s².",
+    "Riferimento inerziale: sistema in cui vale il primo principio (moto rettilineo uniforme senza forze)."
+  ],
+  "formulas": [
+    { "expr": "F = m·a (vettoriale)", "meaning": "La risultante delle forze determina modulo direzione e verso dell'accelerazione." },
+    { "expr": "F = dp/dt", "meaning": "Forma generale: la forza è la rapidità di variazione della quantità di moto." },
+    { "expr": "P = m·g", "meaning": "Peso come forza gravitazionale in prossimità della superficie terrestre." }
+  ],
+  "examples": ["Auto di 1000 kg che accelera di 2 m/s²: spinta risultante 2000 N.", "Disco su ghiaccio: dopo la spinta iniziale prosegue quasi senza forza (primo principio)."],
+  "counterexamples": ["Il moto uniforme non richiede forza applicata: richiedeva spinta solo con attrito (forza contraria)."],
+  "errorsTypical": ["Forza proporzionale alla velocità invece che all'accelerazione (errore pre-newtoniano).", "Confondere massa e peso (kg contro N).", "Applicare F = ma in riferimenti accelerati senza forze apparenti."],
+  "keywords": ["forza", "massa inerziale", "accelerazione", "newton", "quantità di moto", "inerziale"],
+  "prerequisites": ["fisica:introduzione", "fisica:cinematica"],
+  "relations": [
+    { "type": "PART_OF", "to": "fisica:introduzione", "note": "Prima legge quantitativa." },
+    { "type": "RELATED_TO", "to": "matematica:introduzione", "note": "Strumento: proporzionalità diretta, vettori, derivate per a = dv/dt." }
+  ],
+  "sources": [
+    {
+      "id": "treccani-dinamica",
+      "title": "Dinamica — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/dinamica/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "reachable",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "HEAD 200 il 2026-09-24; contenuto NON ancora revisionato: enunciati standard della meccanica classica."
+    }
+  ],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Enunciato e unità?", "a": "ΣF = ma; 1 N = 1 kg·m/s²." },
+      { "q": "La forza causa velocità o accelerazione?", "a": "Accelerazione: variazione di velocità (vettoriale)." }
+    ],
+    "quiz": [
+      {
+        "q": "Un corpo si muove a velocità costante in linea retta: la risultante delle forze è:",
+        "choices": ["Uguale alla velocità", "Nulla (primo principio)", "Uguale alla massa", "Sempre 9,81 N"],
+        "answer": 1,
+        "explanation": "Senza variazione di velocità, a = 0 ⇒ ΣF = 0."
+      },
+      {
+        "q": "Forza di 6 N su 2 kg: accelerazione?",
+        "choices": ["12 m/s²", "3 m/s²", "4 m/s²", "8 N"],
+        "answer": 1,
+        "explanation": "a = F/m = 3 m/s² nella direzione della forza."
+      }
+    ],
+    "questionsOpen": ["Disegna il diagramma di corpo libero di un libro sul tavolo: quali forze e risultante?", "Perché in auto in curva 'senti' una spinta? Riferimento inerziale o no?"]
+  }
+}

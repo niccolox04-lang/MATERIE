@@ -1,0 +1,63 @@
+{
+  "id": "greco:declinazioni-nome",
+  "subject": "greco",
+  "title": "Il nome: articolo e tre declinazioni",
+  "slug": "declinazioni-nome",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "L'articolo determinativo (ὁ ἡ τό) e tre declinazioni: I in -α/-η (femminili e maschili), II in -ο (λόγος, δῶρον), III atematica in consonante (genitivo in -ος). Il caso si decide con desinenza, articolo e concordanze.",
+  "explanations": {
+    "semplice": "I nomi greci cambiano finale secondo tre famiglie. La prima finisce in -a o -e (come χώρα, terra), la seconda in -os o -on (come λόγος, parola), la terza è irregolare e va imparata col genitivo (come φύλαξ, guardiano, genitivo φύλακος). L'articolo (il, lo, la) aiuta: ha forme diverse per ogni caso.",
+    "approfondita": "I declinazione (temi in -α/-η lunga e breve): femminili in -α pura (χώρᾱ), -η (τιμή), -α impura breve (θάλαττα/γλῶττα in attico); maschili in -ας/-ης (νεανίας, πολίτης) con genitivo in -ου. Desinenze modello (τιμή): -η, -ης, -ῃ, -ην, -η; plur. -αι, -ῶν, -αις, -ας, -αι. II declinazione (temi in -ο): maschili/femminili -ος (λόγος, ὁδός), neutri -ον (δῶρον). Modello (λόγος): -ος, -ου, -ῳ, -ον, -ε; plur. -οι, -ων, -οις, -ους, -οι; neutro -ον/-ου/-ῳ/-ον/-ον, plur. -α/-ων/-οις/-α/-α. III declinazione (atematica): temi in consonante, -ι/-υ, dittonghi, -ευ; genitivo in -ος (φύλαξ/φύλακος, σῶμα/σώματος, πόλις/πόλεως, βασιλεύς/βασιλέως). Articolo: ὁ ἡ τό, τοῦ τῆς τοῦ, τῷ τῇ τῷ, τόν τήν τό; plur. οἱ αἱ τά ecc. Principio: genitivo dà il tema (toglie -ος), nominativo spesso alterato (apofonia, cadute). Duali omessi in prima lettura (da dichiarare).",
+    "tecnica": "Criteri operativi: uscita del nominativo per l'ipotesi, genitivo per il tema; alternanze quantitative (πόλις/πόλεως); neutri con nominativo=accusativo=vocativo; aggettivi a tre uscite (ἀγαθός/ἀγαθή/ἀγαθόν) come ponte alle concordanze."
+  },
+  "definitions": [
+    "Tema: parte invariabile ottenuta togliendo la desinenza del genitivo singolare.",
+    "Declinazione atematica: flessione senza vocale tematica, con contatto consonantico diretto.",
+    "Articolo determinativo: determinante flesso per genere, numero e caso, ausilio primario dell'analisi."
+  ],
+  "examples": ["τῆς τιμῆς: articolo + desinenza -ης = genitivo singolare, non dativo.", "φύλακος dal genitivo: tema φυλακ-, nominativo φύλαξ con esito -κς→-ξ."],
+  "counterexamples": ["νεανίας maschile nonostante -ας: il genere non segue la 'famiglia'.", "ὁδός femminile in -ος: idem."],
+  "errorsTypical": ["Confondere -ους (acc. plur. II) con dittongo: è -ο + -υς.", "Dimenticare il genitivo dei maschili in -ας/-ης (-ου, non -ας).", "Leggere -ῳ senza iota sottoscritto come nominativo."],
+  "keywords": ["articolo", "I declinazione", "II declinazione", "III declinazione", "tema", "genitivo"],
+  "prerequisites": ["greco:alfabeto-fonetica"],
+  "relations": [
+    { "type": "PART_OF", "to": "greco:introduzione", "note": "Morfologia nominale." },
+    { "type": "SIMILAR_TO", "to": "latino:sistema-casi", "note": "Flessività e caso in due sistemi diversi." }
+  ],
+  "sources": [
+    {
+      "id": "grammatiche-greco",
+      "title": "Paradigmi standard delle grammatiche scolastiche (I–III declinazione, articolo)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione puntuale su grammatica a stampa pianificata prima di content_reviewed."
+    }
+  ],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Come si trova il tema di un nome III?", "a": "Dal genitivo singolare togliendo -ος (φύλακος → φυλακ-)." },
+      { "q": "Genitivo dei maschili in -ας?", "a": "-ου (νεανίου), come la II." }
+    ],
+    "quiz": [
+      {
+        "q": "'τοῖς λόγοις' è:",
+        "choices": ["Nominativo plurale", "Dativo plurale", "Genitivo singolare", "Accusativo singolare"],
+        "answer": 1,
+        "explanation": "Articolo τοῖς + -οις: dativo plurale II."
+      }
+    ],
+    "questionsOpen": ["Declina χώρα e spiega ogni desinenza.", "Perché il genitivo è la forma chiave del lessico?"]
+  }
+}

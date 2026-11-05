@@ -1,0 +1,278 @@
+{
+  "id": "storia:roma-impero",
+  "subject": "storia",
+  "title": "Roma: impero e tardoantico",
+  "slug": "roma-impero",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:roma-repubblica",
+  "order": 0,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.850Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-27",
+    "end": "476",
+    "label": "dal principato alla deposizione di Romolo Augustolo (data simbolica)",
+    "place": "Impero romano, Mediterraneo"
+  },
+  "summary": "Principato augusteo (27 a.C.): pace, esercito professionale, amministrazione; apogeo (Traiano), crisi del III secolo, Diocleziano e Costantino (tarda antichità, cristianizzazione), divisione e fine dell'Occidente (476, data simbolica).",
+  "explanations": {
+    "semplice": "Augusto finge di restaurare la repubblica ma comanda da solo: inizia un lungo periodo di pace. L'impero cresce fino alla Britannia e alla Mesopotamia, poi ha una grande crisi, si divide in due e la parte occidentale cade nel 476 mentre quella orientale dura altri mille anni.",
+    "approfondita": "Principato: poteri cumulati (tribunicia, imperium, pontificato) sotto forma repubblicana; pax, limes, legioni stanziali, burocrazia equestre, evergetismo e consenso; successione come nodo (dinastie, adozione). Apogeo: Traiano (Dacia, 117 massimo esteso); antonini e 'felicità'; II secolo: pressioni, peste antonina. Crisi III: inflazione, usurpazioni, gallieno/palmyra, Diocleziano (tetrarchia, prezzo, persecuzione) e Costantino (312, Milano 313, Costantinopoli 330, Nicea 325); cristianizzazione e paganesimo resistente. Tardoantico (contro 'decadenza'): trasformazioni fiscali (annona), esercito barbarizzato, foedus; Teodosio (395 divisione), sacco 410, Attila, Odoacre 476; Oriente (Giustiniano, Corpus) come continuità. Fatto vs interpretazione: 476 convenzione (Romolo Augustolo), non crollo improvviso; tesi continuità (Pirenne, Brown) contro catastrofismo (Ward-Perkins).",
+    "tecnica": "Fonti: Cassio Dione, Tacito (per il principato), Ammiano, Codice teodosiano, epigrafia e numismatica; archeologia per economia e demografia."
+  },
+  "definitions": [
+    "Principato: regime di potere personale sotto forme repubblicane.",
+    "Tetrarchia: governo di quattro (due augusti, due cesari) di Diocleziano.",
+    "Tardoantico: III–VIII sec. come trasformazione, non solo declino."
+  ],
+  "examples": [
+    "L'editto dei prezzi (301) come termometro dell'inflazione.",
+    "Nicea 325: impero e definizione dottrinale intrecciati."
+  ],
+  "counterexamples": [
+    "Il 476 come 'fine del mondo': in Oriente e nelle campagne la continuità prevale.",
+    "Il cristianesimo causa della caduta (tesi gibboniana): dibattuta e parziale."
+  ],
+  "errorsTypical": [
+    "Confondere Repubblica e Impero nelle date (27, non 44).",
+    "Fare di Costantino il 'fondatore del Medioevo': ponte tardoantico."
+  ],
+  "keywords": [
+    "Augusto",
+    "pax romana",
+    "crisi III secolo",
+    "Diocleziano",
+    "Costantino",
+    "476",
+    "tardoantico"
+  ],
+  "prerequisites": [
+    "storia:roma-repubblica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:roma-repubblica",
+      "note": "Prosecuzione cronologica diretta."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:agostino",
+      "note": "Agostino vive il tardoantico e risponde al sacco del 410."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "latino:introduzione",
+      "note": "Il latino imperiale e cristiano nasce qui."
+    }
+  ],
+  "claims": [
+    {
+      "id": "impero-476",
+      "statement": "Augusto (Gaio Ottavio Turino 23 set 63 a.C., adottato da Cesare 44, Azio 2 set 31 contro Antonio e Cleopatra, titolo Augustus dal senato 16 gen 27 a.C., regno 27 a.C.-14 d.C.): Diocleziano (284-305) divide impero e crea tetrarchia; Costantino (306-337) riunifica, tollera cristianesimo dal 312 (Milviano 28 ott 312), Milano 313, Nicea 325, Costantinopoli 11 mag 330; il 476 resta data simbolica discussa.",
+      "supportedBy": [
+        "whe-augustus",
+        "whe-diocleziano",
+        "whe-costantino",
+        "bbc-heather-fall-of-rome"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "impero-principato-rg",
+      "statement": "Nelle Res Gestae (cap. 34) Augusto dichiara di aver trasferito lo Stato dal proprio potere all'arbitrio del senato e del popolo romano e di aver ricevuto per questo il titolo di Augustus.",
+      "supportedBy": [
+        "res-gestae-augusto"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-augustus",
+      "title": "Augustus - World History Encyclopedia",
+      "author": "Joshua J. Mark",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Augustus/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "impero-476"
+      ],
+      "note": "Ispezionato 2026-09-27 (2018). 63-14, adozione 44, triumvirato 43 Filippi 42, Azio 2 set 31, Augusto 16 gen 27, regno 27-14, pretoriani aerarium vigiles."
+    },
+    {
+      "id": "whe-diocleziano",
+      "title": "Diocletian - World History Encyclopedia",
+      "author": "Donald L. Wasson",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Diocletian/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "impero-476"
+      ],
+      "note": "Ispezionato 2026-09-27 (2014). 284-305, tetrarchia, 285 divisione, moneta 293-301, persecuzione 303 Nicomedia."
+    },
+    {
+      "id": "whe-costantino",
+      "title": "Constantine I - World History Encyclopedia",
+      "author": "Donald L. Wasson",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Constantine_I/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "impero-476"
+      ],
+      "note": "Ispezionato 2026-09-27 (2013). 306-337, Diocleziano 284-305, Milviano 27-28 ott 312, Milano 313, Nicea 325, Costantinopoli 11 mag 330, morte 337."
+    },
+    {
+      "id": "bbc-heather-fall-of-rome",
+      "title": "The Fall of Rome — BBC History (Ancient History in depth)",
+      "author": "Peter Heather (Worcester College, Oxford)",
+      "publisher": "BBC History",
+      "url": "https://www.bbc.co.uk/history/ancient/romans/fallofrome_article_01.shtml",
+      "sourceType": "article",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "impero-476"
+      ],
+      "note": "Contenuto letto il 2026-09-27 (articolo del 2011, pagina archiviata). Verificati: «In September 476 AD, the last Roman emperor of the west, Romulus Augustulus, was deposed by a Germanic prince called Odovacar»; sorte dell'Oriente (Giustiniano 527-565); «by the late 1990s the word 'transformation' had come into vogue»; tesi di Heather su guerra endemica, fine della Pax Romana e calo demografico post-romano; bibliografia con Heather, The Fall of the Roman Empire (Macmillan 2005) e Ward-Perkins, The Fall of Rome and the End of Civilization (OUP 2005). Limite: articolo di sintesi firmato da un sostenitore della tesi catastrofista."
+    },
+    {
+      "id": "res-gestae-augusto",
+      "title": "Res Gestae Divi Augusti (Monumentum Ancyranum)",
+      "author": "Augusto; traduzione F. W. Shipley (Loeb Classical Library, 1924)",
+      "publisher": "LacusCurtius (University of Chicago), edizione di pubblico dominio",
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Augustus/Res_Gestae/6*.html",
+      "sourceType": "primary-source",
+      "language": "la",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "impero-principato-rg"
+      ],
+      "note": "FONTE PRIMARIA (iscrizione), testo letto il 2026-09-27 nelle sezioni I e VI. Produttore: Augusto (bilancio redatto prima del 14 d.C.); funzione: monumento auto-celebrativo di atti e spese; destinatario: senato e popolo romano; provenienza: due colonne di bronzo a Roma, copia incisa sul tempio di Ancira con versione greca; trasmissione: iscrizione frammentaria, ed. Loeb 1924 (trad. Shipley). Passaggi letti: cap. 1 («At the age of nineteen, on my own initiative and at my own expense, I raised an army by means of which I restored liberty to the republic, which had been oppressed by the tyranny of a faction»); cap. 32-33 (re parti e medi che si rifugiano presso di lui e ricevono da lui i sovrani); cap. 34 («rem publicam ex mea potestate in senatus populique Romani arbitrium transtuli»). Limiti: fonte di parte, atti e cifre scelti dall'autore, lacune nel testo."
+    }
+  ],
+  "historiography": [
+    {
+      "id": "principato-restaurazione-o-monarchia",
+      "question": "Il principato augusteo è restaurazione della repubblica o monarchia di fatto?",
+      "whyContested": "Lo stesso testo che fonda il regime (Res Gestae) presenta la restituzione della repubblica, mentre gli atti che elenca costruiscono un potere personale permanente; la ricerca discute se le forme repubblicane conservino potere reale o siano involucro.",
+      "positions": [
+        {
+          "label": "Restaurazione della res publica (auto-rappresentazione augustea)",
+          "authors": [
+            "Augusto"
+          ],
+          "works": [
+            "Res Gestae Divi Augusti"
+          ],
+          "evidence": [
+            "RG 1: a diciannove anni, di propria iniziativa e a proprie spese, ha restaurato la libertà della repubblica oppressa dalla tirannide di una fazione.",
+            "RG 34: ha trasferito lo Stato dal proprio potere all'arbitrio del senato e del popolo romano.",
+            "RG 34: per questo merito il senato gli ha dato il titolo di Augustus."
+          ],
+          "status": "verified"
+        },
+        {
+          "label": "Potere personale permanente (lettura monarchica)",
+          "authors": [],
+          "works": [],
+          "evidence": [
+            "RG 1-3: esercito privato nel 44 a.C., imperium, consolato e triumvirato come base del potere personale.",
+            "RG 32-33: re parti e medi si rifugiano presso di lui e ricevono da lui i sovrani: la politica estera passa per la sua persona."
+          ],
+          "status": "partially_verified"
+        }
+      ],
+      "agreements": [
+        "Le Res Gestae sono una fonte di parte: bilancio redatto da Augusto e inciso su bronzo, conservato nell'esemplare di Ancira.",
+        "Il consenso del senato e del popolo fa parte del funzionamento del regime, non è un dettaglio ornamentale."
+      ],
+      "disputes": [
+        "Se senato e magistrature conservino potere reale o siano solo forma.",
+        "Dove collocare il passaggio di regime (27, 23 o 19 a.C.) e quanto pesi la successione dinastica."
+      ],
+      "limits": [
+        "La lettura monarchica non è sostenuta in questa revisione da una fonte storiografica moderna: resta partially_verified.",
+        "Le Res Gestae non sono un archivio: atti e cifre sono scelti dall'autore e non confrontabili senza altre fonti."
+      ],
+      "supportedBy": [
+        "res-gestae-augusto",
+        "bbc-heather-fall-of-rome"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Cos'è il principato in una riga?",
+        "a": "Monarchia di fatto sotto forme repubblicane (poteri cumulati)."
+      },
+      {
+        "q": "Le due riforme-chiave di Diocleziano e Costantino?",
+        "a": "Tetrarchia e riorganizzazione fiscale; capitale cristiana e svolta religiosa."
+      },
+      {
+        "q": "Res Gestae: cosa sono e perché sono una fonte primaria?",
+        "a": "Bilancio di atti e spese di Augusto, inciso su bronzo a Roma e copiato a Ancira: fonte di parte, utile per le sue parole esatte (cap. 34: trasferimento dello Stato al senato e al popolo)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il 476 va inteso come:",
+        "choices": [
+          "Crollo improvviso di tutto",
+          "Convenzione simbolica in una lunga trasformazione",
+          "Inizio del Mille",
+          "Fine dell'Oriente"
+        ],
+        "answer": 1,
+        "explanation": "Tardoantico: continuità orientali e rurali, mutamenti fiscali-militari."
+      },
+      {
+        "q": "Nelle Res Gestae (cap. 34) Augusto afferma di:",
+        "choices": [
+          "Aver abolito il senato",
+          "Aver trasferito lo Stato dal proprio potere all'arbitrio del senato e del popolo",
+          "Essere stato sconfitto ad Azio",
+          "Aver spostato la capitale a Costantinopoli"
+        ],
+        "answer": 1,
+        "explanation": "«rem publicam ex mea potestate in senatus populique Romani arbitrium transtuli»: è la base del dibattito restaurazione/monarchia."
+      }
+    ],
+    "questionsOpen": [
+      "Pax romana: pace per chi? Costi dell'impero.",
+      "Gibbon aveva torto? Discuti col tardoantico.",
+      "Res Gestae e principato: quali atti del testo sostengono la lettura repubblicana e quali quella monarchica?"
+    ]
+  },
+  "contentDepth": "deep"
+}

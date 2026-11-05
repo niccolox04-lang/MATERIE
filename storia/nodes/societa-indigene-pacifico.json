@@ -1,0 +1,113 @@
+{
+  "id": "storia:societa-indigene-pacifico",
+  "subject": "storia",
+  "title": "Societa' indigene del Pacifico e Australia",
+  "slug": "societa-indigene-pacifico",
+  "status": "draft",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 4,
+  "version": 1,
+  "createdAt": "2026-09-30T00:00:00.000Z",
+  "updatedAt": "2026-09-30T00:00:00.000Z",
+  "level": "foundation",
+  "chrono": {
+    "start": "-50000",
+    "end": "1800",
+    "label": "dagli arrivi nell'Oceano Pacifico (orizzonte discusso) alla colonizzazione europea",
+    "place": "Australia, Nuova Zelanda, Melanesia, Micronesia, Polinesia"
+  },
+  "summary": "Australia e Pacifico rappresentano la colonizzazione umana piu' recente del pianeta e insieme la piu' fragile: gruppi di cacciatori-raccoglitori in Australia, societa' agricole e gerarchiche in Nuova Zelanda (Maori), e la grande navigazione oceanica che popolo' la Polinesia fra il I e il II secolo dell'era comune. Il caso introduce i temi dell'insularita' e della fragilita' demografica che rende queste societa' esposte dopo il 1770.",
+  "explanations": {
+    "semplice": "Le societa' indigene dell'Australia e del Pacifico hanno vissuto di caccia, raccolta e pesca per decine di migliaia di anni. I navigatori polinesiani hanno attraversato l'Oceano Pacifico fino a isole remote come l'Isola di Pasqua. Con l'arrivo dei coloni europei, dopo il 1770, queste popolazioni subirono malattie, espropri e violenze.",
+    "approfondita": "Australia: l'arrivo dell'uomo e' discusso; il DNA mitocondurale indica un orizzonte di circa 50-65 mila anni fa, i reperti archeologici datazioni oltre 40.000-50.000 anni, e restano aperti i contatti con l'Asia prima dell'arrivo dei navigatori. Le societa' aborigene: cacciatori-raccoglitori a bassa densita', uso controllato del fuoco, forte dimensione rituale del lavoro e grande varieta' linguistica; i dipinti rupestri del deserto occidentale innescano il dibattito sull'antichita' delle culture. Nuova Zelanda: popolazione Maori arrivata fra XIII e XIV secolo, con la tradizione dei cani, dell'abbondanza ittica e delle colture; organizzazione in iwi con capi e autorita' spirituali; la societa' pre-contacto e' nota soprattutto dai resoconti di Cook (1770). Polinesia: i triangoli dell'Isola di Pasqua, di Hawaii e della Nuova Zelanda, le rotte stagionali e gli scambi. Distinguere: datazioni archeologiche diverse possono divergere, e la documentazione scritta coloniale e' spesso deformata da interessi politici.",
+    "tecnica": "Fonti: archeologia e datazione (radiocarbonio, termoluminescenza), i diari di Cook, i resoconti missionari, le produzioni materiali aborigene, la linguistica comparata. Nota critica: la documentazione etnografica e' prevalentemente coloniale e va affiancata all'archeologia. Per passare a published servono fonti revisionate: stato = draft."
+  },
+  "definitions": [
+    "Insularita': condizione che condiziona risorse, mobilita' e scambi di una societa' isolata.",
+    "Aborigeni: popoli indigeni dell'Australia, con una delle piu' lunghe continuita' culturali documentate.",
+    "Polinesia: isole del Pacifico popolate da popoli affini per lingua e cultura."
+  ],
+  "examples": [
+    "Il contrasto fra il modello di caccia-raccolta aborigeno e quello agricolo maori: due strategie di adattamento a territori molto diversi.",
+    "I petroglyfi e le pitture rupestri del Kakadu e del deserto occidentale per ricostruire pratiche e simboli."
+  ],
+  "counterexamples": [
+    "L'idea di un continente 'vuoto' o 'incolto' prima dei coloni: esistevano sistemi di gestione ambientale e conoscenze ecologiche.",
+    "L'immagine dei Maori come 'selvaggi': le loro societa' erano organizzate, con tradizioni orali e navigazione sofisticata."
+  ],
+  "errorsTypical": [
+    "Presentare i Maori come primitivi: la organizzazione sociale e rituale era complessa.",
+    "Dare per certo un'unica data di arrivo in Australia: l'orizzonte e' discusso.",
+    "Usare le fonti coloniali come voce unica dei popoli indigeni: vanno lette criticamente."
+  ],
+  "keywords": [
+    "Aborigeni",
+    "Maori",
+    "Polinesia",
+    "Isola di Pasqua",
+    "cacciatori-raccoglitori",
+    "navigazione oceanica",
+    "Cook",
+    "Nuova Zelanda",
+    "insularita'"
+  ],
+  "prerequisites": [
+    "storia:antropogenesi"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Area mondiale Oceania."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:antropogenesi",
+      "note": "Le rotte oceaniche come caso limite della diffusione umana."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:colonialismo",
+      "note": "La colonizzazione europea in Australia e nel Pacifico."
+    }
+  ],
+  "claims": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Qual e' la principale particolarita' demografica aborigena?",
+        "a": "Bassa densita' e popolamento discontinuo su un continente vasto."
+      },
+      {
+        "q": "Chi documenta per primo i Maori con i suoi diari?",
+        "a": "James Cook (1770)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "L'insularita' influenza soprattutto:",
+        "choices": [
+          "La scrittura",
+          "Risorse, mobilita' e scambi",
+          "La religione",
+          "L'alfabeto"
+        ],
+        "answer": 1,
+        "explanation": "Su isole e continenti isolati, risorse, mobilita' e scambi dipendono dall'insularita'."
+      }
+    ],
+    "questionsOpen": [
+      "Che argomenti sostengono l'arrivo in Australia a 65 mila anni fa e quali obiezioni restano?",
+      "Quanto della documentazione etnografica coloniale e' recuperabile come testimonienza?"
+    ]
+  }
+}

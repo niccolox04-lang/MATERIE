@@ -1,0 +1,115 @@
+{
+  "id": "filosofia:platone-eros",
+  "subject": "filosofia",
+  "title": "Platone — Eros e bellezza (Simposio, Fedro)",
+  "slug": "platone-eros",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "filosofia:platone",
+  "order": 7,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Eros è demone mediatore tra sensibile e intelligibile: tensione dell'anima verso la bellezza ideale che, essendo bello e bene inseparabili, conduce dal corpo singolo alla contemplazione del Bello in sé.",
+  "explanations": {
+    "semplice": "L'amore inizia ammirando una persona bella, poi capisce che la bellezza è in tante cose, poi ama le idee belle e le azioni buone, fino ad amare la Bellezza stessa, perfetta e per sempre.",
+    "approfondita": "Nel Simposio (discorso di Socrate-Diotima) Eros non è dio ma demone: figlio di indigenza e risorsa, filosofo per natura, mediatore tra mortale e immortale, ignoranza e sapienza. La scala amoris: un bel corpo, tutti i bei corpi, le belle anime e attività, le belle conoscenze, fino al Bello in sé, eterno e immutabile. Poiché bello e bene sono inseparabili, l'ascesa erotica è anche ascesa morale e conoscitiva: ridefinisce l'attrattiva socratica del bene come tensione anamnestica verso il mondo ideale. Nel Fedro l'eros ridesta le ali dell'anima alla vista della bellezza sensibile, immagine più splendente delle idee. Così il desiderio, prima confinato nella sfera corporea, viene integrato: non negato ma orientato.",
+    "tecnica": "Scala amoris (Simposio 210a–212a, riferimento standard senza citazione letterale inventata). Eros come metaxy (intermedio). Nesso eros-dialettica-anamnesi."
+  },
+  "definitions": [
+    "Eros: demone mediatore, desiderio filosofico che spinge dal sensibile all'intelligibile.",
+    "Scala amoris: ascesa graduale dai bei corpi al Bello in sé."
+  ],
+  "examples": [
+    "Amare le leggi giuste e le scienze come bellezze più alte dei singoli corpi."
+  ],
+  "counterexamples": [
+    "L''amore platonico' come affetto casto e sentimentale moderno: banalizzazione; è tensione conoscitiva verso l'ideale."
+  ],
+  "errorsTypical": [
+    "Ridurre il Simposio a elogio dell'amore omosessuale o eterosessuale: è teoria del desiderio di immortalità e bellezza."
+  ],
+  "keywords": [
+    "Simposio",
+    "Fedro",
+    "Diotima",
+    "demone",
+    "scala amoris",
+    "bello-bene"
+  ],
+  "prerequisites": [
+    "filosofia:platone-anamnesi",
+    "filosofia:platone-teoria-idee"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:platone",
+      "note": "Etica del desiderio nel sistema."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:platone-anima",
+      "note": "Eros muove il carro alato."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:platone-politica",
+      "note": "Il bene amato è anche principio politico."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-platone",
+      "title": "Platone — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/platone/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Amore platonico ed Eros demone verificati con fetch il 2026-09-23.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento delle opere",
+        "dottrina delle idee",
+        "morale e politica",
+        "dialettica tarda e Timeo"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Perché Eros è un demone?",
+        "a": "Perché sta in mezzo tra mortale e immortale e media il passaggio."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La scala amoris culmina in:",
+        "choices": [
+          "Il possesso del corpo amato",
+          "La contemplazione del Bello in sé",
+          "La rinuncia a ogni desiderio",
+          "La ricchezza"
+        ],
+        "answer": 1,
+        "explanation": "Ascesa dal corpo singolo alle forme fino al Bello eterno."
+      }
+    ],
+    "questionsOpen": [
+      "In che senso eros integra il desiderio invece di negarlo?",
+      "Perché bello e bene sono inseparabili per Platone?"
+    ]
+  },
+  "level": "intermediate"
+}

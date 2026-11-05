@@ -1,0 +1,126 @@
+{
+  "id": "filosofia:aristotele-vita-opere",
+  "subject": "filosofia",
+  "title": "Aristotele — Vita, scuola e opere",
+  "slug": "aristotele-vita-opere",
+  "status": "published",
+  "access": "pro",
+  "type": "sottoargomento",
+  "parent": "filosofia:aristotele",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Figlio del medico di Aminta III, vent'anni in Accademia, tre anni ad Asso presso Ermia, precettore di Alessandro (343/342), fondatore del Liceo (335/334), fuga a Calcide dopo la morte di Alessandro. Il corpus pervenuto (Organon, fisica, Metafisica, etiche, Politica, Retorica, Poetica) sono appunti di scuola editi da Andronico da Rodi.",
+  "explanations": {
+    "semplice": "Aristotele nasce in una famiglia di medici, studia vent'anni con Platone, poi viaggia, fa da maestro al giovane Alessandro Magno e infine apre la sua scuola ad Atene, il Liceo, dove si discute passeggiando. I suoi libri sono appunti delle lezioni, non opere finite.",
+    "approfondita": "Tappe (Treccani): Pella, tutore Prosseno dopo la morte del padre Nicomaco; Atene a 18 anni, Accademia fino alla morte di Platone (amicizia attestata dall'elegia per Eudemo); partenza con Senocrate per dissensi con Speusippo: Asso e Scepsi presso Ermia di Atarneo (tre anni, matrimonio con Pizia), Mitilene su invito teofrasteo, corte di Filippo II (343/342) per Alessandro; Liceo nel recinto di Apollo Liceo (335/334, dal peripatos la scuola peripatetica); dodici anni di direzione; accusa di empietà dopo il 323, esilio a Calcide, morte nel 322 per malattia di stomaco. Opere pervenute per gruppi: Organon (Categorie, De interpretatione, Analitici primi/secondi, Topici, Elenchi sofistici); fisica (Fisica 8 libri, Cielo 4, Generazione e corruzione 2, Meteorologia 4, zoologici, Anima 3, Parva naturalia); Metafisica (14 libri, titolo da ta meta ta physika); morali-politiche (Eudemea 7, Grande Etica 2 di incerta autenticità, Nicomachea 10, Politica 8, Costituzione degli Ateniesi ritrovata da Kenyon nel 1891 su papiro egizio); Retorica 3, Poetica. Jaeger/Bignone: tre periodi evolutivi, dal platonismo giovanile (Eudemo, Protreptico) alla maturità.",
+    "tecnica": "Questioni filologiche: autenticità dubbia di Grande Etica, Problemi, Retorica ad Alessandro; stratificazioni redazionali interne; scala naturae e metodo empirico-organizzativo della scuola (158 costituzioni raccolte)."
+  },
+  "definitions": [
+    "Essoterico: scritto dialogico per il pubblico, perduto salvo frammenti.",
+    "Esoterico/acroamatico: appunto di scuola per l'ascolto, nucleo del corpus pervenuto.",
+    "Peripato: la scuola dal peripatos, la passeggiata delle discussioni."
+  ],
+  "examples": [
+    "La Costituzione degli Ateniesi: papiro ritrovato in Egitto da Kenyon (1891), prova del metodo empirico della scuola."
+  ],
+  "errorsTypical": [
+    "Citare gli Analitici come 'libro divulgativo': sono trattati tecnici di scuola.",
+    "Datare il Liceo al 387: quella è l'Accademia; il Liceo è 335/334."
+  ],
+  "keywords": [
+    "Liceo",
+    "Peripato",
+    "Organon",
+    "Andronico",
+    "Kenyon 1891",
+    "Jaeger"
+  ],
+  "prerequisites": [
+    "filosofia:platone-vita",
+    "filosofia:platone-opere"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:aristotele",
+      "note": "Biografia e corpus."
+    },
+    {
+      "type": "CAUSE",
+      "to": "filosofia:aristotele-logica",
+      "note": "L'insegnamento produce l'Organon."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:atene-classica",
+      "note": "Atene tardo-classica e Macedonia come contesto."
+    }
+  ],
+  "claims": [
+    {
+      "id": "aristotele-corpus-gruppi",
+      "statement": "Il corpus si articola in Organon, scritti fisici, Metafisica in 14 libri, opere morali-politiche, Retorica e Poetica.",
+      "supportedBy": [
+        "treccani-aristotele"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-aristotele",
+      "title": "Aristotele — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/aristotele/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento del corpus",
+        "tre periodi di Jaeger"
+      ],
+      "note": "Sezioni Vita e Opere lette via fetch il 2026-09-24."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Quando fonda il Liceo e perché si chiama Peripato?",
+        "a": "335/334; dal peripatos, la passeggiata delle discussioni."
+      },
+      {
+        "q": "Chi ritrova la Costituzione degli Ateniesi e quando?",
+        "a": "Kenyon, 1891, su papiro in Egitto."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Gli scritti aristotelici pervenuti sono:",
+        "choices": [
+          "Dialoghi divulgativi pubblicati dall'autore",
+          "Appunti di scuola (esoterici) editi da Andronico da Rodi",
+          "Lettere ad Alessandro",
+          "Poemi epici"
+        ],
+        "answer": 1,
+        "explanation": "I dialoghi essoterici sono perduti; restano i trattati interni al Liceo."
+      }
+    ],
+    "questionsOpen": [
+      "Perché la storia romanzesca dei manoscritti alimentò il mito dell'Aristotele 'sistematico e immutabile'?",
+      "Cosa cambia con la lettura evolutiva di Jaeger?"
+    ]
+  }
+}

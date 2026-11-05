@@ -1,0 +1,55 @@
+{
+  "id": "matematica:introduzione",
+  "subject": "matematica",
+  "title": "Introduzione alla Matematica",
+  "slug": "introduzione",
+  "status": "published",
+  "access": "free",
+  "type": "area",
+  "parent": null,
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "La matematica studia strutture astratte con dimostrazione: dal numero alle funzioni, dalla geometria euclidea all'analisi, fino a probabilità e statistica. Ogni concetto richiede prerequisiti espliciti ed esercizi graduati.",
+  "explanations": {
+    "semplice": "In matematica non basta il risultato: conta il ragionamento. Si parte dai numeri, si passa a equazioni e figure, poi a funzioni, limiti e probabilità.",
+    "approfondita": "Aree: algebra (insiemi numerici, polinomi, equazioni e disequazioni, funzioni), geometria (sintetica e analitica, vettori, trasformazioni), analisi (limiti, continuità, derivate, integrali), probabilità e statistica. Metodo: definizioni, teoremi con dimostrazione, esempi svolti, errori tipici (come la divisione per zero o la confusione tra condizione necessaria e sufficiente). I rami analitici verranno pubblicati con dimostrazioni complete e verificate."
+  },
+  "definitions": [
+    "Teorema: enunciato dimostrato a partire da assiomi e teoremi precedenti.",
+    "Dimostrazione: catena deduttiva che stabilisce la verità di un enunciato."
+  ],
+  "examples": [
+    "La dimostrazione per assurdi dell'irrazionalità di radice di 2 (ramo pianificato)."
+  ],
+  "keywords": [
+    "dimostrazione",
+    "funzioni",
+    "geometria",
+    "analisi",
+    "probabilità"
+  ],
+  "prerequisites": [],
+  "relations": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Condizione necessaria vs sufficiente?",
+        "a": "Necessaria: senza di essa niente tesi; sufficiente: da sola basta a garantire la tesi."
+      }
+    ],
+    "quiz": [],
+    "questionsOpen": [
+      "Perché un esempio non dimostra un teorema universale?"
+    ]
+  },
+  "level": "foundation"
+}

@@ -1,0 +1,155 @@
+{
+  "id": "storia:post45",
+  "subject": "storia",
+  "title": "Guerra fredda e mondo attuale",
+  "slug": "post45",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:guerre",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "summary": "Bipolarismo USA-URSS (NATO, Patto di Varsavia, deterrenza nucleare), decolonizzazione e Terzo mondo, miracolo italiano e Costituzione, distensione e 1989 (caduta del Muro, fine URSS); globalizzazione e UE come orizzonte aperto.",
+  "explanations": {
+    "semplice": "Dopo il 1945 il mondo si divide in due: America e Russia con bombe atomiche che non usano per paura. Molti popoli in Africa e Asia diventano indipendenti. L'Italia vota la Repubblica e scrive la Costituzione. Nel 1989 cade il Muro e finisce la divisione.",
+    "approfondita": "Yalta e Potsdam come spartizioni discusse; Truman e contenimento, Marshall e NATO 1949 contro Cominform e Varsavia 1955; crisi (Berlino 1948/61, Corea, Cuba 1962, Vietnam) senza guerra diretta per deterrenza. Decolonizzazione (India 1947, Algeria 1962, Africa anni Sessanta) e non-allineati; Italia (2 giugno 1946, Costituzione 1948, centrismo e miracolo, autunno caldo come orizzonte). Distensione (Helsinki 1975), seconda guerra fredda, Gorbaciov (perestrojka, glasnost), 1989 (Muro, velluto) e 1991 fine URSS; UE da CECA a Maastricht come processo. Storiografia sul presente come storia in corso: giudizi provvisori dichiarati, mai sentenze definitive.",
+    "tecnica": "Fonti: trattati e costituzioni, archivi desecretati con ritardi, statistiche economiche, oral history per la memoria."
+  },
+  "definitions": [
+    "Bipolarismo: ordine internazionale su due superpotenze.",
+    "Deterrenza: pace per minaccia di rappresaglia nucleare.",
+    "Decolonizzazione: indipendenze afro-asiatiche postbelliche."
+  ],
+  "examples": [
+    "Costituzione italiana 1948: antifascismo e diritti come fondamento.",
+    "Muro 1961-89: simbolo fisico della divisione."
+  ],
+  "counterexamples": [
+    "Guerra fredda come pace: guerre per procura nel Terzo mondo.",
+    "1989 come fine della storia: globalizzazione e conflitti dopo."
+  ],
+  "errorsTypical": [
+    "Fare del bipolarismo un accordo stabile (crisi continue).",
+    "Datare la decolonizzazione tutta agli anni Sessanta."
+  ],
+  "keywords": [
+    "bipolarismo",
+    "NATO",
+    "decolonizzazione",
+    "Costituzione",
+    "1989"
+  ],
+  "prerequisites": [
+    "storia:guerre",
+    "storia:ottocento"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:guerre",
+      "note": "Mondo uscito dalla seconda guerra mondiale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:ottocento",
+      "note": "Stati-nazione e imperi come eredità ottocentesca."
+    }
+  ],
+  "claims": [
+    {
+      "id": "post45-quadro",
+      "statement": "Il dopoguerra è segnato da bipolarismo nucleare (guerra fredda USA-URSS: crisi di Cuba 1962, guerre calde in Corea 1950-53 e Vietnam concluso nel 1975; bipolarismo concluso simbolicamente con la caduta del muro di Berlino 1989 e lo scioglimento dell’URSS nel 1991), da decolonizzazione (processo iniziato con la seconda guerra mondiale e proseguito negli anni 1970, con la guerra d’Algeria 1954-1962 e l’ondata di indipendenze africane degli anni Sessanta) e da integrazione europea (CECA, CEE e CEEA negli anni 1950, Trattato di Maastricht 1992).",
+      "supportedBy": [
+        "treccani-guerra-fredda",
+        "treccani-decolonizzazione",
+        "treccani-ue"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-guerra-fredda",
+      "title": "Guerra fredda — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/guerra-fredda/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "post45-quadro"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: confronto mondiale USA-URSS dal secondo dopoguerra; termine coniato da W. Lippmann per un’ostità non risolvibile con guerra frontale per il pericolo nucleare; crisi missilistica di Cuba 1962; guerre calde Corea 1950-53 e Vietnam concluso 1975; distensione negli anni Ottanta; bipolarismo dei due blocchi concluso con la caduta del muro di Berlino 1989 e lo scioglimento dell’URSS 1991."
+    },
+    {
+      "id": "treccani-decolonizzazione",
+      "title": "Decolonizzazione — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/decolonizzazione/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "post45-quadro"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: processo iniziato con la seconda guerra mondiale e proseguito negli anni 1970; formazione di élite indigene; metodi diversi (non-cooperazione di Gandhi, guerre di liberazione in Indocina e Algeria); Algeria 1954-1962; Kenya Mau Mau indipendenza 1963; seconda indipendenza dei territori portoghesi 1974-75; Namibia 1990."
+    },
+    {
+      "id": "treccani-ue",
+      "title": "Unione europea — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/unione-europea/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "post45-quadro"
+      ],
+      "note": "Contenuto ispezionato 2026-09-28. Verificati: processo avviato negli anni 1950 con CECA, CEE e CEEA; Trattato di Maastricht 1992; allargamenti 1995, 2004, 2007; trattati di Amsterdam 1997 e Nizza 2001; Trattato di Lisbona 13 dicembre 2007 (in vigore 1° novembre 2009); premio Nobel per la pace 2012; Regno Unito fuori dall’UE nel gennaio 2020."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Bipolarismo in sintesi?",
+        "a": "USA-URSS, alleanze, deterrenza senza guerra diretta."
+      },
+      {
+        "q": "Italia repubblicana in due date?",
+        "a": "1946 Repubblica; 1948 Costituzione."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La crisi di Cuba (1962) mostra:",
+        "choices": [
+          "Distensione compiuta",
+          "Rischio nucleare e linea rossa",
+          "Fine della NATO",
+          "Unità del blocco sovietico"
+        ],
+        "answer": 1,
+        "explanation": "Quasi-guerra evitata con negoziato e telefono rosso."
+      }
+    ],
+    "questionsOpen": [
+      "Decolonizzazione riuscita o incompiuta? Con quali casi?",
+      "1989 svolta o continuità? Argomenta con prudenza."
+    ]
+  }
+}

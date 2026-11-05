@@ -1,0 +1,146 @@
+{
+  "id": "storia:cina-imperiale",
+  "subject": "storia",
+  "title": "Cina imperiale: Shang, Qin, Han, Tang, Song, Ming, Qing",
+  "slug": "cina-imperiale",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 14,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-1600",
+    "end": "1912",
+    "label": "da Shang alla fine dell'impero (convenzione)",
+    "place": "Cina, Asia orientale"
+  },
+  "region": "Asia",
+  "location": "Bacini del Fiume Giallo e dello Yangzi, con espansioni",
+  "territories": "Cina dei Han, Tang, Song, Yuan, Ming, Qing (confini variabili)",
+  "geographicalContext": "Fiumi e risaie come base fiscale; steppa a nord come minaccia e partner; Via della Seta verso ovest.",
+  "summary": "Sequenza dinastica: Shang-Zhou, Qin e unificazione (221 a.C.), Han e Via della Seta, Tang-Song (apogei), Yuan mongolo, Ming e Qing; mandato celeste, burocrazia mandarinale, Confucianesimo e invenzioni.",
+  "explanations": {
+    "semplice": "La Cina resta unita per duemila anni sotto imperatori che dicono di avere il permesso del Cielo. Si inventano carta, bussola e polvere da sparo. Quando l'imperatore \u00c3\u00a8 cattivo, il popolo si ribella e cambia dinastia.",
+    "approfondita": "Shang (ossa oracolari) e Zhou (mandato celeste, feudalit\u00c3\u00a0, primavere-autunni); Qin (221: scrittura, pesi, Grande Muraglia come avvio) e Han (Via della Seta, carta, esami come orizzonte); divisione e Sui (Gran Canale); Tang (Chang'an cosmopolita, poesia, buddhismo) e Song (stampa, bussola, polvere, economia monetaria); Yuan mongolo (Kubilai, Marco Polo come fonte esterna); Ming (Zheng He e ritirata navale come dibattito) e Qing mancesi (massima estensione, guerre dell'oppio 1839-60 come crisi). Istituzioni: mandarino per esami, fisco agrario, eserciti di frontiera; pensiero (Confucio, Laozi, buddhismo Chan) come cornice dichiarata. Fatto contro mito: stagnazione inventata contro cicli documentati; Grande Muraglia unica contro stratificazioni.",
+    "tecnica": "Fonti: Shiji di Sima Qian con critica, annali dinastici, archeologia (terracotta, Dunhuang); cronologie tradizionali con margini."
+  },
+  "definitions": [
+    "Mandato celeste: legittimazione condizionata al buon governo.",
+    "Mandarino: funzionario selezionato per esami letterari.",
+    "Via della Seta: rete carovaniera Cina-Mediterraneo."
+  ],
+  "examples": [
+    "Qin 221: unificazione di scrittura, monete e strade.",
+    "Zheng He (1405-33): flotte oceaniche prima del ritiro."
+  ],
+  "counterexamples": [
+    "Cina chiusa da sempre: Tang cosmopolita e Yuan eurasiatico.",
+    "Stampa solo Gutenberg: caratteri cinesi e coreani prima."
+  ],
+  "errorsTypical": [
+    "Fare delle dinastie blocchi rigidi (transizioni e sovrapposizioni).",
+    "Confondere Ming e Qing come etniche (han contro mancesi).",
+    "Datare la Muraglia come opera unica."
+  ],
+  "keywords": [
+    "Qin 221",
+    "Han",
+    "Tang",
+    "mandato",
+    "Via della Seta"
+  ],
+  "prerequisites": [
+    "storia:neolitico"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Cina imperiale come ramo mondiale fondazionale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:mesopotamia",
+      "note": "Stati idraulici e scritture a confronto (uso, non identit\u00c3\u00a0)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "cina-imperiale-quadro",
+      "statement": "Da Shang a Qing la Cina alterna unificazioni e divisioni con mandato celeste e burocrazia mandarinale; Via della Seta e invenzioni come nessi eurasiatici.",
+      "supportedBy": [
+        "manuale-cina",
+        "whe-cina-imperiale"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-cina",
+      "title": "Profilo standard di Cina imperiale",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-cina-imperiale",
+      "title": "Imperial China - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Imperial_China/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "cina-imperiale-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27. Dinastie Shang-Qin-Han-Tang-Song-Yuan-Ming-Qing, mandato celeste, burocrazia mandarinale, Via della Seta, invenzioni."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Qin 221 in sintesi?",
+        "a": "Unificazione: scrittura, monete, strade, Muraglia avviata."
+      },
+      {
+        "q": "Mandato celeste?",
+        "a": "Legittimit\u00c3\u00a0 condizionata: cattivo governo, ribellione giusta."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La Via della Seta collegava:",
+        "choices": [
+          "Solo la Cina",
+          "Cina e Mediterraneo via Asia centrale",
+          "Americhe",
+          "Atlantico"
+        ],
+        "answer": 1,
+        "explanation": "Rete carovaniera eurasiatica (Han in poi)."
+      }
+    ],
+    "questionsOpen": [
+      "Cicli dinastici: struttura o mito? Con quali prove?",
+      "Perch\u00c3\u00a9 Zheng He non scopre l'America? (dibattito dichiarato)"
+    ]
+  },
+  "contentDepth": "deep"
+}

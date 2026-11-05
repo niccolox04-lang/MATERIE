@@ -1,0 +1,145 @@
+{
+  "id": "storia:italia-repubblica",
+  "subject": "storia",
+  "title": "Repubblica: Costituente, Costituzione, boom",
+  "slug": "italia-repubblica",
+  "status": "published",
+  "access": "pro",
+  "type": "approfondimento",
+  "parent": "storia:italia-novecento",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1946",
+    "end": "1968",
+    "label": "dal referendum al Sessantotto (convenzione)",
+    "place": "Italia"
+  },
+  "region": "Europa",
+  "location": "Roma (Costituente), triangolo industriale, Mezzogiorno",
+  "territories": "Repubblica italiana con autonomie speciali",
+  "geographicalContext": "Migrazioni Sud-Nord, urbanizzazione, questione meridionale persistente.",
+  "summary": "Nascita repubblicana: referendum 1946, Costituente e Costituzione (vigente 1948, principi e diritti), centrismo degasperiano, Piano Marshall, boom (miracolo, consumi, TV) e Sessantotto come soglia.",
+  "explanations": {
+    "semplice": "Gli italiani votano tra re e repubblica e vince la repubblica di poco. Un gruppo scrive le regole nuove (Costituzione) con diritti e libertà per tutti. Arrivano soldi americani, fabbriche e televisioni: l'Italia diventa ricca in fretta, ma il Sud resta indietro.",
+    "approfondita": "Referendum 2-6-1946 (Repubblica, donne al voto) e Costituente (DC-PCI-PSI, Dossetti-Togliatti-Calamandrei come anime); Costituzione (approvata 22-12-1947, vigente 1-1-1948): principi (lavoro, eguaglianza sostanziale art. 3), diritti inviolabili, autonomie, rigidità e Corte come orizzonte; compromesso tra culture (dichiarato). De Gasperi e centrismo (1948, NATO 1949, CECA); Einaudi e stabilizzazione; Vanoni e Cassa per il Mezzogiorno. Boom 1958-63 (FIAT, ENI-Mattei, TV, Vespa-500): migrazioni interne, consumi, secolarizzazione iniziale; contestazione 1968-69 e autunno caldo come soglia (non sviluppo). Fatto contro mito: miracolo senza Stato contro intervento pubblico massiccio.",
+    "tecnica": "Fonti: atti Costituente, ISTAT storico, discorsi (De Gasperi), stampa (Corriere/Unità); PIL e migrazioni come serie discusse."
+  },
+  "definitions": [
+    "Costituente: assemblea eletta per scrivere la Costituzione.",
+    "Eguaglianza sostanziale (art. 3): rimozione degli ostacoli di fatto.",
+    "Miracolo economico: crescita accelerata 1958-63."
+  ],
+  "examples": [
+    "Art. 3: pari dignità e rimozione degli ostacoli come programma.",
+    "Autostrade e 500: mobilità e consumi come paesaggio nuovo."
+  ],
+  "counterexamples": [
+    "Costituzione del 1946: vigente dal 1948 (approvata fine 1947).",
+    "Boom solo privato: IRI, ENI e Cassa come Stato."
+  ],
+  "errorsTypical": [
+    "Confondere referendum istituzionale e Costituente (due voti 1946).",
+    "Fare del centrismo un blocco unico (alleanze variabili).",
+    "Datare il boom agli anni Cinquanta interi (1958-63)."
+  ],
+  "keywords": [
+    "1946",
+    "Costituzione",
+    "De Gasperi",
+    "boom",
+    "1968"
+  ],
+  "prerequisites": [
+    "storia:italia-resistenza"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:italia-novecento",
+      "note": "Repubblica nel ramo Italia."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:post45",
+      "note": "Italia nella guerra fredda occidentale."
+    }
+  ],
+  "claims": [
+    {
+      "id": "repubblica-quadro",
+      "statement": "Referendum 1946, Costituente e Costituzione vigente 1948 fondano la Repubblica; centrismo, Piano Marshall e boom 1958-63 trasformano il paese.",
+      "supportedBy": [
+        "manuale-italia",
+        "whe-italian-republic"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-italia",
+      "title": "Profilo standard di Italia del Novecento",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Testo costituzionale: Senato non raggiungibile via fetch (nessuna citazione inventata); verifica istituzionale futura."
+    },
+    {
+      "id": "whe-italian-republic",
+      "title": "Italian Republic - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Italian_Republic/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-28T00:00:00.000Z",
+      "supports": [
+        "repubblica-quadro"
+      ],
+      "note": "Ispezionato 2026-09-28. Referendum 1946, Costituente, Costituzione 1948, De Gasperi, Piano Marshall, boom economico 1958-63, automobilismo, televisione, migrazioni interne."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "1946 e 1948?",
+        "a": "Referendum Repubblica; Costituzione vigente."
+      },
+      {
+        "q": "Boom in sintesi?",
+        "a": "1958-63: industria, consumi, migrazioni interne."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "L'art. 3 impegna la Repubblica a:",
+        "choices": [
+          "Solo uguaglianza formale",
+          "Rimuovere gli ostacoli di fatto all'uguaglianza",
+          "Abolire le regioni",
+          "Vietare i partiti"
+        ],
+        "answer": 1,
+        "explanation": "Eguaglianza sostanziale come programma."
+      }
+    ],
+    "questionsOpen": [
+      "Compromesso costituente: forza o debolezza? Con quali articoli?",
+      "Boom senza Sud: perché il divario resiste?"
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "greco:traduzione",
+  "subject": "greco",
+  "title": "Metodo: analisi morfosintattica e resa",
+  "slug": "traduzione",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 9,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Competenza terminale: si costruisce dopo morfologia e sintassi. Analisi logico-sintattica della frase greca e resa in italiano, con scelta lessicale e grammaticale consapevole.",
+  "explanations": {
+    "semplice": "Tradurre dal greco all'italiano significa scegliere la parola giusta nel posto giusto. Si analizza chi fa l'azione (soggetto), cosa succede (verbo), a chi/interviene (complementi), e si ricostruisce la frase in italiano rispettando l'ordine naturale e le sfumature di senso.",
+    "approfondita": "Analisi morfosintattica: individuazione del tema e della desinenza, casi e reggenze, costruzione del periodo, uso degli articoli e delle particelle. Scelta lessicale: corrispondenza dei termini greci con i termini italiani, considerando il registro (alto/basso) e il contesto. Tecniche di resa: diretta, indiretta, liberale, parola per parola. Errori tipici: tradurre parola per parola ignorando la sintassi greca, confondere i casi, ignorare le particelleative. Metodo: analisi della frase a livello lessicale, morfologico, sintattico, pragmatico; resa in italiano con verifica di senso e forma.",
+    "tecnica": "Operativo: passaggio da paradigma a frase, da frase a testo; verifica delle reggenze (casi, preposizioni), dell'ausiliare e del participio, della consecutio e delle ipotesi. Lettura del contesto: chi parla, a chi, perché, in quale situazione."
+  },
+  "definitions": [
+    "Analisi morfosintattica: dissezione della frase nei suoi componenti fondamentali.",
+    "Reggenza: caso richiesto dal verbo o dalla preposizione.",
+    "Resa: trasformazione del senso greco in italiano."
+  ],
+  "examples": [
+    "ἔφη αὐτοὺς ἐλθεῖν: disse che venivano (analisi: verbo φησὶ + accusativo + infinito).",
+    "τὸν ἄνδρα τὸν ἀγαθὸν ἰδὼν: vedendo l'uomo buono (analisi: accusativo + participio)."
+  ],
+  "counterexamples": [
+    "Tradurre πλὴν πάντων ἔργων ἀποβληθεῖσαν come 'escludendo tutte le opere': richiede analisi syntattica precisa.",
+    "πᾶς ἄνθρωπος φθάσει ἑαυτόν: tradurre 'ognuno invecchierà' richiede conoscenza dei tempi e delle desinenze."
+  ],
+  "errorsTypical": [
+    "Tradurre ogni genitivo con 'di' senza distinguere la funzione sintattica.",
+    "Confondere accusativo di estensione (tre giorni) con oggetto diretto.",
+    "Ignorare la preposizione che fissa il ruolo del complemento."
+  ],
+  "keywords": [
+    "analisi",
+    "lessicale",
+    "sintattica",
+    "resa",
+    "reggenza",
+    "partecipio"
+  ],
+  "prerequisites": [
+    "greco:sintassi-casi",
+    "greco:infinito-participio"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "greco:introduzione",
+      "note": "Competenza terminale dopo morfologia e sintassi."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:atene-classica",
+      "note": "L'educazione civica degli antichi passava anche attraverso la traduzione."
+    }
+  ],
+  "sources": [
+    {
+      "id": "grammatiche-greco",
+      "title": "Metodo di traduzione dal greco (grammatiche scolastiche)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su grammatica a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre passaggi della traduzione?",
+        "a": "Lessicale, morfologico, sintattico."
+      },
+      {
+        "q": "L'analisi parte da?",
+        "a": "Chi fa l'azione (soggetto)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'ἔλεγε νῦν ὅτι...': il verbo è al:",
+        "choices": [
+          "Presente",
+          "Imperfetto",
+          "Aoristo",
+          "Futuro"
+        ],
+        "answer": 1,
+        "explanation": "Imperfetto: narrazione in progresso."
+      }
+    ],
+    "questionsOpen": [
+      "Analizza due frasi greche diverse per tipo sintattico e tradizione.",
+      "Perché la scelta lessicale è cruciale nella traduzione greco-italiano?"
+    ]
+  }
+}

@@ -1,0 +1,593 @@
+{
+  "subject": "storia",
+  "curriculumScope": "Storia generale dalle origini dell'uomo al mondo attuale per la secondaria superiore italiana, con metodo storico e componente mondiale (Europa, Mediterraneo, Vicino Oriente, Africa, Asia, Americhe). Ogni periodo si esplora su politica, societ\u00c3\u00a0, economia, cultura, religione, tecnologia, eventi e fonti; fatto/interpretazione/ipotesi sempre distinti.",
+  "version": 1,
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "requiredPrerequisites": [
+    "cronologia e carta del Mediterraneo"
+  ],
+  "macroAreas": [
+    {
+      "id": "preistoria",
+      "title": "Preistoria",
+      "importance": "core",
+      "notes": "Fondamenti: antropogenesi, litica, rivoluzione neolitica come premesse.",
+      "units": [
+        {
+          "id": "antropogenesi",
+          "title": "Antropogenesi e migrazioni",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "storia:antropogenesi",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "paleolitico",
+          "title": "Paleolitico: caccia, fuoco, arte",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": "storia:paleolitico",
+          "contentDepth": "standard"
+        },
+        {
+          "id": "neolitico",
+          "title": "Neolitico: agricoltura, villaggi, citt\u00c3\u00a0",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "storia:neolitico",
+          "contentDepth": "deep"
+        }
+      ]
+    },
+    {
+      "id": "vicino-oriente",
+      "title": "Vicino Oriente antico",
+      "importance": "core",
+      "notes": "Prime civilt\u00c3\u00a0 fluviali e Levante come ponte verso la Grecia.",
+      "units": [
+        {
+          "id": "mesopotamia",
+          "title": "Mesopotamia: Sumeri, Accadi, Babilonesi, Assiri",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:mesopotamia",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "egitto",
+          "title": "Egitto: faraoni, piramidi, Nilo",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:egitto",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "mediterraneo",
+          "title": "Ittiti, Fenici, Ebrei",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:mediterraneo"
+        },
+        {
+          "id": "medio-oriente-contemporaneo",
+          "title": "Medio Oriente contemporaneo: conflitti e sviluppi recenti",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": "storia:medio-oriente-contemporaneo"
+        }
+      ]
+    },
+    {
+      "id": "grecia",
+      "title": "Mondo greco",
+      "importance": "core",
+      "notes": "Grecia completa; resta l'ellenismo come ponte verso Roma (sviluppo futuro).",
+      "units": [
+        {
+          "id": "atene",
+          "title": "Atene classica",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "storia:atene-classica",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "guerra",
+          "title": "Guerra del Peloponneso",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "storia:guerra-peloponneso",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "macedonia",
+          "title": "Filippo, Alessandro e i regni ellenistici",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:macedonia-alessandro",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "sparta",
+          "title": "Sparta e il Peloponneso",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:sparta",
+          "contentDepth": "standard"
+        }
+      ]
+    },
+    {
+      "id": "roma",
+      "title": "Roma",
+      "importance": "core",
+      "notes": "Repubblica, impero, caduta e cristianesimo coperti.",
+      "units": [
+        {
+          "id": "repubblica",
+          "title": "Monarchia e Repubblica: istituzioni ed espansione",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "storia:roma-repubblica",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "impero",
+          "title": "Principato e impero: Augusto, crisi, cristianizzazione",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:roma-impero",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "caduta",
+          "title": "Tardoantico e 'caduta' dell'Occidente",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:caduta",
+          "contentDepth": "standard"
+        },
+        {
+          "id": "cristianesimo",
+          "title": "Cristianesimo antico: diffusione e impero",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:cristianesimo",
+          "contentDepth": "standard"
+        }
+      ]
+    },
+    {
+      "id": "medioevo",
+      "title": "Medioevo",
+      "importance": "core",
+      "notes": "Alto, basso e asse Bisanzio-Islam coperti.",
+      "units": [
+        {
+          "id": "alto",
+          "title": "Alto Medioevo: regni romano-barbarici, Islam, feudalesimo",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:alto-medioevo",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "basso",
+          "title": "Basso Medioevo: comuni, monarchie, crisi del Trecento",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:basso-medioevo",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "bizantino-islam",
+          "title": "Bisanzio e mondo islamico",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:bizantino-islam"
+        }
+      ]
+    },
+    {
+      "id": "moderna",
+      "title": "Et\u00c3\u00a0 moderna",
+      "importance": "core",
+      "notes": "Da Rinascimento e scoperte alla rivoluzione scientifica e alle rivoluzioni.",
+      "units": [
+        {
+          "id": "rinascimento",
+          "title": "Rinascimento: citt\u00c3\u00a0, signorie, stampa",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:rinascimento",
+          "contentDepth": "standard"
+        },
+        {
+          "id": "scoperte-riforma",
+          "title": "Scoperte geografiche e Riforma",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:scoperte-riforma",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "assolutismo",
+          "title": "Stati moderni e assolutismo",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:assolutismo"
+        },
+        {
+          "id": "rivoluzioni",
+          "title": "Rivoluzione americana, francese, industriale",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": "storia:rivoluzioni",
+          "contentDepth": "encyclopedic"
+        },
+        {
+          "id": "rivoluzione-scientifica",
+          "title": "Rivoluzione scientifica e metodo",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:rivoluzione-scientifica"
+        }
+      ]
+    },
+    {
+      "id": "contemporanea",
+      "title": "Et\u00c3\u00a0 contemporanea",
+      "importance": "core",
+      "notes": "Ottocento, guerre e dopoguerra coperti; restano storiografia e critica delle fonti.",
+      "units": [
+        {
+          "id": "ottocento",
+          "title": "Risorgimento e Stati-nazione",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:ottocento",
+          "contentDepth": "deep"
+        },
+        {
+          "id": "guerre",
+          "title": "Guerre mondiali e totalitarismi",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": "storia:guerre",
+          "contentDepth": "encyclopedic"
+        },
+        {
+          "id": "post45",
+          "title": "Guerra fredda e mondo attuale",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": "storia:post45"
+        },
+        {
+          "id": "ventunesimo-secolo",
+          "title": "XXI secolo: globalizzazione, sfide ambientali e nuove tecnologie",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": "storia:ventunesimo-secolo"
+        },
+        {
+          "id": "shoah",
+          "title": "Shoah: Olocausto e memoria storica",
+          "tier": "advanced",
+          "weight": 2,
+          "nodeId": "storia:shoah"
+        }
+      ]
+    },
+    {
+      "id": "africa",
+      "title": "Africa",
+      "importance": "important",
+      "notes": "Componente mondiale obbligatoria: mai solo colonialismo europeo.",
+      "units": [
+        {
+          "id": "africa-antica",
+          "title": "Nubia/Kush, Axum, Cartagine",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:africa-antica",
+          "contentDepth": "standard",
+          "prerequisites": [
+            "storia:neolitico"
+          ]
+        },
+        {
+          "id": "africa-occidentale",
+          "title": "Ghana, Mali, Songhai e trans-sahariano",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:africa-occidentale",
+          "contentDepth": "deep",
+          "prerequisites": [
+            "storia:neolitico"
+          ]
+        },
+        {
+          "id": "tratta-atlantica",
+          "title": "Tratta degli schiavi e resistenze",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:tratta-atlantica",
+          "contentDepth": "deep",
+          "prerequisites": [
+            "storia:scoperte-riforma"
+          ]
+        },
+        {
+          "id": "colonialismo",
+          "title": "Colonialismo e resistenze africane",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:colonialismo",
+          "contentDepth": "overview",
+          "prerequisites": [
+            "storia:ottocento"
+          ]
+        },
+        {
+          "id": "decolonizzazione",
+          "title": "Decolonizzazione e stati postcoloniali",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": "storia:decolonizzazione",
+          "contentDepth": "standard",
+          "prerequisites": [
+            "storia:guerre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cina",
+      "title": "Cina",
+      "importance": "important",
+      "notes": "Sequenza dinastica coerente come struttura portante.",
+      "units": [
+        {
+          "id": "cina-imperiale",
+          "title": "Shang, Zhou, Qin, Han, Tang, Song, Yuan, Ming, Qing",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:cina-imperiale",
+          "contentDepth": "deep",
+          "prerequisites": [
+            "storia:neolitico"
+          ]
+        },
+        {
+          "id": "cina-contemporanea",
+          "title": "Repubblica, guerra civile, RPC e Cina attuale",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": "storia:cina-contemporanea",
+          "contentDepth": "deep",
+          "prerequisites": [
+            "storia:guerre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "title": "India",
+      "importance": "important",
+      "notes": "Dall'Indo all'indipendenza, con religioni e commerci.",
+      "units": [
+        {
+          "id": "india-antica",
+          "title": "Valle dell'Indo, Maurya, Ashoka, Gupta",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:india-antica",
+          "contentDepth": "deep",
+          "prerequisites": [
+            "storia:neolitico"
+          ]
+        },
+        {
+          "id": "india-moderna",
+          "title": "Mughal, British Raj, indipendenza e Partizione",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:india-moderna",
+          "contentDepth": "deep",
+          "prerequisites": [
+            "storia:ottocento"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "giappone",
+      "title": "Giappone",
+      "importance": "important",
+      "notes": "Non appendice dell'Occidente: struttura propria.",
+      "units": [
+        {
+          "id": "giappone-premoderno",
+          "title": "Jomon, Nara, Heian, shogunati, Tokugawa",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:giappone-premoderno",
+          "contentDepth": "deep",
+          "prerequisites": [
+            "storia:basso-medioevo"
+          ]
+        },
+        {
+          "id": "giappone-contemporaneo",
+          "title": "Meiji, imperialismo, guerra e dopoguerra",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": "storia:giappone-contemporaneo",
+          "contentDepth": "deep",
+          "prerequisites": [
+            "storia:guerre"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "americhe",
+      "title": "Americhe precolombiane",
+      "importance": "important",
+      "notes": "Mesoamerica e Ande prima dell'Europa.",
+      "units": [
+        {
+          "id": "mesoamerica",
+          "title": "Olmechi, Maya, Teotihuacan, Aztechi",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:mesoamerica",
+          "contentDepth": "standard",
+          "prerequisites": [
+            "storia:neolitico"
+          ]
+        },
+        {
+          "id": "ande",
+          "title": "Moche, Nazca, Tiwanaku, Inca",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:ande",
+          "contentDepth": "deep",
+          "prerequisites": [
+            "storia:neolitico"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "italia",
+      "title": "Percorso Italia",
+      "importance": "important",
+      "notes": "Sintesi trasversale (contenuti gi\u00c3\u00a0 distribuiti nelle aree).",
+      "units": [
+        {
+          "id": "italia-novecento",
+          "title": "Et\u00c3\u00a0 liberale, fascismo, Resistenza, Repubblica",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:italia-novecento",
+          "contentDepth": "encyclopedic",
+          "prerequisites": [
+            "storia:ottocento"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metodo",
+      "title": "Metodo storico",
+      "importance": "important",
+      "notes": "Introduzione coperta; mancano storiografia e critica delle fonti.",
+      "units": [
+        {
+          "id": "introduzione",
+          "title": "Fonti, cronologia, cause",
+          "tier": "foundational",
+          "weight": 1,
+          "nodeId": "storia:introduzione"
+        },
+        {
+          "id": "storiografia",
+          "title": "Storiografia: scuole e interpretazioni",
+          "tier": "advanced",
+          "weight": 1,
+          "nodeId": "storia:storiografia"
+        },
+        {
+          "id": "fonti-critica",
+          "title": "Critica delle fonti primarie",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:fonti-critica"
+        }
+      ]
+    },
+    {
+      "id": "sud-est-asiatico",
+      "title": "Sud-est asiatico",
+      "importance": "important",
+      "notes": "Regione comprendente Indonesia, Malesia, Filippine, Thailandia, Vietnam, ecc. - importante per capire la globalizzazione premoderna e le rotte marittime.",
+      "units": [
+        {
+          "id": "regni-marittimi",
+          "title": "Regni marittimi e commercianti del Sud-est asiatico",
+          "tier": "intermediate",
+          "weight": 2,
+          "nodeId": "storia:regni-marittimi-sud-est"
+        }
+      ]
+    },
+    {
+      "id": "mondo-slavo",
+      "title": "Mondo slavo",
+      "importance": "core",
+      "notes": "Civilt\u00e0 slave orientali e balcaniche, dalla Rus' di Kiev agli stati balcanici.",
+      "units": [
+        {
+          "id": "rus-kiev",
+          "title": "Rus' di Kiev e ortodossia orientale",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "storia:rus-kiev"
+        },
+        {
+          "id": "stati-balcanici",
+          "title": "Stati slavi dei Balcani",
+          "tier": "intermediate",
+          "weight": 1,
+          "nodeId": "storia:stati-balcanici-slavi"
+        }
+      ]
+    },
+    {
+      "id": "oceania",
+      "title": "Oceania",
+      "importance": "important",
+      "notes": "Regione oceania including Australia, Nuova Zelanda, e isole del Pacifico. Importante per comprendere la diffusione umana e le societ\u00e0 indigene.",
+      "units": [
+        {
+          "id": "societa-indigene-pacifico",
+          "title": "Societ\u00e0 indigene del Pacifico e Australia",
+          "tier": "foundational",
+          "weight": 2,
+          "nodeId": "storia:societa-indigene-pacifico"
+        }
+      ]
+    }
+  ],
+  "foundationalTopics": [
+    "antropogenesi",
+    "neolitico",
+    "atene",
+    "guerra",
+    "repubblica",
+    "introduzione"
+  ],
+  "advancedTopics": [
+    "rivoluzioni",
+    "guerre",
+    "post45",
+    "storiografia"
+  ],
+  "roadmap": [
+    "Antropogenesi e Paleolitico",
+    "Neolitico e prime citt\u00c3\u00a0",
+    "Mesopotamia ed Egitto",
+    "Africa antica, Cina imperiale, Mesoamerica (rami mondiali)",
+    "Macedonia/Alessandro",
+    "Repubblica romana",
+    "Impero",
+    "Alto Medioevo",
+    "Basso Medioevo",
+    "Moderna",
+    "Contemporanea"
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "id": "storia:macedonia-alessandro",
+  "subject": "storia",
+  "title": "Macedonia: Filippo, Alessandro, i regni ellenistici",
+  "slug": "macedonia-alessandro",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:atene-classica",
+  "order": 1,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.847Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-359",
+    "end": "-272",
+    "label": "da Filippo II alla stabilizzazione dei regni",
+    "place": "Macedonia, Grecia, Asia, Egitto"
+  },
+  "summary": "Filippo II unifica la Macedonia e vince a Cheronea (338); Alessandro (336\u00e2\u20ac\u201c323) dissolve l'impero persiano fino all'Indo; alla morte, i diadochi fondano regni ellenistici (Tolomei, Seleucidi, Antigonidi): citt\u00c3\u00a0, koin\u00c3\u00a8, scienza alessandrina.",
+  "explanations": {
+    "semplice": "Un re del nord, Filippo, rende la Macedonia fortissima e batte le citt\u00c3\u00a0 greche. Suo figlio Alessandro, a vent'anni, conquista un impero gigantesco fino all'India in dieci anni. Muore giovane e i suoi generali si dividono tutto in tre grandi regni dove si parla greco.",
+    "approfondita": "Filippo II (359\u00e2\u20ac\u201c336): falange sarissofora, artiglieria, diplomazia e oro; Sacra guerra, Cheronea 338 contro Atene e Tebe, Lega di Corinto e programma persiano. Alessandro (336\u00e2\u20ac\u201c323, precettore Aristotele): Granico 334, Isso 333, Tiro/Gaza, Egitto e Alessandria 331, Gaugamela 331, Persepoli, Indu 326 (Ifasi: ammutinamento), morte a Babilonia 323. Politica: fusione (nozze di Susa 324), satrapie miste, culto regale, opposizione macedone (Filota, Clito, Callistene). Diadochi: Ipso 301, Curupedio 281; Tolomei (Alessandria: Museo, Biblioteca), Seleucidi (Antiochia, estensione asiatica), Antigonidi (Macedonia/Grecia). Ellenismo: poleis nuove, koin\u00c3\u00a8, scienza (Euclide, Eratostene), scambi globali; limiti: sfruttamento fiscale, fragilit\u00c3\u00a0 dinastica, arrivo romano (Magnesia 190, Pidna 168). Fonti: Arriano, Plutarco, Diodoro, Curzio Rufo (retorici, con cautela), epigrafia e papiri per l'amministrazione.",
+    "tecnica": "Questioni: 'fusione' reale o propaganda; grandezza dell'esercito (cifre antiche inattendibili); ellenizzazione vs resistenze locali."
+  },
+  "definitions": [
+    "Falange sarissofora: schieramento di picche lunghe (sarisse) come urto decisivo.",
+    "Diadochi: successori che si spartiscono l'impero dopo il 323.",
+    "Koin\u00c3\u00a8: greco comune ellenistico, lingua dell'amministrazione e dei Vangeli."
+  ],
+  "examples": [
+    "Alessandria d'Egitto: porto, faro, Museo come capitale culturale.",
+    "Stele di Rosetta (196): decreto tolemaico in tre scritture, chiave dei geroglifici."
+  ],
+  "counterexamples": [
+    "L'impero 'universale e tollerante' come mito: resistenze, rivolte, fiscalismo.",
+    "Alessandro diffusore di democrazia: esporta monarchia personale."
+  ],
+  "errorsTypical": [
+    "Datare la fine della libert\u00c3\u00a0 greca a Cheronea senza sfumature: le poleis restano attori.",
+    "Numeri degli eserciti presi alla lettera dalle fonti."
+  ],
+  "keywords": [
+    "Cheronea 338",
+    "Gaugamela 331",
+    "diadochi",
+    "Tolomei",
+    "Seleucidi",
+    "koin\u00c3\u00a8",
+    "Alessandria"
+  ],
+  "prerequisites": [
+    "storia:atene-classica",
+    "storia:guerra-peloponneso"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:atene-classica",
+      "note": "Esito del mondo greco classico."
+    },
+    {
+      "type": "CAUSE",
+      "to": "storia:roma-repubblica",
+      "note": "L'Oriente ellenistico \u00c3\u00a8 il teatro dell'espansione romana."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:aristotele-vita-opere",
+      "note": "Aristotele precettore di Alessandro (343/342)."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:ellenismo",
+      "note": "Contesto politico delle scuole ellenistiche."
+    }
+  ],
+  "claims": [
+    {
+      "id": "macedonia-date",
+      "statement": "Alessandro III di Macedonia (Pella 356 \u00e2\u20ac\u201c Babilonia 323 a.C., regno 336\u00e2\u20ac\u201c323): figlio di Filippo II (359\u00e2\u20ac\u201c336) e Olimpiade, allievo di Aristotele dal 343; a capo della cavalleria a Cheronea (338), succede al padre assassinato nel 336 e si fa confermare a Corinto comandante contro la Persia.",
+      "supportedBy": [
+        "treccani-alessandro",
+        "whe-alessandro"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "macedonia-campagne",
+      "statement": "Spedizione in Asia dalla primavera 334 (circa 40.000 uomini, 5000 cavalieri, 160 navi): Granico favorevole, Mileto e Alicarnasso, Gordio, Isso novembre 333 contro Dario III, Tiro e Gaza, Egitto inverno 332\u00e2\u20ac\u201c331 con Alessandria e Siwa/Ammone, Gaugamela 1 ottobre 331, Persepoli maggio 330, Battriana e Sogdiana, primavera 327 India con Poro all'Idaspe (maggio 326, Bucefala e Nicea), rientro a Susa primavera 324; morte a Babilonia nel giugno 323 dopo 13 anni di regno.",
+      "supportedBy": [
+        "treccani-alessandro",
+        "whe-alessandro"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "macedonia-fonti",
+      "statement": "Arriano di Nicomedia (95 circa \u00e2\u20ac\u201c 180 circa), con l'Anabasi di Alessandro in sette libri, e la trattazione piu attendibile pervenutaci sulla conquista macedone; fonti principalissime Tolomeo I Sotere e Aristobulo di Cassandria. Plutarco scrive Vite morali, non storie.",
+      "supportedBy": [
+        "treccani-arriano",
+        "livius-arriano-fonti"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-alessandro",
+      "title": "Alessandro Magno \u00e2\u20ac\u201d Dizionario di Storia (2010)",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/alessandro-magno_(Dizionario-di-Storia)/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "macedonia-date",
+        "macedonia-campagne"
+      ],
+      "note": "Contenuto ispezionato il 2026-09-27. Verificati: Pella 356-Babilonia 323, Aristotele dal 343, Cheronea 338, 336 assassinio Filippo, primavera 334 40.000 uomini 5000 cavalieri 160 navi, Granico, Mileto Alicarnasso, Gordio, Isso novembre 333, Tiro Gaza, Egitto 332-331 Alessandria Siwa, Battriana Sogdiana, 327 India Poro Idaspe Bucefala Nicea, Susa 324, morte 13 giugno 323 a 33 anni dopo 13 anni."
+    },
+    {
+      "id": "whe-alessandro",
+      "title": "Alexander the Great \u00e2\u20ac\u201d World History Encyclopedia",
+      "author": "Joshua J. Mark",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Alexander_the_Great/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "macedonia-date",
+        "macedonia-campagne"
+      ],
+      "note": "Contenuto ispezionato il 2026-09-27 (2013). Verificati: 21 luglio 356 - 10 o 11 giugno 323, regno 336-323, figlio di Filippo II 359-336, ellenismo 323-31, diadochi, Tiro gen-lug 332, Siwa dic 332, Alessandria gen 331 Rhakotis, Gaugamela 1 ottobre 331 Re d'Asia, Persepoli mag 330, Idaspe mag 326 contro Poro, Beas set 326, Efestione ott 324."
+    },
+    {
+      "id": "treccani-arriano",
+      "title": "Arriano \u00e2\u20ac\u201d Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/arriano/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "macedonia-fonti"
+      ],
+      "note": "Contenuto ispezionato il 2026-09-27. Verificati: 95 circa-180 circa, Nicomedia, modello Senofonte; Anabasi in sette libri, piu attendibile pervenutaci sulla conquista; fonti Tolomeo I Sotere e Aristobulo di Cassandria."
+    },
+    {
+      "id": "livius-arriano-fonti",
+      "title": "Alexander 3.3 Arrian's Sources \u00e2\u20ac\u201d Livius.org",
+      "author": "Jona Lendering",
+      "publisher": "Livius.org",
+      "url": "https://www.livius.org/articles/person/alexander-the-great/alexander-3.3-arrians-sources/",
+      "sourceType": "academic-site",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "macedonia-fonti"
+      ],
+      "note": "Contenuto ispezionato il 2026-09-27. Verificati: Callistene opera perduta adulatoria; Aristobulo e Tolomeo ufficiali presenti; Plutarco Vite non storie con aneddoti morali."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Le tre battaglie decisive?",
+        "a": "Granico 334, Isso 333, Gaugamela 331."
+      },
+      {
+        "q": "I tre regni?",
+        "a": "Tolomei (Egitto), Seleucidi (Asia), Antigonidi (Macedonia)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La novit\u00c3\u00a0 militare di Filippo \u00c3\u00a8:",
+        "choices": [
+          "La trireme",
+          "Falange di sarisse + cavalleria d'urto combinate",
+          "Gli elefanti",
+          "Le mura"
+        ],
+        "answer": 1,
+        "explanation": "Sistema integrato fanteria-cavalleria-artiglieria."
+      }
+    ],
+    "questionsOpen": [
+      "Fusione o dominio? Valuta Susa 324.",
+      "Perch\u00c3\u00a9 Alessandria diventa capitale culturale?"
+    ]
+  },
+  "contentDepth": "deep"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "greco:aggettivi",
+  "subject": "greco",
+  "title": "Aggettivi e gradi",
+  "slug": "aggettivi",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 10,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "foundation",
+  "summary": "Aggettivi a tre, due e una uscita (ἀγαθός, μέγας, πολύς); concordanze in genere, numero e caso; comparativi in -τερος e superlativi in -τατος con secondo termine in genitivo o con ἤ; irregolari principali.",
+  "explanations": {
+    "semplice": "Gli aggettivi dicono com'è una cosa e cambiano come i nomi: bello, bella, belli. Per confrontare si aggiunge una desinenza (più bello) o si dice bellissimo. Il confronto si fa col genitivo o con la parola che significa che.",
+    "approfondita": "Classi: tre uscite (ἀγαθός/ἀγαθή/ἀγαθόν su I-II), due uscite (ἄδικος/ἄδικον), una uscita (participi e composti); μέγας/μεγάλη/μέγα e πολύς/πολλή/πολύ con temi alternanti (μεγα-, πολλ-); concordanze col nome in genere-numero-caso (attributiva con articolo ripetuto, predicativa senza). Comparativo in -τερος/-τέρα/-τερον (σοφώτερος) e superlativo in -τατος (σοφώτατος); secondo termine con genitivo di paragone o ἤ + stesso caso; comparativi con -ιων (μείζων, ἐλάττων: declinazione in -ον-). Irregolari: ἀγαθός/ἀμείνων/ἄριστος, κακός/χείρων/χείριστος, μέγας/μείζων/μέγιστος, πολύς/πλείων/πλεῖστος, μικρός/ἐλάττων/ἐλάχιστος. Usi avverbiali del neutro (ταχέως, neutro plurale). Regola operativa: genere dal nome, tema dal genitivo, grado dalla desinenza.",
+    "tecnica": "Diagnosi: uscita del nominativo per la classe, genitivo per il tema; -τερος contro -τατος; ἤ solo tra casi uguali."
+  },
+  "definitions": [
+    "Concordanza: accordo di genere, numero e caso tra nome e aggettivo.",
+    "Comparativo: grado di confronto tra due termini.",
+    "Genitivo di paragone: secondo termine senza ἤ."
+  ],
+  "examples": [
+    "ἀνὴρ σοφώτερος τοῦ παιδός: uomo più saggio del ragazzo (genitivo).",
+    "μέγιστον ἀγαθόν: il bene più grande (superlativo)."
+  ],
+  "counterexamples": [
+    "Aggettivo al genere naturale invece che grammaticale (ὁδός femminile).",
+    "ἤ con casi diversi nei due termini del confronto."
+  ],
+  "errorsTypical": [
+    "Declinare πολύς come regolare (tema πολλ-).",
+    "Confondere comparativo e superlativo nelle desinenze.",
+    "Dimenticare l'articolo ripetuto nell'attributiva."
+  ],
+  "keywords": [
+    "concordanza",
+    "-τερος",
+    "-τατος",
+    "paragone",
+    "irregolari"
+  ],
+  "prerequisites": [
+    "greco:declinazioni-nome",
+    "greco:alfabeto-fonetica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "greco:introduzione",
+      "note": "Morfologia nominale dopo le declinazioni."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "greco:declinazioni-nome",
+      "note": "Stesse desinenze e stesso uso del genitivo-tema."
+    }
+  ],
+  "sources": [
+    {
+      "id": "grammatiche-greco",
+      "title": "Aggettivi e gradi nelle grammatiche scolastiche",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su grammatica a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Uscite di ἀγαθός?",
+        "a": "Tre: -ός/-ή/-όν su I-II declinazione."
+      },
+      {
+        "q": "Secondo termine del paragone?",
+        "a": "Genitivo oppure ἤ + stesso caso."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "'σοφώτατος ἀνήρ' significa:",
+        "choices": [
+          "Uomo più saggio (di uno)",
+          "Uomo molto saggio / il più saggio",
+          "Uomo saggio quanto",
+          "Uomo poco saggio"
+        ],
+        "answer": 1,
+        "explanation": "Superlativo: relativo o assoluto (molto saggio)."
+      }
+    ],
+    "questionsOpen": [
+      "Declina μέγας al singolare e spiega ogni tema.",
+      "Quando il genitivo e quando ἤ nel confronto?"
+    ]
+  }
+}

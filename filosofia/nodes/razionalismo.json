@@ -1,0 +1,123 @@
+{
+  "id": "filosofia:razionalismo",
+  "subject": "filosofia",
+  "title": "Spinoza e Leibniz",
+  "slug": "razionalismo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:moderna",
+  "order": 4,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Dopo Cartesio: Spinoza (unica sostanza Deus sive Natura, Etica more geometrico, libertà come necessità compresa) e Leibniz (monadi senza finestre, armonia prestabilita, migliore dei mondi possibili); ragione come via alla totalità.",
+  "explanations": {
+    "semplice": "Due geni provano a finire il lavoro di Cartesio. Spinoza dice: esiste una sola cosa infinita, Dio uguale Natura, e noi siamo liberi quando capiamo perché tutto accade. Leibniz dice: il mondo è fatto di piccole anime (monadi) che Dio ha sincronizzato come orologi perfetti.",
+    "approfondita": "Spinoza (1632-77, Etica 1677 postuma): una sola sostanza con infiniti attributi (pensiero ed estensione noti); modi come affezioni; conatus e tre generi di conoscenza (immaginazione, ragione, scienza intuitiva); libertà come azione da necessità compresa; critica biblica (Trattato teologico-politico) e tolleranza. Leibniz (1646-1716, Monadologia, Teodicea): monadi semplici senza finestre con percezione e appetizione; armonia prestabilita corpo-anima; principio di ragion sufficiente e identità degli indiscernibili; verità di ragione contro verità di fatto; migliore dei mondi possibili e problema del male (Bayle come interlocutore). Contrasto con l'empirismo nascente (Locke) come cornice; Kant come erede critico (da dichiarare).",
+    "tecnica": "Strumenti: definizione-assioma-proposizione more geometrico; calcolo infinitesimale come sfondo leibniziano; necessità ipotetica contro assoluta."
+  },
+  "definitions": [
+    "Sostanza spinoziana: ciò che è in sé e si concepisce per sé, unica e infinita.",
+    "Monade: sostanza semplice, senza parti né finestre, con percezione.",
+    "Armonia prestabilita: coordinazione corpo-anima senza interazione."
+  ],
+  "examples": [
+    "Il cane di Pavlov? No: l'uomo libero spinoziano agisce comprendendo le cause.",
+    "Due orologi sincronizzati: immagine leibniziana di anima e corpo."
+  ],
+  "counterexamples": [
+    "Spinoza ateo in senso moderno: Dio come natura infinita, non nulla.",
+    "Leibniz ottimista ingenuo: teodicea come risposta argomentata al male."
+  ],
+  "errorsTypical": [
+    "Confondere sostanza cartesiana e spinoziana (tre contro una).",
+    "Fare delle monadi atomi materiali (sono metafisiche).",
+    "Ridurre la Teodicea a Pangloss voltairiano senza leggerla."
+  ],
+  "keywords": [
+    "sostanza",
+    "monadi",
+    "armonia",
+    "conatus",
+    "teodicea"
+  ],
+  "prerequisites": [
+    "filosofia:cartesio"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:moderna",
+      "note": "Razionalismo continentale dopo Cartesio."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:cartesio",
+      "note": "Sostanza e dualismo come problemi ereditati."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:empirismo",
+      "note": "Ragione contro esperienza come asse della modernità."
+    }
+  ],
+  "claims": [
+    {
+      "id": "razionalismo-sistemi",
+      "statement": "Spinoza riduce le sostanze a una sola mentre Leibniz moltiplica i semplici in monadi coordinate: due esiti opposti del cartesianesimo.",
+      "supportedBy": [
+        "manuale-razionalismo"
+      ],
+      "status": "unverified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-razionalismo",
+      "title": "Profilo standard del razionalismo (Spinoza, Leibniz)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Spinoza in una riga?",
+        "a": "Una sostanza, infiniti attributi; libero chi comprende la necessità."
+      },
+      {
+        "q": "Leibniz in una riga?",
+        "a": "Monadi senza finestre in armonia prestabilita."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Per Spinoza gli attributi pensiero ed estensione sono:",
+        "choices": [
+          "Due sostanze",
+          "Due attributi dell'unica sostanza",
+          "Due modi finiti",
+          "Due illusioni"
+        ],
+        "answer": 1,
+        "explanation": "La sostanza è una; pensiero ed estensione la esprimono."
+      }
+    ],
+    "questionsOpen": [
+      "Una o infinite sostanze? Confronta le prove.",
+      "Il male confuta il migliore dei mondi? (Bayle, Voltaire)"
+    ]
+  }
+}

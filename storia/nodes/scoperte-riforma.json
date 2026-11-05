@@ -1,0 +1,132 @@
+{
+  "id": "storia:scoperte-riforma",
+  "subject": "storia",
+  "title": "Scoperte geografiche e Riforma protestante",
+  "slug": "scoperte-riforma",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:basso-medioevo",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1492",
+    "end": "1563",
+    "label": "da Colombo al concilio di Trento (convenzione scolastica)",
+    "place": "Atlantico, Europa, Mediterraneo"
+  },
+  "summary": "Espansione oceanica (Portogallo, Castiglia: Tordesillas 1494, Colombo 1492, Vespucci, Magellano 1519-22) con scambio colombiano e conquista; Riforma di Lutero (95 tesi 1517, Worms 1521, Augusta 1530), Calvino e anglicanesimo; risposta cattolica fino a Trento (1545-63).",
+  "explanations": {
+    "semplice": "Navi nuove e mappe migliori portano gli Europei in America e intorno all'Africa: arrivano argento e patate ma anche malattie e schiavit\u00c3\u00b9. Intanto un monaco dice che la Chiesa deve cambiare: nascono nuove Chiese cristiane e lunghe guerre di religione.",
+    "approfondita": "Tecnica: caravella, portolani, astrolabio e artiglieria di bordo; trattati (Alc\u00c3\u00a1\u00c3\u00a7ovas 1479, Tordesillas 1494, Saragozza 1529); Colombo (1492, quattro viaggi, encomienda), Cabral 1500, Vespucci e Mundus Novus, Cort\u00c3\u00a9s (1519-21) e Pizarro (1532) con fattori demografici e alleati indigeni, Magellano-Elcano 1519-22; scambio colombiano (mais, patata, cavallo, malattie), argento di Potos\u00c3\u00ad e prezzi, tratta atlantica. Riforma: indulgenze e 95 tesi 1517, dibattito di Lipsia 1519, Worms 1521, Wartburg e Bibbia tedesca, principi e Cuius regio (Augusta 1555); Zwingli e Calvino (Ginevra, predestinazione, disciplina), anglicanesimo (Atto di supremazia 1534); Controriforma cattolica (Compagnia di Ges\u00c3\u00b9 1540, Inquisizione romana 1542, Indice, Trento 1545-63: Scrittura-Tradizione, sacramenti, seminari). Fatto contro giudizio: scoperte come incontro-scontro con catastrofe demografica; Riforma come crisi religiosa e statale insieme.",
+    "tecnica": "Fonti: diari di bordo, bolle e trattati, confessioni (Augustana), atti tridentini; stime demografiche dibattute, mai cifre secche."
+  },
+  "definitions": [
+    "Encomienda: affidamento di lavoro indigeno ai coloni con evangelizzazione formale.",
+    "Scambio colombiano: trasferimento di piante, animali, malattie tra i continenti.",
+    "Cuius regio eius religio: religione del principe come religione del territorio (1555)."
+  ],
+  "examples": [
+    "Tordesillas 1494: raya atlantica tra espansioni iberiche.",
+    "Augusta 1530/1555: confessione e pace religiosa come soluzione politica."
+  ],
+  "counterexamples": [
+    "Scoperta di un vuoto: Americhe popolate con Stati e reti commerciali.",
+    "Riforma solo teologica: principi, citt\u00c3\u00a0 e stampa come condizioni."
+  ],
+  "errorsTypical": [
+    "Colombo che prova la sfericit\u00c3\u00a0: dibattito sulle dimensioni, non sulla forma.",
+    "Lutero contro la modernit\u00c3\u00a0 in blocco: riforma della Chiesa con mezzi modernissimi (stampa)."
+  ],
+  "keywords": [
+    "1492",
+    "Tordesillas",
+    "1517",
+    "Worms 1521",
+    "Calvino",
+    "Trento"
+  ],
+  "prerequisites": [
+    "storia:alto-medioevo",
+    "storia:introduzione"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:basso-medioevo",
+      "note": "Uscita dal Medioevo verso l'et\u00c3\u00a0 moderna."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:tommaso",
+      "note": "La scolastica come sfondo della critica umanistico-riformata (uso, non identit\u00c3\u00a0)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "riforma-lutero",
+      "statement": "Lutero 1483-1546: 95 tesi latine 31 ott 1517 a Wittenberg tradotte in tedesco e diffuse con stampa 1440; scomunica 3 gen 1521 Leone X; Worms 17-18 apr 1521 davanti a Carlo V rifiuto abiura ed Editto; Bibbia tedesca 1534; stampa Gutenberg 1398-1468 anni 1450 da torchi vino olio.",
+      "supportedBy": [
+        "whe-lutero"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-lutero",
+      "title": "Martin Luther - World History Encyclopedia",
+      "author": "Joshua J. Mark",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Martin_Luther/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "riforma-lutero"
+      ],
+      "note": "Ispezionato 2026-09-27 (2021). 1483-1546, 95 tesi 1517 stampa 1440, scomunica 1521 Worms, Bibbia 1534, Gutenberg 1450."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre date oceaniche?",
+        "a": "1492 Colombo; 1494 Tordesillas; 1519-22 Magellano-Elcano."
+      },
+      {
+        "q": "Tre date religiose?",
+        "a": "1517 tesi; 1521 Worms; 1545-63 Trento."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Tordesillas (1494) regola:",
+        "choices": [
+          "La pace religiosa tedesca",
+          "La spartizione oceanica iberica",
+          "Il califfato",
+          "La scoperta della stampa"
+        ],
+        "answer": 1,
+        "explanation": "Raya atlantica tra Portogallo e Castiglia."
+      }
+    ],
+    "questionsOpen": [
+      "Scambio colombiano: chi guadagna e chi perde nel breve periodo?",
+      "Perch\u00c3\u00a9 la stampa decide il destino della Riforma?"
+    ]
+  },
+  "contentDepth": "deep"
+}

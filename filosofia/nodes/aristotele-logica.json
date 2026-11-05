@@ -1,0 +1,131 @@
+{
+  "id": "filosofia:aristotele-logica",
+  "subject": "filosofia",
+  "title": "Aristotele — Logica: induzione e sillogismo",
+  "slug": "aristotele-logica",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "filosofia:aristotele",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "summary": "L'epagoge (induzione) ricava l'universale dai casi simili per le scienze naturali; la dimostrazione apodittica procede deduttivamente dall'universale al particolare e la sua forma tipica è il sillogismo (Analitici primi). Le premesse prime si intuiscono col nous: sopra la logica dianoetica sta quella noetica.",
+  "explanations": {
+    "semplice": "Per scoprire le regole si osservano tanti casi (induzione: tanti cigni bianchi, regola provvisoria). Per dimostrare con certezza si parte da verità generali e si deduce (sillogismo: tutti gli uomini sono mortali, Socrate è uomo, dunque Socrate è mortale). Le verità di partenza non si dimostrano: si colgono con l'intelligenza.",
+    "approfondita": "Doppio registro: l'induzione accosta casi simili e fonda la norma sul consenso dei particolari (scienze della natura), ma non dimostra verità necessarie ed eterne; la dimostrazione apodittica deduce il particolare dall'universale e richiede premesse immediate, non dedotte da un medio superiore (altrimenti regresso infinito), intuite dal nous che appercepisce l'unità senza scindere soggetto e predicato come fa la dianoia giudicante. La sillogistica classifica tipi validi/invalidi: logica formale (forme necessarie del dedurre, non contenuti). Sopravalutazione conclusiva e platonica del noetico sul dianoetico: la contemplazione condiziona la dimostrazione. Esempio storico di dimostrazione per assurdo: l'incommensurabilità della diagonale (citata negli Analitici primi), che collega questo nodo al teorema matematico corrispondente.",
+    "tecnica": "Struttura sillogistica: due premesse con termine medio, conclusione; figure e modi validi negli Analitici primi; premesse immediate (archai) come condizioni della scienza negli Analitici posteriori."
+  },
+  "definitions": [
+    "Epagoge: induzione dai particolari all'universale.",
+    "Sillogismo: deduzione in cui, poste due premesse, la conclusione segue necessariamente.",
+    "Apodittico: dimostrativo con necessità assoluta, da premesse vere e prime."
+  ],
+  "examples": [
+    "Barbara: ogni M è P; ogni S è M; dunque ogni S è P.",
+    "La diagonale del quadrato come esempio di prova per assurdo (Analitici primi)."
+  ],
+  "counterexamples": [
+    "L'induzione non fonda necessità: diecimila casi non escludono il controesempio successivo."
+  ],
+  "errorsTypical": [
+    "Credere che il sillogismo produca contenuti nuovi: trasmette verità dalle premesse, non le crea.",
+    "Confondere validità formale e verità materiale delle premesse."
+  ],
+  "keywords": [
+    "sillogismo",
+    "epagoge",
+    "apodittico",
+    "nous",
+    "dianoia",
+    "Analitici",
+    "premesse immediate"
+  ],
+  "prerequisites": [
+    "filosofia:platone-dialettica",
+    "filosofia:aristotele-vita-opere"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:aristotele",
+      "note": "La logica, dottrina più originale."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:platone-dialettica",
+      "note": "La divisione platonica prepara la formalizzazione."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "matematica:irrazionalita-sqrt2",
+      "note": "La prova per assurdo citata da Aristotele come modello dimostrativo."
+    }
+  ],
+  "claims": [
+    {
+      "id": "aristotele-doppio-metodo",
+      "statement": "Induzione per le scienze naturali, deduzione apodittica per la dimostrazione necessaria; premesse prime intuite dal nous.",
+      "supportedBy": [
+        "treccani-aristotele"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-aristotele",
+      "title": "Aristotele — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/aristotele/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "supports": [
+        "doppio metodo induttivo/deduttivo",
+        "sillogismo e premesse immediate",
+        "logica noetica sopra dianoetica"
+      ],
+      "note": "Sezione logica letta via fetch il 2026-09-24."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Perché l'induzione non basta a dimostrare?",
+        "a": "Non fonda necessità: resta aperta al controesempio futuro."
+      },
+      {
+        "q": "Chi coglie le premesse immediate?",
+        "a": "Il nous, per intuizione dell'unità, senza mediazione sillogistica."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il sillogismo apodittico procede:",
+        "choices": [
+          "Dal particolare all'universale",
+          "Dall'universale al particolare, da premesse vere e prime",
+          "Per tentativi",
+          "Per autorità"
+        ],
+        "answer": 1,
+        "explanation": "Deduzione necessaria da archai intuite, non da casi."
+      }
+    ],
+    "questionsOpen": [
+      "Valido ma con premesse false: cosa garantisce davvero il sillogismo?",
+      "Perché Aristotele cita la diagonale come esempio dimostrativo?"
+    ]
+  }
+}

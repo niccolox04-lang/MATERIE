@@ -1,0 +1,116 @@
+{
+  "id": "storia:medio-oriente-contemporaneo",
+  "subject": "storia",
+  "title": "Medio Oriente contemporaneo: Stati, conflitto, questione palestinese",
+  "slug": "medio-oriente-contemporaneo",
+  "status": "draft",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 4,
+  "version": 1,
+  "createdAt": "2026-09-30T00:00:00.000Z",
+  "updatedAt": "2026-09-30T00:00:00.000Z",
+  "level": "advanced",
+  "chrono": {
+    "start": "1918",
+    "end": "2026",
+    "label": "dalla fine dell'impero ottomano alla data di redazione del corpus",
+    "place": "Turchia, Siria, Iraq, Libano, Israele e Palestina, Iran, Grecia orientale"
+  },
+  "summary": "Il Medio Oriente contemporaneo nasce dallo smembramento dell'impero ottomano dopo la Prima guerra mondiale (mandati della Societa' delle Nazioni, 1920). Il nodo segue la formazione di Israele (1948) e la questione palestinese, le guerre arabo-israelitane, il nazionalismo arabo, la rivoluzione iraniana (1979), la guerra del Libano, le due guerre del Golfo e la crisi contemporanea, con i problemi dei rifugiati, delle frontiere e dell'autodeterminazione.",
+  "explanations": {
+    "semplice": "Dopo la Prima guerra mondiale l'impero ottomano viene diviso fra diversi Stati e mandati europei. Nel 1948 nasce Israele e si apre la questione palestinese, ancora oggi al centro dei conflitti della regione. Gli Stati arabi si legano in un nazionalismo comune, poi arrivano le guerre con Israele e la guerra fredda regionale.",
+    "approfondita": "Tappe: accordi di Londra e di Sèvres (1919-1920), mandato britannico in Palestina e mandato francese in Siria-Libano, formazione di Arabia saudita, Iraq, Transgiordania, Libano e Siria. Questione palestinese: movimento sionista, il mandato, la rivolta araba del 1936-1939, il piano di partizione ONU del 1947, la guerra del 1948 e la creazione di Israele, la fuga dei profughi, la guerra del 1967 e la risoluzione 242 dell'ONU. Mondo arabo: nasserismo e panarabismo, rivoluzione egiziana del 1952, nazionalizzazione del Canale di Suez e crisi del 1956, rivoluzione iraniana del 1979, guerra del Libano (1975-1990), prima guerra del Golfo (1990-1991), accordi di Oslo (1993-1995). Oggi: Gerusalemme, il confine, i rifugiati, la crisi dopo il 7 ottobre 2023. Distinguere: le cause dei conflitti sono molteplici e ridurle a una sola spiega e' riduttivo.",
+    "tecnica": "Fonti: trattati (Sèvres, Lausanne, Oslo), risoluzioni ONU, atti di fondazione degli Stati, memorie delle diverse parti, diritto internazionale. Nota critica: la ricostruzione del Mediterraneo orientale e' politicamente sensibile e le fonti vanno lette criticamente. Per published servono fonti revisionate: stato attuale = draft."
+  },
+  "definitions": [
+    "Mandato: amministrazione affidata dalla Societa' delle Nazioni dopo la Prima guerra mondiale.",
+    "Nasserismo: nazionalismo arabo di Nasser, con statalismo, panarabismo e modernizzazione.",
+    "Rifugiati palestinesi: comunita' sfollate dal 1948, con effetti di lungo periodo."
+  ],
+  "examples": [
+    "La crisi di Suez (1956): la nazionalizzazione del Canale mostra il passaggio dall'egemonia europea a nuovi attori regionali.",
+    "Gli accordi di Oslo (1993): processo negoziale la cui attuazione e' discussa."
+  ],
+  "counterexamples": [
+    "Il conflitto come questione religiosa: le cause sono anche territoriali, coloniali e geopolitiche.",
+    "Il fallimento di Oslo come gia' scritto: l'attuazione parziale alimentato nuove critiche."
+  ],
+  "errorsTypical": [
+    "Presentare il 1948 come evento isolato: ha radici nel mandato, nel sionismo e nel nazionalismo arabo.",
+    "Ridurre la questione palestinese a un solo problema: territorio, rifugiati e memoria si intrecciano.",
+    "Dare per scontata una narrazione unica: le fonti dei vari attori vanno lette criticamente."
+  ],
+  "keywords": [
+    "Medio Oriente contemporaneo",
+    "sionismo",
+    "Palestina",
+    "Israele",
+    "1948",
+    "Nasser",
+    "Suez",
+    "rivoluzione iraniana",
+    "Libano",
+    "Oslo",
+    "ONU"
+  ],
+  "prerequisites": [
+    "storia:mediterraneo",
+    "storia:guerre"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Nodo radice, area Medio Oriente contemporanea."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:guerre",
+      "note": "La crisi medio-orientale nasce dalla guerra e dal dopoguerra."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:ventunesimo-secolo",
+      "note": "Le crisi contemporanee e i processi di pace regionale."
+    }
+  ],
+  "claims": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Quando fu firmato il trattato di Lausanne?",
+        "a": "Nel 1923, ridefinendo i confini dell'impero ottomano."
+      },
+      {
+        "q": "Che cos'e' il nasserismo?",
+        "a": "Il nazionalismo arabo di Nasser, con statalismo e panarabismo."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il trattato di Sèvres (1920) serviva a:",
+        "choices": [
+          "Ridisegnare i confini dell'impero ottomano",
+          "Riaprire la questione dei Balcani",
+          "Riconoscere l'indipendenza del Giappone",
+          "Fissare il confine del Reno"
+        ],
+        "answer": 0,
+        "explanation": "Sèvres ridisegnava i confini dell'impero ottomano; Lausanne (1923) lo sostitui'."
+      }
+    ],
+    "questionsOpen": [
+      "Perche' la questione palestinese e' cosi' difficile da risolvere?",
+      "Che ruolo hanno il diritto internazionale e le risoluzioni ONU?"
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "storia:bizantino-islam",
+  "subject": "storia",
+  "title": "Bisanzio e mondo islamico",
+  "slug": "bizantino-islam",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 11,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "330",
+    "end": "1453",
+    "label": "da Costantinopoli alla caduta (convenzione)",
+    "place": "Mediterraneo orientale, Vicino Oriente"
+  },
+  "summary": "Approfondimento distinto dal nodo alto-medioevo (lì: regni occidentali e feudalesimo): Impero d'Oriente (Giustiniano, icone, 1054, 1453) e civiltà islamica (Egira 622, califfati, Baghdad, trasmissione del sapere greco); Mediterraneo conteso e scambi.",
+  "explanations": {
+    "semplice": "Mentre in Occidente ci sono piccoli regni, a est continua l'impero romano con capitale Costantinopoli per mille anni. Intanto nasce l'Islam: in un secolo gli Arabi creano un impero dalla Spagna all'India, con scienziati che salvano e migliorano i libri greci.",
+    "approfondita": "Bisanzio: Costantino 330, Teodosio II (mura), Giustiniano (Corpus iuris, Santa Sofia, Belisario/Narsete, peste), Eraclio e temi, iconoclasmo (726-843) e restaurazione, Macedoni e Comneni, 1054 (scomunica reciproca come atto, scisma come processo), IV crociata 1204, Paleologi e 1453 (Maometto II). Islam: Muhammad (Mecca-Medina 622), Corano e Sunna, califfi elettivi, Omayyadi di Damasco (moschea, arabo amministrativo), Abbasidi di Baghdad (Casa della Sapienza, traduzioni di Aristotele e Galeno, algebra di al-Khwarizmi, Avicenna e Averroè come orizzonte verso la scolastica), al-Andalus (Cordova) e Sicilia; crociate dal versante orientale come rinvio. Economia: seta e spezie, dinaro e hyperpyron. Distinzione dal nodo alto-medioevo dichiarata: qui istituzioni orientali e civiltà islamica in profondità.",
+    "tecnica": "Fonti: Procopio con cautela (storie segrete), cronache bizantine, Corano e hadith, documenti della Geniza; date alte come intervalli."
+  },
+  "definitions": [
+    "Egira (622): migrazione a Medina, anno uno islamico.",
+    "Iconoclasmo: controversia sulle immagini sacre (726-843).",
+    "Casa della Sapienza: centro abbaside di traduzioni a Baghdad."
+  ],
+  "examples": [
+    "Santa Sofia 537: cupola su pennacchi, manifesto giustinianeo.",
+    "Algebra di al-Khwarizmi: dal nome l'algoritmo."
+  ],
+  "counterexamples": [
+    "Bisanzio immobile per millenni: riforme, crisi e riprese continue.",
+    "Islam solo guerra santa: diritto, commerci e scienza insieme."
+  ],
+  "errorsTypical": [
+    "Fare del 1054 la rottura istantanea (processo secolare).",
+    "Confondere Arabi, Turchi e Mongoli come unico blocco.",
+    "Duplicare alto-medioevo: qui Oriente e Islam in profondità."
+  ],
+  "keywords": [
+    "Giustiniano",
+    "622",
+    "Baghdad",
+    "1054",
+    "1453"
+  ],
+  "prerequisites": [
+    "storia:caduta",
+    "storia:alto-medioevo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Oriente medievale distinto dall'Occidente barbarico."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:caduta",
+      "note": "Continuità orientale dopo il 476 occidentale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:tommaso",
+      "note": "Trasmissione araba di Aristotele alla scolastica (uso, non identità)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "bizantino-giustiniano",
+      "statement": "Giustiniano 527-565: Vandali 533-534, Goti 535-554, Corpus Juris 529-534, Hagia Sophia dal 532; incoronazione 1 apr 527; Nika gen 532; morte 565 dopo 38 anni.",
+      "supportedBy": [
+        "whe-giustiniano"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-giustiniano",
+      "title": "Justinian I - World History Encyclopedia",
+      "author": "Will Wyeth",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Justinian_I/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "bizantino-giustiniano"
+      ],
+      "note": "Ispezionato 2026-09-27 (2012). 527-565 38 anni, Corpus 529-534, Hagia Sophia 532, Vandali Goti."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Bisanzio in tre cesure?",
+        "a": "Giustiniano; icone-1054; 1204 e 1453."
+      },
+      {
+        "q": "Islam e sapere greco?",
+        "a": "Traduzioni abbasidi verso la scolastica latina."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "L'Egira (622) è:",
+        "choices": [
+          "La caduta di Costantinopoli",
+          "La migrazione a Medina, anno uno",
+          "Nicea",
+          "Il Mille"
+        ],
+        "answer": 1,
+        "explanation": "Fondazione della comunità medinese."
+      }
+    ],
+    "questionsOpen": [
+      "Bisanzio romano o greco? Con quali prove?",
+      "Senza Baghdad, Tommaso legge Aristotele? Discuti la mediazione."
+    ]
+  }
+}

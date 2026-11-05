@@ -1,0 +1,115 @@
+{
+  "id": "greco:classica",
+  "subject": "greco",
+  "title": "Tragedia, commedia, storiografia, oratoria",
+  "slug": "classica",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "greco:introduzione",
+  "order": 8,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Atene del V-IV sec.: tragedia (Eschilo, Sofocle, Euripide), commedia antica (Aristofane), storiografia (Erodoto, Tucidide, Senofonte), oratoria (Lisia, Isocrate, Demostene); teatro e assemblea come istituzioni della polis.",
+  "explanations": {
+    "semplice": "Ad Atene le storie si raccontano a teatro davanti a migliaia di persone: tragedie tristi su eroi e destino, commedie che ridono dei potenti. Altri scrivono le prime vere storie delle guerre e i discorsi per convincere in tribunale e in assemblea.",
+    "approfondita": "Tragedia: tre attori e coro, trilogie con dramma satiresco; Eschilo (Orestea: giustizia da vendetta a tribunale), Sofocle (Antigone, Edipo re: legge non scritta, riconoscimento), Euripide (Medea, Baccanti: passione, dèi inquietanti); agone dionisiaco e coregia. Commedia antica: parabasi e attualità politica; Aristofane (Nuvole contro Socrate-sofista, Lisistrata, Rane con critica letteraria). Storiografia: Erodoto (Storie, cause delle guerre persiane, inchiesta e aneddoto), Tucidide (guerra del Peloponneso, metodo su prove e discorsi, realismo del potere: dialogo di Melo), Senofonte (Anabasi, Elleniche). Oratoria: Lisia (logografo giudiziario), Isocrate (scuola e panegirici, paideia retorica), Demostene (Filippiche e Olintie contro Filippo, Corona). Lingua attica come modello della prosa; teatro come educazione civica (fatto), giudizi morali moderni come interpretazione (da dichiarare).",
+    "tecnica": "Strumenti: trimetri e tetrametri nel dialogo, parabasi come firma dell'autore, proemi storiografici come programma, parti del discorso (proemio, narrazione, prove, epilogo)."
+  },
+  "definitions": [
+    "Tragedia: dramma eroico con coro per le Grandi Dionisie.",
+    "Storiografia: indagine su cause ed eventi con prove e discorsi.",
+    "Logografo: scrittore di discorsi giudiziari per altri."
+  ],
+  "examples": [
+    "Antigone contro Creonte: leggi non scritte contro editto della città.",
+    "Il dialogo di Melo (Tucidide V): il forte fa ciò che può, il debole subisce."
+  ],
+  "counterexamples": [
+    "Tragedia come cronaca: mito rielaborato per la polis presente.",
+    "Tucidide imparziale in senso moderno: tesi sul potere dichiarata."
+  ],
+  "errorsTypical": [
+    "Dare la commedia per documento neutro (è satira partigiana).",
+    "Confondere Erodoto e Tucidide come metodo (inchiesta contro prova).",
+    "Datare tutto al V sec. senza il IV (oratoria, Senofonte)."
+  ],
+  "keywords": [
+    "tragedia",
+    "Aristofane",
+    "Erodoto",
+    "Tucidide",
+    "Demostene",
+    "polis"
+  ],
+  "prerequisites": [
+    "greco:omero-esiodo",
+    "greco:infinito-participio"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "greco:introduzione",
+      "note": "Letteratura classica dopo l'epos arcaico."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:guerra-peloponneso",
+      "note": "Tucidide e Aristofane come fonti e voci della guerra."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:atene-classica",
+      "note": "Teatro e assemblea come istituzioni democratiche."
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-letteratura-greca",
+      "title": "Profilo standard di letteratura greca classica (teatro, storiografia, oratoria)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "I tre tragici e Aristofane?",
+        "a": "Eschilo, Sofocle, Euripide; commedia antica e attualità politica."
+      },
+      {
+        "q": "Erodoto contro Tucidide?",
+        "a": "Inchiesta sulle cause persiane; metodo su prove e guerra del Peloponneso."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il dialogo di Melo esprime:",
+        "choices": [
+          "La pietà degli dèi",
+          "Il realismo del potere (forte/debole)",
+          "Una legge scritta",
+          "Una commedia"
+        ],
+        "answer": 1,
+        "explanation": "Tesi tucididea: il forte fa ciò che il potere consente."
+      }
+    ],
+    "questionsOpen": [
+      "Teatro come scuola della polis: con quali prove?",
+      "Erodoto o Tucidide: chi è più storico e perché?"
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "subject": "greco",
+  "title": "Greco",
+  "description": "Lingua e letteratura greca: fonetica, morfologia, sintassi, lessico, autori, generi e traduzione.",
+  "version": 1,
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "taxonomy": {
+    "levels": ["area", "macroargomento", "argomento", "sottoargomento", "concetto", "approfondimento"],
+    "specializations": {
+      "paradigma": "sotto-tipo di concetto: tabelle flessionali verificate",
+      "costrutto": "sotto-tipo di concetto: struttura sintattica con esempi autentici",
+      "autore": "sotto-tipo di argomento: vita, opere e lingua di un autore",
+      "opera": "sotto-tipo di sottoargomento: singolo testo con analisi"
+    }
+  },
+  "areas": [
+    { "id": "greco:lingua", "title": "Lingua", "description": "Fonetica, morfologia, sintassi, lessico.", "order": 0 },
+    { "id": "greco:letteratura", "title": "Letteratura", "description": "Autori, generi, periodi.", "order": 1 },
+    { "id": "greco:traduzione", "title": "Traduzione e analisi", "description": "Metodo, morfosintassi, versioni.", "order": 2 }
+  ]
+}

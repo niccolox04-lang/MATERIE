@@ -1,0 +1,107 @@
+{
+  "id": "fisica:vettori-moti",
+  "subject": "fisica",
+  "title": "Vettori, moto circolare e parabolico",
+  "slug": "vettori-moti",
+  "status": "published",
+  "access": "pro",
+  "type": "sottoargomento",
+  "parent": "fisica:cinematica",
+  "order": 0,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-23T15:38:38.821Z",
+  "level": "intermediate",
+  "summary": "Vettori (modulo, direzione, verso; somma punta-coda, componenti) per descrivere moti piani: circolare uniforme (v = ωr, a_c = v²/r centripeta) e parabolico dei proiettili (composizione di MRU orizzontale e caduta verticale).",
+  "explanations": {
+    "semplice": "Alcune grandezze hanno una direzione (come la velocità): sono frecce, vettori. Per sommarle si mettono in fila. Così si capiscono due moti belli: girare in tondo (serve una spinta verso il centro) e lanciare qualcosa (va avanti dritto e intanto cade: la curva è una parabola).",
+    "approfondita": "Vettori: rappresentazione, versori i/j, componenti (vₓ = v·cosθ), somma punta-coda e per componenti, prodotto per scalare; modulo e direzione. Moto circolare uniforme: periodo T, frequenza, velocità angolare ω = 2π/T, v = ωr tangente, accelerazione centripeta a_c = v²/r = ω²r verso il centro (cambia la direzione, non il modulo). Parabolico: indipendenza dei moti (Galileo) — x = v₀ₓt (MRU), y = v₀ᵧt − ½gt² (caduta); traiettoria y(x) parabola; gittata max a 45° (nel vuoto). Applicazioni: centrifuga come lettura inerziale, satelliti (gravità come centripeta, cenno), tiri e sport. Limiti: resistenza dell'aria (traiettorie reali), modello puntiforme. Errori: 'forza centrifuga' come reale in sistemi inerziali; sommare moduli invece dei vettori.",
+    "tecnica": "Derivazione a_c da triangoli simili o derivata del versore; gittata R = v₀²·sin2θ/g."
+  },
+  "definitions": [
+    "Vettore: modulo + direzione + verso; si somma per componenti.",
+    "Accelerazione centripeta: v²/r verso il centro, muta la direzione della velocità.",
+    "Gittata: distanza orizzontale del proiettile (nel vuoto, max a 45°)."
+  ],
+  "formulas": [
+    {
+      "expr": "v = ωr; a_c = v²/r",
+      "meaning": "Cinematica del moto circolare uniforme."
+    },
+    {
+      "expr": "x = v₀ₓt; y = v₀ᵧt − ½gt²",
+      "meaning": "Composizione di MRU e caduta nel proiettile."
+    }
+  ],
+  "examples": [
+    "Auto a 20 m/s in curva r=50 m: a_c = 8 m/s² verso l'interno.",
+    "Palla a 10 m/s a 45°: gittata ≈ 10,2 m nel vuoto."
+  ],
+  "counterexamples": [
+    "Moto circolare 'senza accelerazione' perché v costante in modulo: cambia direzione ⇒ accelera.",
+    "Gittata max a 90°: è zero (moto verticale)."
+  ],
+  "errorsTypical": [
+    "Forza centrifuga come causa in sistemi inerziali (è apparente nei rotanti).",
+    "Comporre velocità sommando i moduli con angoli."
+  ],
+  "keywords": [
+    "vettori",
+    "centripeta",
+    "proiettile",
+    "gittata",
+    "Galileo",
+    "componenti"
+  ],
+  "prerequisites": [
+    "fisica:cinematica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "fisica:cinematica",
+      "note": "Moti piani dopo il rettilineo."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "matematica:teorema-pitagora",
+      "note": "Modulo dai componenti: √(vₓ²+vᵧ²)."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Formule del circolare uniforme?",
+        "a": "v = ωr, a_c = v²/r verso il centro."
+      },
+      {
+        "q": "Perché il proiettile fa una parabola?",
+        "a": "MRU orizzontale × caduta verticale indipendenti."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Raddoppia v in curva di uguale raggio: a_c:",
+        "choices": [
+          "Raddoppia",
+          "Quadruplica",
+          "Dimezza",
+          "Invariata"
+        ],
+        "answer": 1,
+        "explanation": "a_c ∝ v²."
+      }
+    ],
+    "questionsOpen": [
+      "Deriva la gittata e trova l'angolo ottimo.",
+      "Satellite in orbita: chi fornisce la centripeta?"
+    ]
+  }
+}

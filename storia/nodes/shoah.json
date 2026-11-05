@@ -1,0 +1,115 @@
+{
+  "id": "storia:shoah",
+  "subject": "storia",
+  "title": "Shoah: persecuzione, sterminio degli ebrei europei, memoria",
+  "slug": "shoah",
+  "status": "draft",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 5,
+  "version": 1,
+  "createdAt": "2026-09-30T00:00:00.000Z",
+  "updatedAt": "2026-09-30T00:00:00.000Z",
+  "level": "advanced",
+  "chrono": {
+    "start": "1933",
+    "end": "1945",
+    "label": "dall'ascesa del nazismo alla fine della guerra",
+    "place": "Germania, Austria, Polonia, Unione Sovietica, Italia"
+  },
+  "summary": "La Shoah (olocausto) e' lo sterminio pianificato e sistematico di circa sei milioni di ebrei europei, attuato dal regime nazista fra il 1933 e il 1945 con leggi di esclusione, confino in ghetti, lavoro forzato, deportazioni e campi di sterminio. Riguarda la struttura burocratica del massacro, il ruolo di Stati e amministrazioni europee, e la questione storica, giuridica e memoriale dopo il 1945.",
+  "explanations": {
+    "semplice": "Fra il 1933 e il 1945 il regime nazista perseguita, confina e uccide circa sei milioni di ebrei europei. Lo sterminio fu organizzato come un sistema: leggi che toglievano i diritti, ghetti, deportazioni in treno e campi come Auschwitz, Treblinka e Majdanek.",
+    "approfondita": "Fasi: esclusione legale (leggi del 1933, di Norimberga 1935), segregazione nei ghetti (il caso di Varsavia e' il piu' studiato), espropriazioni e lavoro forzato; con l'invasione dell'URSS dal 1941 gli assassinii di massa degli Einsatzgruppen; poi il sistema dei campi: Aktion Reinhard (Belzen, Sobibor, Treblinka, 1942-1943) e i campi dell'area polacca come Auschwitz-Birkenau. Bureaucrazia del male: la conferenza di Wannsee (20 gennaio 1942) come coordinamento, con registri e uffici. Il ruolo di Stati e popolazioni: la storografia ha documentato complicita' diffusa in Europa, dal caso danese all'atteggiamento dei funzionari. Resistenza: organizzazione ebraica, resistenza armata e sopravvivenza tramite nascondi e aiuto reciproco. Fine: liberazione dei campi. Memoria: Norimberga, genocidio nella Convenzione del 1948, dibattito sull'unicita' della Shoah, ruolo del testimone, legge italiana 1159/1989 e Commissione per la Shoah.",
+    "tecnica": "Fonti: documenti d'archivio (ordini, rapporti della polizia, registri di deportazione), testimonianze (Primo Levi, Anna Frank), atti del processo di Norimberga, fotografia. Nota critica: la questione dei numeri e' dibattuta e non va ridotta a una cifra unica; la responsabilita' e' distribuita su individui, istituzioni e Stati. Per published servono fonti revisionate: stato = draft."
+  },
+  "definitions": [
+    "Shoah: sterminio pianificato degli ebrei europei attuato dal nazismo.",
+    "Genocidio: distruzione totale di un gruppo etnico, definizione giuridica del 1948.",
+    "Ghetto: area di segregazione coatta in cui gli ebrei venivano confmati durante la guerra."
+  ],
+  "examples": [
+    "Il diario di Anne Frank: documento microstorico sull'esperienza ebraica, da leggere con cautela.",
+    "I registri di deportazione come fonte amministrativa: ricostruiscono nomi, destinazioni e numeri."
+  ],
+  "counterexamples": [
+    "La Shoah come evento isolato: nasce da un progetto di esclusione sociale e razziale.",
+    "La responsabilita' come fatto di un solo individuo: le indagini hanno documentato la responsabilita' di uffici, forze dell'ordine e Stati."
+  ],
+  "errorsTypical": [
+    "Confondere lager e campo di sterminio: il primo internava, il secondo uccideva.",
+    "Presentare la sopravvivenza come atto eroico individuale: e' spesso frutto di reti.",
+    "Usare 'Olocausto' come sinonimo esatto di Shoah: la distinzione e' dibattuta."
+  ],
+  "keywords": [
+    "Shoah",
+    "ghetto",
+    "Einsatzgruppen",
+    "Aktion Reinhard",
+    "Auschwitz",
+    "Norimberga",
+    "Wannsee",
+    "legge razziale",
+    "memoria",
+    "genocidio"
+  ],
+  "prerequisites": [
+    "storia:ottocento",
+    "storia:guerre"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Nodo radice, tema centrale del Novecento."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:guerre",
+      "note": "Lo sterminio e' conseguenza del conflitto e del regime."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:italia-fascismo",
+      "note": "Le leggi razziali in Italia (1938)."
+    }
+  ],
+  "claims": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Differenza fra lager e campo di sterminio?",
+        "a": "Il lager internava, il campo di sterminio uccideva."
+      },
+      {
+        "q": "Quando si tenne la conferenza di Wannsee?",
+        "a": "Il 20 gennaio 1942."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il genocidio fu definito giuridicamente nel:",
+        "choices": [
+          "1945",
+          "1948",
+          "1939",
+          "1961"
+        ],
+        "answer": 1,
+        "explanation": "La Convenzione per la prevenzione e la repressione del genocidio e' del 1948."
+      }
+    ],
+    "questionsOpen": [
+      "Come si spiega il coinvolgimento diffuso di amministrazioni e popolazioni?",
+      "Che rapporto c'e' fra memoria istituzionale e testimonianza?"
+    ]
+  }
+}

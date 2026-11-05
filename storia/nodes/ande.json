@@ -1,0 +1,143 @@
+{
+  "id": "storia:ande",
+  "subject": "storia",
+  "title": "Moche, Nazca, Tiwanaku, Inca",
+  "slug": "ande",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 17,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-200",
+    "end": "1572",
+    "label": "da Moche a Vilcabamba (convenzione)",
+    "place": "Ande centrali e costa pacifica"
+  },
+  "region": "Americhe",
+  "location": "Per\u00c3\u00b9, Bolivia, Ecuador, Cile settentrionale",
+  "territories": "Moche e Nazca costieri, Tiwanaku-Wari altipianici, Tahuantinsuyu incaico",
+  "geographicalContext": "Deserto costiero irrigabile, sierra a terrazze, altipiano del Titicaca; verticalit\u00c3\u00a0 ecologica come base economica.",
+  "summary": "Civilt\u00c3\u00a0 andine senza ruota n\u00c3\u00a9 scrittura alfabetica: Moche e Nazca, Tiwanaku-Wari, Inca (Tahuantinsuyu, ayllu e mita, quipu, strade, Cuzco) fino a Cajamarca (1532) e Vilcabamba (1572).",
+  "explanations": {
+    "semplice": "Sulle Ande, senza cavalli n\u00c3\u00a9 scrittura, nascono regni bravissimi a coltivare montagne a terrazze e a contare con corde annodate. Gli Inca uniscono tutto in un impero con strade lunghissime, ma gli Spagnoli li battono anche per le malattie e le divisioni interne.",
+    "approfondita": "Moche (ceramica ritrattistica, huacas, canali) e Nazca (linee e puquios, dibattito sugli scopi dichiarato); Tiwanaku (Titicaca, Kalasasaya) e Wari (amministrazione a rete) come orizzonti; crollo e stati regionali. Inca: Pachacuti (~1438-71) e Topa come espansori; Tahuantinsuyu in quattro suyus con Cuzco ombelico; ayllu e curaca, mita come tributo di lavoro (miniere, esercito, opere), terre del Sole/Inca/comunit\u00c3\u00a0; quipu decimali per censimenti e magazzini (quipucamayoc); chasqui e tambos lungo ~25.000 miglia di strade; religione solare e sacrifici (capacocha) con scala discussa. 1532: guerra Huascar-Atahualpa, Cajamarca e Pizarro; Manco e Vilcabamba fino al 1572; vaiolo come fattore. Dibattito: impero socialista ante litteram (Cunow, Mari\u00c3\u00a1tegui) contro dispotismo tributario \u00e2\u20ac\u201d senza vincitore dichiarato.",
+    "tecnica": "Fonti: archeologia andina, quipu superstiti (~600), cronache (Cieza, Betanzos, Guaman Poma) con cautela interessata; LIDAR e bioarcheologia come orizzonte."
+  },
+  "definitions": [
+    "Ayllu: comunit\u00c3\u00a0 parentale base di lavoro e tributo.",
+    "Mita: turno di lavoro dovuto allo Stato incaico.",
+    "Quipu: corde annodate decimali per conti e magazzini."
+  ],
+  "examples": [
+    "Chasqui a 150 miglia al giorno: staffette con quipu-messaggi.",
+    "Terrazze di Moray: laboratorio agricolo per microclimi (ipotesi)."
+  ],
+  "counterexamples": [
+    "Inca senza amministrazione per mancanza di scrittura: quipu e censimenti.",
+    "Conquista solo tecnologica: guerra civile e patogeni decisivi."
+  ],
+  "errorsTypical": [
+    "Fare del quechua l'unica lingua (imposta accanto alle locali).",
+    "Confondere Moche e Inca (1500 anni di distanza).",
+    "Leggere le linee di Nazca come piste aliene (ipotesi serie dichiarate)."
+  ],
+  "keywords": [
+    "ayllu",
+    "mita",
+    "quipu",
+    "Tahuantinsuyu",
+    "1532"
+  ],
+  "prerequisites": [
+    "storia:neolitico"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Ande come ramo mondiale fondazionale."
+    },
+    {
+      "type": "EFFECT",
+      "to": "storia:scoperte-riforma",
+      "note": "Conquista e crollo demografico come esito dell'espansione iberica."
+    }
+  ],
+  "claims": [
+    {
+      "id": "inca-amministrazione",
+      "statement": "Impero inca Tahuantinsuyu 1400-1533 CE, amministrazione ayllu+mita (lavoro-tributo), quipu decimale censimenti e magazzini, quattro suyus (regioni), ~40.000 km di strade con chasqui messaggeri; conquista spagnola 1532-1572, resistenza Vilcabamba fino al 1572.",
+      "supportedBy": [
+        "whe-inca"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "inca-caduta",
+      "statement": "1532 guerra civile, Cajamarca conquista spagnola, resistenza Vilcabamba fino al 1572, vaiolo cofattore.",
+      "supportedBy": [
+        "whe-inca"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "whe-inca",
+      "title": "Inca Empire - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Inca_Empire/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "inca-amministrazione"
+      ],
+      "note": "Ispezionato 2026-09-27 (2019). Tahuantinsuyu 1400-1533, ayllu+mita, quipu, 4 suyus, 40.000 km strade, conquista 1532, Vilcabamba 1572."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Amministrazione inca in quattro parole?",
+        "a": "Ayllu, mita, quipu, suyus."
+      },
+      {
+        "q": "1532 e 1572?",
+        "a": "Cajamarca; caduta di Vilcabamba."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il quipu serviva a:",
+        "choices": [
+          "Scrivere poemi",
+          "Registrare conti, censimenti e magazzini in decimale",
+          "Navigare",
+          "Fondere metalli"
+        ],
+        "answer": 1,
+        "explanation": "Nodi decimali per tasse, lavoro e scorte."
+      }
+    ],
+    "questionsOpen": [
+      "Impero socialista o dispotismo tributario? Con quali prove?",
+      "Perch\u00c3\u00a9 le strade aiutano prima gli Inca e poi Pizarro?"
+    ]
+  },
+  "contentDepth": "deep"
+}

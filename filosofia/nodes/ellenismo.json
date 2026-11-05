@@ -1,0 +1,53 @@
+{
+  "id": "filosofia:ellenismo",
+  "subject": "filosofia",
+  "title": "Ellenismo — le scuole e la filosofia come vita",
+  "slug": "ellenismo",
+  "status": "published",
+  "access": "pro",
+  "type": "periodo",
+  "parent": "filosofia:antica",
+  "order": 4,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Dopo Alessandro la polis entra in crisi e la filosofia diventa arte di vivere: Stoa (Zenone, 300 a.C.), Giardino (Epicuro, 306), scettici, con Accademia e Peripato sullo sfondo. Comune la ricerca dell'imperturbabilità del saggio in un mondo cosmopolita.",
+  "explanations": {
+    "semplice": "Quando le piccole città greche perdono potere, i filosofi non consigliano più i governi: insegnano come vivere tranquilli. Nascono tre scuole: gli stoici (accetta il destino, fai il tuo dovere), gli epicurei (cerca piaceri semplici ed evita il dolore), gli scettici (non giudicare, così non ti agiti).",
+    "approfondita": "Contesto: imprese di Alessandro, regni ellenistici, Atene cosmopolita. Quadro scolastico: Accademia (scettica con Arcesilao e Carneade), Peripato (Teofrasto), Stoa fondata da Zenone di Cizio (334–262) nel 300, Giardino di Epicuro (341–270) nel 306, Pirrone di Elide (~360–270) e la tradizione scettica fino a Sesto Empirico (II–III sec. d.C.). Tratti comuni: primato dell'etica, filosofia come terapia dell'anima, saggio come modello (autarchia, atarassia), cosmopolitismo, rapporto col destino e con gli dèi. Fasi tarde: eclettismo, medioplatonismo, neoplatonismo (Plotino) come ponte verso la tarda antichità. Le datazioni dei fondatori sono quelle della tradizione dossografica (Diogene Laerzio), da usare con cautela filologica.",
+    "tecnica": "Mappa didattica: ogni scuola si studia su fisica-logica-etica; i nodi figli specializzano le tre dottrine con tesi e argomenti."
+  },
+  "definitions": [
+    "Atarassia: imperturbabilità, fine comune delle etiche ellenistiche.",
+    "Cosmopolitismo: appartenenza alla città-mondo oltre la polis.",
+    "Eclettismo: selezione di dottrine da scuole diverse (fase tarda)."
+  ],
+  "examples": ["Il saggio stoico cittadino del mondo; il Giardino come comunità di amici; Pirrone che sospende il giudizio."],
+  "errorsTypical": ["Fare dell'epicureismo un edonismo sfrenato: è calcolo dei piaceri catastematici e assenza di dolore.", "Confondere lo stoicismo antico con proverbi moderni sulla 'pazienza'."],
+  "keywords": ["Stoa", "Giardino", "scetticismo", "atarassia", "saggio", "cosmopolis"],
+  "prerequisites": ["filosofia:aristotele", "filosofia:platone"],
+  "relations": [
+    { "type": "PART_OF", "to": "filosofia:antica", "note": "Ultimo grande periodo antico." },
+    { "type": "INFLUENCED_BY", "to": "filosofia:aristotele-etica", "note": "L'etica del saggio come termine di confronto." },
+    { "type": "INFLUENCED_BY", "to": "filosofia:platone", "note": "Academy e temi platonici rielaborati." },
+    { "type": "RELATED_TO", "to": "storia:atene-classica", "note": "Dalla polis classica alla città ellenistica." }
+  ],
+  "sources": [],
+  "media": { "videos": [], "images": [], "audios": [], "documents": [] },
+  "learning": {
+    "flashcards": [
+      { "q": "Le tre scuole ellenistiche e i fondatori?", "a": "Stoa (Zenone 300), Giardino (Epicuro 306), scetticismo (Pirrone)." },
+      { "q": "Cosa le accomuna?", "a": "Filosofia come arte di vivere e imperturbabilità del saggio." }
+    ],
+    "quiz": [
+      {
+        "q": "Perché l'etica diventa centrale nell'ellenismo?",
+        "choices": ["Perché la fisica è risolta", "Perché la crisi della polis sposta il fine sulla vita del singolo", "Perché è vietata la politica", "Per caso"],
+        "answer": 1,
+        "explanation": "Il destinatario non è più il cittadino della polis ma l'individuo nel mondo ellenistico."
+      }
+    ],
+    "questionsOpen": ["Saggio stoico, epicureo e scettico: tre vie diverse allo stesso fine?", "Che ruolo hanno Accademia e Peripato in età ellenistica?"]
+  }
+}

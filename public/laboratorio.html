@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Laboratorio — dal titolo al contenuto</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="laboratorio.css">
+</head>
+<body class="lab">
+<a class="skip" href="#out">Vai al contenuto generato</a>
+
+<header class="lab-top">
+  <a class="lab-brand" href="/">
+    <span class="lab-mark" aria-hidden="true"></span>
+    <span>Mappe Didattiche</span>
+    <span class="lab-brand-sub">Laboratorio</span>
+  </a>
+  <div class="lab-top-right">
+    <label class="lab-plan">
+      <span>Piano</span>
+      <select id="plan" aria-label="Piano di accesso">
+        <option value="free">FREE</option>
+        <option value="pro" selected>PRO</option>
+        <option value="ultra">ULTRA</option>
+      </select>
+    </label>
+    <a class="lab-back" href="/">Torna alla mappa</a>
+  </div>
+</header>
+
+<main class="lab-main">
+  <section class="lab-hero" aria-labelledby="lab-h1">
+    <p class="lab-eyebrow">Scrivi un titolo. Scegli quanto vuoi sapere.</p>
+    <h1 id="lab-h1">Laboratorio di contenuti</h1>
+    <p class="lab-lede">
+      Inserisci il titolo di una sezione — di qualsiasi materia — e scegli la
+      profondità. Il contenuto viene assemblato <strong>solo</strong> dal
+      materiale verificato della knowledge base, con citazione della fonte per
+      ogni sezione. Se la sezione non esiste, te lo dice: non inventa.
+    </p>
+
+    <form class="lab-form" id="form" novalidate>
+      <div class="lab-field">
+        <label for="title">Titolo della sezione</label>
+        <div class="lab-inputwrap">
+          <input id="title" name="title" type="text" autocomplete="off" required
+                 placeholder="Es. Shoah, Guerra del Peloponneso, il metodico, Rinascimento e stampa…"
+                 aria-describedby="title-hint">
+          <button type="submit" class="lab-go" id="go">
+            <span class="lab-go-label">Genera</span>
+            <span class="lab-spinner" aria-hidden="true"></span>
+          </button>
+        </div>
+        <p class="lab-hint" id="title-hint">
+          Accetta anche titoli composti: verranno cercate e unite le sezioni corrispondenti.
+        </p>
+      </div>
+
+      <fieldset class="lab-field">
+        <legend>Quanto vuoi sapere</legend>
+        <div class="lab-levels" id="levels" role="radiogroup" aria-label="Livello di profondità"></div>
+      </fieldset>
+
+      <div class="lab-field lab-field-narrow">
+        <label for="subject">Materia <span class="lab-opt">(facoltativa)</span></label>
+        <select id="subject" name="subject">
+          <option value="">Tutte le materie</option>
+        </select>
+      </div>
+    </form>
+
+    <div class="lab-samples">
+      <span>Prova:</span>
+      <div class="lab-chips" id="samples"></div>
+    </div>
+  </section>
+
+  <section id="out" class="lab-out" tabindex="-1" aria-live="polite" aria-busy="false">
+    <div class="lab-placeholder" id="placeholder">
+      <div class="lab-placeholder-art" aria-hidden="true">
+        <span></span><span></span><span></span>
+      </div>
+      <p>Il contenuto comparirà qui.</p>
+    </div>
+  </section>
+</main>
+
+<template id="tpl-refusal">
+  <div class="lab-card lab-refusal">
+    <div class="lab-refusal-head">
+      <span class="lab-badge lab-badge-warn">Contenuto non disponibile</span>
+    </div>
+    <h2 class="lab-refusal-title"></h2>
+    <p class="lab-refusal-msg"></p>
+    <div class="lab-cands"></div>
+  </div>
+</template>
+
+<script src="laboratorio.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+{
+  "id": "matematica:sistemi",
+  "subject": "matematica",
+  "title": "Sistemi lineari e matrici elementari",
+  "slug": "sistemi",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "matematica:introduzione",
+  "order": 9,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Più equazioni insieme: sostituzione, riduzione ed eliminazione di Gauss su 2-3 incognite; determinante 2x2 come criterio (Cramer); sistemi impossibili e indeterminati; matrici come tabelle con somma e prodotto riga-colonna.",
+  "explanations": {
+    "semplice": "Due equazioni con due incognite si risolvono insieme: ricavi una lettera da una e la metti nell'altra, oppure sommi le equazioni per far sparire una lettera. Se le rette si incontrano c'è una soluzione, se sono parallele nessuna, se coincidono infinite.",
+    "approfondita": "Metodi: sostituzione (isola e inserisci), riduzione (combina per eliminare), confronto; Gauss su sistemi 3x3 come eliminazione ordinata (cenno operativo). Determinante 2x2 ad−bc: nullo o no decide esistenza e unicità; Cramer x = Dx/D, y = Dy/D con verifica per sostituzione. Classificazione: determinato (rette incidenti), impossibile (parallele distinte), indeterminato (coincidenti, infinite soluzioni parametriche). Matrici: righe e colonne, somma e prodotto per scalare, prodotto riga-colonna con compatibilità dei formati; sistema come A·x = b (cenno). Discussione parametrica elementare (un parametro, casi). Errori: dividere per coefficienti senza discuterli, scambiare D con Dx.",
+    "tecnica": "Dimostrazione guidata: Cramer deriva da eliminazione sul sistema generale; rango come orizzonte dichiarato."
+  },
+  "definitions": [
+    "Soluzione di un sistema: ennupla che verifica tutte le equazioni.",
+    "Determinante 2x2: numero ad−bc associato alla matrice dei coefficienti.",
+    "Sistema omogeneo: termini noti nulli, sempre con la soluzione nulla."
+  ],
+  "proof": [
+    "Elimina y sommando opportunamente: il sistema equivale a una in x sola.",
+    "Se D ≠ 0 la formula di Cramer dà valori che, sostituiti, verificano entrambe (controllo diretto).",
+    "Se D = 0 e un numeratore ≠ 0 non esiste soluzione: le equazioni si contraddicono."
+  ],
+  "formulas": [
+    {
+      "expr": "D = ad−bc; x = Dx/D, y = Dy/D",
+      "meaning": "Cramer per sistemi 2x2 con D ≠ 0."
+    },
+    {
+      "expr": "A·x = b",
+      "meaning": "Scrittura matriciale del sistema lineare."
+    }
+  ],
+  "examples": [
+    "x+y = 5, x−y = 1: somma 2x = 6, x = 3, y = 2; verifica ok.",
+    "2x+2y = 4, x+y = 3: 0 = −2, impossibile (parallele)."
+  ],
+  "counterexamples": [
+    "D = 0 come garanzia di nessuna soluzione: può essere indeterminato.",
+    "Prodotto di matrici commutativo: in generale AB ≠ BA."
+  ],
+  "errorsTypical": [
+    "Applicare Cramer con D = 0.",
+    "Perdere soluzioni moltiplicando per espressioni nulle.",
+    "Formati incompatibili nel prodotto matriciale."
+  ],
+  "keywords": [
+    "sostituzione",
+    "Cramer",
+    "determinante",
+    "Gauss",
+    "matrici"
+  ],
+  "prerequisites": [
+    "matematica:equazioni-primo-grado",
+    "matematica:insiemi-numeri"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "matematica:introduzione",
+      "note": "Algebra lineare dopo le equazioni singole."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "matematica:geometria-analitica",
+      "note": "Soluzioni come intersezioni di rette."
+    }
+  ],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Quando Cramer?",
+        "a": "Solo con D ≠ 0; altrimenti discussione."
+      },
+      {
+        "q": "Tre esiti in sintesi?",
+        "a": "Incidenti una; parallele nessuna; coincidenti infinite."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Sistema x+y=2, 2x+2y=5: è:",
+        "choices": [
+          "Determinato",
+          "Impossibile",
+          "Indeterminato",
+          "Omogeneo"
+        ],
+        "answer": 1,
+        "explanation": "Seconda doppia della prima a sinistra ma non a destra: 0 = 1."
+      }
+    ],
+    "questionsOpen": [
+      "Risolvi per sostituzione e per Cramer, poi confronta.",
+      "Parametrizza le soluzioni di un sistema indeterminato."
+    ]
+  }
+}

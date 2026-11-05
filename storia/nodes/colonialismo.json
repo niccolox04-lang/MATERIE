@@ -1,0 +1,152 @@
+{
+  "id": "storia:colonialismo",
+  "subject": "storia",
+  "title": "Colonialismo e resistenze africane",
+  "slug": "colonialismo",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 21,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1884",
+    "end": "1960",
+    "label": "da Berlino alle indipendenze (convenzione)",
+    "place": "Africa"
+  },
+  "region": "Africa",
+  "location": "Spazio africano spartito tra potenze europee",
+  "territories": "Imperi coloniali britannico, francese, portoghese, belga, italiano, tedesco",
+  "geographicalContext": "Confini rettilinei su carte europee; ferrovie verso i porti; enclave indipendenti (Etiopia, Liberia).",
+  "summary": "Partizione (Berlino 1884-85), sistemi diretti/indiretti, economie di piantagione e miniere, lavoro forzato, missioni e scuole, resistenze armate e culturali; prima guerra ed Etiopia come cesure.",
+  "explanations": {
+    "semplice": "Verso il 1880 gli Europei si dividono quasi tutta l'Africa a tavolino: ognuno prende un pezzo per materie prime e prestigio. Governano in modi diversi, costruiscono ferrovie verso i porti e costringono a lavorare. Gli africani resistono con guerre e con la cultura.",
+    "approfondita": "Cause: industrializzazione e materie (caucci\u00c3\u00b9, minerali), rivalit\u00c3\u00a0 di prestigio, missioni e esplorazioni come avanguardie (dibattito Robinson-Gallagher dichiarato). Berlino 1884-85 (occupazione effettiva, Congo belga come caso estremo con mutilazioni documentate). Sistemi: diretto francese (assimilazione/associazione), indiretto britannico (Lugard, capi), colonie di popolamento (Algeria, Kenya) contro sfruttamento; italiano in Libia-EOI (fascismo e gas come nodo). Economia: monocolture, tasse in moneta e lavoro forzato, ferrovie estrattive. Resistenze: Etiopia (Adua 1896), Mahdi sudanese, Maji-Maji, Rif, donne di Aba 1929; chiese indipendenti e stampa come orizzonte. Guerre mondiali come acceleratori (tirailleurs, askari). Fatto contro mito: pace coloniale contro violenze strutturali documentate.",
+    "tecnica": "Fonti: atti di Berlino, archivi coloniali con cautela di parte, storia orale, demografia discussa; mai cifre secche uniche."
+  },
+  "definitions": [
+    "Conferenza di Berlino (1884-85): regole europee di spartizione.",
+    "Governo indiretto: amministrazione tramite capi locali (modello Lugard).",
+    "Lavoro forzato: obblighi di lavoro coloniali sotto varie forme."
+  ],
+  "examples": [
+    "Adua 1896: Etiopia batte l'Italia, indipendenza armata.",
+    "Congo belga: caucci\u00c3\u00b9 e mutilazioni come scandalo internazionale."
+  ],
+  "counterexamples": [
+    "Colonizzazione solo missioni benefiche: fiscalit\u00c3\u00a0 e leva come struttura.",
+    "Resistenze solo armate: scioperi, chiese, stampa."
+  ],
+  "errorsTypical": [
+    "Fare di Berlino una mappa definitiva immediata (conquiste decennali).",
+    "Confondere protettorati, colonie e mandati (statuti diversi).",
+    "Dimenticare Etiopia e Liberia come eccezioni."
+  ],
+  "keywords": [
+    "Berlino 1884",
+    "Adua 1896",
+    "lavoro forzato",
+    "resistenze",
+    "ferrovie"
+  ],
+  "prerequisites": [
+    "storia:ottocento",
+    "storia:africa-occidentale"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Colonialismo nel ramo Africa."
+    },
+    {
+      "type": "CAUSE",
+      "to": "storia:decolonizzazione",
+      "note": "Dominio e resistenze come premesse delle indipendenze."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:tratta-atlantica",
+      "note": "Tratta atlantica come nodo esistente collegato al sistema coloniale."
+    }
+  ],
+  "claims": [
+    {
+      "id": "colonialismo-quadro",
+      "statement": "Berlino 1884-85 avvia la spartizione con sistemi diretti/indiretti, economie estrattive e resistenze (Adua 1896 come caso); violenze strutturali documentate.",
+      "supportedBy": [
+        "manuale-africa-moderna",
+        "whe-colonialism-africa"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-africa-moderna",
+      "title": "Profilo standard di Africa coloniale e decolonizzazione",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-colonialism-africa",
+      "title": "Scramble for Africa - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Scramble_for_Africa/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "colonialismo-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27. Berlino 1884-85, partizione, sistemi coloniali, Adua 1896, Congo belga, resistenze."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Berlino in sintesi?",
+        "a": "1884-85: occupazione effettiva come regola."
+      },
+      {
+        "q": "Adua 1896?",
+        "a": "Etiopia indipendente contro l'Italia."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il governo indiretto britannico usava:",
+        "choices": [
+          "Coloni europei ovunque",
+          "Capi locali (Lugard)",
+          "Solo missionari",
+          "Nessuna tassa"
+        ],
+        "answer": 1,
+        "explanation": "Amministrazione tramite autorit\u00c3\u00a0 tradizionali."
+      }
+    ],
+    "questionsOpen": [
+      "Cause economiche o di prestigio? Il dibattito storiografico.",
+      "Resistenze armate e culturali: quale efficacia di lungo periodo?"
+    ]
+  },
+  "contentDepth": "overview"
+}

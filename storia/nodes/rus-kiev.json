@@ -1,0 +1,114 @@
+{
+  "id": "storia:rus-kiev",
+  "subject": "storia",
+  "title": "Rus' di Kiev: formazione, cristonianizzazione, crisi",
+  "slug": "rus-kiev",
+  "status": "draft",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 1,
+  "version": 1,
+  "createdAt": "2026-09-30T00:00:00.000Z",
+  "updatedAt": "2026-09-30T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "860",
+    "end": "1240",
+    "label": "dalla tradizione di fondazione (862) all'invasione mongola (1237-1240)",
+    "place": "bacino del Dnepr, Kiev e Novgorod"
+  },
+  "summary": "Formazione del primo Stato slavo orientale in Europa orientale: unione di tribu' slavo-orientali sotto la dinastia dei Rurikidi, diffusione del cristianesimo bizantino dal 988, codificazione del diritto nella Russkaya Pravda, fioritura di centri urbani come Kiev, Pskov e Novgorod, quindi frammentazione in principati concorrenti e collasso sotto la pressione mongola.",
+  "explanations": {
+    "semplice": "Tra IX e XIII secolo i popoli slavi orientali si uniscono attorno a Kiev in uno Stato guidato dai discendenti di Rurik. Nel 988 il principe Vladimiro battezza il popolo al cristianesimo bizantino, che diventa religione di Stato. Lo Stato fiorisce per tre secoli, poi si divide in molti principati e crolla con l'arrivo dei Mongoli.",
+    "approfondita": "Formazione (IX-X): aggregazione di comunita' slavo-orientali lungo Dnepr, Dvina e Volga sotto i Rurikidi; centri di Novgorod (commercio del nord) e Kiev (emporio sul Dnepr). Cristianizzazione: contatti con Bisanzio dal IX secolo, poi battesimo di Vladimir e della corte (988 secondo la tradizione) con riorganizzazione politica e influenza culturale bizantina; periodo di equilibrio con i Bizantini sotto i figli di Jaroslav. Diritto: la Russkaya Pravda (codice nella forma nota del XII secolo) distingue i reati contro la persona, la proprieta' e ilAdministration del villaggio. Crisi: morte di Jaroslav il Saggio (1054) e divisione fra i figli, con i principati di Vladimir, Polotsk, Cernigov; lotta con la steppa (Cumani e Pecheneghi), sconfitta sul Kalka (1223), saccheggio di Kiev (1240), dominio della Golden Horde fino al XIV secolo. Distinguere: le date di fondazione e di battesimo sono tradizioni di memoria dinastica, non dati documentari.",
+    "tecnica": "Fonti: Cronaca primordiale, Chronicle di Nestore, Russkaya Pravda; resconti arabi (Ibn Fadlan, Ibn Rustah) per il IX-X secolo; archeologia di Kiev, Novgorod e Smolensk. Per la verifica dei contenuti servono fonti enciclopediche e accademiche revisionate: stato attuale del nodo = draft, claims e fonti da completare."
+  },
+  "definitions": [
+    "Rurikidi: dinastia che, secondo la tradizione cronistica, regno' sui principati slavi orientali dal IX secolo.",
+    "Russkaya Pravda: raccolta giuridica, nella forma conservata del XII secolo, delle leggi della Rus'.",
+    "Veche (gens): comunita' locale slava con assemblea propria, prima della formazione dei principati."
+  ],
+  "examples": [
+    "Il battesimo del 988 come atto politico: legittimazione dinastica, liturgia in slavo, monete e architettura in pietra (cattedrale di Santa Sofia a Kiev, XI-XII secolo).",
+    "I nomi gotici del Nord (Staraya Ladoga) attestano una componente scandina attiva nel commercio dei fiumi."
+  ],
+  "counterexamples": [
+    "La Rus' come Stato feudale o vassallo di Bisanzio: il rapporto fu di battesimo, dinastico e commerciale, con autonomia sostanziale.",
+    "Lo 'Stato di Vladimir' come unita' politica unica: dal 1054 la Rus' e' un equilibrio instabile di principati."
+  ],
+  "errorsTypical": [
+    "Presentare il battesimo del 988 come atto solo spirituale: fu un atto di legittimazione dinastica.",
+    "Usare 'Ucraina' per lo Stato del IX secolo: l'etichetta non coincide con i confini della Rus' antica.",
+    "Dare per certa la fondazione del 862 come fatto documentato: e' la tradizione delle Cronache, discussa."
+  ],
+  "keywords": [
+    "Rus' di Kiev",
+    "Rurikidi",
+    "Vladimir",
+    "Jaroslav il Saggio",
+    "cristianizzazione",
+    "Russkaya Pravda",
+    "Novgorod",
+    "Kiev",
+    "Mongoli"
+  ],
+  "prerequisites": [
+    "storia:introduzione",
+    "storia:bizantino-islam"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Periodo medievale orientale, nodo radice di storia."
+    },
+    {
+      "type": "CAUSE",
+      "to": "storia:alto-medioevo",
+      "note": "L'invasione mongola apre la subordinazione fino al XIV secolo."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:stati-balcanici-slavi",
+      "note": "Due tradizioni slave medievali a confronto."
+    }
+  ],
+  "claims": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Chi guido' il battesimo della Rus'?",
+        "a": "Il principe Vladimir, nel 988 secondo la tradizione."
+      },
+      {
+        "q": "Qual e' il nome del codice giuridico della Rus'?",
+        "a": "La Russkaya Pravda (forma nota del XII secolo)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "La dominazione mongola sulla Rus' comincia con:",
+        "choices": [
+          "La vittoria di Kulikovo (1380)",
+          "L'invasione della steppa (1237-1240)",
+          "L'unione con la Lituania (1380)",
+          "La campagna di Gengis Khan in Cina (1211)"
+        ],
+        "answer": 1,
+        "explanation": "Kiev e' saccheggiata nel 1240; il controllo dura fino al XIV secolo."
+      }
+    ],
+    "questionsOpen": [
+      "Che valore ha la datazione 862: memoria dinastica o punto di partenza reale?",
+      "Il sistema dei funzionari descritto dal 988 e' verificabile archeologicamente?"
+    ]
+  }
+}

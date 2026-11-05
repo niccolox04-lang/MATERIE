@@ -1,0 +1,21 @@
+{
+  "subject": "fisica",
+  "title": "Fisica",
+  "description": "Mappa fisica: concetti, leggi, esperimenti, modelli matematici e applicazioni.",
+  "version": 1,
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "taxonomy": {
+    "levels": ["area", "macroargomento", "argomento", "sottoargomento", "concetto", "approfondimento"],
+    "specializations": {
+      "legge": "sotto-tipo di concetto: enunciato, formula, limiti di validità",
+      "esperimento": "sotto-tipo di concetto: apparato, procedura, dati, interpretazione",
+      "applicazione": "sotto-tipo di approfondimento: uso tecnologico o naturale"
+    }
+  },
+  "areas": [
+    { "id": "fisica:meccanica", "title": "Meccanica", "description": "Cinematica, dinamica, energia.", "order": 0 },
+    { "id": "fisica:termodinamica", "title": "Termodinamica", "description": "Calore, lavoro, entropia.", "order": 1 },
+    { "id": "fisica:elettromagnetismo", "title": "Elettromagnetismo", "description": "Campi, circuiti, onde.", "order": 2 },
+    { "id": "fisica:moderna", "title": "Fisica moderna", "description": "Relatività, quanti, particelle.", "order": 3 }
+  ]
+}

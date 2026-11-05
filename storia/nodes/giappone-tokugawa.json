@@ -1,0 +1,131 @@
+{
+  "id": "storia:giappone-tokugawa",
+  "subject": "storia",
+  "title": "Tokugawa: bakufu, daimyo, sakoku, città",
+  "slug": "giappone-tokugawa",
+  "status": "published",
+  "access": "pro",
+  "type": "approfondimento",
+  "parent": "storia:giappone-premoderno",
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1603",
+    "end": "1867",
+    "label": "dallo shogunato alla caduta (Britannica)",
+    "place": "Giappone"
+  },
+  "region": "Asia",
+  "location": "Edo, Kyoto, Osaka; han dei daimyo",
+  "territories": "Bakufu Tokugawa con 260+ han",
+  "geographicalContext": "Arcipelago unificato; Nagasaki come unica finestra (cinesi e olandesi).",
+  "summary": "Duecentocinquant'anni di pace: Ieyasu e bakufu di Edo, daimyo con sankin-kotai (1635), classi ereditarie, sakoku anni Trenta (solo Nagasaki), città e cultura chonin; crescita che prepara la crisi.",
+  "explanations": {
+    "semplice": "Dopo secoli di guerre uno solo comanda da Edo (Tokyo): i signori locali devono vivere un anno sì e uno no nella capitale con le famiglie come ostaggi. Il paese si chiude agli stranieri tranne pochi olandesi e cinesi. Ci sono pace, soldi, teatri e libri per duecentocinquant'anni.",
+    "approfondita": "Ieyasu (Sekigahara 1600, shogun 1603) e bakufu a Edo, sede ancora del governo; gerarchia shinokosho (guerrieri-contadini-artigiani-mercanti) con mobilità congelata; daimyo fudai/tozama e sankin-kotai dal 1635 (residenze alternate a Edo come controllo); sakoku anni Trenta (1633-39: divieto viaggi, espulsione portoghesi/spagnoli, bando del cristianesimo, Nagasaki per cinesi e olandesi); economia (risaie, moneta, Osaka mercantile), Edo milione di abitanti, ukiyo-e e kabuki, terakoya e alfabetizzazione come orizzonte; rangaku (studi olandesi) come finestra. Crisi: carestie Tenpo, debiti samuraici, tozama del sud-ovest. Fatto contro mito: chiusura totale contro Dejima e Satsuma-Ryukyu.",
+    "tecnica": "Fonti: editti bakufu, registri han, mappe di Edo, resoconti olandesi di Dejima; popolazione come stime discusse."
+  },
+  "definitions": [
+    "Bakufu: governo militare dello shogun (tenda di comando).",
+    "Sankin-kotai: residenza alternata dei daimyo a Edo dal 1635.",
+    "Sakoku: chiusura nazionale anni Trenta del Seicento."
+  ],
+  "examples": [
+    "Sankin-kotai: processioni e residenze come controllo e spesa.",
+    "Dejima: isola-fattoria olandese a Nagasaki."
+  ],
+  "counterexamples": [
+    "Pace come immobilità totale: crescita urbana e commerciale.",
+    "Cristianesimo estinto subito: kakure kirishitan nascosti."
+  ],
+  "errorsTypical": [
+    "Fare del sakoku un muro senza fessure (Cina, Olanda, Corea, Ryukyu).",
+    "Confondere shogun e imperatore (Edo contro Kyoto).",
+    "Datare la fine al 1868 senza Bakumatsu (1853-68)."
+  ],
+  "keywords": [
+    "1603",
+    "sankin-kotai",
+    "sakoku",
+    "Edo",
+    "daimyo"
+  ],
+  "prerequisites": [
+    "storia:giappone-premoderno"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:giappone-premoderno",
+      "note": "Tokugawa nel ramo Giappone."
+    },
+    {
+      "type": "CAUSE",
+      "to": "storia:giappone-meiji",
+      "note": "Crisi del bakufu come premessa della Restaurazione."
+    }
+  ],
+  "claims": [
+    {
+      "id": "tokugawa-sistema",
+      "statement": "Nel 1603-1867 Ieyasu fonda a Edo il bakufu; dal 1635 sankin-kotai; anni Trenta sakoku (solo cinesi e olandesi a Nagasaki) con bando del cristianesimo.",
+      "supportedBy": [
+        "britannica-tokugawa"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "britannica-tokugawa",
+      "title": "Tokugawa period — Encyclopaedia Britannica",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/event/Tokugawa-period",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": ["tokugawa-sistema"],
+      "note": "Passaggi verificati: 1603-1867 e Ieyasu a Edo; seclusione anni Trenta; bando cristianesimo; Nagasaki cinesi-olandesi; sankin-kotai 1635."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tokugawa in tre mosse?",
+        "a": "Edo 1603; sankin-kotai 1635; sakoku anni Trenta."
+      },
+      {
+        "q": "Chi commercia con chi?",
+        "a": "Solo cinesi e olandesi a Nagasaki."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Sankin-kotai serviva a:",
+        "choices": [
+          "Tassare i contadini",
+          "Controllare i daimyo con residenze alternate",
+          "Chiudere i porti",
+          "Scacciare i monaci"
+        ],
+        "answer": 1,
+        "explanation": "Famiglie ostaggi e spese a Edo dal 1635."
+      }
+    ],
+    "questionsOpen": [
+      "Chiusura totale o selettiva? Con quali eccezioni?",
+      "Pace e crescita: cosa prepara la crisi del bakufu?"
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "id": "storia:india-moderna",
+  "subject": "storia",
+  "title": "Mughal, Raj britannico, indipendenza e Partizione",
+  "slug": "india-moderna",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 19,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "1526",
+    "end": "1947",
+    "label": "da Panipat alla Partizione (convenzione)",
+    "place": "Subcontinente indiano"
+  },
+  "region": "Asia",
+  "location": "Delhi-Agra, Bengala, costa e Deccan",
+  "territories": "Impero Mughal, India britannica diretta e principati",
+  "geographicalContext": "Monsoni e pianure alluvionali; Oceano Indiano verso Europa e Sud-est asiatico.",
+  "summary": "India moderna: Mughal (Akbar, Taj, Aurangzeb e crisi), Compagnia inglese (Plassey 1757), Raj (1858, ferrovie, carestie), nazionalismo (Congresso, Gandhi), indipendenza e Partizione (1947) con violenza settaria.",
+  "explanations": {
+    "semplice": "Dopo i grandi re indiani arrivano imperatori musulmani che costruiscono il Taj Mahal. Poi gli Inglesi con una compagnia di commercio prendono tutto il paese: treni e tasse, ma anche fame. Gandhi guida la protesta senza violenza e nel 1947 l'India diventa libera ma divisa in due con milioni di profughi.",
+    "approfondita": "Mughal: Babur (Panipat 1526), Akbar (tolleranza din-i ilahi come esperimento, amministrazione zabt, Rajput), Shah Jahan (Taj), Aurangzeb (espansione e ortodossia, Maratha e Sikh come resistenze); declino per guerre e fiscalit\u00c3\u00a0. Compagnia: Plassey 1757 (Clive), Buxar 1764, diwani del Bengala; 1857 (sepoy, greased cartridges come scintilla, Delhi e Bahadur Shah) e Raj diretto 1858. Trasformazioni: ferrovie e telegrafo, cotone e deindustrializzazione artigiana (dibattito Datta/desai dichiarato), carestie (1876-79, 1943 Bengala) con responsabilit\u00c3\u00a0 discusse, censimenti e communalismo. Nazionalismo: Congresso 1885, Gandhi (Satyagraha, sale 1930, Quit India 1942), Jinnah e Lega, Bose come via armata; 1947 (Mountbatten, Radcliffe) e Partizione con massacri e migrazioni (cifre come ordini dibattuti, mai secche); Kashmir come eredit\u00c3\u00a0 aperta dichiarata.",
+    "tecnica": "Fonti: Ain-i-Akbari, archivi della Compagnia, censimenti britannici con cautela costruttivista, autobiografie (Gandhi); numeri migratori come intervalli."
+  },
+  "definitions": [
+    "Raj: dominio britannico diretto (1858-1947).",
+    "Satyagraha: resistenza nonviolenta gandhiana.",
+    "Partizione: divisione 1947 in India e Pakistan con migrazioni forzate."
+  ],
+  "examples": [
+    "Marcia del sale (1930): disobbedienza su monopolio simbolico.",
+    "Ferrovie: unificazione imperiale e mercato unico coloniale insieme."
+  ],
+  "counterexamples": [
+    "Mughal solo tolleranti o solo oppressori: Akbar contro Aurangzeb.",
+    "Indipendenza come dono inglese: decenni di mobilitazione."
+  ],
+  "errorsTypical": [
+    "Fare del 1857 solo un ammutinamento (rivolta con programa discusso).",
+    "Confondere Lega musulmana e Congresso (piattaforme diverse).",
+    "Cifre della Partizione come censimenti (ordini dibattuti)."
+  ],
+  "keywords": [
+    "Mughal",
+    "Plassey 1757",
+    "Raj",
+    "Gandhi",
+    "1947"
+  ],
+  "prerequisites": [
+    "storia:bizantino-islam",
+    "storia:ottocento"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "India moderna come ramo mondiale fondazionale."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:ottocento",
+      "note": "Imperialismo europeo e nazionalismi a confronto."
+    }
+  ],
+  "claims": [
+    {
+      "id": "india-moderna-quadro",
+      "statement": "Da Panipat (1526) al Raj (1858) all'indipendenza con Partizione (1947): Mughal, Compagnia, nazionalismo gandhiano e divisione con migrazioni di massa (ordini dibattuti).",
+      "supportedBy": [
+        "manuale-india-moderna",
+        "whe-mughal-empire"
+      ],
+      "status": "partially_verified"
+    },
+    {
+      "id": "gandhi-satyagraha",
+      "statement": "Gandhi guid\u00c3\u00b2 il movimento d'indipendenza con satyagraha: campagne di massa come Salt March, Quit India e noncooperazione contro il Raj.",
+      "supportedBy": [
+        "britannica-gandhi"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-india-moderna",
+      "title": "Profilo standard di India moderna (Mughal, Raj, indipendenza)",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "britannica-gandhi",
+      "title": "Mahatma Gandhi \u00e2\u20ac\u201d Encyclopaedia Britannica",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Mahatma-Gandhi",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "gandhi-satyagraha"
+      ],
+      "note": "Passaggi verificati: leader del movimento d'indipendenza; dottrina satyagraha; campagne Salt March, Quit India, noncooperation. Dettagli operativi (Dandi, cifre) NON verificati: pagina Kids 403."
+    },
+    {
+      "id": "whe-mughal-empire",
+      "title": "Mughal Empire - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Mughal_Empire/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "india-moderna-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27. Babur 1526, Akbar, Aurangzeb, Compagnia inglese, 1857, Raj, 1947 Partizione."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Sequenza in quattro date?",
+        "a": "1526 Panipat; 1757 Plassey; 1858 Raj; 1947 Partizione."
+      },
+      {
+        "q": "Satyagraha in sintesi?",
+        "a": "Nonviolenza attiva: sale 1930, Quit India 1942."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Plassey (1757) segna:",
+        "choices": [
+          "Indipendenza",
+          "Avvio del dominio della Compagnia nel Bengala",
+          "Partizione",
+          "Impero Mughal"
+        ],
+        "answer": 1,
+        "explanation": "Clive e diwani: potere territoriale inglese."
+      }
+    ],
+    "questionsOpen": [
+      "Ferrovie: sviluppo o strumento imperiale? Con quali prove?",
+      "Partizione inevitabile? Confronta Congress e Lega."
+    ]
+  },
+  "contentDepth": "deep"
+}

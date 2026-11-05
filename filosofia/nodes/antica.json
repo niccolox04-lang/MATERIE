@@ -1,0 +1,101 @@
+{
+  "id": "filosofia:antica",
+  "subject": "filosofia",
+  "title": "Filosofia antica — panoramica",
+  "slug": "antica",
+  "status": "published",
+  "access": "free",
+  "type": "area",
+  "parent": null,
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "La filosofia antica nasce in Grecia tra VII e VI secolo a.C. e prosegue fino alla tarda antichità: cerca il principio (arché) della realtà, poi si concentra su uomo, conoscenza, etica e politica con Socrate, Platone e Aristotele.",
+  "explanations": {
+    "semplice": "I primi filosofi si chiedono: di cosa è fatto il mondo? Poi Socrate sposta la domanda sull'uomo: come bisogna vivere? Platone e Aristotele costruiscono le prime grandi teorie complete della realtà e della conoscenza.",
+    "approfondita": "La periodizzazione standard distingue: (1) filosofia presocratica o delle origini (Ionici, Pitagorici, Eleati, Pluralisti, Sofisti); (2) Socrate e i socratici minori; (3) Platone e l'Accademia; (4) Aristotele e il Peripato; (5) ellenismo (Stoicismo, Epicureismo, Scetticismo) e neoplatonismo. Il filo conduttore è il passaggio dalla cosmologia alla domanda socratica sul bene e alla sistemazione metafisica, logica ed etica di Platone e Aristotele.",
+    "tecnica": "Categorie storiografiche in uso: arché, physis, logos, eidos, ousia, telos. Le fonti primarie dell'età arcaica sono frammentarie (tradizione dossografica: Diogene Laerzio, con cautela filologica); per l'età classica disponiamo dei dialoghi platonici e del corpus aristotelico."
+  },
+  "definitions": [
+    "Filosofia antica: pensiero greco e romano dalle origini (VI sec. a.C.) alla chiusura della scuola di Atene (529 d.C., data simbolica).",
+    "Arché: principio originario e costitutivo della realtà, oggetto della prima indagine ionica."
+  ],
+  "examples": [
+    "Talete indica l'acqua come arché; Eraclito il fuoco-logos; Parmenide l'essere uno e immutabile."
+  ],
+  "counterexamples": [
+    "La mitologia esiodea racconta origini divine, ma non argomenta razionalmente: non è filosofia in senso stretto."
+  ],
+  "errorsTypical": [
+    "Confondere la cronologia: i Sofisti sono contemporanei di Socrate, non presocratici in senso stretto.",
+    "Credere che 'presocratico' significhi minore: indica solo anteriorità o estraneità a Socrate."
+  ],
+  "keywords": [
+    "arché",
+    "physis",
+    "presocratici",
+    "Socrate",
+    "Platone",
+    "Aristotele",
+    "ellenismo"
+  ],
+  "prerequisites": [],
+  "relations": [
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:socrate",
+      "note": "Socrate è lo snodo tra origini e sistemi classici."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-filosofia-antica",
+      "title": "Filosofia antica — Enciclopedia Treccani",
+      "publisher": "Istituto della Enciclopedia Italiana",
+      "url": "https://www.treccani.it/enciclopedia/filosofia-antica/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": false,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Voce di inquadramento; URL verificato con fetch HTTP 200 il 2026-09-23.",
+      "verificationStatus": "reachable"
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Cosa indica il termine arché?",
+        "a": "Il principio originario e costitutivo della realtà cercato dai primi filosofi ionici."
+      },
+      {
+        "q": "Quali sono le 5 fasi standard della filosofia antica?",
+        "a": "Presocratici, Socrate/socratici, Platone, Aristotele, ellenismo e neoplatonismo."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "I Sofisti sono:",
+        "choices": [
+          "Predecessori di Talete",
+          "Contemporanei di Socrate attivi ad Atene nel V sec. a.C.",
+          "Filosofi medievali",
+          "Discepoli di Aristotele"
+        ],
+        "answer": 1,
+        "explanation": "Protagora e Gorgia operano nell'Atene di Socrate; 'presocratico' è categoria storiografica, non sempre cronologica."
+      }
+    ],
+    "questionsOpen": [
+      "Perché la domanda sull'arché è diversa da un racconto mitologico?",
+      "In che senso Socrate segna una svolta rispetto ai presocratici?"
+    ]
+  },
+  "level": "foundation"
+}

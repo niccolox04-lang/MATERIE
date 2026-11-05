@@ -1,0 +1,120 @@
+{
+  "id": "storia:stati-balcanici-slavi",
+  "subject": "storia",
+  "title": "Stati slavi dei Balcani: Bulgaria, Moravia, Serbia",
+  "slug": "stati-balcanici-slavi",
+  "status": "draft",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-30T00:00:00.000Z",
+  "updatedAt": "2026-09-30T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "681",
+    "end": "1460",
+    "label": "dal primo impero bulgaro (681) alla caduta del secondo (fine XV secolo)",
+    "place": "Balcani, Danubio, Kosovo, Macedonia"
+  },
+  "summary": "Vicenda dei principati slavi del sud-est europeo: il primo impero bulgaro di Asparuh, l'opera missionaria di Cirillo e Metodio e la slittografia, la Grande Moravia, la Bulgaria di Tarnovo dopo il 1185, l'apogeo dell'impero serbo di Stefan Dusan (XIV secolo), quindi l'espansione ottomana fino alla perdita delle capitali serbo-bulgare nel XV secolo.",
+  "explanations": {
+    "semplice": "I popoli slavi scendono verso i Balcani e fondano regni: la Bulgaria di Asparuh nel VII secolo, la Grande Moravia, poi l'impero serbo di Stefan Dusan. Con l'arrivo dei Turchi, fra XIV e XV secolo, questi regni perdono l'indipendenza.",
+    "approfondita": "Bulgaria antica: Asparuh e Kubrat (fine VII secolo), vittoria sui Volga Bulgari e stabilimento danubiano; Costantino il Grande consolida il principato di Preslav (681). Boris I e il battesimo (864) con l'arrivo dei discepoli di Cirillo e Metodio, quindi scisma con Roma. Slittografia: Cirillo e Metodio in Moravia (dal 863) traducono la liturgia in slavo; il papato privilegia il latino, la liturgia slava sopravvive in Bulgaria. Grande Moravia di Rastislav, poi Roscislavo; viene incorporata nella corona carolingia nell'885-886. Bulgaria di Tarnovo: rinascita del 1185 con Asen I, apogeo fino alla sconfitta di Trino (1330) e divisione. Serbia: dinastia Nemanjic, San Sava, l'Erzegovina (1346-1371) come problema dinastico, apogeo di Stefan Dusan (1331-1355) con il diritto scritto (Zakonik, 1348). Fine: sconfitta sul Kosovo (1389) e perdita progressiva dei territori; gli storici discutono se il 1389 sia svolta decisiva o un simbolo costruito nei secoli successivi.",
+    "tecnica": "Fonti: vite dei santi, Cronache bulgare, quella di Costantino Manasse, leggi di Stefan Dusan, ceramica e iscrizioni; archeologia di Pliska, Preslav, Tarnovo, Skopje. Nota critica: agiografia e cronache sono fonti di parte; significato e datazione di Kosovo restano discussi. Per passare a published servono fonti revisionate con supports espliciti: stato attuale = draft."
+  },
+  "definitions": [
+    "Slittografia: scrittura in alfabeto glagolitico, creato da Cirillo e Metodio.",
+    "Slavo meridionale: gruppo linguistico slavo dei Balcani, da cui derivano le lingue moderne.",
+    "Dan: tributo in natura esatto dagli imperi bulgaro e ottomano ai territori soggetti."
+  ],
+  "examples": [
+    "Studenica (XII secolo) e i monasteri slavo-montenegrini: scrittura e iconografia resistite alla dominazione ottomana.",
+    "Il Zakonik di Stefan Dusan (1348): diritto consuetudinario slavo-meridionale con elementi romano-canonici."
+  ],
+  "counterexamples": [
+    "La 'caduta della Serbia' come evento unico: la sopravvivenza continua nelle zone montane e nel Nord.",
+    "La 'cristianizzazione di Roma' come unico vettore: la prima evangelizzazione bulgara e' bizantina, la seconda cattolica."
+  ],
+  "errorsTypical": [
+    "Presentare Kosovo 1389 come sconfitta definitiva senza discussione.",
+    "Usare 'cristiani contro turchi' in modo semplicistico, ignorando alleanze trasversali (ungheresi contro serbi nel 1440-1444).",
+    "Parlare di un unico 'Stato slavo' medievale: non esiste un'entita' unica."
+  ],
+  "keywords": [
+    "Asparuh",
+    "Preslav",
+    "Boris I",
+    "Cirillo e Metodio",
+    "glagolitico",
+    "Grande Moravia",
+    "San Sava",
+    "Stefan Dusan",
+    "Zakonik",
+    "Kosovo",
+    "Tarnovo"
+  ],
+  "prerequisites": [
+    "storia:introduzione",
+    "storia:alto-medioevo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Periodo medievale, area dei Balcani slavi."
+    },
+    {
+      "type": "INFLUENCES",
+      "to": "storia:rus-kiev",
+      "note": "La tradizione bulgara diffonde la liturgia slava verso oriente."
+    },
+    {
+      "type": "CAUSE",
+      "to": "storia:ottocento",
+      "note": "La questione dei Balcani alimenta il nazionalismo ottocentesco."
+    }
+  ],
+  "claims": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Chi fondo' il primo impero bulgaro?",
+        "a": "Asparuh, con la vittoria sui Volga Bulgari (680 circa)."
+      },
+      {
+        "q": "Chi creo' l'alfabeto glagolitico?",
+        "a": "Cirillo e Metodio, per la missione in Moravia."
+      },
+      {
+        "q": "Chi fu il massimo sovrano dell'impero serbo?",
+        "a": "Stefan Dusan (1331-1355)."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "L'alfabeto glagolitico nasce per:",
+        "choices": [
+          "Trascrivere le leggi di Dusan",
+          "La liturgia in slavo antico",
+          "Le cronache bizantine",
+          "Le iscrizioni funerarie"
+        ],
+        "answer": 1,
+        "explanation": "Serve a tradurre il culto senza rinunciare al latino, poi sostituito dal cirillico."
+      }
+    ],
+    "questionsOpen": [
+      "Lo scisma bulgaro del XIV secolo contrappose Roma a Costantinopoli sulla liturgia: quali effetti politici ebbe?",
+      "Quale funzione ebbero i monasteri nel mantenere lingua e identita' slava?"
+    ]
+  }
+}

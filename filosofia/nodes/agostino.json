@@ -1,0 +1,160 @@
+{
+  "id": "filosofia:agostino",
+  "subject": "filosofia",
+  "title": "Agostino di Ippona",
+  "slug": "agostino",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "filosofia:medievale",
+  "order": 0,
+  "version": 2,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "summary": "Agostino (Tagaste 354–Ippona 430): retore, manicheo per nove anni, convertito a Milano (386) dopo Ambrogio e i neoplatonici, vescovo dal ~396. Confessioni, Città di Dio, Trinità: illuminazione, volontà e grazia, male come privazione, fede in cerca d'intelligenza, platonismo cristiano.",
+  "explanations": {
+    "semplice": "Agostino cerca la verità prima nei piaceri, poi in una religione strana (manicheismo), poi capisce che il male non è una cosa ma una mancanza di bene. Si converte, diventa vescovo e scrive libri immensi: la sua vita (Confessioni), la difesa dei cristiani dopo il sacco di Roma (Città di Dio). Dice: credi per capire, e capirai credendo.",
+    "approfondita": "Vita (SEP): 13 nov 354 Tagaste – 28 ago 430 Ippona; Monica e Patrizio; retorica a Cartagine; uditore manicheo dal ~373 per nove anni; Milano 383 professore ufficiale; Ambrogio (esegesi allegorica) e cristiani neoplatonici; conversione estate 386, battesimo Pasqua 387; prete 391, vescovo ~396; controversie con manichei, donatisti, pelagiani; Città di Dio (412–426) dopo il sacco del 410. Opere: dialoghi di Cassiciaco (Contro gli Accademici 386), De magistro, De libero arbitrio, Confessioni (~396–400), De doctrina christiana, De trinitate, Retractationes. Dottrine: anti-scetticismo (certezza interiore; si fallor, sum, Città di Dio 11.26); illuminazione e maestro interiore (De magistro) in alternativa alla reminiscenza; male come privatio boni contro il dualismo manicheo; volontà come facoltà irriducibile (libero arbitrio bene intermedio, abusabile); grazia che restaura la libertà ferita dal peccato originale (anti-pelagianesimo); felicità come possesso di Dio (frui contro uti; ordo amoris); fede e ragione inseparabili (fides quaerens intellectum); tempo creato col mondo, eternità distinta (Genesi/Confessioni XI); due città da due amori.",
+    "tecnica": "Nodi critici: preesistenza dell'anima (giovane Agostino, poi ritrattata); materia come capacità positiva creata (contro Plotino); coercizione religiosa (donatisti, Lettera 93) come problema etico; cogito agostiniano senza fondazione sistematica cartesiana."
+  },
+  "definitions": [
+    "Illuminazione: Dio rende possibile l'intellezione come il sole la visione (Sole platonico).",
+    "Privatio boni: il male è corruzione di un bene, non sostanza.",
+    "Frui/uti: godere Dio per sé stesso, usare le creature in ordine a lui."
+  ],
+  "examples": [
+    "Confessioni VIII: la volontà divisa risanata dalla chiamata nel giardino.",
+    "Il furto delle pere (Confessioni II) come male da causa inesistente: pura defezione."
+  ],
+  "counterexamples": [
+    "Il manicheismo: due principi coeterni, abbandonato dopo i platonici.",
+    "Il cogito cartesiano come fondazione: in Agostino è argomento anti-scettico, non sistema."
+  ],
+  "errorsTypical": [
+    "Fare di Agostino un medievale tipico: è un cristiano tardoantico in dialogo coi classici (SEP).",
+    "Ridurre la grazia a determinismo: restaura la libertà, non la costringe."
+  ],
+  "keywords": [
+    "Confessioni",
+    "Città di Dio",
+    "illuminazione",
+    "grazia",
+    "privatio boni",
+    "frui-uti",
+    "volontà"
+  ],
+  "prerequisites": [
+    "filosofia:platone",
+    "filosofia:ellenismo",
+    "filosofia:scetticismo"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:medievale",
+      "note": "Primo filosofo medievale per influenza, tardoantico per mondo."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:platone",
+      "note": "Platonismo mediato dai neoplatonici (Plotino, Porfirio)."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:scetticismo",
+      "note": "Contro gli Accademici: primo dialogo e risposta permanente."
+    },
+    {
+      "type": "INFLUENCES",
+      "to": "filosofia:tommaso",
+      "note": "Tradizione agostiniana come sfondo della scolastica."
+    }
+  ],
+  "claims": [
+    {
+      "id": "agostino-date",
+      "statement": "Agostino vive dal 13 novembre 354 al 28 agosto 430; vescovo di Ippona dal ~396.",
+      "supportedBy": [
+        "sep-augustine"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "agostino-male",
+      "statement": "Il male è privazione di bene, non sostanza: soluzione neoplatonica al problema manicheo.",
+      "supportedBy": [
+        "sep-augustine"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "agostino-grazia",
+      "statement": "La grazia restaura la libertà ferita dal peccato originale senza costringerla (anti-pelagianesimo).",
+      "supportedBy": [
+        "sep-augustine"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "sep-augustine",
+      "title": "Augustine of Hippo — Stanford Encyclopedia of Philosophy",
+      "publisher": "Stanford University",
+      "url": "https://plato.stanford.edu/entries/augustine/",
+      "sourceType": "academic-site",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "supports": [
+        "biografia e cronologia",
+        "opere",
+        "platonismo",
+        "scetticismo e cogito",
+        "illuminazione",
+        "volontà e grazia",
+        "male come privazione",
+        "frui-uti",
+        "creazione e tempo"
+      ],
+      "note": "Vita, opere, §§3-5, 7, 10 letti via fetch il 2026-09-24. Treccani: voci 'agostino/', 'sant-agostino/', 'agostino-d-ippona/' scartate dopo verifica (omonimi/soft-404)."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Date e tappe di Agostino?",
+        "a": "354 Tagaste – manicheo 9 anni – Milano 383 – conversione 386 – battesimo 387 – vescovo ~396 – 430 Ippona."
+      },
+      {
+        "q": "Perché il male non è una sostanza?",
+        "a": "Tutto ciò che è, in quanto creato, è bene nel suo grado; il male è corruzione del bene."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Il 'si fallor, sum' prova:",
+        "choices": [
+          "L'esistenza del mondo esterno",
+          "Un'area immune al dubbio (l'esistenza del soggetto che sbaglia)",
+          "L'immortalità",
+          "Dio direttamente"
+        ],
+        "answer": 1,
+        "explanation": "Argomento anti-scettico: anche errando, esisto. Sviluppo del tema della certezza interiore."
+      }
+    ],
+    "questionsOpen": [
+      "Frui e uti: come amare il prossimo senza usarlo?",
+      "Grazia e libertà: perché la prima non distrugge la seconda?"
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "id": "filosofia:aristotele-metafisica",
+  "subject": "filosofia",
+  "title": "Aristotele — Metafisica e fisica: cause e Dio",
+  "slug": "aristotele-metafisica",
+  "status": "published",
+  "access": "pro",
+  "type": "concetto",
+  "parent": "filosofia:aristotele",
+  "order": 2,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "advanced",
+  "summary": "Il divenire si spiega con materia, forma e privazione e con quattro cause. La fisica qualitativa assegna luoghi naturali agli elementi e moto circolare incorruttibile all'etere celeste. Al vertice: Dio atto puro, motore immobile che muove come amato, pensiero di pensiero.",
+  "explanations": {
+    "semplice": "Tutto ciò che cambia ha: di cosa è fatto (materia), cos'è diventato (forma), cosa gli manca (privazione) e quattro perché (materiale, forma, chi l'ha fatto, a che scopo). In alto, le stelle girano per sempre fatte di etere. Sopra tutto, Dio: perfetto e fermo, fa muovere il mondo come la persona amata fa agire l'amante, e pensa solo a sé stesso.",
+    "approfondita": "Principi del divenire (materia-forma-privazione) e riduzione delle cause a quattro tipi, con esclusione del caso (contro Democrito) e finalismo dell'indagine. Fisica qualitativa: quattro movimenti (generazione/corruzione, mutamento, aumento/diminuzione, traslazione); luoghi naturali (leggeri in alto, pesanti in basso: terra al centro, poi acqua, aria, fuoco); cieli in moto circolare eterno di etere; sistema di sfere omocentriche (Eudosso-Callippo ampliato) con Terra al centro; negazione di vuoto e infinito attuale (solo potenziale nella divisibilità). Gerarchia dell'essere come attuazione crescente; Dio come limite: scevro di potenza, muove come oggetto d'amore senza muoversi, vive di contemplazione di sé (noesis noeseos). Persistenza platonica nell'immanentismo: al vertice la forma torna a sussistere con purezza quasi ideale.",
+    "tecnica": "Scienza come conoscenza mediante cause di ciò che è sempre o per lo più (escluso il contingente); tre speculative: matematica, fisica (sostanza mobile), filosofia prima (essere in quanto essere). Lettere per le grandezze: probabile uso aristotelico."
+  },
+  "definitions": [
+    "Quattro cause: materiale (di cosa), formale (cos'è), efficiente (da chi), finale (per che cosa).",
+    "Privazione (steresis): mancanza della forma, terzo principio del divenire.",
+    "Etere: quinto elemento dei corpi celesti, eterni e incorruttibili."
+  ],
+  "examples": [
+    "La statua di bronzo: bronzo, figura, scultore, ornamento.",
+    "Il fuoco sale al luogo naturale alto; la terra cade al centro."
+  ],
+  "counterexamples": [
+    "Il caso democriteo come spiegazione: esplicitamente escluso dal finalismo aristotelico."
+  ],
+  "errorsTypical": [
+    "Leggere i luoghi naturali come 'gravità anticipata': è fisica qualitativa teleologica, non newtoniana.",
+    "Fare di Dio un creatore: muove come fine, non produce dal nulla."
+  ],
+  "keywords": [
+    "quattro cause",
+    "steresis",
+    "luoghi naturali",
+    "etere",
+    "sfere",
+    "atto puro",
+    "noesis noeseos"
+  ],
+  "prerequisites": [
+    "filosofia:aristotele",
+    "filosofia:aristotele-logica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:aristotele",
+      "note": "Filosofia prima e seconda."
+    },
+    {
+      "type": "CAUSE",
+      "to": "filosofia:aristotele-etica",
+      "note": "Il finalismo fonda etica e politica (tutto tende al fine)."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:presocratici",
+      "note": "Fisici e atomisti come interlocutori polemici."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "fisica:introduzione",
+      "note": "La fisica qualitativa antica come termine di confronto della fisica moderna."
+    }
+  ],
+  "claims": [
+    {
+      "id": "aristotele-cause",
+      "statement": "Le cause si riducono a quattro tipi; il divenire richiede materia, forma e privazione.",
+      "supportedBy": [
+        "treccani-aristotele"
+      ],
+      "status": "verified"
+    },
+    {
+      "id": "aristotele-dio",
+      "statement": "Dio è atto puro e motore immobile che muove come oggetto d'amore ed è pensiero di pensiero.",
+      "supportedBy": [
+        "treccani-aristotele"
+      ],
+      "status": "verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-aristotele",
+      "title": "Aristotele — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/aristotele/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "supports": [
+        "quattro cause e privazione",
+        "fisica qualitativa e sfere",
+        "Dio atto puro e motore immobile"
+      ],
+      "note": "Sezioni metafisica/fisica lette via fetch il 2026-09-24."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "I tre principi del divenire?",
+        "a": "Materia, forma, privazione."
+      },
+      {
+        "q": "Perché i cieli sono incorruttibili?",
+        "a": "Fatti di etere, in moto circolare perfetto senza contrari."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Dio muove il mondo:",
+        "choices": [
+          "Spingendolo come causa efficiente",
+          "Come fine amato, senza muoversi",
+          "Creandolo dal nulla",
+          "A caso"
+        ],
+        "answer": 1,
+        "explanation": "Motore immobile: oggetto dell'amore cosmico, non artefice."
+      }
+    ],
+    "questionsOpen": [
+      "Finalismo senza provvidenza: Dio pensa solo sé stesso, eppure tutto tende a lui — contraddizione?",
+      "Cosa resta del platonismo al vertice del sistema?"
+    ]
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": "storia:mesoamerica",
+  "subject": "storia",
+  "title": "Olmechi, Maya, Teotihuacan, Aztechi",
+  "slug": "mesoamerica",
+  "status": "published",
+  "access": "pro",
+  "type": "argomento",
+  "parent": "storia:introduzione",
+  "order": 15,
+  "version": 1,
+  "createdAt": "2026-09-24T00:00:00.000Z",
+  "updatedAt": "2026-09-24T00:00:00.000Z",
+  "level": "intermediate",
+  "chrono": {
+    "start": "-1200",
+    "end": "1521",
+    "label": "dagli Olmechi a Tenochtitlan (convenzione)",
+    "place": "Mesoamerica"
+  },
+  "region": "Americhe",
+  "location": "Messico e America centrale (altipiani e basseterre)",
+  "territories": "Area olmeca, mondo maya, Teotihuacan, Triple Alleanza mexica",
+  "geographicalContext": "Mais e milpa come base; altipiano lacustre di Tenochtitlan; foreste maya e rotte del giada-ossidiana.",
+  "summary": "Civilt\u00c3\u00a0 mesoamericane autonome: Olmechi (teste colossali), Maya (scrittura, calendario, citt\u00c3\u00a0-stato), Teotihuacan (metropoli), Mexica/Aztechi (Triple Alleanza, Tenochtitlan, 1519-21); mais, sacrifici e collassi discussi.",
+  "explanations": {
+    "semplice": "In Messico, senza ruota n\u00c3\u00a9 ferro, nascono citt\u00c3\u00a0 enormi: gli Olmechi scolpiscono teste giganti, i Maya scrivono libri e calendari perfetti, Teotihuacan ha centomila abitanti, gli Aztechi costruiscono una capitale su un lago. Arrivano gli Spagnoli e tutto crolla anche per le malattie.",
+    "approfondita": "Olmechi (1200-400 a.C.: teste, giaguaro, calendario e palla come orizzonte); Maya (preclassico, classico con Tikal-Palenque: glifi decifrati, conto lungo, collasso IX sec. a cause multiple dibattute); Teotihuacan (Piramidi del Sole/Luna, viale, 100.000 abitanti, incendio ~550); Toltechi di Tula come ponte discusso; Mexica (1325 Tenochtitlan su chinampa, Triple Alleanza 1428, tributi, guerre fiorite, Moctezuma; Cort\u00c3\u00a9s 1519-21 con alleati indigeni e vaiolo come fattori). Economia del mais e mercati (Tlatelolco); sacrifici umani come fatto con scale dibattute (mai cifre secche). Fatto contro mito: primitivi isolati contro astronomia e idraulica documentate.",
+    "tecnica": "Fonti: archeologia (scavi stratigrafici), glifi decifrati, codici superstiti, cronache spagnole con cautela (Cort\u00c3\u00a9s, D\u00c3\u00adaz); LIDAR recente come orizzonte."
+  },
+  "definitions": [
+    "Milpa: agricoltura mesoamericana di mais, fagioli e zucca.",
+    "Chinampa: orto lacustre artificiale di Tenochtitlan.",
+    "Conto lungo: calendario maya di datazione assoluta."
+  ],
+  "examples": [
+    "Stele maya decifrate: storia dinastica, non solo astronomia.",
+    "Tlatelolco: mercato giornaliero con decine di migliaia di persone (cronache)."
+  ],
+  "counterexamples": [
+    "Maya scomparsi misteriosamente: abbandoni differenziati e continuit\u00c3\u00a0.",
+    "Conquista solo tecnologica: alleati e patogeni decisivi."
+  ],
+  "errorsTypical": [
+    "Fare degli Aztechi un impero territoriale omogeneo (egemonia tributaria).",
+    "Numeri dei sacrifici come certezze (fonti interessate).",
+    "Confondere Maya classici e postclassici (citt\u00c3\u00a0 diverse)."
+  ],
+  "keywords": [
+    "mais",
+    "Maya",
+    "Teotihuacan",
+    "Tenochtitlan",
+    "1519"
+  ],
+  "prerequisites": [
+    "storia:neolitico"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "storia:introduzione",
+      "note": "Mesoamerica come ramo mondiale fondazionale."
+    },
+    {
+      "type": "EFFECT",
+      "to": "storia:scoperte-riforma",
+      "note": "Conquista e scambio colombiano come esito dell'incontro."
+    }
+  ],
+  "claims": [
+    {
+      "id": "mesoamerica-quadro",
+      "statement": "Olmechi, Maya (scrittura e calendario), Teotihuacan e Mexica (Tenochtitlan, 1519-21) formano una sequenza autonoma basata sul mais; collassi e sacrifici a scale dibattute.",
+      "supportedBy": [
+        "manuale-americhe",
+        "whe-mesoamerica"
+      ],
+      "status": "partially_verified"
+    }
+  ],
+  "sources": [
+    {
+      "id": "manuale-americhe",
+      "title": "Profilo standard di Mesoamerica precolombiana",
+      "sourceType": "book",
+      "language": "it",
+      "verified": false,
+      "verificationStatus": "unverified",
+      "accessedAt": "2026-09-24T00:00:00.000Z",
+      "note": "Nessun URL citato: revisione su manuale a stampa pianificata."
+    },
+    {
+      "id": "whe-mesoamerica",
+      "title": "Mesoamerica - World History Encyclopedia",
+      "author": "WHE",
+      "publisher": "World History Encyclopedia (non profit)",
+      "url": "https://www.worldhistory.org/Mesoamerica/",
+      "sourceType": "encyclopedia",
+      "language": "en",
+      "verified": true,
+      "verificationStatus": "content_reviewed",
+      "accessedAt": "2026-09-27T00:00:00.000Z",
+      "supports": [
+        "mesoamerica-quadro"
+      ],
+      "note": "Ispezionato 2026-09-27. Olmechi, Maya, Teotihuacan, Aztechi, mais, collassi, sacrifici."
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Sequenza in quattro nomi?",
+        "a": "Olmechi, Maya, Teotihuacan, Mexica."
+      },
+      {
+        "q": "Base economica?",
+        "a": "Milpa del mais, chinampa a Tenochtitlan."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Tenochtitlan sorgeva:",
+        "choices": [
+          "Su un altopiano desertico",
+          "Su isole lacustri con chinampa",
+          "Sulla costa",
+          "Sulle Ande"
+        ],
+        "answer": 1,
+        "explanation": "Lago di Texcoco bonificato a orti."
+      }
+    ],
+    "questionsOpen": [
+      "Collasso maya: quale combinazione di cause? Con quali prove?",
+      "1519-21: tecnologia, alleati o vaiolo? Pesa i fattori."
+    ]
+  },
+  "contentDepth": "standard"
+}

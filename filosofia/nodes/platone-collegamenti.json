@@ -1,0 +1,128 @@
+{
+  "id": "filosofia:platone-collegamenti",
+  "subject": "filosofia",
+  "title": "Platone — Influenze, critiche e confronti",
+  "slug": "platone-collegamenti",
+  "status": "published",
+  "access": "pro",
+  "type": "approfondimento",
+  "parent": "filosofia:platone",
+  "order": 9,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Platone eredita Socrate, pitagorici ed eleati; Aristotele ne critica le idee mentre l'Accademia e il platonismo le rilanciano; il confronto con storia, greco e arte apre la rete interdisciplinare della piattaforma.",
+  "explanations": {
+    "semplice": "Platone prende da Socrate le domande, dai pitagorici i numeri e l'anima immortale, da Parmenide l'essere che non cambia. Il suo allievo Aristotele lo critica. Dopo di lui nascono scuole platoniche che durano secoli.",
+    "approfondita": "Influssi: Socrate (definizioni, virtù-scienza); Cratilo/eracliteismo (sensibile in divenire); eleatismo (intelligibile immutabile); pitagorismo (numero, armonia, metempsicosi, vita comunitaria); orfismo (aldilà, purificazione). Critiche interne: auto-obiezioni del Parmenide su partecipazione e idee. Critiche esterne: Aristotele (separazione delle idee, terzo uomo, causalità — da studiare nel nodo Aristotele, non anticipato qui come dottrina). Eredità: Accademia antica e scettica, medioplatonismo, neoplatonismo; Platone latino (Calcidio e il Timeo fino al XII sec., poi Moerbeke, Bruni, Ficino 1484). Confronti didattici: Socrate vs Platone (concetto vs idea); Platone vs Sofisti (dialettica vs eristica); Platone vs Democrito (idee vs atomi). Collegamenti interdisciplinari: storia (Atene classica, Siracusa dionisiana), greco (lessico: eidos, psyche, dialektike), arte (iconografia: ritratto di Silanione, copie marmoree). Le dottrine orali (Tubinga) restano ipotesi: presentarle come tali.",
+    "tecnica": "Nodo-hub: le relazioni qui elencate sono navigabili e verificate contro gli id esistenti; i confronti con Aristotele puntano al nodo planned filosofia:aristotele (struttura, non contenuto anticipato)."
+  },
+  "definitions": [
+    "Accademia antica: prima fase della scuola (Speusippo, Senocrate).",
+    "Platonismo: tradizione di ripresa e trasformazione delle dottrine platoniche."
+  ],
+  "examples": [
+    "Ficino traduce l'intero corpus nel 1484: svolta del platonismo rinascimentale."
+  ],
+  "errorsTypical": [
+    "Presentare le dottrine orali di Tubinga come testo certo di Platone: sono ricostruzione ipotetica.",
+    "Confondere il ritratto di Silanione (originale perduto) con le copie marmoree superstiti."
+  ],
+  "keywords": [
+    "Aristotele",
+    "Accademia",
+    "neoplatonismo",
+    "Ficino",
+    "Calcidio",
+    "dottrine orali",
+    "confronti"
+  ],
+  "prerequisites": [
+    "filosofia:platone-teoria-idee",
+    "filosofia:platone-dialettica"
+  ],
+  "relations": [
+    {
+      "type": "PART_OF",
+      "to": "filosofia:platone",
+      "note": "Approfondimento del nodo Platone."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:socrate",
+      "note": "Debito socratico."
+    },
+    {
+      "type": "INFLUENCED_BY",
+      "to": "filosofia:presocratici",
+      "note": "Debito presocratico e pitagorico."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "filosofia:platone-politica",
+      "note": "Politica e storia si illuminano a vicenda."
+    },
+    {
+      "type": "RELATED_TO",
+      "to": "storia:atene-classica",
+      "note": "Atene come condizione storica del pensiero platonico."
+    }
+  ],
+  "sources": [
+    {
+      "id": "treccani-platone",
+      "title": "Platone — Enciclopedia on line",
+      "publisher": "Istituto della Enciclopedia Italiana (Treccani)",
+      "url": "https://www.treccani.it/enciclopedia/platone/",
+      "sourceType": "encyclopedia",
+      "language": "it",
+      "verified": true,
+      "accessedAt": "2026-09-23T00:00:00.000Z",
+      "note": "Platone orale, Platone latino e iconografia verificati con fetch il 2026-09-23.",
+      "verificationStatus": "content_reviewed",
+      "supports": [
+        "biografia e cronologia",
+        "ordinamento delle opere",
+        "dottrina delle idee",
+        "morale e politica",
+        "dialettica tarda e Timeo"
+      ]
+    }
+  ],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Tre debiti di Platone?",
+        "a": "Socrate (etica), Eleati (essere), Pitagorici (numero, anima)."
+      },
+      {
+        "q": "Chi traduce tutto Platone nel 1484?",
+        "a": "Marsilio Ficino a Firenze."
+      }
+    ],
+    "quiz": [
+      {
+        "q": "Le dottrine orali (Tubinga) vanno presentate come:",
+        "choices": [
+          "Testi certi di Platone",
+          "Ipotesi interpretativa basata su Aristotele e Lettera VII",
+          "Falsi medievali",
+          "Dialoghi perduti ritrovati"
+        ],
+        "answer": 1,
+        "explanation": "Krämer, Gaiser, Szlezák: ricostruzione, non testo; va dichiarata come tale."
+      }
+    ],
+    "questionsOpen": [
+      "Confronta dialettica ed eristica su un esempio concreto.",
+      "Perché Calcidio è decisivo per il Medioevo latino?"
+    ]
+  },
+  "level": "advanced"
+}

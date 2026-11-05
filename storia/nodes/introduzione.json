@@ -1,0 +1,55 @@
+{
+  "id": "storia:introduzione",
+  "subject": "storia",
+  "title": "Introduzione alla Storia",
+  "slug": "introduzione",
+  "status": "published",
+  "access": "free",
+  "type": "area",
+  "parent": null,
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "La storia studia il passato umano con fonti e metodo critico: cronologia e periodizzazione, cause e conseguenze, istituzioni ed economia, interpretazioni storiografiche a confronto.",
+  "explanations": {
+    "semplice": "Fare storia significa rispondere a: quando è successo, dove, chi c'era, perché è successo e cosa ha provocato — usando documenti e reperti, non ricordi inventati.",
+    "approfondita": "Il metodo storico distingue fonti primarie (documenti, iscrizioni, reperti) e secondarie (storiografia), ne accerta autenticità e prospettiva, costruisce cronologie e nessi causali multipli (politici, economici, sociali, culturali) e confronta interpretazioni. Le periodizzazioni (antica, medievale, moderna, contemporanea) sono convenzioni utili ma discusse. I rami analitici per epoche verranno pubblicati progressivamente con fonti verificate."
+  },
+  "definitions": [
+    "Fonte primaria: testimonianza diretta dell'epoca studiata.",
+    "Storiografia: insieme delle interpretazioni storiche prodotte nel tempo."
+  ],
+  "examples": [
+    "Datazione, attori, cause e conseguenze della caduta dell'Impero romano d'Occidente (476 d.C., data simbolica)."
+  ],
+  "keywords": [
+    "fonti",
+    "cronologia",
+    "cause",
+    "storiografia",
+    "periodizzazione"
+  ],
+  "prerequisites": [],
+  "relations": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Fonte primaria vs secondaria?",
+        "a": "Diretta dell'epoca contro interpretazione successiva."
+      }
+    ],
+    "quiz": [],
+    "questionsOpen": [
+      "Perché il 476 è una data simbolica e non una 'fine' puntuale?"
+    ]
+  },
+  "level": "foundation"
+}

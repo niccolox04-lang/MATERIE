@@ -1,0 +1,56 @@
+{
+  "id": "latino:introduzione",
+  "subject": "latino",
+  "title": "Introduzione al Latino",
+  "slug": "introduzione",
+  "status": "published",
+  "access": "free",
+  "type": "area",
+  "parent": null,
+  "order": 0,
+  "version": 1,
+  "createdAt": "2026-09-23T00:00:00.000Z",
+  "updatedAt": "2026-09-23T00:00:00.000Z",
+  "summary": "Il latino è la lingua di Roma, del diritto e della Chiesa: cinque declinazioni, coniugazioni regolari e irregolari, sintassi dei casi e del periodo (cum, ut, ablativo assoluto), base del lessico italiano.",
+  "explanations": {
+    "semplice": "Il latino segna le funzioni con le desinenze (soggetto, complemento...). Ha costrutti tipici come l'ablativo assoluto e il cum narrativo. Si impara con paradigmi e traduzioni.",
+    "approfondita": "Aree di lavoro: fonologia (quantità vocalica, accento), morfologia (cinque declinazioni, quattro coniugazioni, verbi deponenti e irregolari), sintassi (casi, subordinate introdotte da cum e ut, consecutio temporum, ablativo assoluto, perifrastiche), lessico ed etimologia italiana. Letteratura: arcaica, classica (Cicerone, Cesare, Virgilio, Orazio), imperiale e cristiana. Confronti sistematici con italiano e greco pianificati; nessuna forma inventata nei futuri paradigmi."
+  },
+  "definitions": [
+    "Ablativo assoluto: costrutto participiale con soggetto proprio in ablativo.",
+    "Consecutio temporum: regole di concordanza dei tempi nelle subordinate."
+  ],
+  "examples": [
+    "Il paradigma di laudo come modello della prima coniugazione attiva."
+  ],
+  "keywords": [
+    "declinazioni",
+    "coniugazioni",
+    "ablativo assoluto",
+    "consecutio",
+    "Cicerone",
+    "Virgilio"
+  ],
+  "prerequisites": [],
+  "relations": [],
+  "sources": [],
+  "media": {
+    "videos": [],
+    "images": [],
+    "audios": [],
+    "documents": []
+  },
+  "learning": {
+    "flashcards": [
+      {
+        "q": "Quante declinazioni latine?",
+        "a": "Cinque, distinte dall'uscita del genitivo singolare."
+      }
+    ],
+    "quiz": [],
+    "questionsOpen": [
+      "Perché il latino aiuta a capire la grammatica italiana?"
+    ]
+  },
+  "level": "foundation"
+}
